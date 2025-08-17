@@ -10,6 +10,8 @@ const MovieCard = ({ movie }) => {
   const { isAuthenticated } = useAuth()
   const [isLoading, setIsLoading] = useState(false)
   const navigate = useNavigate()
+  
+
 
   const handleWatchlistToggle = async () => {
     if (!isAuthenticated) {
@@ -25,28 +27,37 @@ const MovieCard = ({ movie }) => {
         await addToWatchlist(movie.id)
       }
     } catch (error) {
-      console.error('Watchlist operation failed:', error)
+      // Watchlist operation failed
     } finally {
       setIsLoading(false)
     }
   }
 
   const handleThumbnailClick = () => {
-    if (movie.youtube_trailer_url) {
-      navigate(`/movie/${movie.id}?t=trailer`)
-    } else {
-      navigate(`/movie/${movie.id}`)
-    }
+    navigate(`/movie/${movie.id}`)
   }
 
   const defaultThumbnail = 'https://via.placeholder.com/300x450/1a1a2e/ffffff?text=Movie'
+  
+  // Try multiple possible thumbnail field names
+  const getThumbnailUrl = () => {
+    const thumbnail = movie.thumbnail_url || 
+                     movie.poster_url || 
+                     movie.image_url || 
+                     movie.cover_url || 
+                     movie.thumbnail || 
+                     movie.poster || 
+                     movie.image
+    
+    // If we have a valid thumbnail, return it, otherwise use default
+    return thumbnail && thumbnail !== 'undefined' && thumbnail !== 'null' && thumbnail.trim() !== '' ? thumbnail : defaultThumbnail
+  }
 
   return (
     <div className="movie-card">
       <div className="movie-card-image">
-        
         <img 
-          src={movie.thumbnail_url || defaultThumbnail} 
+          src={getThumbnailUrl()} 
           alt={movie.title}
           onClick={handleThumbnailClick}
           className="clickable-thumbnail"
@@ -54,37 +65,56 @@ const MovieCard = ({ movie }) => {
             e.target.src = defaultThumbnail
           }}
         />
+        
+
+
+        {/* Movie Card Overlay with Actions */}
         <div className="movie-card-overlay">
           <div className="movie-card-actions">
-            {movie.youtube_trailer_url ? (
-              <button 
-                onClick={handleThumbnailClick}
-                className="btn btn-primary trailer-btn"
+            {/* Watch Full Movie Button */}
+            {movie.video_url && (
+              <a 
+                href={movie.video_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary watch-full-btn"
               >
-              Watch
-              </button>
-            ) : (
-              <Link to={`/movie/${movie.id}`} className="btn btn-primary">
-                View Details
-              </Link>
+                🎬 Watch Full Movie
+              </a>
             )}
+            
+                         {/* Trailer or Details Button */}
+             <Link to={`/movie/${movie.id}`} className="btn btn-secondary">
+               🎥 Watch Trailer
+             </Link>
+            
+            {/* Watchlist Button */}
             {isAuthenticated && (
               <button
                 onClick={handleWatchlistToggle}
                 disabled={isLoading}
-                className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-secondary'}`}
+                className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-success'}`}
               >
                 {isLoading ? (
                   <span className="spinner spinner-sm"></span>
                 ) : isInWatchlist(movie.id) ? (
-                  '❌Watchlist'
+                  '❌ Remove'
                 ) : (
-                  ' ➕Watchlist'
+                  '➕ Add to Watchlist'
                 )}
               </button>
             )}
           </div>
         </div>
+
+        {/* Popular/Featured Badge */}
+        {(movie.is_popular || movie.is_featured) && (
+          <div className="movie-badge">
+            {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+          </div>
+        )}
+        
+
       </div>
       
       <div className="movie-card-content">

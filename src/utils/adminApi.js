@@ -1,6 +1,24 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api'
+import { API_BASE_URL } from './api'
 
-export const adminApi = {
+const adminApi = {
+  // Login admin user
+  login: async (username, password) => {
+    const response = await fetch(`${API_BASE_URL}/auth/login`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ username, password })
+    })
+    
+    if (!response.ok) {
+      const error = await response.json()
+      throw new Error(error.error || 'Login failed')
+    }
+    
+    return response.json()
+  },
+
   // Movie Management
   addMovie: async (token, movieData) => {
     const { title, description, video_url, youtube_trailer_url, thumbnail_url, interpreter_name } = movieData || {}
@@ -59,6 +77,8 @@ export const adminApi = {
   },
 
   setMovieFlags: async (token, movieId, { is_featured, is_popular }) => {
+    console.log('Setting movie flags:', { movieId, is_featured, is_popular });
+    
     const response = await fetch(`${API_BASE_URL}/admin/movies/${movieId}/flags`, {
       method: 'PUT',
       headers: {
@@ -67,11 +87,24 @@ export const adminApi = {
       },
       body: JSON.stringify({ is_featured, is_popular })
     })
+    
+    console.log('Flag update response status:', response.status);
+    
     if (!response.ok) {
-      const error = await response.json()
-      throw new Error(error.error || 'Failed to update flags')
+      let errorMessage = 'Failed to update flags';
+      try {
+        const errorData = await response.json();
+        errorMessage = errorData.error || errorMessage;
+      } catch (e) {
+        console.error('Error parsing error response:', e);
+      }
+      console.error('Flag update failed:', errorMessage);
+      throw new Error(errorMessage);
     }
-    return response.json()
+    
+    const result = await response.json();
+    console.log('Flag update successful:', result);
+    return result;
   },
 
   // User Management
@@ -135,3 +168,5 @@ export const adminApi = {
     return { visits, topMovies, countries }
   }
 }
+
+export default adminApi

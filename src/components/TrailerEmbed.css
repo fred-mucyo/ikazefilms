@@ -6,7 +6,26 @@
   overflow: hidden;
   background: linear-gradient(135deg, #1e1e2e 0%, #2d2d44 100%);
   box-shadow: 0 10px 40px rgba(255, 0, 128, 0.15), 0 4px 16px rgba(0, 153, 255, 0.1);
-  margin-top:40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+/* Mobile responsiveness for trailer embed */
+@media (max-width: 768px) {
+  .trailer-embed {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trailer-embed {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
 }
 
 .trailer-thumb {

@@ -1,27 +1,110 @@
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api'
+// API Configuration - Uses environment variable with fallback to local development
+const isDevelopment = import.meta.env.DEV || import.meta.env.MODE === 'development';
+
+// Use local backend for development, production backend for production
+export const API_BASE_URL = isDevelopment 
+  ? 'http://localhost:5012/api'  // Local development - FIXED PORT
+  : (import.meta.env.VITE_API_BASE_URL || 'https://movies-backend-zijv.onrender.com/api'); // Production
+
+// Debug logging
+console.log('Environment check:', {
+  VITE_API_BASE_URL: import.meta.env.VITE_API_BASE_URL,
+  MODE: import.meta.env.MODE,
+  DEV: import.meta.env.DEV,
+  isDevelopment,
+  API_BASE_URL
+})
+
+// Validate environment variable
+if (!API_BASE_URL) {
+  console.error('❌ API_BASE_URL is not set!')
+  console.error('Available environment variables:', Object.keys(import.meta.env))
+  console.error('Please create a .env file with VITE_API_BASE_URL=https://movies-backend-zijv.onrender.com/api')
+} else {
+  console.log('✅ API_BASE_URL is configured:', API_BASE_URL)
+}
+
+// Fallback URLs for different environments
+export const getApiUrl = () => {
+  return API_BASE_URL
+}
 
 export const api = {
   // Fetch all movies
   getMovies: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/movies`)
-      if (!response.ok) throw new Error('Failed to fetch movies')
-      return await response.json()
+      const url = `${getApiUrl()}/movies`
+      console.log('Fetching movies from:', url)
+      
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        // Add timeout to prevent hanging requests
+        signal: AbortSignal.timeout(10000) // 10 second timeout
+      })
+      
+      if (!response.ok) {
+        const errorText = await response.text()
+        console.error('API Error Response:', errorText)
+        throw new Error(`Failed to fetch movies: ${response.status} ${response.statusText}`)
+      }
+      
+      const data = await response.json()
+      console.log('Movies fetched successfully:', data.length)
+      return data
     } catch (error) {
       console.error('Error fetching movies:', error)
-      throw error
+      
+      // Provide user-friendly error messages
+      if (error.name === 'AbortError') {
+        throw new Error('Request timed out. Please check your internet connection and try again.')
+      }
+      
+      if (error.message.includes('Failed to fetch')) {
+        throw new Error('Unable to connect to the server. Please check your internet connection.')
+      }
+      
+      throw new Error(`Failed to load movies: ${error.message}`)
     }
   },
 
   // Fetch single movie by ID
   getMovie: async (id) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/movies/${id}`)
-      if (!response.ok) throw new Error('Movie not found')
-      return await response.json()
+      const url = `${getApiUrl()}/movies/${id}`
+      console.log('Fetching movie from:', url)
+      
+      const response = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        signal: AbortSignal.timeout(10000)
+      })
+      
+      if (!response.ok) {
+        const errorText = await response.text()
+        console.error('API Error Response:', errorText)
+        throw new Error(`Movie not found: ${response.status} ${response.statusText}`)
+      }
+      
+      const data = await response.json()
+      console.log('Movie fetched successfully:', data.title)
+      return data
     } catch (error) {
       console.error('Error fetching movie:', error)
-      throw error
+      
+      if (error.name === 'AbortError') {
+        throw new Error('Request timed out. Please check your internet connection and try again.')
+      }
+      
+      if (error.message.includes('Failed to fetch')) {
+        throw new Error('Unable to connect to the server. Please check your internet connection.')
+      }
+      
+      throw new Error(`Failed to load movie: ${error.message}`)
     }
   },
 
@@ -98,7 +181,7 @@ export const api = {
 
 // Helper function to get streaming URL
 export const getStreamUrl = (movieId) => {
-  return `${API_BASE_URL}/stream/${movieId}`
+  return `${getApiUrl()}/stream/${movieId}`
 }
 
 // Helper function to format date

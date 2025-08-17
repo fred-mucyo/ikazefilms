@@ -13,6 +13,7 @@ const Navbar = () => {
   const location = useLocation()
   const [activeMenu, setActiveMenu] = useState('HOME')
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const userDropdownRef = useRef(null)
 
 
@@ -24,6 +25,10 @@ const Navbar = () => {
 
   const toggleUserMenu = () => {
     setIsUserMenuOpen(prev => !prev)
+  }
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(prev => !prev)
   }
 
   // Close dropdown when clicking outside
@@ -42,6 +47,11 @@ const Navbar = () => {
       document.removeEventListener('mousedown', handleClickOutside)
     }
   }, [isUserMenuOpen])
+
+  // Close mobile menu when navigating
+  useEffect(() => {
+    setIsMobileMenuOpen(false)
+  }, [location.pathname])
 
   const handleSearchSubmit = (e) => {
     e.preventDefault()
@@ -77,8 +87,19 @@ const Navbar = () => {
           <div className="brand-tagline">Unlimited Movies & TV Shows</div>
         </Link>
 
+        {/* Mobile Menu Toggle */}
+        <button 
+          className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+          aria-label="Toggle mobile menu"
+        >
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+        </button>
+
         {/* Main Navigation */}
-        <div className={`nav-menu`}>
+        <div className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                      <button
              className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`}
              onClick={() => {
@@ -120,9 +141,9 @@ const Navbar = () => {
 
         {/* User Authentication */}
         <div className="nav-auth">
-                     <button className="icon-btn" aria-label="Search" onClick={() => setShowSearchModal(true)}>
-             Search
-           </button>
+          <button className="icon-btn" aria-label="Search" onClick={() => setShowSearchModal(true)}>
+            Search
+          </button>
           {isAuthenticated ? (
             <div className="user-dropdown" ref={userDropdownRef}>
               <button className="user-avatar-btn" onClick={toggleUserMenu} aria-label="User Menu">
@@ -130,25 +151,27 @@ const Navbar = () => {
               </button>
               {isUserMenuOpen && (
                 <div className="user-dropdown-menu">
-                                     <Link to="/change-password" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Change Password</Link>
-                                     {isAdmin && (
-                     <Link to="/admin/dashboard" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Admin Dashboard</Link>
-                   )}
-                                     <button className="dropdown-item danger" onClick={() => { setIsUserMenuOpen(false); handleLogout() }}>Sign Out</button>
+                  <Link to="/change-password" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Change Password</Link>
+                  {isAdmin && (
+                    <Link to="/admin/dashboard" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Admin Dashboard</Link>
+                  )}
+                  <button className="dropdown-item danger" onClick={() => { setIsUserMenuOpen(false); handleLogout() }}>Sign Out</button>
                 </div>
               )}
             </div>
           ) : (
-            <div className="auth-buttons">
-                             <Link to="/login" className="auth-btn login-btn">
-                 <span className="btn-text">Sign In</span>
-               </Link>
-               <Link to="/register" className="auth-btn register-btn">
-                 <span className="btn-text">Sign Up</span>
-               </Link>
+            <div className="auth-avatar" ref={userDropdownRef}>
+              <button className="auth-avatar-btn" onClick={toggleUserMenu} aria-label="Sign In">
+                <span className="auth-avatar-icon">🙍🏾</span>
+              </button>
+              {isUserMenuOpen && (
+                <div className="user-dropdown-menu">
+                  <Link to="/login" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Sign In</Link>
+                  <Link to="/register" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Sign Up</Link>
+                </div>
+              )}
             </div>
           )}
-
         </div>
 
 
@@ -156,8 +179,8 @@ const Navbar = () => {
 
       {/* Search Modal (closes on outside click) */}
       {showSearchModal && (
-        <div className="search-modal-overlay" onMouseDown={() => setShowSearchModal(false)}>
-          <div className="search-modal" onMouseDown={(e) => e.stopPropagation()}>
+        <div className="search-modal-overlay" onClick={() => setShowSearchModal(false)}>
+          <div className="search-modal" onClick={(e) => e.stopPropagation()}>
             <div className="search-modal-header">
               <h3>Search Movies</h3>
               <button 

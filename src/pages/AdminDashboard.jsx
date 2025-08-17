@@ -2,10 +2,15 @@ import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAdmin } from '../context/AdminContext'
 import { useAuth } from '../context/AuthContext'
-import { adminApi } from '../utils/adminApi'
+import adminApi from '../utils/adminApi'
 import LoadingSpinner from '../components/LoadingSpinner'
 import { API_BASE_URL } from '../utils/api'
 import './Admin.css'
+
+// Spinner component for buttons
+const Spinner = ({ size = 'sm' }) => (
+  <span className={`spinner spinner-${size}`}></span>
+)
 
 const AdminDashboard = () => {
   const [activeTab, setActiveTab] = useState('overview')
@@ -39,6 +44,9 @@ const AdminDashboard = () => {
   const [editingMovie, setEditingMovie] = useState(null)
   const [editLoading, setEditLoading] = useState(false)
   const [editError, setEditError] = useState('')
+  
+  // Flag update loading states
+  const [updatingFlags, setUpdatingFlags] = useState({})
   
   const { isAdmin, user, token } = useAdmin()
   const { logout } = useAuth()
@@ -456,22 +464,52 @@ const AdminDashboard = () => {
                       <button className="delete-btn" onClick={() => openDeleteModal(movie)}>🗑️ Delete</button>
                       <button
                         className="edit-btn"
+                        disabled={updatingFlags[`featured-${movie.id}`]}
                         onClick={async () => {
                           try {
+                            setUpdatingFlags(prev => ({ ...prev, [`featured-${movie.id}`]: true }))
                             const updated = await adminApi.setMovieFlags(token, movie.id, { is_featured: !movie.is_featured })
                             setMovies(movies.map(m => m.id === movie.id ? updated.movie : m))
-                          } catch (e) { console.error(e) }
+                          } catch (e) { 
+                            console.error('Failed to update featured flag:', e)
+                            alert('Failed to update featured flag. Please try again.')
+                          } finally {
+                            setUpdatingFlags(prev => ({ ...prev, [`featured-${movie.id}`]: false }))
+                          }
                         }}
-                      >{movie.is_featured ? 'Unfeature' : 'Make Featured'}</button>
+                      >
+                        {updatingFlags[`featured-${movie.id}`] ? (
+                          <Spinner size="sm" />
+                        ) : movie.is_featured ? (
+                          'Unfeature'
+                        ) : (
+                          'Make Featured'
+                        )}
+                      </button>
                       <button
                         className="edit-btn"
+                        disabled={updatingFlags[`popular-${movie.id}`]}
                         onClick={async () => {
                           try {
+                            setUpdatingFlags(prev => ({ ...prev, [`popular-${movie.id}`]: true }))
                             const updated = await adminApi.setMovieFlags(token, movie.id, { is_popular: !movie.is_popular })
                             setMovies(movies.map(m => m.id === movie.id ? updated.movie : m))
-                          } catch (e) { console.error(e) }
+                          } catch (e) { 
+                            console.error('Failed to update popular flag:', e)
+                            alert('Failed to update popular flag. Please try again.')
+                          } finally {
+                            setUpdatingFlags(prev => ({ ...prev, [`popular-${movie.id}`]: false }))
+                          }
                         }}
-                      >{movie.is_popular ? 'Remove Popular' : 'Mark Popular'}</button>
+                      >
+                        {updatingFlags[`popular-${movie.id}`] ? (
+                          <Spinner size="sm" />
+                        ) : movie.is_popular ? (
+                          'Remove Popular'
+                        ) : (
+                          'Mark Popular'
+                        )}
+                      </button>
                     </div>
                 </div>
               ))}
@@ -856,26 +894,7 @@ const AdminDashboard = () => {
                 />
               </div>
 
-              <div className="form-group" style={{ display: 'flex', gap: 12 }}>
-                <label style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <input
-                    type="checkbox"
-                    name="is_featured"
-                    checked={!!editingMovie.is_featured}
-                    onChange={(e) => setEditingMovie(prev => ({ ...prev, is_featured: e.target.checked }))}
-                  />
-                  Featured
-                </label>
-                <label style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <input
-                    type="checkbox"
-                    name="is_popular"
-                    checked={!!editingMovie.is_popular}
-                    onChange={(e) => setEditingMovie(prev => ({ ...prev, is_popular: e.target.checked }))}
-                  />
-                  Popular
-                </label>
-              </div>
+
 
               {/* Movie Preview */}
               {(editingMovie.title || editingMovie.description || editingMovie.thumbnail_url) && (

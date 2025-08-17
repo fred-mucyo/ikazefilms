@@ -1,15 +1,53 @@
 # Dependencies
 node_modules/
 
-# Local env
+# Environment variables
 .env
-.env.*
+.env.local
+.env.*.local
 
 # Build output
 dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Parcel cache
+.cache/
+
+# Optional npm cache directory
+.npm/
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.tgz
+*.swp
 
 

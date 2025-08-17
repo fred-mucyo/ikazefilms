@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext'
 import { useWatchlist } from '../context/WatchlistContext'
 import { api, formatDate } from '../utils/api'
 import TrailerEmbed from '../components/TrailerEmbed'
+import Comments from '../components/Comments'
 import './MovieDetail.css'
 
 const MovieDetail = () => {
@@ -133,17 +134,41 @@ const MovieDetail = () => {
                 <div className="trailer-section">
                   <h3>🎬 Watch Trailer</h3>
                   <p>Get a preview of this amazing movie!</p>
-                  {!showTrailer ? (
-                    <button onClick={handleTrailerClick} className="trailer-watch-btn">
-                      🎥 Watch Trailer Now
-                    </button>
-                  ) : (
-                    <TrailerEmbed
-                      youtubeUrl={movie.youtube_trailer_url}
-                      thumbnailUrl={movie.thumbnail_url}
-                      title={movie.title}
-                    />
-                  )}
+                  <TrailerEmbed
+                    youtubeUrl={movie.youtube_trailer_url}
+                    thumbnailUrl={movie.thumbnail_url}
+                    title={movie.title}
+                  />
+                  
+                  {/* Action Buttons Below Trailer */}
+                  <div className="movie-actions">
+                    {movie.video_url && (
+                      <>
+                        <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary watch-btn">
+                          🎬 Watch Movie
+                        </button>
+                        <a href={movie.video_url} download className="btn btn-secondary download-btn">
+                          ⬇️ Download
+                        </a>
+                      </>
+                    )}
+                    
+                    {isAuthenticated && (
+                      <button
+                        onClick={handleWatchlistToggle}
+                        disabled={isWatchlistLoading}
+                        className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-secondary'}`}
+                      >
+                        {isWatchlistLoading ? (
+                          <span className="spinner spinner-sm"></span>
+                        ) : isInWatchlist(movie.id) ? (
+                          '❌ Remove'
+                        ) : (
+                          '➕ Add to List'
+                        )}
+                      </button>
+                    )}
+                  </div>
                 </div>
               )}
 
@@ -160,53 +185,40 @@ const MovieDetail = () => {
                     <strong>Added:</strong> {formatDate(movie.created_at)}
                   </div>
                 )}
+
+                {/* Popular/Featured Badge */}
+                {(movie.is_popular || movie.is_featured) && (
+                  <div className="detail-item badge-item">
+                    <strong>Status:</strong> 
+                    <span className="status-badge">
+                      {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+                    </span>
+                  </div>
+                )}
               </div>
 
-              {/* Action Buttons */}
-              <div className="movie-actions">
-                {movie.video_url && (
-                  <>
-                    <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary">
-                      🎬 Watch Full Movie
-                    </button>
-                    <a href={movie.video_url} download className="btn btn-secondary">
-                      ⬇️ Download
-                    </a>
-                  </>
-                )}
-                
-                {isAuthenticated && (
-                  <button
-                    onClick={handleWatchlistToggle}
-                    disabled={isWatchlistLoading}
-                    className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-secondary'}`}
-                  >
-                    {isWatchlistLoading ? (
-                      <span className="spinner spinner-sm"></span>
-                    ) : isInWatchlist(movie.id) ? (
-                      'Remove from Watchlist'
-                    ) : (
-                      'Add to Watchlist'
-                    )}
-                  </button>
-                )}
-              </div>
+
+
+              {/* Comments Section */}
+              <Comments movieId={movie.id} />
             </div>
 
-            {/* Right panel: Popular thumbnails horizontal strip */}
+            {/* Right panel: Popular thumbnails vertical strip */}
             <aside className="right-panel">
-              <h3 className="right-panel-title">Popular Now</h3>
+              <h3 className="right-panel-title">🔥 Popular Now</h3>
               <div className="thumb-strip">
                 {popular.map(p => (
                   <button key={p.id} className="thumb-card" onClick={() => navigate(`/movie/${p.id}`)} title={p.title}>
                     <img src={p.thumbnail_url || defaultThumbnail} alt={p.title} onError={(e)=>{e.currentTarget.src=defaultThumbnail}} />
+                    <div className="thumb-info">
+                      <span className="thumb-title">{p.title}</span>
+                      {p.is_popular && <span className="thumb-badge">🔥</span>}
+                    </div>
                   </button>
                 ))}
               </div>
             </aside>
           </div>
-
-          {/* Inline trailer shown above; no server-side streaming needed */}
         </div>
       </div>
     </div>

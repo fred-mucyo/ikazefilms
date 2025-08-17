@@ -95,8 +95,10 @@ src/
 Create a `.env` file in the root directory:
 
 ```env
-VITE_API_BASE_URL=https://movies-backend-zijv.onrender.com
+VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
 ```
+
+**Replace `your-backend-url` with your actual backend URL from Render.**
 
 ### Backend Integration
 
