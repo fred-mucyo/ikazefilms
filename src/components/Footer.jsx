@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="brand-logo">
             <span className="logo-icon">🎬</span>
-            <span className="logo-text">MovieFlix</span>
+            <span className="logo-text">Hashye</span>
           </div>
           <p className="brand-tagline">Unlimited Movies & TV Shows</p>
         </div>
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-copy">
-          <span>© {new Date().getFullYear()} MovieFlix. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Hashye. All rights reserved.</span>
         </div>
       </div>
     </footer>

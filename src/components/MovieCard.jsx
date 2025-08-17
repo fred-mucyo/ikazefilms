@@ -67,25 +67,15 @@ const MovieCard = ({ movie }) => {
         />
         
 
-
-        {/* Movie Card Overlay with Actions */}
+ 
+        {/* Movie Card Overlay with Actions*/ }
         <div className="movie-card-overlay">
           <div className="movie-card-actions">
-            {/* Watch Full Movie Button */}
-            {movie.video_url && (
-              <a 
-                href={movie.video_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-primary watch-full-btn"
-              >
-                🎬 Watch Full Movie
-              </a>
-            )}
+
             
-                         {/* Trailer or Details Button */}
-             <Link to={`/movie/${movie.id}`} className="btn btn-secondary">
-               🎥 Watch Trailer
+                    {/* Trailer or Details Button */}
+             <Link to={`/movie/${movie.id}`} className="btn btn-primary watch-full-btn">
+              Watch Movie
              </Link>
             
             {/* Watchlist Button */}
@@ -100,7 +90,7 @@ const MovieCard = ({ movie }) => {
                 ) : isInWatchlist(movie.id) ? (
                   '❌ Remove'
                 ) : (
-                  '➕ Add to Watchlist'
+                  'Add to Watchlist'
                 )}
               </button>
             )}

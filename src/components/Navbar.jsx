@@ -82,7 +82,7 @@ const Navbar = () => {
         <Link to="/" className="nav-brand">
           <div className="brand-logo">
             <span className="logo-icon">🎬</span>
-            <span className="logo-text">MovieFlix</span>
+            <span className="logo-text">Hashye</span>
           </div>
           <div className="brand-tagline">Unlimited Movies & TV Shows</div>
         </Link>

@@ -401,16 +401,14 @@
     font-size: 0.8rem;
     min-height: 36px;
   }
-}
-    min-height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-
+.movie-card {
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .movie-card-image img {
