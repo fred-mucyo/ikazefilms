@@ -1,4 +1,3 @@
-// src/legalPages/TermsOfService.jsx
 import React from "react";
 import { FileText } from "lucide-react";
 import "./LegalPages.css";

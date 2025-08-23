@@ -1,14 +1,14 @@
-// src/legalPages/PrivacyPolicy.jsx
 import React from "react";
 import { Shield, Mail, Globe, Building2 } from "lucide-react";
+
 import "./LegalPages.css";
 
 const CONFIG = {
-  appName: "Hashye",
+  appName: "Hashye.online",
   contactEmail: "hashyeonline@gmail.com",
   effectiveDate: "August 20, 2025",
   companyAddress: "Kigali, Rwanda",
-  websiteUrl: "https://hashye.com",
+  websiteUrl: "https://hashye.online",
 };
 
 function Card({ children }) {
