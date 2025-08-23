@@ -5,6 +5,11 @@ import MovieCard from '../components/MovieCard';
 import FeaturedHero from '../components/FeaturedHero';
 import './Home.css';
 import { Toaster, toast } from 'react-hot-toast';
+import debounce from 'lodash.debounce';
+import useSEO from "../hooks/useSeo.jsx";
+import InfiniteScroll from 'react-infinite-scroll-component';
+
+const MOVIES_PER_LOAD = 12;
 
 const Home = () => {
   const location = useLocation();
@@ -13,60 +18,32 @@ const Home = () => {
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredMovies, setFilteredMovies] = useState([]);
+  const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
 
-  const popularNow = useMemo(() => {
-    const popular = movies.filter(m => m.is_popular);
-    return (popular.length ? popular : movies).slice(0, 6);
-  }, [movies]);
-
-  const recentReleases = useMemo(() => movies.slice(0, 4), [movies]);
-
-  // Fetch movies on mount
-  useEffect(() => {
-    fetchMovies();
-  }, []);
-
-  // Search param from URL
+  // Extract search term from URL
   useEffect(() => {
     const params = new URLSearchParams(location.search);
-    const searchParam = params.get('search');
-    if (searchParam) setSearchTerm(searchParam);
+    setSearchTerm(params.get('search') || '');
   }, [location.search]);
 
-  // Filter movies based on search term
-  useEffect(() => {
-    if (!searchTerm.trim()) {
-      setFilteredMovies(movies);
-    } else {
-      const filtered = movies.filter(movie =>
-        movie.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        (movie.description && movie.description.toLowerCase().includes(searchTerm.toLowerCase())) ||
-        (movie.interpreter_name && movie.interpreter_name.toLowerCase().includes(searchTerm.toLowerCase()))
-      );
-      setFilteredMovies(filtered);
-    }
-  }, [searchTerm, movies]);
-
+  // Fetch movies
   const fetchMovies = async () => {
     try {
       setLoading(true);
       setError(null);
-      
-      const data = await api.getMovies();
+      const data = (await api.getMovies()) || [];
       setMovies(data);
       setFilteredMovies(data);
-
       toast.success('Movies loaded successfully!');
     } catch (err) {
       console.error(err);
-      let errorMessage = err.message || 'Failed to load movies.';
-
-      if (err.message.includes('timed out')) {
-        errorMessage = 'Server is waking up. Please wait a moment.';
-      } else if (err.message.includes('Unable to connect')) {
-        errorMessage = 'Cannot reach the server. Check your internet connection.';
-      }
-
+      const errorMessage =
+        err.response?.data?.message ||
+        (err.message?.includes('timed out')
+          ? 'Server is waking up. Please wait a moment.'
+          : err.message?.includes('Unable to connect')
+          ? 'Cannot reach the server. Check your internet connection.'
+          : err.message || 'Failed to load movies.');
       setError(errorMessage);
       toast.error(errorMessage);
     } finally {
@@ -74,98 +51,206 @@ const Home = () => {
     }
   };
 
+  useEffect(() => {
+    fetchMovies();
+  }, []);
+
+  // Debounced search filtering
+  const filterMovies = useMemo(
+    () =>
+      debounce((term) => {
+        if (!term.trim()) {
+          setFilteredMovies(movies);
+        } else {
+          const filtered = movies.filter(
+            (movie) =>
+              movie?.title?.toLowerCase().includes(term.toLowerCase()) ||
+              movie?.interpreter_name?.toLowerCase().includes(term.toLowerCase())
+          );
+          setFilteredMovies(filtered);
+        }
+        setVisibleCount(MOVIES_PER_LOAD);
+      }, 300),
+    [movies]
+  );
+
+  useEffect(() => {
+    filterMovies(searchTerm);
+    return () => filterMovies.cancel();
+  }, [searchTerm, filterMovies]);
+
+  // Popular & Recent sections
+  const popularNow = useMemo(() => {
+    const popular = movies.filter((m) => m?.is_popular);
+    return (popular.length ? popular : movies).slice(0, 6);
+  }, [movies]);
+
+  const recentReleases = useMemo(() => {
+    return [...movies]
+      .filter((m) => m?.created_at)
+      .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+      .slice(0, 4);
+  }, [movies]);
+
+  // Deduplicated All Movies (exclude popular/recent)
+  const allMovies = useMemo(() => {
+    const excludedIds = new Set([...popularNow, ...recentReleases].map(m => m.id));
+    return filteredMovies.filter((m) => !excludedIds.has(m.id));
+  }, [filteredMovies, popularNow, recentReleases]);
+
+  const loadMoreMovies = () => setVisibleCount(prev => prev + MOVIES_PER_LOAD);
+
   if (loading) {
     return (
-      <div className="home-page">
-        <div className="container">
-          <div className="loading-container">
-            <div className="spinner"></div>
-            <p>Loading amazing movies...</p>
-            <p className="loading-subtitle">Please wait while we fetch the latest content</p>
+      <>
+        {useSEO({
+          title: "Hashye - Stream Movies & Shows in HD",
+          description: "Discover and stream the latest movies and shows in HD on Hashye. Browse popular movies, recent releases, and our full collection.",
+          image: "/hashye-preview.png",
+          url: "https://hashye.online/",
+        })}
+        <div className="home-page">
+          <div className="container">
+            <div className="loading-container" aria-live="polite">
+              <div className="spinner"></div>
+              <p>Loading amazing movies...</p>
+              <p className="loading-subtitle">Please wait while we fetch the latest content</p>
+            </div>
           </div>
+          <Toaster position="top-center" reverseOrder={false} />
         </div>
-        <Toaster position="top-center" reverseOrder={false} />
-      </div>
+      </>
     );
   }
 
   if (error) {
     return (
-      <div className="home-page">
-        <div className="container">
-          <div className="error-container">
-            <div className="error-icon">⚠️</div>
-            <h2>Oops! Something went wrong</h2>
-            <p>{error}</p>
-            <div className="error-actions">
-              <button onClick={fetchMovies} className="retry-btn">🔄 Try Again</button>
-              <button onClick={() => window.location.reload()} className="retry-btn secondary">🔄 Refresh Page</button>
+      <>
+        {useSEO({
+          title: "Hashye - Error Loading Movies",
+          description: "Oops! Something went wrong while loading movies on Hashye. Try refreshing the page.",
+          image: "/hashye-preview.png",
+          url: "https://hashye.online/",
+        })}
+        <div className="home-page">
+          <div className="container">
+            <div className="error-container" aria-live="assertive">
+              <div className="error-icon" role="img" aria-label="Error">⚠️</div>
+              <h2>Oops! Something went wrong</h2>
+              <p>{error}</p>
+              <div className="error-actions">
+                <button onClick={fetchMovies} className="retry-btn">🔄 Try Again</button>
+                <button onClick={() => window.location.reload()} className="retry-btn secondary">
+                  🔄 Refresh Page
+                </button>
+              </div>
             </div>
           </div>
+          <Toaster position="top-center" reverseOrder={false} />
         </div>
-        <Toaster position="top-center" reverseOrder={false} />
-      </div>
+      </>
     );
   }
 
   return (
-    <div className="home-page">
-      <Toaster position="top-center" reverseOrder={false} />
-      
-      {/* Featured Hero */}
-      <div className="container" id="featured">
-        <FeaturedHero movies={movies} />
-      </div>
+    <>
+      {useSEO({
+        title: "Hashye - Stream Movies & Shows in HD",
+        description: "Discover and stream the latest movies and shows in HD on Hashye. Browse popular movies, recent releases, and our full collection.",
+        image: "/hashye-preview.png",
+        url: "https://hashye.online/",
+      })}
+      <div className="home-page">
+        <Toaster position="top-center" reverseOrder={false} />
 
-      <div className="container">
-        {/* Popular Now */}
-        <div className="movies-section" id="popular">
-          <div className="section-header">
-            <h2 className="section-title">Popular Now</h2>
-            <div className="section-subtitle">Hand-picked highlights</div>
-          </div>
-          <div className="movies-grid compact-grid">
-            {popularNow.length ? popularNow.map(movie => (
-              <MovieCard key={`popular-${movie.id}`} movie={movie} />
-            )) : <p style={{ color: 'white', textAlign: 'center', padding: '40px' }}>No popular movies found</p>}
-          </div>
+        <div className="container" id="featured">
+          <FeaturedHero movies={movies} />
         </div>
 
-        {/* Recent Releases */}
-        <div className="movies-section" id="recent">
-          <div className="section-header">
-            <h2 className="section-title">Recent Releases</h2>
-            <div className="section-subtitle">Fresh additions across genres</div>
-          </div>
-          <div className="movies-grid compact-grid">
-            {recentReleases.length ? recentReleases.map(movie => (
-              <MovieCard key={`recent-${movie.id}`} movie={movie} />
-            )) : <p style={{ color: 'white', textAlign: 'center', padding: '40px' }}>No recent movies found</p>}
-          </div>
-        </div>
-
-        {/* All Movies */}
-        <div className="movies-section" id="all-movies">
-          <div className="section-header">
-            <h2 className="section-title">All Movies</h2>
-            <div className="section-subtitle">Browse our complete collection</div>
-          </div>
-          <div className="movies-grid compact-grid">
-            {filteredMovies.length ? filteredMovies.map(movie => (
-              <MovieCard key={`all-${movie.id}`} movie={movie} />
-            )) : (
-              <div className="no-results">
-                <div className="no-results-icon">🎭</div>
-                <h3>No movies found</h3>
-                <button onClick={() => setSearchTerm('')} className="browse-all-btn">Browse All Movies</button>
+        <div className="container">
+          {/* Search Results */}
+          {searchTerm.trim() && filteredMovies.length > 0 && (
+            <div className="movies-section" id="search-results">
+              <div className="section-header">
+                <h2 className="section-title">Search Results for "{searchTerm}"</h2>
+                <div className="section-subtitle">Movies matching your search</div>
               </div>
-            )}
+              <InfiniteScroll
+                dataLength={Math.min(visibleCount, filteredMovies.length)}
+                next={loadMoreMovies}
+                hasMore={visibleCount < filteredMovies.length}
+                loader={<p className="loading-text">Loading more movies...</p>}
+              >
+                <div className="movies-grid compact-grid">
+                  {filteredMovies.slice(0, visibleCount).map((movie) => (
+                    <MovieCard key={movie.id} movie={movie} loading="lazy" />
+                  ))}
+                </div>
+              </InfiniteScroll>
+            </div>
+          )}
+
+          {/* Popular Now */}
+          <div className="movies-section" id="popular">
+            <div className="section-header">
+              <h2 className="section-title">Popular Now</h2>
+              <div className="section-subtitle">Hand-picked highlights</div>
+            </div>
+            <div className="movies-grid compact-grid">
+              {popularNow.map((movie) => (
+                <MovieCard key={`popular-${movie.id}`} movie={movie} loading="lazy" />
+              ))}
+            </div>
           </div>
+
+          {/* Recent Releases */}
+          <div className="movies-section" id="recent">
+            <div className="section-header">
+              <h2 className="section-title">Recent Releases</h2>
+              <div className="section-subtitle">Fresh additions across genres</div>
+            </div>
+            <div className="movies-grid compact-grid">
+              {recentReleases.map((movie) => (
+                <MovieCard key={`recent-${movie.id}`} movie={movie} loading="lazy" />
+              ))}
+            </div>
+          </div>
+
+          {/* All Movies */}
+          {!searchTerm.trim() && allMovies.length > 0 && (
+            <div className="movies-section" id="all-movies">
+              <div className="section-header">
+                <h2 className="section-title">All Movies</h2>
+                <div className="section-subtitle">Browse our complete collection</div>
+              </div>
+              <InfiniteScroll
+                dataLength={Math.min(visibleCount, allMovies.length)}
+                next={loadMoreMovies}
+                hasMore={visibleCount < allMovies.length}
+                loader={<p className="loading-text">Loading more movies...</p>}
+              >
+                <div className="movies-grid compact-grid">
+                  {allMovies.slice(0, visibleCount).map((movie) => (
+                    <MovieCard key={`all-${movie.id}`} movie={movie} loading="lazy" />
+                  ))}
+                </div>
+              </InfiniteScroll>
+            </div>
+          )}
+
+          {/* No results */}
+          {!searchTerm.trim() && allMovies.length === 0 && (
+            <div className="no-results" aria-live="polite">
+              <div className="no-results-icon" role="img" aria-label="No Results">🎭</div>
+              <h3>No movies found</h3>
+            </div>
+          )}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
 export default Home;
+
 

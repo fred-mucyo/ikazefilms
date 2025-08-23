@@ -15,6 +15,10 @@ import ChangePassword from './pages/ChangePassword'
 import AdminLogin from './pages/AdminLogin'
 import AdminDashboard from './pages/AdminDashboard'
 import ProtectedAdminRoute from './components/ProtectedAdminRoute'
+
+
+import TermsOfService from "./LegalPages/TermsOfServices";
+import PrivacyPolicy from "./LegalPages/PrivacyPolicy";
 import './styles/App.css'
 
 function App() {
@@ -24,7 +28,10 @@ function App() {
         <AdminProvider>
           <Router>
             <div className="App">
-              <Navbar />
+  
+
+
+             <Navbar />
               <main className="main-content">
                 <Routes>
                   <Route path="/" element={<Home />} />
@@ -43,6 +50,11 @@ function App() {
                       </ProtectedAdminRoute>
                     } 
                   />
+
+
+
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
                 </Routes>
               </main>
               <Footer />

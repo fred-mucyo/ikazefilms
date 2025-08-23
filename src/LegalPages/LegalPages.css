@@ -1,0 +1,108 @@
+/* LegalPages.css */
+
+/* Global resets for legal pages */
+.legal-main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  color: #1c1c1e;
+  line-height: 1.7;
+}
+
+.legal-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.icon-box.green { background-color: #34d399; }
+.icon-box.indigo { background-color: #6366f1; }
+
+.legal-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.legal-subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* Card layout for sections */
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  margin-bottom: 25px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.legal-section h2 {
+  font-size: 1.2rem;
+  margin: 15px 0 8px 0;
+  font-weight: 600;
+  color: #111827;
+}
+
+.legal-section p, .legal-section li {
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+.legal-section ul {
+  padding-left: 20px;
+}
+
+.legal-section li {
+  margin-bottom: 6px;
+}
+
+/* Links styling */
+.legal-section a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.legal-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .legal-main {
+    padding: 20px 15px;
+  }
+
+  .legal-title {
+    font-size: 1.5rem;
+  }
+}

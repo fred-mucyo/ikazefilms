@@ -5,6 +5,7 @@ import { useWatchlist } from '../context/WatchlistContext'
 import { api, formatDate } from '../utils/api'
 import TrailerEmbed from '../components/TrailerEmbed'
 import Comments from '../components/Comments'
+import useSEO from '../hooks/useSeo.jsx'
 import './MovieDetail.css'
 
 const MovieDetail = () => {
@@ -18,26 +19,17 @@ const MovieDetail = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [isWatchlistLoading, setIsWatchlistLoading] = useState(false)
-  const [showTrailer, setShowTrailer] = useState(false)
   const [popular, setPopular] = useState([])
 
   useEffect(() => {
     fetchMovie()
   }, [id])
 
-  useEffect(() => {
-    const params = new URLSearchParams(location.search)
-    if (params.get('t') === 'trailer') {
-      setShowTrailer(true)
-    }
-  }, [location.search])
-
   const fetchMovie = async () => {
     try {
       setLoading(true)
       const data = await api.getMovie(id)
       setMovie(data)
-      // also fetch popular list for sidebar
       const all = await api.getMovies()
       const popularList = all.filter(m => m.is_popular).slice(0, 6)
       setPopular(popularList.length ? popularList : all.slice(0, 6))
@@ -75,155 +67,170 @@ const MovieDetail = () => {
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 
-  const handleTrailerClick = () => setShowTrailer(true)
-
   const defaultThumbnail = 'https://via.placeholder.com/400x600/1a1a2e/ffffff?text=Movie'
+  const getThumbnail = (m) => m.thumbnail_url || m.poster_url || m.image_url || defaultThumbnail
 
   if (loading) {
     return (
-      <div className="movie-detail-page">
-        <div className="container">
-          <div className="loading-container">
-            <div className="spinner"></div>
-            <p>Loading movie details...</p>
+      <>
+        {useSEO({
+          title: "Hashye - Loading Movie...",
+          description: "Fetching movie details on Hashye...",
+          image: "/hashye-preview.png",
+          url: `https://hashye.online/movie/${id}`,
+        })}
+        <div className="movie-detail-page">
+          <div className="container">
+            <div className="loading-container">
+              <div className="spinner"></div>
+              <p>Loading movie details...</p>
+            </div>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 
   if (error || !movie) {
     return (
-      <div className="movie-detail-page">
-        <div className="container">
-          <div className="error-container">
-            <h2>Movie Not Found</h2>
-            <p>{error || 'The movie you are looking for does not exist.'}</p>
-            <button onClick={() => navigate('/')} className="btn btn-primary">
-              Back to Home
-            </button>
+      <>
+        {useSEO({
+          title: " Hashye - Movie Not Found",
+          description: "The movie could not be found on Hashye.",
+          image: "/hashye-preview.png",
+          url: "https://hashye.online/",
+        })}
+        <div className="movie-detail-page">
+          <div className="container">
+            <div className="error-container">
+              <h2>Movie Not Found</h2>
+              <p>{error || 'The movie you are looking for does not exist.'}</p>
+              <button onClick={() => navigate('/')} className="btn btn-primary">
+                Back to Home
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </>
     )
   }
 
   return (
-    <div className="movie-detail-page">
-      <div className="container">
-        <div className="movie-detail-container">
-          {/* Back Button */}
-          <button 
-            onClick={() => navigate('/')} 
-            className="back-button"
-          >
-            ← Back to Movies
-          </button>
+    <>
+      {useSEO({
+        title: `${movie.title} - Watch on Hashye.online`,
+        description: movie.description || "Stream movies on Hashye in HD.",
+        image: movie.thumbnail_url || "/hashye-preview.png",
+        url: `https://hashye.online/movie/${movie.id}`,
+      })}
+      <div className="movie-detail-page">
+        <div className="container">
+          <div className="movie-detail-container">
+            <button 
+              onClick={() => navigate('/')} 
+              className="back-button"
+            >
+              ← Back to Movies
+            </button>
 
-          <div className="movie-detail-content">
-            {/* Movie Info (left) */}
-            <div className="movie-info">
-              <h1 className="movie-title">{movie.title}</h1>
-              
-              {movie.description && (
-                <p className="movie-description">{movie.description}</p>
-              )}
+            <div className="movie-detail-content">
+              <div className="movie-info">
+                <h1 className="movie-title">{movie.title}</h1>
+                {movie.description && (
+                  <p className="movie-description">{movie.description}</p>
+                )}
 
-              {/* Trailer Section */}
-              {movie.youtube_trailer_url && (
-                <div className="trailer-section">
-                  <h3>🎬 Watch Trailer</h3>
-                  <p>Get a preview of this amazing movie!</p>
-                  <TrailerEmbed
-                    youtubeUrl={movie.youtube_trailer_url}
-                    thumbnailUrl={movie.thumbnail_url}
-                    title={movie.title}
-                  />
-                  
-                  {/* Action Buttons Below Trailer */}
-                  <div className="movie-actions">
-                    {movie.video_url && (
-                      <>
-                        <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary watch-btn">
-                          🎬 Watch Movie
-                        </button>
-                        <a href={movie.video_url} download className="btn btn-secondary download-btn">
-                          ⬇️ Download
-                        </a>
-                      </>
-                    )}
-                    
-                    {isAuthenticated && (
-                      <button
-                        onClick={handleWatchlistToggle}
-                        disabled={isWatchlistLoading}
-                        className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-secondary'}`}
-                      >
-                        {isWatchlistLoading ? (
-                          <span className="spinner spinner-sm"></span>
-                        ) : isInWatchlist(movie.id) ? (
-                          '❌ Remove'
-                        ) : (
-                          '➕ Add to List'
-                        )}
+                {movie.youtube_trailer_url && (
+                  <div className="trailer-section">
+                    <h3>🎬 Watch Trailer</h3>
+                    <TrailerEmbed
+                      youtubeUrl={movie.youtube_trailer_url}
+                      thumbnailUrl={getThumbnail(movie)}
+                      title={movie.title}
+                    />
+                  </div>
+                )}
+
+                <div className="movie-actions">
+                  {movie.video_url && (
+                    <>
+                      <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary watch-btn">
+                        🎬 Watch Movie
                       </button>
-                    )}
-                  </div>
+                      <a href={movie.video_url} download className="btn btn-secondary download-btn">
+                        ⬇️ Download
+                      </a>
+                    </>
+                  )}
+                  {isAuthenticated && (
+                    <button
+                      onClick={handleWatchlistToggle}
+                      disabled={isWatchlistLoading}
+                      className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-secondary'}`}
+                    >
+                      {isWatchlistLoading ? (
+                        <span className="spinner spinner-sm"></span>
+                      ) : isInWatchlist(movie.id) ? (
+                        '❌ Remove'
+                      ) : (
+                        '➕ Add to List'
+                      )}
+                    </button>
+                  )}
                 </div>
-              )}
 
-              {/* Movie Details */}
-              <div className="movie-details">
-                {movie.interpreter_name && (
-                  <div className="detail-item">
-                    <strong>Interpreter:</strong> {movie.interpreter_name}
-                  </div>
-                )}
-                
-                {movie.created_at && (
-                  <div className="detail-item">
-                    <strong>Added:</strong> {formatDate(movie.created_at)}
-                  </div>
-                )}
-
-                {/* Popular/Featured Badge */}
-                {(movie.is_popular || movie.is_featured) && (
-                  <div className="detail-item badge-item">
-                    <strong>Status:</strong> 
-                    <span className="status-badge">
-                      {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
-                    </span>
-                  </div>
-                )}
-              </div>
-
-
-
-              {/* Comments Section */}
-              <Comments movieId={movie.id} />
-            </div>
-
-            {/* Right panel: Popular thumbnails vertical strip */}
-            <aside className="right-panel">
-              <h3 className="right-panel-title">🔥 Popular Now</h3>
-              <div className="thumb-strip">
-                {popular.map(p => (
-                  <button key={p.id} className="thumb-card" onClick={() => navigate(`/movie/${p.id}`)} title={p.title}>
-                    <img src={p.thumbnail_url || defaultThumbnail} alt={p.title} onError={(e)=>{e.currentTarget.src=defaultThumbnail}} />
-                    <div className="thumb-info">
-                      <span className="thumb-title">{p.title}</span>
-                      {p.is_popular && <span className="thumb-badge">🔥</span>}
+                <div className="movie-details">
+                  {movie.interpreter_name && (
+                    <div className="detail-item">
+                      <strong>Interpreter:</strong> {movie.interpreter_name}
                     </div>
-                  </button>
-                ))}
+                  )}
+                  {movie.created_at && (
+                    <div className="detail-item">
+                      <strong>Added:</strong> {formatDate(movie.created_at)}
+                    </div>
+                  )}
+                  {(movie.is_popular || movie.is_featured) && (
+                    <div className="detail-item badge-item">
+                      <strong>Status:</strong> 
+                      <span className="status-badge">
+                        {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+                      </span>
+                    </div>
+                  )}
+                </div>
+
+                <Comments movieId={movie.id} />
               </div>
-            </aside>
+
+              <aside className="right-panel">
+                <h3 className="right-panel-title">🔥 Popular Now</h3>
+                <div className="thumb-strip">
+                  {popular.map(p => (
+                    <button key={p.id} className="thumb-card" onClick={() => navigate(`/movie/${p.id}`)} title={p.title}>
+                      <img 
+                        src={p.thumbnail_url || defaultThumbnail} 
+                        alt={p.title} 
+                        loading="lazy"
+                        onError={(e)=>{e.currentTarget.src=defaultThumbnail}} 
+                      />
+                      <div className="thumb-info">
+                        <span className="thumb-title">{p.title}</span>
+                        {p.is_popular && <span className="thumb-badge">🔥</span>}
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </aside>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
 export default MovieDetail
+
+
 

@@ -14,10 +14,16 @@ const FeaturedHero = ({ movies = [] }) => {
   if (!featured) return null
 
   const createdYear = featured.created_at ? new Date(featured.created_at).getFullYear() : ''
-  const bgImage = null
+
+  // Background image handling (WebP + fallback)
+  const bgImage = featured.backdrop_url || featured.cover_url || featured.image || ''
+  const bgWebp = bgImage.replace(/\.(jpg|jpeg|png)$/i, '.webp')
+  const bgStyle = bgImage
+    ? { backgroundImage: `url(${bgWebp}), url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+    : { backgroundColor: '#000' }
 
   return (
-    <section className="featured-hero" style={{ backgroundColor: '#000', backgroundImage: bgImage ? `url(${bgImage})` : 'none' }}>
+    <section className="featured-hero" style={bgStyle}>
       <div className="featured-overlay" />
       <div className="featured-inner container">
         <div className="featured-text">
@@ -49,8 +55,9 @@ const FeaturedHero = ({ movies = [] }) => {
           <div className="featured-trailer">
             <TrailerEmbed
               youtubeUrl={featured.youtube_trailer_url}
-              thumbnailUrl={featured.thumbnail_url}
+              thumbnailUrl={featured.thumbnail_url?.replace(/\.(jpg|jpeg|png)$/i, '.webp')}
               title={featured.title}
+              loading="lazy"
             />
           </div>
         )}
@@ -60,4 +67,3 @@ const FeaturedHero = ({ movies = [] }) => {
 }
 
 export default FeaturedHero
-
