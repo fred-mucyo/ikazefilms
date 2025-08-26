@@ -87,6 +87,7 @@ src/
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
+- `npm run generate-sitemap` - Generate sitemap.xml and robots.txt
 
 ## 🔧 Configuration
 
@@ -97,6 +98,28 @@ Create a `.env` file in the root directory:
 ```env
 VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
 ```
+
+### Sitemap Generation
+
+The project includes **enhanced sitemap generation** for comprehensive SEO optimization:
+
+- **Automatic Generation**: Run `npm run generate-sitemap` to create fresh sitemap files
+- **Files Generated**: 
+  - `public/sitemap.xml` - XML sitemap with all routes (static + dynamic)
+  - `public/robots.txt` - Search engine directives
+- **Routes Included**: 
+  - **Static Routes**: Home, login, register, watchlist, profile, etc.
+  - **Dynamic Routes**: All movie pages (`/movie/:id`) automatically fetched from API
+- **SEO Optimized**: Follows sitemap protocol standards with proper XML formatting
+- **Smart Priorities**: Homepage (1.0), movies (0.9), user features (0.7-0.9), legal pages (0.4)
+
+**Features:**
+- ✅ **113+ movie routes** automatically included
+- ✅ **Real-time API integration** to fetch latest movie data
+- ✅ **Configurable priorities** and change frequencies
+- ✅ **Production-ready** with environment-based configuration
+
+**Note**: Update the configuration in `sitemap.config.js` before deploying to production.
 
 **Replace `your-backend-url` with your actual backend URL from Render.**
 

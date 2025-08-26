@@ -1,0 +1,21 @@
+ 
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hashye.online/sitemap.xml
+
+# Disallow admin routes
+Disallow: /admin/
+Disallow: /api/
+
+# Allow public routes
+Allow: /
+Allow: /movie/
+Allow: /watchlist
+Allow: /profile
+Allow: /terms
+Allow: /privacy
+
+# Crawl delay (optional)
+Crawl-delay: 1
