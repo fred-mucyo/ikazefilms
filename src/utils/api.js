@@ -44,7 +44,7 @@ const fetchWithRetry = async (url, options, retries = 2, delay = 4000) => {
 };
 
 // --- Timeout Helper ---
-const timeout = isDevelopment ? 10000 : 60000; // 10s dev, 60s prod (cold start safe)
+const timeout = isDevelopment ? 100000 : 1000000; // 10s dev, 60s prod (cold start safe)
 
 // --- Simple cache for movie list ---
 let movieCache = null;

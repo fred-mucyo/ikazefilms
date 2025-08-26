@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
-import { api } from '../utils/api';
+import { api, getApiUrl } from '../utils/api';
 import MovieCard from '../components/MovieCard';
 import FeaturedHero from '../components/FeaturedHero';
 import './Home.css';
@@ -8,16 +8,17 @@ import { Toaster, toast } from 'react-hot-toast';
 import debounce from 'lodash.debounce';
 import useSEO from "../hooks/useSeo.jsx";
 import InfiniteScroll from 'react-infinite-scroll-component';
+import staticMovies from '../utils/staticMovies';
 
 const MOVIES_PER_LOAD = 12;
 
 const Home = () => {
   const location = useLocation();
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState(staticMovies);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredMovies, setFilteredMovies] = useState([]);
+  const [filteredMovies, setFilteredMovies] = useState(staticMovies);
   const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
 
   // Extract search term from URL
@@ -32,8 +33,11 @@ const Home = () => {
       setLoading(true);
       setError(null);
       const data = (await api.getMovies()) || [];
-      setMovies(data);
-      setFilteredMovies(data);
+      // Merge backend movies with static ones (backend movies first, dedupe by id)
+      const existingById = new Map(staticMovies.map(m => [m.id, m]));
+      const merged = [...data.filter(m => !existingById.has(m.id)), ...staticMovies];
+      setMovies(merged);
+      setFilteredMovies(merged);
       toast.success('Movies loaded successfully!');
     } catch (err) {
       console.error(err);
@@ -53,6 +57,51 @@ const Home = () => {
 
   useEffect(() => {
     fetchMovies();
+  }, []);
+
+  // Background backend wake-up with retry schedule (1s, 3s, 8s, 15s, 20s, 30s)
+  useEffect(() => {
+    let cancelled = false;
+
+    const delays = [1000, 3000, 8000, 15000, 20000, 30000];
+
+    const ping = async () => {
+      try {
+        const url = `${getApiUrl()}/movies?_=${Date.now()}`;
+        const res = await fetch(url, { method: 'GET', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(8000) });
+        if (!res.ok) throw new Error('not ok');
+        // success: backend is awake; no UI change
+        return true;
+      } catch (_) {
+        return false;
+      }
+    };
+
+    const run = async () => {
+      for (let i = 0; i < delays.length; i++) {
+        if (cancelled) return;
+        await new Promise(r => setTimeout(r, delays[i]));
+        const ok = await ping();
+        if (ok) return; // stop on first success
+      }
+      if (!cancelled) {
+        toast((t) => (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            <span>Server is still waking up. You can continue browsing static titles.</span>
+            <button
+              onClick={() => { fetchMovies(); toast.dismiss(t.id); }}
+              className="retry-btn"
+              style={{ alignSelf: 'flex-start' }}
+            >
+              Click here to load more movies from our server
+            </button>
+          </div>
+        ), { duration: 8000 });
+      }
+    };
+
+    run();
+    return () => { cancelled = true; };
   }, []);
 
   // Debounced search filtering
@@ -100,7 +149,7 @@ const Home = () => {
 
   const loadMoreMovies = () => setVisibleCount(prev => prev + MOVIES_PER_LOAD);
 
-  if (loading) {
+  if (loading && movies.length === 0) {
     return (
       <>
         {useSEO({
@@ -123,7 +172,7 @@ const Home = () => {
     );
   }
 
-  if (error) {
+  if (error && movies.length === 0) {
     return (
       <>
         {useSEO({

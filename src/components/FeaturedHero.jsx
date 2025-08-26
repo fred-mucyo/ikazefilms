@@ -16,11 +16,7 @@ const FeaturedHero = ({ movies = [] }) => {
   const createdYear = featured.created_at ? new Date(featured.created_at).getFullYear() : ''
 
   // Background image handling (WebP + fallback)
-  const bgImage = featured.backdrop_url || featured.cover_url || featured.image || ''
-  const bgWebp = bgImage.replace(/\.(jpg|jpeg|png)$/i, '.webp')
-  const bgStyle = bgImage
-    ? { backgroundImage: `url(${bgWebp}), url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
-    : { backgroundColor: '#000' }
+  const bgStyle = { backgroundColor: '#000' }
 
   return (
     <section className="featured-hero" style={bgStyle}>
@@ -55,7 +51,7 @@ const FeaturedHero = ({ movies = [] }) => {
           <div className="featured-trailer">
             <TrailerEmbed
               youtubeUrl={featured.youtube_trailer_url}
-              thumbnailUrl={featured.thumbnail_url?.replace(/\.(jpg|jpeg|png)$/i, '.webp')}
+              thumbnailUrl={featured.thumbnail_url || featured.poster_url || featured.image_url || '/hashye-preview.png'}
               title={featured.title}
               loading="lazy"
             />

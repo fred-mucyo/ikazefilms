@@ -9,6 +9,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import MovieDetail from './pages/MovieDetail'
+import StaticMovieDetail from './pages/StaticMovieDetail'
+import StaticMovies from './pages/StaticMovies'
 import Watchlist from './pages/Watchlist'
 import Profile from './pages/Profile'
 import ChangePassword from './pages/ChangePassword'
@@ -38,6 +40,8 @@ function App() {
                   <Route path="/login" element={<Login />} />
                   <Route path="/register" element={<Register />} />
                   <Route path="/movie/:id" element={<MovieDetail />} />
+                  <Route path="/static-movie/:id" element={<StaticMovieDetail />} />
+                  <Route path="/static-movie" element={<StaticMovies />} />
                   <Route path="/watchlist" element={<Watchlist />} />
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/change-password" element={<ChangePassword />} />

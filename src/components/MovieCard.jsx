@@ -26,6 +26,10 @@ const MovieCard = ({ movie }) => {
   }
 
   const handleThumbnailClick = () => {
+    if (String(movie.id).startsWith('s')) {
+      navigate(`/static-movie/${movie.id}`)
+      return
+    }
     navigate(`/movie/${movie.id}`)
   }
 
@@ -46,6 +50,8 @@ const MovieCard = ({ movie }) => {
   const getWebpThumbnail = () => {
     const url = getThumbnailUrl()
     if (url === defaultThumbnail) return url
+    // Avoid creating .webp for local public assets where .webp may not exist
+    if (url.startsWith('/')) return url
     return url.replace(/\.(jpg|jpeg|png)$/i, '.webp')
   }
 
@@ -66,9 +72,15 @@ const MovieCard = ({ movie }) => {
 
         <div className="movie-card-overlay">
           <div className="movie-card-actions">
-            <Link to={`/movie/${movie.id}`} className="btn btn-primary watch-full-btn">
-              Watch Movie
-            </Link>
+            {String(movie.id).startsWith('s') ? (
+              <Link to={`/static-movie/${movie.id}`} className="btn btn-primary watch-full-btn">
+                Watch Movie
+              </Link>
+            ) : (
+              <Link to={`/movie/${movie.id}`} className="btn btn-primary watch-full-btn">
+                Watch Movie
+              </Link>
+            )}
             {isAuthenticated && (
               <button
                 onClick={handleWatchlistToggle}
