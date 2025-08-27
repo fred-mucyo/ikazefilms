@@ -158,6 +158,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/lFmFwCRLsK4?si=MWchYGR9XVlBxamL'
   },
 
+  {
+    id: 's13',
+    title: 'Plane',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'JUNIOR GITI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/plane.jpg',
+    poster_url: '/plane.jpg',
+    image_url: '/plane.jpg',
+    video_url: 'https://hglink.to/zajv6d0nrsn2',
+    youtube_trailer_url: 'https://youtu.be/M25zXBIUVr0?si=GG-jaVYZqVpyXSfd'
+  },
+
 
 
 ];
