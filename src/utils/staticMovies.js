@@ -184,6 +184,18 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/eYJuGhT5nYs?si=rv3MS8sjTTeio2U8'
   },
 
+  {
+    id: 's15',
+    title: 'Home Sweet Home  Rebirth',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'JUNIOR GITI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/rebirth.jpg',
+    poster_url: '/rebirth.jpg',
+    image_url: '/rebirth.jpg',
+    video_url: 'https://hglink.to/2fd9cqf8j3gb',
+    youtube_trailer_url: 'https://youtu.be/8pYI0jNXSqI?si=9EAZCFVSgCCYt9-H'
+  },
 
 
 ];
