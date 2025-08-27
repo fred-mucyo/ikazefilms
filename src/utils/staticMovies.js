@@ -145,6 +145,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/vC_n_L1KGbo?si=Fm_576pmU5aB91UD'
   },
 
+  {
+    id: 's12',
+    title: 'Johnny English 1 ',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'JUNIOR GITI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/johnny1.jpg',
+    poster_url: '/johnny1.jpg',
+    image_url: '/johnny1.jpg',
+    video_url: 'https://hglink.to/moysnstxma15',
+    youtube_trailer_url: 'https://youtu.be/lFmFwCRLsK4?si=MWchYGR9XVlBxamL'
+  },
+
 
 
 ];
