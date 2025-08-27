@@ -171,6 +171,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/M25zXBIUVr0?si=GG-jaVYZqVpyXSfd'
   },
 
+  {
+    id: 's14',
+    title: 'The Witch',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'JUNIOR GITI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/witch.jpg',
+    poster_url: '/witch.jpg',
+    image_url: '/witch.jpg',
+    video_url: 'https://hglink.to/iezkuuwli02v',
+    youtube_trailer_url: 'https://youtu.be/eYJuGhT5nYs?si=rv3MS8sjTTeio2U8'
+  },
+
 
 
 ];
