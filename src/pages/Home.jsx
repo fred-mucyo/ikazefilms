@@ -33,9 +33,9 @@ const Home = () => {
       setLoading(true);
       setError(null);
       const data = (await api.getMovies()) || [];
-      // Merge backend movies with static ones (backend movies first, dedupe by id)
+      // Merge backend movies with static ones (static movies first, then backend movies, dedupe by id)
       const existingById = new Map(staticMovies.map(m => [m.id, m]));
-      const merged = [...data.filter(m => !existingById.has(m.id)), ...staticMovies];
+      const merged = [...staticMovies, ...data.filter(m => !existingById.has(m.id))];
       setMovies(merged);
       setFilteredMovies(merged);
       toast.success('Movies loaded successfully!');
