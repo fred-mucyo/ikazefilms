@@ -119,6 +119,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://www.youtube.com/watch?v=oHg5SJYRHA0'
   },
 
+  {
+    id: 's10',
+    title: 'AMBULANCE',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'JUNIOR GITI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/ambulance.jpg',
+    poster_url: '/ambulance.jpg',
+    image_url: '/ambulance.jpg',
+    video_url: 'https://hglink.to/wjfr5u3kuy79',
+    youtube_trailer_url: 'https://youtu.be/7NU-STboFeI?si=tWC4ghQba7s7M1Rq'
+  },
+
 
 
 ];
