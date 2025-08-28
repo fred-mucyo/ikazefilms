@@ -379,6 +379,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/sNMyooXZZTM?si=AGLKFvTwd-NhB9ZZ'
   },
 
+  {
+    id: 's30',
+    title: 'Last Breath',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/bullet.jpg',
+    poster_url: '/bullet.jpg',
+    image_url: '/bullet.jpg',
+    video_url: 'https://hglink.to/3677ycukjem8',
+    youtube_trailer_url: 'https://youtu.be/r2u9GifyDg0?si=tapaissLZN1EcHEZ'
+  },
+
 
 
 ];
