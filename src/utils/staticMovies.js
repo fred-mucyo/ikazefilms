@@ -223,6 +223,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/mKJucnucZ5M?si=siqRGFtjODlNIKNj'
   },
 
+  {
+    id: 's18',
+    title: 'Brick',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/brick.jpg',
+    poster_url: '/brick.jpg',
+    image_url: '/brick.jpg',
+    video_url: 'https://hglink.to/14npq1esngdz',
+    youtube_trailer_url: 'https://youtu.be/fmi4Qc-cvis?si=cUmQCWK03FDPx5gh'
+  },
+
 
 ];
 
