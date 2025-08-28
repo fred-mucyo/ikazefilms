@@ -392,6 +392,45 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/r2u9GifyDg0?si=tapaissLZN1EcHEZ'
   },
 
+  {
+    id: 's31',
+    title: 'No Way Up',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/way.jpg',
+    poster_url: '/way.jpg',
+    image_url: '/way.jpg',
+    video_url: 'https://hglink.to/3677ycukjem8',
+    youtube_trailer_url: 'https://youtu.be/r2u9GifyDg0?si=tapaissLZN1EcHEZ'
+  },
+
+  {
+    id: 's32',
+    title: 'No Way Up',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/rosario.jpg',
+    poster_url: '/rosario.jpg',
+    image_url: '/rosario.jpg',
+    video_url: 'https://hglink.to/mjfo2i1174pj',
+    youtube_trailer_url: 'https://youtu.be/ksM0rCILPqg?si=b6FzPdugC8wGo9YK'
+  },
+
+  {
+    id: 's33',
+    title: 'Snow White',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/snowwhite.jpg',
+    poster_url: '/snowwhite.jpg',
+    image_url: '/snowwhite.jpg',
+    video_url: 'https://hglink.to/57c3bxak6jhb',
+    youtube_trailer_url: 'https://youtu.be/iV46TJKL8cU?si=5XEjDTmstb2It3wh'
+  },
+
 
 
 ];
