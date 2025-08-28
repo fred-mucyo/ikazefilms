@@ -353,6 +353,32 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/da7lKeeS67c?si=anUYA55Qle_gzY9K'
   },
 
+  {
+    id: 's28',
+    title: 'Kill Boksoon ',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/bookson.jpg',
+    poster_url: '/bookson.jpg',
+    image_url: '/bookson.jpg',
+    video_url: 'https://hglink.to/o40pp6blwumk',
+    youtube_trailer_url: 'https://youtu.be/70e5RjgkHjU?si=iY4Q82MkCozjPxyJ'
+  },
+
+  {
+    id: 's29',
+    title: 'Last Breath',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/breaath.jpg',
+    poster_url: '/breaath.jpg',
+    image_url: '/breaath.jpg',
+    video_url: 'https://hglink.to/0tvgocbbfbe0',
+    youtube_trailer_url: 'https://youtu.be/sNMyooXZZTM?si=AGLKFvTwd-NhB9ZZ'
+  },
+
 
 
 ];
