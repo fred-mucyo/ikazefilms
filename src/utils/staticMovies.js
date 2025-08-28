@@ -483,6 +483,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/-jwAbai7k0s?si=U_WgZ6lOSahgIDO-'
   },
 
+  {
+    id: 's38',
+    title: 'Tuhog',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/tuhog.jpg',
+    poster_url: '/tuhog.jpg',
+    image_url: '/tuhog.jpg',
+    video_url: 'https://hglink.to/6au3k0l3xaic',
+    youtube_trailer_url: 'https://youtu.be/C0BvkC3fQUo?si=B3V83KaExv1Hpk67'
+  },
+
 
 
 ];
