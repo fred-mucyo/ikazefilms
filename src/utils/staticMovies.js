@@ -470,6 +470,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/rUSdnuOLebE?si=ydb_tWjpJrdhk3sk'
   },
 
+  {
+    id: 's37',
+    title: 'The Last Supper',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/supper.jpg',
+    poster_url: '/supper.jpg',
+    image_url: '/supper.jpg',
+    video_url: 'https://hglink.to/1mrj3guot1u6',
+    youtube_trailer_url: 'https://youtu.be/-jwAbai7k0s?si=U_WgZ6lOSahgIDO-'
+  },
+
 
 
 ];
