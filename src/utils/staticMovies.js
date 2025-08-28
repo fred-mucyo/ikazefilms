@@ -183,7 +183,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/iezkuuwli02v',
     youtube_trailer_url: 'https://youtu.be/eYJuGhT5nYs?si=rv3MS8sjTTeio2U8'
   },
-//added the last movie
+ 
   {
     id: 's15',
     title: 'Home Sweet Home  Rebirth',
@@ -208,6 +208,19 @@ const staticMovies = [
     image_url: '/feeds.jpg',
     video_url: 'https://hglink.to/u52sqxbn4c6s',
     youtube_trailer_url: 'https://youtu.be/spLyHdJ_SyE?si=y2uXavrrlW0lahJX'
+  },
+
+  {
+    id: 's17',
+    title: 'Fury 12 Hours',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fury.jpg',
+    poster_url: '/fury.jpg',
+    image_url: '/fury.jpg',
+    video_url: 'https://hglink.to/qtkx1utmna8i',
+    youtube_trailer_url: 'https://youtu.be/mKJucnucZ5M?si=siqRGFtjODlNIKNj'
   },
 
 
