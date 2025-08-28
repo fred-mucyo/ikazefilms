@@ -262,6 +262,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/PfeQX80tjdQ?si=Wx5vcKWtXwzP50PE'
   },
 
+  {
+    id: 's21',
+    title: 'Havoc',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/havoc.jpg',
+    poster_url: '/havoc.jpg',
+    image_url: '/havoc.jpg',
+    video_url: 'https://hglink.to/59qmk7lvvudb',
+    youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=8lOGzv-bjEhGaZKj'
+  },
+
 
 
 ];
