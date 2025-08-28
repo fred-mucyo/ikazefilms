@@ -288,6 +288,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/ojC9JBuccJA?si=reaoMi-xOdiljl6O'
   },
 
+   {
+    id: 's23',
+    title: 'Drop',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/drop.jpg',
+    poster_url: '/drop.jpg',
+    image_url: '/drop.jpg',
+    video_url: 'https://hglink.to/fej9udmslz7c',
+    youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
+  },
+
 
 
 ];
