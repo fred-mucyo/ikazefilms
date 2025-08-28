@@ -301,6 +301,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
   },
 
+  {
+    id: 's24',
+    title: 'Contraataque',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'SANKARA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/contra.jpg',
+    poster_url: '/contra.jpg',
+    image_url: '/contra.jpg',
+    video_url: 'https://hglink.to/8updb5fyevyd',
+    youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
+  },
+
 
 
 ];
