@@ -431,6 +431,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/iV46TJKL8cU?si=5XEjDTmstb2It3wh'
   },
 
+  {
+    id: 's34',
+    title: 'The Diplomat',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/diplomat.jpg',
+    poster_url: '/diplomat.jpg',
+    image_url: '/diplomat.jpg',
+    video_url: 'https://hglink.to/wc4f6yaq35hu',
+    youtube_trailer_url: 'https://youtu.be/lV6sJlBbhPs?si=b2bRkM9D-rfNibxO'
+  },
+
 
 
 ];
