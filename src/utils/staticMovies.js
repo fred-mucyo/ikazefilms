@@ -548,6 +548,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/BrqWlOzm2Iw?si=_nIDXuJZWRrOZDvS'
   },
 
+  {
+    id: 's43',
+    title: "Fateh",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fateh.jpg',
+    poster_url: '/fateh.jpg',
+    image_url: '/fateh.jpg',
+    video_url: 'https://hglink.to/t8t9ddsgp1t2',
+    youtube_trailer_url: 'https://youtu.be/5efGUAV9Vv8?si=V-Z8ZacXpiSBUYr3'
+  },
+
 
 ];
 
