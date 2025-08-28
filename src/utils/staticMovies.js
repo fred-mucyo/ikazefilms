@@ -496,6 +496,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/C0BvkC3fQUo?si=B3V83KaExv1Hpk67'
   },
 
+  {
+    id: 's39',
+    title: "Tyler Perry's Duplicity",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/perry.jpg',
+    poster_url: '/perry.jpg',
+    image_url: '/perry.jpg',
+    video_url: 'https://hglink.to/afq3dd7hvvdq',
+    youtube_trailer_url: 'https://youtu.be/i6NvYfJwq-U?si=mn-V-63smz0SOWT3'
+  },
+
 
 
 ];
