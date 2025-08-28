@@ -526,13 +526,26 @@ const staticMovies = [
     id: 's41',
     title: "Heads of State",
     description: 'Gripping stories at a glance.',
-    interpreter_name: 'GAHEZA',
+    interpreter_name: 'ROCKY',
     created_at: '2024-08-30T00:00:00.000Z',
     thumbnail_url: '/heads.jpg',
     poster_url: '/heads.jpg',
     image_url: '/heads.jpg',
     video_url: 'https://hglink.to/i6331zcdqx8n',
     youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
+
+  {
+    id: 's42',
+    title: "Freelance",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/freelance.jpg',
+    poster_url: '/freelance.jpg',
+    image_url: '/freelance.jpg',
+    video_url: 'https://hglink.to/w0j6vqkumxmt',
+    youtube_trailer_url: 'https://youtu.be/BrqWlOzm2Iw?si=_nIDXuJZWRrOZDvS'
   },
 
 
