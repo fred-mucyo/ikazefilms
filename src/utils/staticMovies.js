@@ -183,7 +183,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/iezkuuwli02v',
     youtube_trailer_url: 'https://youtu.be/eYJuGhT5nYs?si=rv3MS8sjTTeio2U8'
   },
-//added the last movie
+ 
   {
     id: 's15',
     title: 'Home Sweet Home  Rebirth',
@@ -209,6 +209,111 @@ const staticMovies = [
     video_url: 'https://hglink.to/u52sqxbn4c6s',
     youtube_trailer_url: 'https://youtu.be/spLyHdJ_SyE?si=y2uXavrrlW0lahJX'
   },
+
+  {
+    id: 's17',
+    title: 'Fury 12 Hours',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fury.jpg',
+    poster_url: '/fury.jpg',
+    image_url: '/fury.jpg',
+    video_url: 'https://hglink.to/qtkx1utmna8i',
+    youtube_trailer_url: 'https://youtu.be/mKJucnucZ5M?si=siqRGFtjODlNIKNj'
+  },
+
+  {
+    id: 's18',
+    title: 'Brick',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/brick.jpg',
+    poster_url: '/brick.jpg',
+    image_url: '/brick.jpg',
+    video_url: 'https://hglink.to/14npq1esngdz',
+    youtube_trailer_url: 'https://youtu.be/fmi4Qc-cvis?si=cUmQCWK03FDPx5gh'
+  },
+
+  {
+    id: 's19',
+    title: 'Brick',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/amaran.jpg',
+    poster_url: '/amaran.jpg',
+    image_url: '/amaran.jpg',
+    video_url: 'https://hglink.to/5p6ev2oofvb7',
+    youtube_trailer_url: 'https://youtu.be/H7FT-d4YA74?si=NK1PR0znQe1Vqbbl'
+  },
+
+  {
+    id: 's20',
+    title: '24 Hours to Live',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/hours.jpg',
+    poster_url: '/hours.jpg',
+    image_url: '/hours.jpg',
+    video_url: 'https://hglink.to/tykqxwd3nkex',
+    youtube_trailer_url: 'https://youtu.be/PfeQX80tjdQ?si=Wx5vcKWtXwzP50PE'
+  },
+
+  {
+    id: 's21',
+    title: 'Havoc',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/havoc.jpg',
+    poster_url: '/havoc.jpg',
+    image_url: '/havoc.jpg',
+    video_url: 'https://hglink.to/59qmk7lvvudb',
+    youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=8lOGzv-bjEhGaZKj'
+  },
+
+  {
+    id: 's22',
+    title: 'Flight Risk',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/flight.jpg',
+    poster_url: '/flight.jpg',
+    image_url: '/flight.jpg',
+    video_url: 'https://hglink.to/nnnp8f4kxw77',
+    youtube_trailer_url: 'https://youtu.be/ojC9JBuccJA?si=reaoMi-xOdiljl6O'
+  },
+
+   {
+    id: 's23',
+    title: 'Drop',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/drop.jpg',
+    poster_url: '/drop.jpg',
+    image_url: '/drop.jpg',
+    video_url: 'https://hglink.to/fej9udmslz7c',
+    youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
+  },
+
+  {
+    id: 's24',
+    title: 'Contraataque',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'SANKARA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/contra.jpg',
+    poster_url: '/contra.jpg',
+    image_url: '/contra.jpg',
+    video_url: 'https://hglink.to/8updb5fyevyd',
+    youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
+  },
+
 
 
 ];
