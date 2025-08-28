@@ -381,7 +381,7 @@ const staticMovies = [
 
   {
     id: 's30',
-    title: 'Last Breath',
+    title: 'The last bullet',
     description: 'Gripping stories at a glance.',
     interpreter_name: 'GAHEZA',
     created_at: '2024-08-30T00:00:00.000Z',
@@ -407,7 +407,7 @@ const staticMovies = [
 
   {
     id: 's32',
-    title: 'No Way Up',
+    title: 'Rosario',
     description: 'Gripping stories at a glance.',
     interpreter_name: 'GAHEZA',
     created_at: '2024-08-30T00:00:00.000Z',
@@ -459,15 +459,15 @@ const staticMovies = [
 
   {
     id: 's36',
-    title: 'The Gorge',
+    title: 'Heart of Stone',
     description: 'Gripping stories at a glance.',
-    interpreter_name: 'GAHEZA',
+    interpreter_name: 'ROCKY',
     created_at: '2024-08-30T00:00:00.000Z',
-    thumbnail_url: '/gorge.jpg',
-    poster_url: '/gorge.jpg',
-    image_url: '/gorge.jpg',
-    video_url: 'https://hglink.to/zwr60nahxn56',
-    youtube_trailer_url: 'https://youtu.be/rUSdnuOLebE?si=ydb_tWjpJrdhk3sk'
+    thumbnail_url: '/stone.jpg',
+    poster_url: '/stone.jpg',
+    image_url: '/stone.jpg',
+    video_url: 'https://hglink.to/7bo47bpg8at6',
+    youtube_trailer_url: 'https://youtu.be/XuDwndGaCFo?si=FJOmOboNS4DFmIXZ'
   },
 
   {
@@ -509,6 +509,31 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/i6NvYfJwq-U?si=mn-V-63smz0SOWT3'
   },
 
+  {
+    id: 's40',
+    title: "Until Dawn",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/down.jpg',
+    poster_url: '/down.jpg',
+    image_url: '/down.jpg',
+    video_url: 'https://hglink.to/hsmj62und74o',
+    youtube_trailer_url: 'https://youtu.be/2b3vBaINZ7w?si=vceZHfd4fMU9H31s'
+  },
+
+  {
+    id: 's41',
+    title: "Heads of State",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/heads.jpg',
+    poster_url: '/heads.jpg',
+    image_url: '/heads.jpg',
+    video_url: 'https://hglink.to/i6331zcdqx8n',
+    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
 
 
 ];
