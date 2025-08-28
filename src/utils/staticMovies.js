@@ -314,6 +314,252 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
   },
 
+  {
+    id: 's25',
+    title: 'In the Lost Lands',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/lands.jpg',
+    poster_url: '/lands.jpg',
+    image_url: '/lands.jpg',
+    video_url: 'https://hglink.to/swng2v5cifeq',
+    youtube_trailer_url: 'https://youtu.be/b9UC1szqE_k?si=n94iJZQ5qKtv-cjt'
+  },
+
+  {
+    id: 's26',
+    title: 'iHostage',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/hostage.jpg',
+    poster_url: '/hostage.jpg',
+    image_url: '/hostage.jpg',
+    video_url: 'https://hglink.to/cbisitgp04k1',
+    youtube_trailer_url: 'https://youtu.be/Dhg-3ME2L6M?si=g0O_PRwMC4-PCcb4'
+  },
+
+  {
+    id: 's27',
+    title: 'Kill',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kill.jpg',
+    poster_url: '/kill.jpg',
+    image_url: '/kill.jpg',
+    video_url: 'https://hglink.to/4vjfnwcj5qrb',
+    youtube_trailer_url: 'https://youtu.be/da7lKeeS67c?si=anUYA55Qle_gzY9K'
+  },
+
+  {
+    id: 's28',
+    title: 'Kill Boksoon ',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/bookson.jpg',
+    poster_url: '/bookson.jpg',
+    image_url: '/bookson.jpg',
+    video_url: 'https://hglink.to/o40pp6blwumk',
+    youtube_trailer_url: 'https://youtu.be/70e5RjgkHjU?si=iY4Q82MkCozjPxyJ'
+  },
+
+  {
+    id: 's29',
+    title: 'Last Breath',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/breaath.jpg',
+    poster_url: '/breaath.jpg',
+    image_url: '/breaath.jpg',
+    video_url: 'https://hglink.to/0tvgocbbfbe0',
+    youtube_trailer_url: 'https://youtu.be/sNMyooXZZTM?si=AGLKFvTwd-NhB9ZZ'
+  },
+
+  {
+    id: 's30',
+    title: 'The last bullet',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/bullet.jpg',
+    poster_url: '/bullet.jpg',
+    image_url: '/bullet.jpg',
+    video_url: 'https://hglink.to/3677ycukjem8',
+    youtube_trailer_url: 'https://youtu.be/r2u9GifyDg0?si=tapaissLZN1EcHEZ'
+  },
+
+  {
+    id: 's31',
+    title: 'No Way Up',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/way.jpg',
+    poster_url: '/way.jpg',
+    image_url: '/way.jpg',
+    video_url: 'https://hglink.to/3677ycukjem8',
+    youtube_trailer_url: 'https://youtu.be/r2u9GifyDg0?si=tapaissLZN1EcHEZ'
+  },
+
+  {
+    id: 's32',
+    title: 'Rosario',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/rosario.jpg',
+    poster_url: '/rosario.jpg',
+    image_url: '/rosario.jpg',
+    video_url: 'https://hglink.to/mjfo2i1174pj',
+    youtube_trailer_url: 'https://youtu.be/ksM0rCILPqg?si=b6FzPdugC8wGo9YK'
+  },
+
+  {
+    id: 's33',
+    title: 'Snow White',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/snowwhite.jpg',
+    poster_url: '/snowwhite.jpg',
+    image_url: '/snowwhite.jpg',
+    video_url: 'https://hglink.to/57c3bxak6jhb',
+    youtube_trailer_url: 'https://youtu.be/iV46TJKL8cU?si=5XEjDTmstb2It3wh'
+  },
+
+  {
+    id: 's34',
+    title: 'The Diplomat',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/diplomat.jpg',
+    poster_url: '/diplomat.jpg',
+    image_url: '/diplomat.jpg',
+    video_url: 'https://hglink.to/wc4f6yaq35hu',
+    youtube_trailer_url: 'https://youtu.be/lV6sJlBbhPs?si=b2bRkM9D-rfNibxO'
+  },
+
+  {
+    id: 's35',
+    title: 'The Gorge',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/gorge.jpg',
+    poster_url: '/gorge.jpg',
+    image_url: '/gorge.jpg',
+    video_url: 'https://hglink.to/zwr60nahxn56',
+    youtube_trailer_url: 'https://youtu.be/rUSdnuOLebE?si=ydb_tWjpJrdhk3sk'
+  },
+
+  {
+    id: 's36',
+    title: 'Heart of Stone',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/stone.jpg',
+    poster_url: '/stone.jpg',
+    image_url: '/stone.jpg',
+    video_url: 'https://hglink.to/7bo47bpg8at6',
+    youtube_trailer_url: 'https://youtu.be/XuDwndGaCFo?si=FJOmOboNS4DFmIXZ'
+  },
+
+  {
+    id: 's37',
+    title: 'The Last Supper',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/supper.jpg',
+    poster_url: '/supper.jpg',
+    image_url: '/supper.jpg',
+    video_url: 'https://hglink.to/1mrj3guot1u6',
+    youtube_trailer_url: 'https://youtu.be/-jwAbai7k0s?si=U_WgZ6lOSahgIDO-'
+  },
+
+  {
+    id: 's38',
+    title: 'Tuhog',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/tuhog.jpg',
+    poster_url: '/tuhog.jpg',
+    image_url: '/tuhog.jpg',
+    video_url: 'https://hglink.to/6au3k0l3xaic',
+    youtube_trailer_url: 'https://youtu.be/C0BvkC3fQUo?si=B3V83KaExv1Hpk67'
+  },
+
+  {
+    id: 's39',
+    title: "Tyler Perry's Duplicity",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/perry.jpg',
+    poster_url: '/perry.jpg',
+    image_url: '/perry.jpg',
+    video_url: 'https://hglink.to/afq3dd7hvvdq',
+    youtube_trailer_url: 'https://youtu.be/i6NvYfJwq-U?si=mn-V-63smz0SOWT3'
+  },
+
+  {
+    id: 's40',
+    title: "Until Dawn",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/down.jpg',
+    poster_url: '/down.jpg',
+    image_url: '/down.jpg',
+    video_url: 'https://hglink.to/hsmj62und74o',
+    youtube_trailer_url: 'https://youtu.be/2b3vBaINZ7w?si=vceZHfd4fMU9H31s'
+  },
+
+  {
+    id: 's41',
+    title: "Heads of State",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/heads.jpg',
+    poster_url: '/heads.jpg',
+    image_url: '/heads.jpg',
+    video_url: 'https://hglink.to/i6331zcdqx8n',
+    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
+
+  {
+    id: 's42',
+    title: "Freelance",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/freelance.jpg',
+    poster_url: '/freelance.jpg',
+    image_url: '/freelance.jpg',
+    video_url: 'https://hglink.to/w0j6vqkumxmt',
+    youtube_trailer_url: 'https://youtu.be/BrqWlOzm2Iw?si=_nIDXuJZWRrOZDvS'
+  },
+
+  {
+    id: 's43',
+    title: "Fateh",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fateh.jpg',
+    poster_url: '/fateh.jpg',
+    image_url: '/fateh.jpg',
+    video_url: 'https://hglink.to/t8t9ddsgp1t2',
+    youtube_trailer_url: 'https://youtu.be/5efGUAV9Vv8?si=V-Z8ZacXpiSBUYr3'
+  },
 
 
 ];
