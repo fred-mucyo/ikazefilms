@@ -275,6 +275,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=8lOGzv-bjEhGaZKj'
   },
 
+  {
+    id: 's22',
+    title: 'Flight Risk',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/flight.jpg',
+    poster_url: '/flight.jpg',
+    image_url: '/flight.jpg',
+    video_url: 'https://hglink.to/nnnp8f4kxw77',
+    youtube_trailer_url: 'https://youtu.be/ojC9JBuccJA?si=reaoMi-xOdiljl6O'
+  },
+
 
 
 ];
