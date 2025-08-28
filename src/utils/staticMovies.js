@@ -236,6 +236,33 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/fmi4Qc-cvis?si=cUmQCWK03FDPx5gh'
   },
 
+  {
+    id: 's19',
+    title: 'Brick',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/amaran.jpg',
+    poster_url: '/amaran.jpg',
+    image_url: '/amaran.jpg',
+    video_url: 'https://hglink.to/5p6ev2oofvb7',
+    youtube_trailer_url: 'https://youtu.be/H7FT-d4YA74?si=NK1PR0znQe1Vqbbl'
+  },
+
+  {
+    id: 's20',
+    title: '24 Hours to Live',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/hours.jpg',
+    poster_url: '/hours.jpg',
+    image_url: '/hours.jpg',
+    video_url: 'https://hglink.to/tykqxwd3nkex',
+    youtube_trailer_url: 'https://youtu.be/PfeQX80tjdQ?si=Wx5vcKWtXwzP50PE'
+  },
+
+
 
 ];
 
