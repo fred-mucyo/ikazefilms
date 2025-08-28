@@ -444,6 +444,32 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/lV6sJlBbhPs?si=b2bRkM9D-rfNibxO'
   },
 
+  {
+    id: 's35',
+    title: 'The Gorge',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/gorge.jpg',
+    poster_url: '/gorge.jpg',
+    image_url: '/gorge.jpg',
+    video_url: 'https://hglink.to/zwr60nahxn56',
+    youtube_trailer_url: 'https://youtu.be/rUSdnuOLebE?si=ydb_tWjpJrdhk3sk'
+  },
+
+  {
+    id: 's36',
+    title: 'The Gorge',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/gorge.jpg',
+    poster_url: '/gorge.jpg',
+    image_url: '/gorge.jpg',
+    video_url: 'https://hglink.to/zwr60nahxn56',
+    youtube_trailer_url: 'https://youtu.be/rUSdnuOLebE?si=ydb_tWjpJrdhk3sk'
+  },
+
 
 
 ];
