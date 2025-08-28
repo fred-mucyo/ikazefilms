@@ -314,6 +314,45 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/bs_nFwh5eJw?si=BWa344KQD4NfkkbN'
   },
 
+  {
+    id: 's25',
+    title: 'In the Lost Lands',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/lands.jpg',
+    poster_url: '/lands.jpg',
+    image_url: '/lands.jpg',
+    video_url: 'https://hglink.to/swng2v5cifeq',
+    youtube_trailer_url: 'https://youtu.be/b9UC1szqE_k?si=n94iJZQ5qKtv-cjt'
+  },
+
+  {
+    id: 's26',
+    title: 'iHostage',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/hostage.jpg',
+    poster_url: '/hostage.jpg',
+    image_url: '/hostage.jpg',
+    video_url: 'https://hglink.to/cbisitgp04k1',
+    youtube_trailer_url: 'https://youtu.be/Dhg-3ME2L6M?si=g0O_PRwMC4-PCcb4'
+  },
+
+  {
+    id: 's27',
+    title: 'Kill',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'GAHEZA',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kill.jpg',
+    poster_url: '/kill.jpg',
+    image_url: '/kill.jpg',
+    video_url: 'https://hglink.to/4vjfnwcj5qrb',
+    youtube_trailer_url: 'https://youtu.be/da7lKeeS67c?si=anUYA55Qle_gzY9K'
+  },
+
 
 
 ];
