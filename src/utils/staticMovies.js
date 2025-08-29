@@ -678,6 +678,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/EGK5qtXuc1Q?si=xe4o2AT5HfXaft8r'
   },
 
+   {
+    id: 's53',
+    title: "Major",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/major.jpg',
+    poster_url: '/major.jpg',
+    image_url: '/major.jpg',
+    video_url: 'https://hglink.to/bxfbbf4c0j9u',
+    youtube_trailer_url: 'https://youtu.be/PAv1Ke07QAM?si=GgbNEYistyZJW01j'
+  },
+
 
 
 ];
