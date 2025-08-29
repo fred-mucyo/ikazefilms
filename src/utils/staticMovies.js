@@ -887,6 +887,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/AFoflf-hass?si=jDDg09d3xAGbQPuL'
   },
 
+  {
+    id: 's69',
+    title: "The Tinder Swindler",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/tinder.jpg',
+    poster_url: '/tinder.jpg',
+    image_url: '/tinder.jpg',
+    video_url: 'https://hglink.to/zr8xel7ongnx',
+    youtube_trailer_url: 'https://youtu.be/pKXzxzotBo4?si=DtXPxeO97T4TZVGl'
+  },
+
 
 
 ];
