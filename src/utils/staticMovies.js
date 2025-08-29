@@ -926,6 +926,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/hJiPAJKjUVg?si=O4iEdHuv2WBqztJL'
   },
 
+  {
+    id: 's72',
+    title: "Violent Night",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/violent.jpg',
+    poster_url: '/violent.jpg',
+    image_url: '/violent.jpg',
+    video_url: 'https://hglink.to/byu7jmsprj2j',
+    youtube_trailer_url: 'https://youtu.be/a53e4HHnx_s?si=F2HPnH2xKuiC-TgM'
+  },
+
 
 
 
