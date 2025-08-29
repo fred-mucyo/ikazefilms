@@ -783,6 +783,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/bKGxHflevuk?si=9JAFXFnwBrN2GCM6'
   },
 
+  {
+    id: 's61',
+    title: "Sisu",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sisu.jpg',
+    poster_url: '/sisu.jpg',
+    image_url: '/sisu.jpg',
+    video_url: 'https://hglink.to/dtfkpo285zvz',
+    youtube_trailer_url: 'https://youtu.be/2NnPzpuU5ao?si=kPvG10PHyTEfPFva'
+  },
+
 
 
 ];
