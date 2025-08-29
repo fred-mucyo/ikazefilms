@@ -835,6 +835,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/ns8weNznn1Y?si=VliD78g8211NZMJm'
   },
 
+  {
+    id: 's65',
+    title: "The Gray Man",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/gray.jpg',
+    poster_url: '/gray.jpg',
+    image_url: '/gray.jpg',
+    video_url: 'https://hglink.to/773j68rsthok',
+    youtube_trailer_url: 'https://youtu.be/BmllggGO4pM?si=b58m3YleB_WR5pC-'
+  },
+
 
 
 ];
