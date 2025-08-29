@@ -587,6 +587,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/qEVUtrk8_B4?si=RvZT_7zhiV4zjhhx'
   },
 
+  {
+    id: 's46',
+    title: "KEEPER",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/keeper.jpg',
+    poster_url: '/keeper.jpg',
+    image_url: '/keeper.jpg',
+    video_url: 'https://hglink.to/q484hf72fcw3',
+    youtube_trailer_url: 'https://youtu.be/nKA_N_pEkww?si=C0FyZK9sVAyUZmsd'
+  },
+
 
 ];
 
