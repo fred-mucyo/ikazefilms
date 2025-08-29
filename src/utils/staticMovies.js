@@ -796,6 +796,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/2NnPzpuU5ao?si=kPvG10PHyTEfPFva'
   },
 
+  {
+    id: 's62',
+    title: "SKVY3388",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/affinity.jpg',
+    poster_url: '/affinity.jpg',
+    image_url: '/affinity.jpg',
+    video_url: 'https://hglink.to/a1dtq218s6ot',
+    youtube_trailer_url: 'https://youtu.be/i5EognW_9Lk?si=ivlJhAeX4vzrWnf_'
+  },
+
 
 
 ];
