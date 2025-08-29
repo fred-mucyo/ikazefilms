@@ -46,7 +46,7 @@ const Home = () => {
         (err.message?.includes('timed out')
           ? 'Server is waking up. Please wait a moment.'
           : err.message?.includes('Unable to connect')
-          ? 'Cannot reach the server. Check your internet connection.'
+          ? 'Filime ziryoshye zirikuza maze hashye.'
           : err.message || 'Failed to load movies.');
       setError(errorMessage);
       toast.error(errorMessage);
