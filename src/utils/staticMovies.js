@@ -626,6 +626,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/bsi8_9EoYyg?si=NFirB1_xzd4mpVMX'
   },
 
+  {
+    id: 's49',
+    title: "Laal Singh Chaddha",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/laal.jpg',
+    poster_url: '/laal.jpg',
+    image_url: '/laal.jpg',
+    video_url: 'https://hglink.to/nuajt7hd2fvo',
+    youtube_trailer_url: 'https://youtu.be/R6savS7m0Fg?si=H6CunswEpdnOv1GL'
+  },
+
 
 ];
 
