@@ -861,6 +861,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/8BFdFeOS3oM?si=JdV8LOY8lGBmlX0k'
   },
 
+  {
+    id: 's67',
+    title: "The Pope's Exorcist",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/exorcist.jpg',
+    poster_url: '/exorcist.jpg',
+    image_url: '/exorcist.jpg',
+    video_url: 'https://hglink.to/z3fro5a42ctc',
+    youtube_trailer_url: 'https://youtu.be/YJXqvnT_rsk?si=dYPMzrUO3N-7JBOx'
+  },
+
 
 
 ];
