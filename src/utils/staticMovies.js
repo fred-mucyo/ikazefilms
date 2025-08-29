@@ -744,6 +744,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/jzQn0-WH4WM?si=n47bYgqWUZz380ni'
   },
 
+  {
+    id: 's58',
+    title: "RRR",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/rrr.jpg',
+    poster_url: '/rrr.jpg',
+    image_url: '/rrr.jpg',
+    video_url: 'https://hglink.to/5ftp996gdjjd',
+    youtube_trailer_url: 'https://youtu.be/NgBoMJy386M?si=5Ndlc97dA9HkmUTi'
+  },
+
 
 
 ];
