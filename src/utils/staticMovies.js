@@ -665,6 +665,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/MHAf0S9kEZw?si=jW4yyiwZCSG1ce4C'
   },
 
+  {
+    id: 's52',
+    title: "Luther  The Fallen Sun",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/luther.jpg',
+    poster_url: '/luther.jpg',
+    image_url: '/luther.jpg',
+    video_url: 'https://hglink.to/yp6mg2vficng',
+    youtube_trailer_url: 'https://youtu.be/EGK5qtXuc1Q?si=xe4o2AT5HfXaft8r'
+  },
+
 
 
 ];
