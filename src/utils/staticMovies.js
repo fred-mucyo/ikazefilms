@@ -639,6 +639,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/R6savS7m0Fg?si=H6CunswEpdnOv1GL'
   },
 
+  {
+    id: 's50',
+    title: "Land of Bad",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/landofbad.jpg',
+    poster_url: '/landofbad.jpg',
+    image_url: '/landofbad.jpg',
+    video_url: 'https://hglink.to/rn66cefxcnyk',
+    youtube_trailer_url: 'https://youtu.be/yTFazxfrXVw?si=JLAzKxPsg0coAhYL'
+  },
+
 
 ];
 
