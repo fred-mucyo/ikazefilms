@@ -613,6 +613,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/r-7g08INMSI?si=jRQy_HHIngnlK6tZ'
   },
 
+  {
+    id: 's48',
+    title: "Kisi Ka Bhai Kisi Ki Jaan",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kisi.jpg',
+    poster_url: '/kisi.jpg',
+    image_url: '/kisi.jpg',
+    video_url: 'https://hglink.to/1atemzdabfdb',
+    youtube_trailer_url: 'https://youtu.be/bsi8_9EoYyg?si=NFirB1_xzd4mpVMX'
+  },
+
 
 ];
 
