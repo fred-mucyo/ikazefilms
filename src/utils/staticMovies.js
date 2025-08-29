@@ -600,6 +600,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/nKA_N_pEkww?si=C0FyZK9sVAyUZmsd'
   },
 
+   {
+    id: 's47',
+    title: "Kesari Chapter 2  The Untold Story of Jallianwala Bagh",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kesari.jpg',
+    poster_url: '/kesari.jpg',
+    image_url: '/kesari.jpg',
+    video_url: 'https://hglink.to/78qfdhr0to8f',
+    youtube_trailer_url: 'https://youtu.be/r-7g08INMSI?si=jRQy_HHIngnlK6tZ'
+  },
+
 
 ];
 
