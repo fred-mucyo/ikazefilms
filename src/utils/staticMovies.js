@@ -965,6 +965,202 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/tlLsFEDHtWs?si=FNSriwUFCvMsHbhY'
   },
 
+  {
+    id: 's75',
+    title: "Fountain of Youth",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fountain.jpg',
+    poster_url: '/fountain.jpg',
+    image_url: '/fountain.jpg',
+    video_url: 'https://hglink.to/9rqgvez6yknn',
+    youtube_trailer_url: 'https://youtu.be/1gB9h0ELEf0?si=tHk5mCdFDHJqRpt6'
+  },
+
+   {
+    id: 's76',
+    title: "G20 ",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/g20.jpg',
+    poster_url: '/g20.jpg',
+    image_url: '/g20.jpg',
+    video_url: 'https://hglink.to/l1j3u5uaofmn',
+    youtube_trailer_url: 'https://youtu.be/mhQcpvKHis4?si=2eX4sZfDVVGaRyBl'
+  },
+
+
+  {
+    id: 's77',
+    title: "Sikandar",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sikindar.jpg',
+    poster_url: '/sikindar.jpg',
+    image_url: '/sikindar.jpg',
+    video_url: 'https://hglink.to/xutozu7ld6r5',
+    youtube_trailer_url: 'https://youtu.be/in6mSwNbXS0?si=YMFwEUoO5VNMUqR4'
+  },
+
+  {
+    id: 's78',
+    title: "The Old Guard 2",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/guard.jpg',
+    poster_url: '/guard.jpg',
+    image_url: '/guard.jpg',
+    video_url: 'https://hglink.to/j5o99st2gq4g',
+    youtube_trailer_url: 'https://youtu.be/lyivgZ074PY?si=2H9skItxP9LtJ7JI'
+  },
+
+  {
+    id: 's79',
+    title: "Ballerina",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/ballerina.jpg',
+    poster_url: '/ballerina.jpg',
+    image_url: '/ballerina.jpg',
+    video_url: 'https://hglink.to/b9i9la0ewhjo',
+    youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
+  },
+
+   {
+    id: 's80',
+    title: "BLACK",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/black.jpg',
+    poster_url: '/black.jpg',
+    image_url: '/black.jpg',
+    video_url: 'https://hglink.to/pxztj5bvqg7t',
+    youtube_trailer_url: 'https://youtu.be/By-VTqrdqFI?si=KEah88L9A_3zosWr'
+  },
+
+  {
+    id: 's81',
+    title: "Black Adam",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/adam.jpg',
+    poster_url: '/adam.jpg',
+    image_url: '/adam.jpg',
+    video_url: 'https://hglink.to/e9qxufl4lqe3',
+    youtube_trailer_url: 'https://youtu.be/X0tOpBuYasI?si=O4PQkpIUOPUAOEka'
+  },
+
+  {
+    id: 's82',
+    title: "Blacklight",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/light.jpg',
+    poster_url: '/light.jpg',
+    image_url: '/light.jpg',
+    video_url: 'https://hglink.to/druc3wq19cvy',
+    youtube_trailer_url: 'https://youtu.be/PE04ESdgnHI?si=drHNoKPYqQh9b_-5'
+  },
+
+  {
+    id: 's83',
+    title: "Burning Betrayal",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/burning.jpg',
+    poster_url: '/burning.jpg',
+    image_url: '/burning.jpg',
+    video_url: 'https://hglink.to/99gmtl3tt6qv',
+    youtube_trailer_url: 'https://youtu.be/2I9e8zKFdXI?si=sT6w32yNdiSU1LXa'
+  },
+
+  {
+    id: 's84',
+    title: "Creed 3 - III",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/creed.webp',
+    poster_url: '/creed.webp',
+    image_url: '/creed.webp',
+    video_url: 'https://hglink.to/1ds2moybw5ce',
+    youtube_trailer_url: 'https://youtu.be/AHmCH7iB_IM?si=_trz623wh9ENs7bP'
+  },
+
+  {
+    id: 's85',
+    title: "Den of Thieves 2",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/den.jpg',
+    poster_url: '/den.jpg',
+    image_url: '/den.jpg',
+    video_url: 'https://hglink.to/6i0cxz63070u',
+    youtube_trailer_url: 'https://youtu.be/1kmjAnvFw3I?si=VUi8qjXFySB4Q-gU'
+  },
+
+  {
+    id: 's86',
+    title: "Deva",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/deva.webp',
+    poster_url: '/deva.webp',
+    image_url: '/deva.webp',
+    video_url: 'https://hglink.to/zrgtkvbnwasn',
+    youtube_trailer_url: 'https://youtu.be/3x77q40hATw?si=nPw4xDOS0k9cVmFy'
+  },
+
+   {
+    id: 's87',
+    title: "Ek Villain Returns",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/villian.jpg',
+    poster_url: '/villian.jpg',
+    image_url: '/villian.jpg',
+    video_url: 'https://hglink.to/6ogv8dvdfqi9',
+    youtube_trailer_url: 'https://youtu.be/swPhyd0g6K8?si=IyxX4Pv_OAfzzFZJ'
+  },
+
+  {
+    id: 's88',
+    title: "Emancipation",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/emanci.jpg',
+    poster_url: '/emanci.jpg',
+    image_url: '/emanci.jpg',
+    video_url: 'https://hglink.to/26kl8lhvqqle',
+    youtube_trailer_url: 'https://youtu.be/wafyhTpWpUs?si=E2gBfKd-tIH0FZ44'
+  },
+
+  {
+    id: 's89',
+    title: "End of the Road",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/end.jpg',
+    poster_url: '/end.jpg',
+    image_url: '/end.jpg',
+    video_url: 'https://hglink.to/bz7zvt1eznc1',
+    youtube_trailer_url: 'https://youtu.be/202KkD12AuI?si=yluqRNQDqHNCE1Ue'
+  },
+
 
 
 
