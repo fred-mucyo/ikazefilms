@@ -652,6 +652,20 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/yTFazxfrXVw?si=JLAzKxPsg0coAhYL'
   },
 
+   {
+    id: 's51',
+    title: "LOCKED",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/locked.jpg',
+    poster_url: '/locked.jpg',
+    image_url: '/locked.jpg',
+    video_url: 'https://hglink.to/s78tqi27svj7',
+    youtube_trailer_url: 'https://youtu.be/MHAf0S9kEZw?si=jW4yyiwZCSG1ce4C'
+  },
+
+
 
 ];
 
