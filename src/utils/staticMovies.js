@@ -848,6 +848,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/BmllggGO4pM?si=b58m3YleB_WR5pC-'
   },
 
+  {
+    id: 's66',
+    title: "The Mother",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/mother.jpg',
+    poster_url: '/mother.jpg',
+    image_url: '/mother.jpg',
+    video_url: 'https://hglink.to/cdm7394q31p8',
+    youtube_trailer_url: 'https://youtu.be/8BFdFeOS3oM?si=JdV8LOY8lGBmlX0k'
+  },
+
 
 
 ];
