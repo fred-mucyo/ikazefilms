@@ -757,6 +757,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/NgBoMJy386M?si=5Ndlc97dA9HkmUTi'
   },
 
+  {
+    id: 's59',
+    title: "Singham Again",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/singam.jpg',
+    poster_url: '/singam.jpg',
+    image_url: '/singam.jpg',
+    video_url: 'https://hglink.to/eh8ndkgxac9d',
+    youtube_trailer_url: 'https://youtu.be/MD7v0-igVIM?si=cxxX6QUTFCYjuEAx'
+  },
+
 
 
 ];
