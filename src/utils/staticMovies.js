@@ -705,6 +705,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/avz06PDqDbM?si=8gFJqDN1OVMBKpBn'
   },
 
+   {
+    id: 's55',
+    title: "R I P D  2  Rise of the Damned",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/damned.jpg',
+    poster_url: '/damned.jpg',
+    image_url: '/damned.jpg',
+    video_url: 'https://hglink.to/da9abyb75gvm',
+    youtube_trailer_url: 'https://youtu.be/IgogIezu6l4?si=QFf5N6n8GwDcPIbV'
+  },
+
 
 
 ];
