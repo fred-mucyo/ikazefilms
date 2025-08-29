@@ -691,6 +691,20 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/PAv1Ke07QAM?si=GgbNEYistyZJW01j'
   },
 
+  
+   {
+    id: 's54',
+    title: "Mission  Impossible 7 - Dead Reckoning Part One",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/mission1.jpg',
+    poster_url: '/mission1.jpg',
+    image_url: '/mission1.jpg',
+    video_url: 'https://hglink.to/22jy477klw6s',
+    youtube_trailer_url: 'https://youtu.be/avz06PDqDbM?si=8gFJqDN1OVMBKpBn'
+  },
+
 
 
 ];
