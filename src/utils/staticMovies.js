@@ -874,6 +874,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/YJXqvnT_rsk?si=dYPMzrUO3N-7JBOx'
   },
 
+  {
+    id: 's68',
+    title: "The System",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/system.jpg',
+    poster_url: '/system.jpg',
+    image_url: '/system.jpg',
+    video_url: 'https://hglink.to/r6svp3526eh1',
+    youtube_trailer_url: 'https://youtu.be/AFoflf-hass?si=jDDg09d3xAGbQPuL'
+  },
+
 
 
 ];
