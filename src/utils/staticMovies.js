@@ -913,6 +913,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/3RDaPV_rJ1Y?si=2TLhVkISN7C-emBO'
   },
 
+  {
+    id: 's71',
+    title: "TRAP",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/trap.jpg',
+    poster_url: '/trap.jpg',
+    image_url: '/trap.jpg',
+    video_url: 'https://hglink.to/g9df74ne592e',
+    youtube_trailer_url: 'https://youtu.be/hJiPAJKjUVg?si=O4iEdHuv2WBqztJL'
+  },
+
 
 
 
