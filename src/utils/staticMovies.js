@@ -770,6 +770,19 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/MD7v0-igVIM?si=cxxX6QUTFCYjuEAx'
   },
 
+  {
+    id: 's60',
+    title: "Sinners",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sinners.jpg',
+    poster_url: '/sinners.jpg',
+    image_url: '/sinners.jpg',
+    video_url: 'https://hglink.to/6au0vfd9k02t',
+    youtube_trailer_url: 'https://youtu.be/bKGxHflevuk?si=9JAFXFnwBrN2GCM6'
+  },
+
 
 
 ];
