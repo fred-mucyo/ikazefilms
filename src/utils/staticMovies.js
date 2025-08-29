@@ -561,6 +561,608 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/5efGUAV9Vv8?si=V-Z8ZacXpiSBUYr3'
   },
 
+  {
+    id: 's44',
+    title: "Jawan",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/jawan.jpg',
+    poster_url: '/jawan.jpg',
+    image_url: '/jawan.jpg',
+    video_url: 'https://hglink.to/t9u0gvfae7aj',
+    youtube_trailer_url: 'https://youtu.be/MWOlnZSnXJo?si=Pix4xlS_XYMNKC_E'
+  },
+
+  {
+    id: 's45',
+    title: "John Wick  Chapter 4",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/wich4.jpg',
+    poster_url: '/wich4.jpg',
+    image_url: '/wich4.jpg',
+    video_url: 'https://hglink.to/ix01rjjpvb43',
+    youtube_trailer_url: 'https://youtu.be/qEVUtrk8_B4?si=RvZT_7zhiV4zjhhx'
+  },
+
+  {
+    id: 's46',
+    title: "KEEPER",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/keeper.jpg',
+    poster_url: '/keeper.jpg',
+    image_url: '/keeper.jpg',
+    video_url: 'https://hglink.to/q484hf72fcw3',
+    youtube_trailer_url: 'https://youtu.be/nKA_N_pEkww?si=C0FyZK9sVAyUZmsd'
+  },
+
+   {
+    id: 's47',
+    title: "Kesari Chapter 2  The Untold Story of Jallianwala Bagh",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kesari.jpg',
+    poster_url: '/kesari.jpg',
+    image_url: '/kesari.jpg',
+    video_url: 'https://hglink.to/78qfdhr0to8f',
+    youtube_trailer_url: 'https://youtu.be/r-7g08INMSI?si=jRQy_HHIngnlK6tZ'
+  },
+
+  {
+    id: 's48',
+    title: "Kisi Ka Bhai Kisi Ki Jaan",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/kisi.jpg',
+    poster_url: '/kisi.jpg',
+    image_url: '/kisi.jpg',
+    video_url: 'https://hglink.to/1atemzdabfdb',
+    youtube_trailer_url: 'https://youtu.be/bsi8_9EoYyg?si=NFirB1_xzd4mpVMX'
+  },
+
+  {
+    id: 's49',
+    title: "Laal Singh Chaddha",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/laal.jpg',
+    poster_url: '/laal.jpg',
+    image_url: '/laal.jpg',
+    video_url: 'https://hglink.to/nuajt7hd2fvo',
+    youtube_trailer_url: 'https://youtu.be/R6savS7m0Fg?si=H6CunswEpdnOv1GL'
+  },
+
+  {
+    id: 's50',
+    title: "Land of Bad",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/landofbad.jpg',
+    poster_url: '/landofbad.jpg',
+    image_url: '/landofbad.jpg',
+    video_url: 'https://hglink.to/rn66cefxcnyk',
+    youtube_trailer_url: 'https://youtu.be/yTFazxfrXVw?si=JLAzKxPsg0coAhYL'
+  },
+
+   {
+    id: 's51',
+    title: "LOCKED",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/locked.jpg',
+    poster_url: '/locked.jpg',
+    image_url: '/locked.jpg',
+    video_url: 'https://hglink.to/s78tqi27svj7',
+    youtube_trailer_url: 'https://youtu.be/MHAf0S9kEZw?si=jW4yyiwZCSG1ce4C'
+  },
+
+  {
+    id: 's52',
+    title: "Luther  The Fallen Sun",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/luther.jpg',
+    poster_url: '/luther.jpg',
+    image_url: '/luther.jpg',
+    video_url: 'https://hglink.to/yp6mg2vficng',
+    youtube_trailer_url: 'https://youtu.be/EGK5qtXuc1Q?si=xe4o2AT5HfXaft8r'
+  },
+
+   {
+    id: 's53',
+    title: "Major",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/major.jpg',
+    poster_url: '/major.jpg',
+    image_url: '/major.jpg',
+    video_url: 'https://hglink.to/bxfbbf4c0j9u',
+    youtube_trailer_url: 'https://youtu.be/PAv1Ke07QAM?si=GgbNEYistyZJW01j'
+  },
+
+  
+   {
+    id: 's54',
+    title: "Mission  Impossible 7 - Dead Reckoning Part One",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/mission1.jpg',
+    poster_url: '/mission1.jpg',
+    image_url: '/mission1.jpg',
+    video_url: 'https://hglink.to/22jy477klw6s',
+    youtube_trailer_url: 'https://youtu.be/avz06PDqDbM?si=8gFJqDN1OVMBKpBn'
+  },
+
+   {
+    id: 's55',
+    title: "R I P D  2  Rise of the Damned",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/damned.jpg',
+    poster_url: '/damned.jpg',
+    image_url: '/damned.jpg',
+    video_url: 'https://hglink.to/da9abyb75gvm',
+    youtube_trailer_url: 'https://youtu.be/IgogIezu6l4?si=QFf5N6n8GwDcPIbV'
+  },
+
+  {
+    id: 's56',
+    title: "Redeeming Love",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/redeeming.jpg',
+    poster_url: '/redeeming.jpg',
+    image_url: '/redeeming.jpg',
+    video_url: 'https://hglink.to/si3pdwy9ol3v',
+    youtube_trailer_url: 'https://youtu.be/_8RIlIOd_us?si=BfeMNkvMVfpVIXw_'
+  },
+
+  {
+    id: 's57',
+    title: "Retribution",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/retribution.jpg',
+    poster_url: '/retribution.jpg',
+    image_url: '/retribution.jpg',
+    video_url: 'https://hglink.to/xj2eiiyqk8w4',
+    youtube_trailer_url: 'https://youtu.be/jzQn0-WH4WM?si=n47bYgqWUZz380ni'
+  },
+
+  {
+    id: 's58',
+    title: "RRR",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/rrr.jpg',
+    poster_url: '/rrr.jpg',
+    image_url: '/rrr.jpg',
+    video_url: 'https://hglink.to/5ftp996gdjjd',
+    youtube_trailer_url: 'https://youtu.be/NgBoMJy386M?si=5Ndlc97dA9HkmUTi'
+  },
+
+  {
+    id: 's59',
+    title: "Singham Again",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/singam.jpg',
+    poster_url: '/singam.jpg',
+    image_url: '/singam.jpg',
+    video_url: 'https://hglink.to/eh8ndkgxac9d',
+    youtube_trailer_url: 'https://youtu.be/MD7v0-igVIM?si=cxxX6QUTFCYjuEAx'
+  },
+
+  {
+    id: 's60',
+    title: "Sinners",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sinners.jpg',
+    poster_url: '/sinners.jpg',
+    image_url: '/sinners.jpg',
+    video_url: 'https://hglink.to/6au0vfd9k02t',
+    youtube_trailer_url: 'https://youtu.be/bKGxHflevuk?si=9JAFXFnwBrN2GCM6'
+  },
+
+  {
+    id: 's61',
+    title: "Sisu",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sisu.jpg',
+    poster_url: '/sisu.jpg',
+    image_url: '/sisu.jpg',
+    video_url: 'https://hglink.to/dtfkpo285zvz',
+    youtube_trailer_url: 'https://youtu.be/2NnPzpuU5ao?si=kPvG10PHyTEfPFva'
+  },
+
+  {
+    id: 's62',
+    title: "SKVY3388",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/affinity.jpg',
+    poster_url: '/affinity.jpg',
+    image_url: '/affinity.jpg',
+    video_url: 'https://hglink.to/a1dtq218s6ot',
+    youtube_trailer_url: 'https://youtu.be/i5EognW_9Lk?si=ivlJhAeX4vzrWnf_'
+  },
+
+  {
+    id: 's63',
+    title: "The Equalizer 3",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/equalizer.jpg',
+    poster_url: '/equalizer.jpg',
+    image_url: '/equalizer.jpg',
+    video_url: 'https://hglink.to/l3umbc6d66u5',
+    youtube_trailer_url: 'https://youtu.be/19ikl8vy4zs?si=g7FpnDmkTdaHoBJU'
+  },
+
+  {
+    id: 's64',
+    title: "The Family Plan",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/family.jpg',
+    poster_url: '/family.jpg',
+    image_url: '/family.jpg',
+    video_url: 'https://hglink.to/h38ienf6qfs3',
+    youtube_trailer_url: 'https://youtu.be/ns8weNznn1Y?si=VliD78g8211NZMJm'
+  },
+
+  {
+    id: 's65',
+    title: "The Gray Man",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/gray.jpg',
+    poster_url: '/gray.jpg',
+    image_url: '/gray.jpg',
+    video_url: 'https://hglink.to/773j68rsthok',
+    youtube_trailer_url: 'https://youtu.be/BmllggGO4pM?si=b58m3YleB_WR5pC-'
+  },
+
+  {
+    id: 's66',
+    title: "The Mother",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/mother.jpg',
+    poster_url: '/mother.jpg',
+    image_url: '/mother.jpg',
+    video_url: 'https://hglink.to/cdm7394q31p8',
+    youtube_trailer_url: 'https://youtu.be/8BFdFeOS3oM?si=JdV8LOY8lGBmlX0k'
+  },
+
+  {
+    id: 's67',
+    title: "The Pope's Exorcist",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/exorcist.jpg',
+    poster_url: '/exorcist.jpg',
+    image_url: '/exorcist.jpg',
+    video_url: 'https://hglink.to/z3fro5a42ctc',
+    youtube_trailer_url: 'https://youtu.be/YJXqvnT_rsk?si=dYPMzrUO3N-7JBOx'
+  },
+
+  {
+    id: 's68',
+    title: "The System",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/system.jpg',
+    poster_url: '/system.jpg',
+    image_url: '/system.jpg',
+    video_url: 'https://hglink.to/r6svp3526eh1',
+    youtube_trailer_url: 'https://youtu.be/AFoflf-hass?si=jDDg09d3xAGbQPuL'
+  },
+
+  {
+    id: 's69',
+    title: "The Tinder Swindler",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/tinder.jpg',
+    poster_url: '/tinder.jpg',
+    image_url: '/tinder.jpg',
+    video_url: 'https://hglink.to/zr8xel7ongnx',
+    youtube_trailer_url: 'https://youtu.be/pKXzxzotBo4?si=DtXPxeO97T4TZVGl'
+  },
+
+   {
+    id: 's70',
+    title: "The woman king",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/woman.jpg',
+    poster_url: '/woman.jpg',
+    image_url: '/woman.jpg',
+    video_url: 'https://hglink.to/km15mrvue74p',
+    youtube_trailer_url: 'https://youtu.be/3RDaPV_rJ1Y?si=2TLhVkISN7C-emBO'
+  },
+
+  {
+    id: 's71',
+    title: "TRAP",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/trap.jpg',
+    poster_url: '/trap.jpg',
+    image_url: '/trap.jpg',
+    video_url: 'https://hglink.to/g9df74ne592e',
+    youtube_trailer_url: 'https://youtu.be/hJiPAJKjUVg?si=O4iEdHuv2WBqztJL'
+  },
+
+  {
+    id: 's72',
+    title: "Violent Night",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/violent.jpg',
+    poster_url: '/violent.jpg',
+    image_url: '/violent.jpg',
+    video_url: 'https://hglink.to/byu7jmsprj2j',
+    youtube_trailer_url: 'https://youtu.be/a53e4HHnx_s?si=F2HPnH2xKuiC-TgM'
+  },
+
+  {
+    id: 's73',
+    title: "Diablo",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/diablo.jpg',
+    poster_url: '/diablo.jpg',
+    image_url: '/diablo.jpg',
+    video_url: 'https://hglink.to/htrixhx9ou6t',
+    youtube_trailer_url: 'https://youtu.be/ANKPsCTh0Og?si=4hfFvkdcD_dW1Ngy'
+  },
+
+  {
+    id: 's74',
+    title: "Exterritorial",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/exterritorial.jpg',
+    poster_url: '/exterritorial.jpg',
+    image_url: '/exterritorial.jpg',
+    video_url: 'https://hglink.to/aufx1fnao1i7',
+    youtube_trailer_url: 'https://youtu.be/tlLsFEDHtWs?si=FNSriwUFCvMsHbhY'
+  },
+
+  {
+    id: 's75',
+    title: "Fountain of Youth",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/fountain.jpg',
+    poster_url: '/fountain.jpg',
+    image_url: '/fountain.jpg',
+    video_url: 'https://hglink.to/9rqgvez6yknn',
+    youtube_trailer_url: 'https://youtu.be/1gB9h0ELEf0?si=tHk5mCdFDHJqRpt6'
+  },
+
+   {
+    id: 's76',
+    title: "G20 ",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/g20.jpg',
+    poster_url: '/g20.jpg',
+    image_url: '/g20.jpg',
+    video_url: 'https://hglink.to/l1j3u5uaofmn',
+    youtube_trailer_url: 'https://youtu.be/mhQcpvKHis4?si=2eX4sZfDVVGaRyBl'
+  },
+
+
+  {
+    id: 's77',
+    title: "Sikandar",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/sikindar.jpg',
+    poster_url: '/sikindar.jpg',
+    image_url: '/sikindar.jpg',
+    video_url: 'https://hglink.to/xutozu7ld6r5',
+    youtube_trailer_url: 'https://youtu.be/in6mSwNbXS0?si=YMFwEUoO5VNMUqR4'
+  },
+
+  {
+    id: 's78',
+    title: "The Old Guard 2",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/guard.jpg',
+    poster_url: '/guard.jpg',
+    image_url: '/guard.jpg',
+    video_url: 'https://hglink.to/j5o99st2gq4g',
+    youtube_trailer_url: 'https://youtu.be/lyivgZ074PY?si=2H9skItxP9LtJ7JI'
+  },
+
+  {
+    id: 's79',
+    title: "Ballerina",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/ballerina.jpg',
+    poster_url: '/ballerina.jpg',
+    image_url: '/ballerina.jpg',
+    video_url: 'https://hglink.to/b9i9la0ewhjo',
+    youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
+  },
+
+   {
+    id: 's80',
+    title: "BLACK",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/black.jpg',
+    poster_url: '/black.jpg',
+    image_url: '/black.jpg',
+    video_url: 'https://hglink.to/pxztj5bvqg7t',
+    youtube_trailer_url: 'https://youtu.be/By-VTqrdqFI?si=KEah88L9A_3zosWr'
+  },
+
+  {
+    id: 's81',
+    title: "Black Adam",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/adam.jpg',
+    poster_url: '/adam.jpg',
+    image_url: '/adam.jpg',
+    video_url: 'https://hglink.to/e9qxufl4lqe3',
+    youtube_trailer_url: 'https://youtu.be/X0tOpBuYasI?si=O4PQkpIUOPUAOEka'
+  },
+
+  {
+    id: 's82',
+    title: "Blacklight",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/light.jpg',
+    poster_url: '/light.jpg',
+    image_url: '/light.jpg',
+    video_url: 'https://hglink.to/druc3wq19cvy',
+    youtube_trailer_url: 'https://youtu.be/PE04ESdgnHI?si=drHNoKPYqQh9b_-5'
+  },
+
+  {
+    id: 's83',
+    title: "Burning Betrayal",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/burning.jpg',
+    poster_url: '/burning.jpg',
+    image_url: '/burning.jpg',
+    video_url: 'https://hglink.to/99gmtl3tt6qv',
+    youtube_trailer_url: 'https://youtu.be/2I9e8zKFdXI?si=sT6w32yNdiSU1LXa'
+  },
+
+  {
+    id: 's84',
+    title: "Creed 3 - III",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/creed.webp',
+    poster_url: '/creed.webp',
+    image_url: '/creed.webp',
+    video_url: 'https://hglink.to/1ds2moybw5ce',
+    youtube_trailer_url: 'https://youtu.be/AHmCH7iB_IM?si=_trz623wh9ENs7bP'
+  },
+
+  {
+    id: 's85',
+    title: "Den of Thieves 2",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/den.jpg',
+    poster_url: '/den.jpg',
+    image_url: '/den.jpg',
+    video_url: 'https://hglink.to/6i0cxz63070u',
+    youtube_trailer_url: 'https://youtu.be/1kmjAnvFw3I?si=VUi8qjXFySB4Q-gU'
+  },
+
+  {
+    id: 's86',
+    title: "Deva",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/deva.webp',
+    poster_url: '/deva.webp',
+    image_url: '/deva.webp',
+    video_url: 'https://hglink.to/zrgtkvbnwasn',
+    youtube_trailer_url: 'https://youtu.be/3x77q40hATw?si=nPw4xDOS0k9cVmFy'
+  },
+
+   {
+    id: 's87',
+    title: "Ek Villain Returns",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/villian.jpg',
+    poster_url: '/villian.jpg',
+    image_url: '/villian.jpg',
+    video_url: 'https://hglink.to/6ogv8dvdfqi9',
+    youtube_trailer_url: 'https://youtu.be/swPhyd0g6K8?si=IyxX4Pv_OAfzzFZJ'
+  },
+
+  {
+    id: 's88',
+    title: "Emancipation",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/emanci.jpg',
+    poster_url: '/emanci.jpg',
+    image_url: '/emanci.jpg',
+    video_url: 'https://hglink.to/26kl8lhvqqle',
+    youtube_trailer_url: 'https://youtu.be/wafyhTpWpUs?si=E2gBfKd-tIH0FZ44'
+  },
+
+  {
+    id: 's89',
+    title: "End of the Road",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/end.jpg',
+    poster_url: '/end.jpg',
+    image_url: '/end.jpg',
+    video_url: 'https://hglink.to/bz7zvt1eznc1',
+    youtube_trailer_url: 'https://youtu.be/202KkD12AuI?si=yluqRNQDqHNCE1Ue'
+  },
+
+
+
 
 ];
 
