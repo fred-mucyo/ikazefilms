@@ -561,6 +561,32 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/5efGUAV9Vv8?si=V-Z8ZacXpiSBUYr3'
   },
 
+  {
+    id: 's44',
+    title: "Jawan",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/jawan.jpg',
+    poster_url: '/jawan.jpg',
+    image_url: '/jawan.jpg',
+    video_url: 'https://hglink.to/t9u0gvfae7aj',
+    youtube_trailer_url: 'https://youtu.be/MWOlnZSnXJo?si=Pix4xlS_XYMNKC_E'
+  },
+
+  {
+    id: 's45',
+    title: "John Wick  Chapter 4",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/wich4.jpg',
+    poster_url: '/wich4.jpg',
+    image_url: '/wich4.jpg',
+    video_url: 'https://hglink.to/ix01rjjpvb43',
+    youtube_trailer_url: 'https://youtu.be/qEVUtrk8_B4?si=RvZT_7zhiV4zjhhx'
+  },
+
 
 ];
 
