@@ -900,6 +900,20 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/pKXzxzotBo4?si=DtXPxeO97T4TZVGl'
   },
 
+   {
+    id: 's70',
+    title: "The woman king",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/woman.jpg',
+    poster_url: '/woman.jpg',
+    image_url: '/woman.jpg',
+    video_url: 'https://hglink.to/km15mrvue74p',
+    youtube_trailer_url: 'https://youtu.be/3RDaPV_rJ1Y?si=2TLhVkISN7C-emBO'
+  },
+
+
 
 
 ];
