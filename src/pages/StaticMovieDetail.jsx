@@ -53,7 +53,7 @@ const StaticMovieDetail = () => {
                 <div className="movie-actions">
                   {movie.video_url && (
                     <>
-                      <a href={movie.video_url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">🎬 Watch Movie</a>
+                      <a href={movie.video_url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">REBA FILM YOSE</a>
                       <a href={movie.video_url} download className="btn btn-secondary">⬇️ Download</a>
                     </>
                   )}

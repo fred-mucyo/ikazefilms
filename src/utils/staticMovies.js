@@ -4,18 +4,18 @@
 const staticMovies = [
   {
     id: 's1',
-    title: 'Mission Impossible Final C',
-    description: 'Mission Impossiple Final Reckoning',
+    title: "Ballerina",
+    description: 'Gripping stories at a glance.',
     interpreter_name: 'Rocky',
     created_at: '2024-01-01T00:00:00.000Z',
     is_popular: true,
     is_featured: true,
-    thumbnail_url: '/mission.jpg',
-    poster_url: '/mission.jpg',
-    image_url: '/mission.jpg',
-    backdrop_url: '/mission.jpg',
-    video_url: 'https://hglink.to/e/jq1d6h5ex04z ',
-    youtube_trailer_url: 'https://youtu.be/fsQgc9pCyDU?si=DlJw5WMC7Ll-hCfN'
+    thumbnail_url: '/ballerinaOg.webp',
+    poster_url: '/ballerinaOg.webp',
+    image_url: '/ballerinaOg.webp',
+    backdrop_url: '/ballerinaOg.webp',
+ video_url: 'https://hglink.to/b9i9la0ewhjo',
+    youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
   },
   {
     id: 's2',
@@ -125,9 +125,9 @@ const staticMovies = [
     description: 'Gripping stories at a glance.',
     interpreter_name: 'JUNIOR GITI',
     created_at: '2024-08-30T00:00:00.000Z',
-    thumbnail_url: '/ambulance.jpg',
-    poster_url: '/ambulance.jpg',
-    image_url: '/ambulance.jpg',
+    thumbnail_url: '/AmbulanceX.webp',
+    poster_url: '/AmbulanceX.webp',
+    image_url: '/AmbulanceX.webp',
     video_url: 'https://hglink.to/wjfr5u3kuy79',
     youtube_trailer_url: 'https://youtu.be/7NU-STboFeI?si=tWC4ghQba7s7M1Rq'
   },
@@ -528,6 +528,7 @@ const staticMovies = [
     description: 'Gripping stories at a glance.',
     interpreter_name: 'ROCKY',
     created_at: '2024-08-30T00:00:00.000Z',
+     is_popular: true,
     thumbnail_url: '/heads.jpg',
     poster_url: '/heads.jpg',
     image_url: '/heads.jpg',
@@ -1018,19 +1019,22 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/lyivgZ074PY?si=2H9skItxP9LtJ7JI'
   },
 
-  {
-    id: 's79',
-    title: "Ballerina",
-    description: 'Gripping stories at a glance.',
-    interpreter_name: 'ROCKY',
-    created_at: '2024-08-30T00:00:00.000Z',
-    thumbnail_url: '/ballerina.jpg',
-    poster_url: '/ballerina.jpg',
-    image_url: '/ballerina.jpg',
-    video_url: 'https://hglink.to/b9i9la0ewhjo',
-    youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
-  },
 
+
+
+   {
+    id: 's79',
+    title: 'Mission Impossible Final C',
+    description: 'Mission Impossiple Final Reckoning',
+    interpreter_name: 'Rocky',
+    created_at: '2025-01-01T00:00:00.000Z',
+    thumbnail_url: '/mission.jpg',
+    poster_url: '/mission.jpg',
+    image_url: '/mission.jpg',
+    backdrop_url: '/mission.jpg',
+    video_url: 'https://hglink.to/e/jq1d6h5ex04z ',
+    youtube_trailer_url: 'https://youtu.be/fsQgc9pCyDU?si=DlJw5WMC7Ll-hCfN'
+  },
    {
     id: 's80',
     title: "BLACK",
@@ -1161,8 +1165,31 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/202KkD12AuI?si=yluqRNQDqHNCE1Ue'
   },
 
+  {
+    id: 's90',
+    title: "TIME CUT A",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/Time_Cut_film_A.jpg',
+    poster_url: '/Time_Cut_film_A.jpg',
+    image_url: '/Time_Cut_film_A.jpg',
+    video_url: 'https://hglink.to/pdfuxj9rji4z',
+    youtube_trailer_url: 'https://youtu.be/bIHnmssfi-A?si=2lFLjkyJzuBWPUYb'
+  },
 
-
+  {  
+    id: 's90',
+    title: "TIME CUT B",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/Time-cut.webp',
+    poster_url: '/Time-cut.webp',
+    image_url: '/Time-cut.webp',
+    video_url: 'https://hglink.to/6tdke5k1eild',
+    youtube_trailer_url: 'https://youtu.be/bIHnmssfi-A?si=2lFLjkyJzuBWPUYb'
+  },
 
 ];
 

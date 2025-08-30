@@ -38,7 +38,7 @@ const Home = () => {
       const merged = [...staticMovies, ...data.filter(m => !existingById.has(m.id))];
       setMovies(merged);
       setFilteredMovies(merged);
-      toast.success('Movies loaded successfully!');
+      // toast.success('Movies loaded successfully!');
     } catch (err) {
       console.error(err);
       const errorMessage =
@@ -49,7 +49,7 @@ const Home = () => {
           ? 'Filime ziryoshye zirikuza maze hashye.'
           : err.message || 'Failed to load movies.');
       setError(errorMessage);
-      toast.error(errorMessage);
+      toast.success(errorMessage);
     } finally {
       setLoading(false);
     }

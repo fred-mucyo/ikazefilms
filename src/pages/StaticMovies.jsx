@@ -40,7 +40,7 @@ const StaticMovies = () => {
                     <div className="movie-card-actions" style={{ marginTop: 8 }}>
                       {movie.video_url && (
                         <a href={movie.video_url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                          Watch Full Movie
+                         REBA FILM YOSE 
                         </a>
                       )}
                     </div>

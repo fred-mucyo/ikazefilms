@@ -74,11 +74,11 @@ const MovieCard = ({ movie }) => {
           <div className="movie-card-actions">
             {String(movie.id).startsWith('s') ? (
               <Link to={`/static-movie/${movie.id}`} className="btn btn-primary watch-full-btn">
-                Watch Movie
+              REBA FILIME
               </Link>
             ) : (
               <Link to={`/movie/${movie.id}`} className="btn btn-primary watch-full-btn">
-                Watch Movie
+               REBA FILIME YOSE
               </Link>
             )}
             {isAuthenticated && (

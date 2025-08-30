@@ -155,7 +155,7 @@ const MovieDetail = () => {
                   {movie.video_url && (
                     <>
                       <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary watch-btn">
-                        🎬 Watch Movie
+                        REBA FILM YOSE 
                       </button>
                       <a href={movie.video_url} download className="btn btn-secondary download-btn">
                         ⬇️ Download
