@@ -2,7 +2,66 @@
 // Keep this list small to ensure fast initial paint
 
 const staticMovies = [
+
+   {
+    id: 's90',
+    title: 'Straw A',
+    description: 'Straw is a 2025 drama film directed by Tyler Perry and starring Taraji P. Henson, about a desperate single mother, Janiyah, whose world unravels after a series of escalating misfortunes, culminating in a bank standoff.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/straw.webp',
+    poster_url: '/straw.webp',
+    image_url: '/straw.webp',
+    video_url: 'https://hglink.to/8ura1dtea1yy',
+    youtube_trailer_url: 'https://youtu.be/k1vWhii4tkE?si=RTSvjvhkx2M7MTm_'
+  },
+
   {
+    id: 's91',
+    title: 'Straw B',
+    description: 'Straw is a 2025 drama film directed by Tyler Perry and starring Taraji P. Henson, about a desperate single mother, Janiyah, whose world unravels after a series of escalating misfortunes, culminating in a bank standoff.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/straw.webp',
+    poster_url: '/straw.webp',
+    image_url: '/straw.webp',
+    video_url: 'https://hglink.to/j74rvb5zlyk0',
+    youtube_trailer_url: 'https://youtu.be/k1vWhii4tkE?si=RTSvjvhkx2M7MTm_'
+  },
+
+  {
+    id: 's92',
+    title: 'ACCIDENT MAN ASSASSINS HOLIDAY',
+    description: 'Mike Fallon (Scott Adkins) moves to Malta to decompress after the events of the first film and works as a freelance hitman, fighting martial artist Wong Siu-ling to stay sharp. He is drawn back into action when his mentor, Big Ray (Ray Stevenson), reveals   bar and needs help protecting his son and saving Finicky Fred, forcing Mike to take on the world',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/accident.jpg',
+    poster_url: '/accident.jpg',
+    image_url: '/accident.jpg',
+    video_url: 'https://hglink.to/iud4hpo2i5b2',
+    youtube_trailer_url: 'https://youtu.be/YGR4HVtNNYM?si=t-RT2zMnAIXGM_Hd'
+  },
+
+  {
+    id: 's93',
+    title: 'THE AGE OF ADALINE A',
+    description: ' ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/adeline.jpg',
+    poster_url: '/adeline.jpg',
+    image_url: '/adeline.jpg',
+    video_url: 'https://hglink.to/256vgg8bht9r',
+    youtube_trailer_url: 'https://youtu.be/7UzSekc0LoQ?si=StjTs8DespqhyzBq'
+  },
+
+  {
+
+    
     id: 's1',
     title: "Ballerina",
     description: 'Gripping stories at a glance.',
