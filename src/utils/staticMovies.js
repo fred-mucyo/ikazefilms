@@ -60,6 +60,20 @@ const staticMovies = [
   },
 
   {
+    id: 's94',
+    title: 'THE AGE OF ADALINE B',
+    description: ' ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/adeline.jpg',
+    poster_url: '/adeline.jpg',
+    image_url: '/adeline.jpg',
+    video_url: 'https://hglink.to/nl4kvb1ujbc9',
+    youtube_trailer_url: 'https://youtu.be/7UzSekc0LoQ?si=StjTs8DespqhyzBq'
+  },
+
+  {
 
     
     id: 's1',
