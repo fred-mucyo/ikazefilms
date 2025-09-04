@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import staticMovies from '../utils/staticMovies'
 import TrailerEmbed from '../components/TrailerEmbed'
+import Comments from '../components/Comments'
 import { truncateText, formatDate } from '../utils/api'
 import useSEO from "../hooks/useSeo.jsx"
 import './MovieDetail.css'
@@ -36,7 +37,9 @@ const StaticMovieDetail = () => {
             <div className="movie-detail-content">
               <div className="movie-info">
                 <h1 className="movie-title">{movie.title}</h1>
-                <p className="movie-description meta">{year}{movie.interpreter_name ? ` • ${movie.interpreter_name}` : ''}</p>
+                <p className="movie-description meta">
+                  {year}{movie.interpreter_name ? ` • ${movie.interpreter_name}` : ''}
+                </p>
                 {movie.description && <p className="movie-description">{movie.description}</p>}
 
                 {movie.youtube_trailer_url && (
@@ -53,8 +56,21 @@ const StaticMovieDetail = () => {
                 <div className="movie-actions">
                   {movie.video_url && (
                     <>
-                      <a href={movie.video_url} target="_blank" rel="noopener noreferrer" className="btn btn-primary">REBA FILM YOSE</a>
-                      <a href={movie.video_url} download className="btn btn-secondary">⬇️ Download</a>
+                      <a
+                        href={movie.video_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary"
+                      >
+                        REBA FILM YOSE
+                      </a>
+                      <a
+                        href={movie.download_url || movie.video_url}
+                        download
+                        className="btn btn-secondary"
+                      >
+                        ⬇️ Download
+                      </a>
                     </>
                   )}
                 </div>
@@ -68,22 +84,29 @@ const StaticMovieDetail = () => {
                   {(movie.is_popular || movie.is_featured) && (
                     <div className="detail-item badge-item">
                       <strong>Status:</strong>
-                      <span className="status-badge">{movie.is_popular ? '🔥 Popular' : '⭐ Featured'}</span>
+                      <span className="status-badge">
+                        {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+                      </span>
                     </div>
                   )}
                 </div>
+
+                <Comments movieId={movie.id} />
               </div>
 
               <aside className="right-panel">
                 <h3 className="right-panel-title">🔥 Popular Now</h3>
                 <div className="thumb-strip">
-                  {(staticMovies.filter(m => m.is_popular).slice(0, 6).length ? staticMovies.filter(m => m.is_popular).slice(0, 6) : staticMovies.slice(0, 6)).map(p => (
+                  {(staticMovies.filter(m => m.is_popular).slice(0, 6).length
+                    ? staticMovies.filter(m => m.is_popular).slice(0, 6)
+                    : staticMovies.slice(0, 6)
+                  ).map(p => (
                     <Link key={p.id} className="thumb-card" to={`/static-movie/${p.id}`} title={p.title}>
-                      <img 
-                        src={p.thumbnail_url || p.poster_url || p.image_url || '/hashye-preview.png'} 
-                        alt={p.title} 
+                      <img
+                        src={p.thumbnail_url || p.poster_url || p.image_url || '/hashye-preview.png'}
+                        alt={p.title}
                         loading="lazy"
-                        onError={(e)=>{e.currentTarget.src='/hashye-preview.png'}} 
+                        onError={(e) => { e.currentTarget.src = '/hashye-preview.png' }}
                       />
                       <div className="thumb-info">
                         <span className="thumb-title">{p.title}</span>
@@ -102,5 +125,3 @@ const StaticMovieDetail = () => {
 }
 
 export default StaticMovieDetail
-
-

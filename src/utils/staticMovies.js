@@ -1,6 +1,8 @@
 // Lightweight, on-site fallback movies rendered instantly while the backend loads
 // Keep this list small to ensure fast initial paint
 
+import { Download } from "lucide-react";
+
 const staticMovies = [
 
    {
@@ -14,6 +16,7 @@ const staticMovies = [
     poster_url: '/straw1.webp',
     image_url: '/straw1.webp',
     video_url: 'https://hglink.to/8ura1dtea1yy',
+    download_url: 'https://www.mediafire.com/file/3rgzcjhv5skdqrd/STRAW_A..mp4/file',
     youtube_trailer_url: 'https://youtu.be/k1vWhii4tkE?si=RTSvjvhkx2M7MTm_'
   },
 
