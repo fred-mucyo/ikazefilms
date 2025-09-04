@@ -46,6 +46,7 @@ const staticMovies = [
     poster_url: '/accident.jpg',
     image_url: '/accident.jpg',
     video_url: 'https://hglink.to/iud4hpo2i5b2',
+    download_url: 'https://www.mediafire.com/file/j6wkv3kcej9t010/ACCIDENT_MAN_ASSASSINS_HOLIDAY.mp4/file',
     youtube_trailer_url: 'https://youtu.be/YGR4HVtNNYM?si=t-RT2zMnAIXGM_Hd'
   },
 
@@ -60,6 +61,7 @@ const staticMovies = [
     poster_url: '/adeline.jpg',
     image_url: '/adeline.jpg',
     video_url: 'https://hglink.to/256vgg8bht9r',
+    download_url: 'https://www.mediafire.com/file/c3zp7yg07dbfz9y/THE_AGE_OF_ADALINE_A.mp4/file',
     youtube_trailer_url: 'https://youtu.be/7UzSekc0LoQ?si=StjTs8DespqhyzBq'
   },
 
@@ -74,6 +76,7 @@ const staticMovies = [
     poster_url: '/adeline.jpg',
     image_url: '/adeline.jpg',
     video_url: 'https://hglink.to/nl4kvb1ujbc9',
+    download_url: 'https://www.mediafire.com/file/ii2fdw0d0x37lis/THE_AGE_OF_ADALINE_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/7UzSekc0LoQ?si=StjTs8DespqhyzBq'
   },
 
