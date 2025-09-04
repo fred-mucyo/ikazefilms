@@ -94,7 +94,7 @@ const staticMovies = [
     poster_url: '/ballerinaOg.webp',
     image_url: '/ballerinaOg.webp',
     backdrop_url: '/ballerinaOg.webp',
- video_url: 'https://hglink.to/b9i9la0ewhjo',
+   video_url: 'https://hglink.to/b9i9la0ewhjo',
     youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
   },
   {
@@ -152,7 +152,7 @@ const staticMovies = [
     id: 's6',
     title: 'The Covenant War',
     description: 'High-energy picks to kick things off.',
-    interpreter_name: 'Action',
+    interpreter_name: 'Dylan',
     created_at: '2024-06-10T00:00:00.000Z',
     thumbnail_url: '/covenant.jpg',
     poster_url: '/covenant.jpg',
@@ -174,14 +174,29 @@ const staticMovies = [
   },
   {
     id: 's8',
-    title: '24 hours to live',
+    title: '24 hours to live A',
     description: 'Gripping stories at a glance.',
-    interpreter_name: 'Rocky',
+    interpreter_name: 'SAVIMBI',
     created_at: '2024-08-30T00:00:00.000Z',
     thumbnail_url: '/24hours.jpg',
     poster_url: '/24hours.jpg',
     image_url: '/24hours.jpg',
     video_url: 'https://hglink.to/tykqxwd3nkex',
+    download_url: 'https://www.mediafire.com/file/pm7k68hqp0kwqyi/24_HOURS_TO_LIVE_A_by_savimb.mp4/file',
+    youtube_trailer_url: 'https://www.youtube.com/watch?v=oHg5SJYRHA0'
+  },
+
+  {
+    id: 's8-',
+    title: '24 hours to live B',
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'SAVIMBI',
+    created_at: '2024-08-30T00:00:00.000Z',
+    thumbnail_url: '/24hours.jpg',
+    poster_url: '/24hours.jpg',
+    image_url: '/24hours.jpg',
+    video_url: 'https://hglink.to/tykqxwd3nkex',
+    download_url: 'https://www.mediafire.com/file/q0ul6eb9x9cyro6/24_HOURS_TO_LIVE_B_by_savimb.mp4/file',
     youtube_trailer_url: 'https://www.youtube.com/watch?v=oHg5SJYRHA0'
   },
 
