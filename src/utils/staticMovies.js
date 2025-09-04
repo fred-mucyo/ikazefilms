@@ -31,6 +31,7 @@ const staticMovies = [
     poster_url: '/straw1.webp',
     image_url: '/straw1.webp',
     video_url: 'https://hglink.to/j74rvb5zlyk0',
+    download_url: 'https://www.mediafire.com/file/8cu33ck3lqmjops/STRAW_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/k1vWhii4tkE?si=RTSvjvhkx2M7MTm_'
   },
 
