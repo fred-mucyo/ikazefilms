@@ -3,10 +3,10 @@ import { FileText } from "lucide-react";
 import "./LegalPages.css";
 
 const CONFIG = {
-  appName: "Hashye",
+  appName: "Hashye.online",
   contactEmail: "hashyeonline@gmail.com",
   effectiveDate: "August 20, 2025",
-  companyName: "Hashye",
+  companyName: "Hashye.online",
   jurisdiction: "Rwanda",
   arbitrationVenue: "Kigali, Rwanda",
 };
@@ -56,8 +56,6 @@ export default function TermsOfService() {
             <p>{C.companyName} is not liable for indirect or consequential damages.</p>
             <h2>8. Termination</h2>
             <p>We may suspend/terminate accounts if rules are broken.</p>
-            <h2>9. Governing Law</h2>
-            <p>These Terms are governed by {C.jurisdiction}, venue {C.arbitrationVenue}.</p>
             <h2>10. Contact</h2>
             <p>Email: <a href={`mailto:${C.contactEmail}`}>{C.contactEmail}</a></p>
           </section>

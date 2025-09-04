@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react'
-import { useAuth } from '../context/AuthContext'
 import { formatDate } from '../utils/api'
 import './Comments.css'
 
 const Comments = ({ movieId }) => {
-  const { isAuthenticated, user } = useAuth()
   const [comments, setComments] = useState([])
   const [newComment, setNewComment] = useState('')
+  const [usernameInput, setUsernameInput] = useState('')
   const [rating, setRating] = useState(5)
   const [loading, setLoading] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
-  // Get comments from localStorage
+  const guestId = React.useMemo(() => 'guest_' + Date.now() + '_' + Math.floor(Math.random() * 1000), [])
+
   const getCommentsFromStorage = () => {
     try {
       const storedComments = localStorage.getItem(`movie_comments_${movieId}`)
@@ -22,7 +22,6 @@ const Comments = ({ movieId }) => {
     }
   }
 
-  // Save comments to localStorage
   const saveCommentsToStorage = (commentsList) => {
     try {
       localStorage.setItem(`movie_comments_${movieId}`, JSON.stringify(commentsList))
@@ -31,34 +30,25 @@ const Comments = ({ movieId }) => {
     }
   }
 
-  // Initialize sample comments if none exist
   const initializeSampleComments = () => {
     const existingComments = getCommentsFromStorage()
     if (existingComments.length === 0) {
       const sampleComments = [
         {
           id: Date.now() + 1,
-          text: "This movie was absolutely amazing! The storyline was captivating and the acting was top-notch. Highly recommend!",
+          text: "Uduhe part 2",
           rating: 5,
-          username: "MovieLover123",
-          created_at: new Date(Date.now() - 86400000).toISOString(), // 1 day ago
+          username: "KAMI",
+          created_at: new Date(Date.now() - 86400000).toISOString(),
           user_id: "sample_user_1"
         },
         {
           id: Date.now() + 2,
-          text: "Really enjoyed this one. Great cinematography and the soundtrack was perfect. Will definitely watch again!",
+          text: "Really enjoyed this one.",
           rating: 4,
-          username: "CinemaFan",
-          created_at: new Date(Date.now() - 172800000).toISOString(), // 2 days ago
+          username: "Alex",
+          created_at: new Date(Date.now() - 172800000).toISOString(),
           user_id: "sample_user_2"
-        },
-        {
-          id: Date.now() + 3,
-          text: "Solid performance all around. The plot was well-developed and kept me engaged throughout. Worth watching!",
-          rating: 4,
-          username: "FilmCritic",
-          created_at: new Date(Date.now() - 259200000).toISOString(), // 3 days ago
-          user_id: "sample_user_3"
         }
       ]
       saveCommentsToStorage(sampleComments)
@@ -86,49 +76,40 @@ const Comments = ({ movieId }) => {
 
   const handleSubmitComment = async (e) => {
     e.preventDefault()
-    if (!newComment.trim() || !isAuthenticated) return
+    if (!newComment.trim()) return
 
     setSubmitting(true)
     try {
       const newCommentObj = {
-        id: Date.now() + Math.random(), // Generate unique ID
+        id: Date.now() + Math.random(),
         text: newComment.trim(),
         rating: rating,
-        username: user?.username || 'Anonymous',
+        username: usernameInput.trim(),
         created_at: new Date().toISOString(),
-        user_id: user?.id || 'anonymous'
+        user_id: guestId
       }
-      
+
       const updatedComments = [newCommentObj, ...comments]
       setComments(updatedComments)
       saveCommentsToStorage(updatedComments)
-      
+
       setNewComment('')
+      setUsernameInput('')
       setRating(5)
-      
-      // Show success message
-      alert('Comment added successfully!')
     } catch (error) {
       console.error('Error adding comment:', error)
-      alert('Failed to add comment. Please try again.')
     } finally {
       setSubmitting(false)
     }
   }
 
   const handleDeleteComment = async (commentId) => {
-    if (!isAuthenticated) return
-    
-    if (!confirm('Are you sure you want to delete this comment?')) return
-    
     try {
       const updatedComments = comments.filter(c => c.id !== commentId)
       setComments(updatedComments)
       saveCommentsToStorage(updatedComments)
-      alert('Comment deleted successfully!')
     } catch (error) {
       console.error('Error deleting comment:', error)
-      alert('Failed to delete comment. Please try again.')
     }
   }
 
@@ -173,67 +154,64 @@ const Comments = ({ movieId }) => {
   return (
     <div className="comments-section">
       <h3>💬 Comments ({comments.length})</h3>
-      
-      {/* Add Comment Form */}
-      {isAuthenticated ? (
-        <form onSubmit={handleSubmitComment} className="comment-form">
-          <div className="comment-input-group">
-            {renderRatingSelector()}
-            <textarea
-              value={newComment}
-              onChange={(e) => setNewComment(e.target.value)}
-              placeholder="Share your thoughts about this movie..."
-              rows="3"
-              maxLength="500"
-              disabled={submitting}
-              required
-            />
-            <div className="comment-form-footer">
-              <span className="char-count">
-                {newComment.length}/500
-              </span>
-              <button 
-                type="submit" 
-                className="btn btn-primary"
-                disabled={!newComment.trim() || submitting}
-              >
-                {submitting ? (
-                  <>
-                    <span className="spinner spinner-sm"></span>
-                    Posting...
-                  </>
-                ) : (
-                  'Post Comment'
-                )}
-              </button>
-            </div>
-          </div>
-        </form>
-      ) : (
-        <div className="login-prompt">
-          <p>Please <a href="/login">login</a> to leave a comment</p>
-        </div>
-      )}
 
-      {/* Comments List */}
+      <form onSubmit={handleSubmitComment} className="comment-form">
+        <div className="comment-input-group">
+          <input
+            type="text"
+            value={usernameInput}
+            onChange={(e) => setUsernameInput(e.target.value)}
+            placeholder="Shyiramo izina ryawe (optional)"
+            maxLength="50"
+            disabled={submitting}
+            className="username-input"
+          />
+          {renderRatingSelector()}
+          <textarea
+            value={newComment}
+            onChange={(e) => setNewComment(e.target.value)}
+            placeholder="Gira icyo uvuaga kuri iyi Filime..."
+            rows="3"
+            maxLength="500"
+            disabled={submitting}
+            required
+          />
+          <div className="comment-form-footer">
+            <span className="char-count">{newComment.length}/500</span>
+            <button
+              type="submit"
+              className="btn btn-primary"
+              disabled={!newComment.trim() || submitting}
+            >
+              {submitting ? (
+                <>
+                  <span className="spinner spinner-sm"></span>
+                  Posting...
+                </>
+              ) : (
+                'Post Comment'
+              )}
+            </button>
+          </div>
+        </div>
+      </form>
+
       <div className="comments-list">
         {comments.length === 0 ? (
           <div className="no-comments">
-            <p>No comments yet. Be the first to share your thoughts!</p>
+            <p>Ba umbwere!! wandika comment 😁</p>
           </div>
         ) : (
           comments.map(comment => (
             <div key={comment.id} className="comment-item">
               <div className="comment-header">
                 <div className="comment-user-info">
-                  <span className="comment-username">{comment.username}</span>
+                  <span className="comment-username">{comment.username || ''}</span>
                   <span className="comment-rating">{renderStars(comment.rating)}</span>
                 </div>
                 <div className="comment-actions">
-                  <span className="comment-date">
-                    {formatDate(comment.created_at)}
-                  </span>
-                  {isAuthenticated && (user?.username === comment.username || user?.role === 'admin') && (
+                  <span className="comment-date">{formatDate(comment.created_at)}</span>
+                  {comment.user_id === guestId && (
                     <button
                       onClick={() => handleDeleteComment(comment.id)}
                       className="delete-comment-btn"
@@ -244,9 +222,7 @@ const Comments = ({ movieId }) => {
                   )}
                 </div>
               </div>
-              <div className="comment-text">
-                {comment.text}
-              </div>
+              <div className="comment-text">{comment.text}</div>
             </div>
           ))
         )}

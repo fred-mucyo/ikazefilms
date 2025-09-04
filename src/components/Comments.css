@@ -319,6 +319,21 @@
   border-width: 1.5px;
 }
 
+.username-input {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.username-input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
