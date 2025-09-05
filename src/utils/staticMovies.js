@@ -81,6 +81,36 @@ const staticMovies = [
   },
 
   {
+    id: 's95',
+    title: 'NOBODY 1 A',
+    description: ' ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    video_url: 'https://hglink.to/exu1007iflaf',
+    download_url: 'https://www.mediafire.com/file/es0031nji6afht0/NOBODY_PART_1-.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
+  },
+
+  {
+    id: 's96',
+    title: 'NOBODY 1 B',
+    description: ' ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    video_url: 'https://hglink.to/3b8btfc8dnax',
+    download_url: 'https://www.mediafire.com/file/9hb4qxa7q0lol4b/NOBODY_PART_1_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
+  },
+
+  {
     id: 's1',
     title: "Ballerina",
     description: 'Gripping stories at a glance.',
