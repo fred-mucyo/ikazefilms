@@ -41,7 +41,7 @@ const staticMovies = [
     description: 'Mike Fallon (Scott Adkins) moves to Malta to decompress after the events of the first film and works as a freelance hitman, fighting martial artist Wong Siu-ling to stay sharp. He is drawn back into action when his mentor, Big Ray (Ray Stevenson), reveals   bar and needs help protecting his son and saving Finicky Fred, forcing Mike to take on the world',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
+    is_popular: false,
     thumbnail_url: '/accident.jpg',
     poster_url: '/accident.jpg',
     image_url: '/accident.jpg',
@@ -81,15 +81,13 @@ const staticMovies = [
   },
 
   {
-
-    
     id: 's1',
     title: "Ballerina",
     description: 'Gripping stories at a glance.',
     interpreter_name: 'Rocky',
     created_at: '2025-01-01T00:00:00.000Z',
-    is_popular: true,
-    is_featured: true,
+    is_popular: false,
+    is_featured: false,
     thumbnail_url: '/ballerinaOg.webp',
     poster_url: '/ballerinaOg.webp',
     image_url: '/ballerinaOg.webp',
@@ -97,6 +95,44 @@ const staticMovies = [
    video_url: 'https://hglink.to/b9i9la0ewhjo',
     youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
   },
+
+  {
+
+    
+    id: 's1+',
+    title: "NOBODY 2 A",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'Rocky',
+    created_at: '2025-01-01T00:00:00.000Z',
+    is_popular: true,
+    is_featured: true,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    backdrop_url: 'nobody.webp',
+    video_url: 'https://hglink.to/23c6gz2rsc81',
+    download_url: 'https://www.mediafire.com/file/qdpr84agqrv8ar1/NOBODY_PART_2_A.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/-5X2pt95cIo?si=th6aaMtfv1kHhdLL'
+  },
+
+  {
+    id: 's1++',
+    title: "NOBODY 2 B",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'Rocky',
+    created_at: '2025-01-01T00:00:00.000Z',
+    is_popular: true,
+    is_featured: false,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    backdrop_url: 'nobody.webp',
+    video_url: 'https://hglink.to/4wwi6mbwr80y',
+    download_url: 'https://www.mediafire.com/file/d5lq25ffmv8f2e6/NOBODY_PART_2_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/-5X2pt95cIo?si=th6aaMtfv1kHhdLL'
+  },
+
+
   {
     id: 's2',
     title: 'The working man',
@@ -211,6 +247,7 @@ const staticMovies = [
     poster_url: '/war1.jpeg',
     image_url: '/war1.jpeg',
     video_url: 'https://hglink.to/e/o1whn7yf520u',
+    download_url: 'https://www.mediafire.com/file/wkk5mk0tsouixf7/1.HORSEWAR_ONE.mp4/file',
     youtube_trailer_url: 'https://www.youtube.com/watch?v=oHg5SJYRHA0'
   },
 
