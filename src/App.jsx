@@ -13,7 +13,7 @@ import StaticMovies from './pages/StaticMovies'
 import Watchlist from './pages/Watchlist'
 import Profile from './pages/Profile'
 import ChangePassword from './pages/ChangePassword'
-import AnalyticsTracker from './components/analyiticTracker'
+import AnalyticsTracker from './components/AnalyticsTracker'
 
 
 import TermsOfService from "./LegalPages/TermsOfServices";

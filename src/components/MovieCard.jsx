@@ -42,7 +42,7 @@ const MovieCard = ({ movie }) => {
     handleNavigationWithSearchClear(`/movie/${movie.id}`)
   }
 
-  const defaultThumbnail = 'https://via.placeholder.com/300x450/1a1a2e/ffffff?text=Movie'
+  const defaultThumbnail = 'https://imgur.com/a/0ajDIYU'
 
   const getThumbnailUrl = () => {
     const thumbnail = movie.thumbnail_url || 

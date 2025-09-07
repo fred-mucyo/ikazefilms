@@ -5,6 +5,115 @@ import { Download } from "lucide-react";
 
 const staticMovies = [
 
+    {
+    id: 's95',
+    title: 'NOBODY 1 A',
+    description: 'Amazing movie Ntigucike😊',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    video_url: 'https://hglink.to/exu1007iflaf',
+    download_url: 'https://www.mediafire.com/file/es0031nji6afht0/NOBODY_PART_1-.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
+  },
+
+
+     {
+    id: '109',
+    title: 'JAAT B',
+    description: 'NTUCIKWE NIYI..😊 ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/jaat.jpg',
+    poster_url: '/jaat.jpg',
+    image_url: '/jaat.jpg',
+    download_url: 'https://www.mediafire.com/file/5h0qrz716hsbuas/JAAT_B__.mp4/file',
+    video_url: 'https://hglink.to/yitye7l68wh5',
+    youtube_trailer_url: 'https://youtu.be/-I5kX9b9rGc?si=6SCcEPq8G2jkpH7w'
+  },
+  
+    {
+    id: 's96',
+    title: 'NOBODY 1 B',
+    description: 'Ntigucike...😁 ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: 'nobody.webp',
+    poster_url: 'nobody.webp',
+    image_url: 'nobody.webp',
+    video_url: 'https://hglink.to/3b8btfc8dnax',
+    download_url: 'https://www.mediafire.com/file/9hb4qxa7q0lol4b/NOBODY_PART_1_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
+  },
+
+
+    {
+    id: '108',
+    title: 'Working man B',
+    description: 'Working Man (2019) is a poignant American drama directed by Robert Jury, exploring themes of identity, purpose, and community in the face of economic hardship.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/workingman.jpeg',
+    poster_url: '/workingman.jpeg',
+    image_url: '/workingman.jpeg',
+    download_url: 'https://www.mediafire.com/file/zusyab9bl6e1x73/A_WORKING_MAN_B.mp4/file',
+    video_url: 'https://hglink.to/dy1somwlbv6e',
+    youtube_trailer_url: 'https://youtu.be/zTbgNC42Ops?si=WDAYyrpAC6Ea7hXi'
+  },
+
+   {
+    id: '107',
+    title: 'WAR C',
+    description: 'War is a high-octane Indian action-thriller directed by Siddharth Anand, starring Hrithik Roshan and Tiger Shroff. The film follows Major Kabir Dhaliwal, a skilled Indian intelligence officer who goes rogue after a mission to capture a terrorist goes awry.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/downloadwar.jpg',
+    poster_url: '/waeposter.jpg',
+    image_url: '/waeposter.jpg',
+    download_url: 'https://www.mediafire.com/file/znoti3fiwpwl9n6/War_C_Hd.mp4/file',
+    video_url: 'https://hglink.to/lpnx8y0tlauy',
+    youtube_trailer_url: 'https://youtu.be/oGneAab3e88?si=Zbnw611-U7AT8g43'
+  },
+
+  {
+    id: '106',
+    title: 'WAR B',
+    description: 'War is a high-octane Indian action-thriller directed by Siddharth Anand, starring Hrithik Roshan and Tiger Shroff. The film follows Major Kabir Dhaliwal, a skilled Indian intelligence officer who goes rogue after a mission to capture a terrorist goes awry.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/downloadwar.jpg',
+    poster_url: '/waeposter.jpg',
+    image_url: '/waeposter.jpg',
+    download_url: 'https://www.mediafire.com/file/ft5vhwsjq2h3ha9/War_India_B.mp4/file',
+    video_url: 'https://hglink.to/1gnxdc3i2v5a',
+    youtube_trailer_url: 'https://youtu.be/oGneAab3e88?si=Zbnw611-U7AT8g43'
+  },
+
+
+
+  {
+    id: '105',
+    title: 'WAR A',
+    description: 'War is a high-octane Indian action-thriller directed by Siddharth Anand, starring Hrithik Roshan and Tiger Shroff. The film follows Major Kabir Dhaliwal, a skilled Indian intelligence officer who goes rogue after a mission to capture a terrorist goes awry.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/downloadwar.jpg',
+    poster_url: '/waeposter.jpg',
+    image_url: '/waeposter.jpg',
+    download_url: 'https://www.mediafire.com/file/v8h5xa9j908244w/War_India_A.mp4/file',
+    video_url: 'https://hglink.to/l3by3hukovfh',
+    youtube_trailer_url: 'https://youtu.be/oGneAab3e88?si=Zbnw611-U7AT8g43'
+  },
+
 
 
 
@@ -19,8 +128,8 @@ const staticMovies = [
     thumbnail_url: '/ballerinaOg.webp',
     poster_url: '/ballerinaOg.webp',
     image_url: '/ballerinaOg.webp',
+    download_url:'https://www.mediafire.com/file/3inbvghuysxj50j/BALLERINA_B.mp4/ilef',
     video_url: 'https://hglink.to/jznrgf4v9wry',
-    download_url: 'https://www.mediafire.com/file/3inbvghuysxj50j/BALLERINA_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/b9Rr9ygb-ac?si=PdIj9yTEpt4gIeqd'
   },
 
@@ -35,7 +144,8 @@ const staticMovies = [
     poster_url: '/straw1.webp',
     image_url: '/straw1.webp',
     video_url: 'https://hglink.to/8ura1dtea1yy',
-    download_url: 'https://www.mediafire.com/file/3rgzcjhv5skdqrd/STRAW_A..mp4/file',
+
+    download_url: 'https://www.mediafire.com/file/8cu33ck3lqmjops/STRAW_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/k1vWhii4tkE?si=RTSvjvhkx2M7MTm_'
   },
 
@@ -99,35 +209,8 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/7UzSekc0LoQ?si=StjTs8DespqhyzBq'
   },
 
-  {
-    id: 's95',
-    title: 'NOBODY 1 A',
-    description: ' ',
-    interpreter_name: 'Rocky',
-    created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
-    thumbnail_url: 'nobody.webp',
-    poster_url: 'nobody.webp',
-    image_url: 'nobody.webp',
-    video_url: 'https://hglink.to/exu1007iflaf',
-    download_url: 'https://www.mediafire.com/file/es0031nji6afht0/NOBODY_PART_1-.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
-  },
 
-  {
-    id: 's96',
-    title: 'NOBODY 1 B',
-    description: ' ',
-    interpreter_name: 'Rocky',
-    created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
-    thumbnail_url: 'nobody.webp',
-    poster_url: 'nobody.webp',
-    image_url: 'nobody.webp',
-    video_url: 'https://hglink.to/3b8btfc8dnax',
-    download_url: 'https://www.mediafire.com/file/9hb4qxa7q0lol4b/NOBODY_PART_1_B.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB'
-  },
+
 
   {
     id: 's1',
@@ -142,7 +225,7 @@ const staticMovies = [
     image_url: '/ballerinaOg.webp',
     backdrop_url: '/ballerinaOg.webp',
    video_url: 'https://hglink.to/b9i9la0ewhjo',
-    youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
+  youtube_trailer_url: 'https://youtu.be/0FSwsrFpkbw?si=_1SY_posJ_tpXjQk'
   },
 
   {
@@ -198,7 +281,7 @@ const staticMovies = [
   },
   {
     id: 's3',
-    title: 'JAAT',
+    title: 'JAAT A',
     description: 'A fresh indian movie.',
     interpreter_name: 'Rocky',
     created_at: '2024-03-20T00:00:00.000Z',
@@ -206,6 +289,7 @@ const staticMovies = [
     thumbnail_url: '/jaat.jpg',
     poster_url: '/jaat.jpg',
     image_url: '/jaat.jpg',
+    download_url:'https://www.mediafire.com/file/c8c97xxapoi6urx/JAAT_A.mp4/file',
     video_url: 'https://hglink.to/957165f3cx4s',
     youtube_trailer_url: 'https://youtu.be/-I5kX9b9rGc?si=xCeJqxK9vCsOJ8nG'
   },
@@ -706,7 +790,7 @@ const staticMovies = [
 
   {
     id: 's41',
-    title: "Heads of State",
+    title: "Heads of State A",
     description: 'Gripping stories at a glance.',
     interpreter_name: 'ROCKY',
     created_at: '2025-08-30T00:00:00.000Z',
@@ -715,8 +799,26 @@ const staticMovies = [
     poster_url: '/heads.jpg',
     image_url: '/heads.jpg',
     video_url: 'https://hglink.to/i6331zcdqx8n',
+    download_url:'https://www.mediafire.com/file/j7bc59ac7zmwm2f/HEADS_OF_STATE_A.mp4/file',
     youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
   },
+
+  {
+    id: 's41 headsB',
+    title: "Heads of State B",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-08-30T00:00:00.000Z',
+     is_popular: true,
+    thumbnail_url: '/heads.jpg',
+    poster_url: '/heads.jpg',
+    image_url: '/heads.jpg',
+    video_url: 'https://hglink.to/i6331zcdqx8n',
+    download_url:'https://www.mediafire.com/file/96b2klf0r9mnt9o/HEADS_OF_STATE_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
+
+
 
   {
     id: 's42',

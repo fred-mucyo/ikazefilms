@@ -67,7 +67,7 @@ const MovieDetail = () => {
     window.open(url, '_blank', 'noopener,noreferrer')
   }
 
-  const defaultThumbnail = 'https://via.placeholder.com/400x600/1a1a2e/ffffff?text=Movie'
+  const defaultThumbnail = 'https://imgur.com/a/0ajDIYU'
   const getThumbnail = (m) => m.thumbnail_url || m.poster_url || m.image_url || defaultThumbnail
 
   if (loading) {
@@ -157,10 +157,12 @@ const MovieDetail = () => {
                       <button onClick={() => openExternal(movie.video_url)} className="btn btn-primary watch-btn">
                         REBA FILM YOSE 
                       </button>
-                      <a href={movie.video_url} download className="btn btn-secondary download-btn">
+                      <a href={movie.download_url || movie.video_url} download className="btn btn-secondary download-btn">
                         ⬇️ Download
                       </a>
                     </>
+
+                    // btn btn-secondary download-btn
                   )}
                   {isAuthenticated && (
                     <button

@@ -36,9 +36,9 @@ const FeaturedHero = ({ movies = [] }) => {
                 WATCH FULL MOVIE
               </a>
             )}
-            {featured.video_url && (
+            {featured.download_url && (
               <a
-                href={featured.video_url}
+                href={featured.download_url}
                 download
                 className="btn-secondary-cta"
               >
