@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './context/AuthContext'
 import { WatchlistProvider } from './context/WatchlistContext'
-import { AdminProvider } from './context/AdminContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -14,9 +13,6 @@ import StaticMovies from './pages/StaticMovies'
 import Watchlist from './pages/Watchlist'
 import Profile from './pages/Profile'
 import ChangePassword from './pages/ChangePassword'
-import AdminLogin from './pages/AdminLogin'
-import AdminDashboard from './pages/AdminDashboard'
-import ProtectedAdminRoute from './components/ProtectedAdminRoute'
 
 
 import TermsOfService from "./LegalPages/TermsOfServices";
@@ -27,8 +23,7 @@ function App() {
   return (
     <AuthProvider>
       <WatchlistProvider>
-        <AdminProvider>
-          <Router>
+        <Router>
             <div className="App">
   
 
@@ -45,15 +40,6 @@ function App() {
                   <Route path="/watchlist" element={<Watchlist />} />
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/change-password" element={<ChangePassword />} />
-                  <Route path="/admin/login" element={<AdminLogin />} />
-                  <Route 
-                    path="/admin/dashboard" 
-                    element={
-                      <ProtectedAdminRoute>
-                        <AdminDashboard />
-                      </ProtectedAdminRoute>
-                    } 
-                  />
 
 
 
@@ -64,7 +50,6 @@ function App() {
               <Footer />
             </div>
           </Router>
-        </AdminProvider>
       </WatchlistProvider>
     </AuthProvider>
   )

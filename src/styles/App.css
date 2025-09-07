@@ -7,7 +7,7 @@
 
 .main-content {
   flex: 1;
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 100px; /* Account for fixed navbar with extra spacing */
   padding-bottom: 40px; /* Space for footer */
 }
 
@@ -37,14 +37,14 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .main-content {
-    padding-top: 70px;
+    padding-top: 90px; /* Extra spacing for mobile navbar */
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .main-content {
-    padding-top: 60px;
+    padding-top: 80px; /* Extra spacing for small mobile navbar */
     padding-bottom: 24px;
   }
 }

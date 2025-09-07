@@ -14,10 +14,11 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const CONFIG = {
-  baseUrl: 'http://localhost:5173', // Update this for production
-  outputDir: 'public',
+  baseUrl: 'https://hashye.online', // Updated for production
+  outputDir: 'dist',
   includeRobotsTxt: true,
   includeMovieRoutes: true,
+  includeStaticMovies: true,
   apiUrl: 'http://localhost:5012/api' // Update this for production
 };
 
@@ -76,6 +77,12 @@ const STATIC_ROUTES = [
     priority: '0.4',
     changefreq: 'yearly',
     lastmod: new Date().toISOString().split('T')[0]
+  },
+  {
+    path: '/static-movie',
+    priority: '0.9',
+    changefreq: 'weekly',
+    lastmod: new Date().toISOString().split('T')[0]
   }
 ];
 
@@ -116,6 +123,43 @@ function generateMovieRoutes(movieIds) {
   }));
 }
 
+// Function to generate static movie routes
+function generateStaticMovieRoutes() {
+  if (!CONFIG.includeStaticMovies) {
+    console.log('⚠️  Static movie routes disabled in config');
+    return [];
+  }
+
+  try {
+    // Import static movies data
+    const staticMoviesPath = path.join(__dirname, 'src', 'utils', 'staticMovies.js');
+    const staticMoviesContent = fs.readFileSync(staticMoviesPath, 'utf8');
+    
+    // Extract movie IDs from the static movies file
+    const movieIdMatches = staticMoviesContent.match(/id:\s*['"`]([^'"`]+)['"`]/g);
+    if (!movieIdMatches) {
+      console.log('⚠️  No static movie IDs found');
+      return [];
+    }
+    
+    const movieIds = movieIdMatches.map(match => 
+      match.replace(/id:\s*['"`]/, '').replace(/['"`]/, '')
+    );
+    
+    console.log(`✅ Found ${movieIds.length} static movies`);
+    
+    return movieIds.map(id => ({
+      path: `/static-movie/${id}`,
+      priority: '0.9',
+      changefreq: 'weekly',
+      lastmod: new Date().toISOString().split('T')[0]
+    }));
+  } catch (error) {
+    console.warn(`⚠️  Could not read static movies: ${error.message}`);
+    return [];
+  }
+}
+
 // Function to generate sitemap XML
 function generateSitemapXML(routes, baseUrl) {
   const xmlHeader = '<?xml version="1.0" encoding="UTF-8"?>';
@@ -154,6 +198,7 @@ Disallow: /api/
 # Allow public routes
 Allow: /
 Allow: /movie/
+Allow: /static-movie/
 Allow: /watchlist
 Allow: /profile
 Allow: /terms
@@ -181,7 +226,8 @@ async function main() {
     // Fetch movie IDs and generate all routes
     const movieIds = await fetchMovieIds();
     const movieRoutes = generateMovieRoutes(movieIds);
-    const allRoutes = [...STATIC_ROUTES, ...movieRoutes];
+    const staticMovieRoutes = generateStaticMovieRoutes();
+    const allRoutes = [...STATIC_ROUTES, ...movieRoutes, ...staticMovieRoutes];
     
     // Generate sitemap XML
     const sitemapContent = generateSitemapXML(allRoutes, CONFIG.baseUrl);
@@ -190,7 +236,7 @@ async function main() {
     const sitemapPath = path.join(outputPath, 'sitemap.xml');
     fs.writeFileSync(sitemapPath, sitemapContent, 'utf8');
     console.log(`✅ Sitemap generated: ${sitemapPath}`);
-    console.log(`📊 Total URLs: ${allRoutes.length} (${STATIC_ROUTES.length} static + ${movieRoutes.length} movies)`);
+    console.log(`📊 Total URLs: ${allRoutes.length} (${STATIC_ROUTES.length} static + ${movieRoutes.length} movies + ${staticMovieRoutes.length} static movies)`);
     
     // Generate robots.txt if enabled
     if (CONFIG.includeRobotsTxt) {
@@ -215,6 +261,16 @@ async function main() {
       });
       if (movieRoutes.length > 5) {
         console.log(`  ... and ${movieRoutes.length - 5} more movie routes`);
+      }
+    }
+    
+    if (staticMovieRoutes.length > 0) {
+      console.log('\n🎭 Static Movie Routes:');
+      staticMovieRoutes.slice(0, 5).forEach(route => {
+        console.log(`  ${route.path} (Priority: ${route.priority}, Change: ${route.changefreq})`);
+      });
+      if (staticMovieRoutes.length > 5) {
+        console.log(`  ... and ${staticMovieRoutes.length - 5} more static movie routes`);
       }
     }
     

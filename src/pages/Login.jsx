@@ -45,7 +45,7 @@ const Login = () => {
     setSubmitError('')
     try {
       const result = await login(formData.username, formData.password)
-      if (result.success) navigate('/')
+      if (result.success) navigate('/', { replace: true })
       else setSubmitError(result.error)
     } catch {
       setSubmitError('An unexpected error occurred. Please try again.')

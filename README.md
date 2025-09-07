@@ -1,17 +1,18 @@
 # Movie Frontend Application
 
-A modern, responsive movie streaming web application built with React and Vite, featuring a beautiful dark theme and seamless integration with a Node.js backend.
+A modern, responsive movie streaming web application built with React and Vite, featuring a beautiful dark theme and **fully frontend-dependent** architecture. No backend required!
 
 ## 🚀 Features
 
 - **Modern UI/UX**: Beautiful dark theme with gradient accents and smooth animations
 - **Responsive Design**: Fully responsive layout that works on all devices
-- **User Authentication**: Secure login and registration system
+- **User Authentication**: Frontend-only login and registration system using localStorage
 - **Movie Management**: Browse, search, and manage your movie collection
-- **Watchlist**: Add/remove movies to your personal watchlist
+- **Watchlist**: Add/remove movies to your personal watchlist (stored locally)
 - **Video Streaming**: Watch movies directly in the browser
-- **Profile Management**: Edit your profile information
+- **Profile Management**: Edit your profile information (stored locally)
 - **Real-time Search**: Instant search functionality across movies
+- **Lightweight**: No backend dependencies, runs entirely in the browser
 
 ## 🛠️ Tech Stack
 
@@ -19,8 +20,8 @@ A modern, responsive movie streaming web application built with React and Vite, 
 - **Styling**: CSS3 with custom design system
 - **State Management**: React Context API
 - **Routing**: React Router DOM
-- **HTTP Client**: Fetch API with custom utilities
-- **Authentication**: JWT tokens
+- **Data Storage**: localStorage for user data and watchlists
+- **Authentication**: Frontend-only with localStorage
 - **Responsive Design**: CSS Grid, Flexbox, Media Queries
 
 ## 📁 Project Structure
@@ -91,13 +92,9 @@ src/
 
 ## 🔧 Configuration
 
-### Environment Variables
+### No Backend Required!
 
-Create a `.env` file in the root directory:
-
-```env
-VITE_API_BASE_URL=https://your-backend-url.onrender.com/api
-```
+This application is **fully frontend-dependent** and requires no backend server. All data is stored locally in the browser using localStorage.
 
 ### Sitemap Generation
 
@@ -109,23 +106,17 @@ The project includes **enhanced sitemap generation** for comprehensive SEO optim
   - `public/robots.txt` - Search engine directives
 - **Routes Included**: 
   - **Static Routes**: Home, login, register, watchlist, profile, etc.
-  - **Dynamic Routes**: All movie pages (`/movie/:id`) automatically fetched from API
+  - **Dynamic Routes**: All movie pages (`/movie/:id`) from static movie data
 - **SEO Optimized**: Follows sitemap protocol standards with proper XML formatting
 - **Smart Priorities**: Homepage (1.0), movies (0.9), user features (0.7-0.9), legal pages (0.4)
 
 **Features:**
-- ✅ **113+ movie routes** automatically included
-- ✅ **Real-time API integration** to fetch latest movie data
+- ✅ **113+ movie routes** automatically included from static data
+- ✅ **No API dependencies** - uses static movie data
 - ✅ **Configurable priorities** and change frequencies
-- ✅ **Production-ready** with environment-based configuration
+- ✅ **Production-ready** with static data configuration
 
 **Note**: Update the configuration in `sitemap.config.js` before deploying to production.
-
-**Replace `your-backend-url` with your actual backend URL from Render.**
-
-### Backend Integration
-
-The frontend is configured to work with the movie backend API. Ensure your backend is running and accessible at the configured URL.
 
 ## 🎨 Design System
 
@@ -159,11 +150,11 @@ The application is fully responsive and optimized for:
 
 ## 🔐 Authentication
 
-- JWT-based authentication
-- Secure token storage
+- Frontend-only authentication using localStorage
+- Secure local token storage
 - Protected routes
-- Automatic token refresh
 - User session management
+- No server dependencies
 
 ## 🎬 Movie Features
 

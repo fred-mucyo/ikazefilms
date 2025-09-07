@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react'
 import { useAuth } from './AuthContext'
-import { API_BASE_URL } from '../utils/api'
+import staticMovies from '../utils/staticMovies'
 
 const WatchlistContext = createContext()
 
@@ -17,31 +17,28 @@ export const useWatchlist = () => {
 export const WatchlistProvider = ({ children }) => {
   const [watchlist, setWatchlist] = useState([])
   const [loading, setLoading] = useState(false)
-  const { token, isAuthenticated } = useAuth()
+  const { user, isAuthenticated } = useAuth()
 
   useEffect(() => {
-    if (isAuthenticated) {
+    if (isAuthenticated && user) {
       fetchWatchlist()
     } else {
       setWatchlist([])
     }
-  }, [isAuthenticated])
+  }, [isAuthenticated, user])
 
   const fetchWatchlist = async () => {
-    if (!token) return
+    if (!user) return
     
     setLoading(true)
     try {
-      const response = await fetch(`${API_BASE_URL}/watchlist`, {
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      })
+      const userWatchlist = JSON.parse(localStorage.getItem(`watchlist_${user.id}`) || '[]')
+      // Get full movie data for watchlist items
+      const watchlistMovies = userWatchlist.map(movieId => 
+        staticMovies.find(movie => movie.id === movieId)
+      ).filter(Boolean)
       
-      if (response.ok) {
-        const data = await response.json()
-        setWatchlist(data)
-      }
+      setWatchlist(watchlistMovies)
     } catch (error) {
       console.error('Error fetching watchlist:', error)
     } finally {
@@ -50,57 +47,46 @@ export const WatchlistProvider = ({ children }) => {
   }
 
   const addToWatchlist = async (movieId) => {
-    if (!token) return { success: false, error: 'Please login to add movies to watchlist' }
+    if (!user) return { success: false, error: 'Please login to add movies to watchlist' }
     
     try {
-      const response = await fetch(`${API_BASE_URL}/watchlist/${movieId}`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      })
+      const userWatchlist = JSON.parse(localStorage.getItem(`watchlist_${user.id}`) || '[]')
       
-      const data = await response.json()
-      
-      if (response.ok) {
-        // Refresh watchlist
-        await fetchWatchlist()
-        return { success: true, message: 'Added to watchlist' }
-      } else {
-        return { success: false, error: data.message || 'Failed to add to watchlist' }
+      if (userWatchlist.includes(movieId)) {
+        return { success: false, error: 'Movie already in watchlist' }
       }
+      
+      const updatedWatchlist = [...userWatchlist, movieId]
+      localStorage.setItem(`watchlist_${user.id}`, JSON.stringify(updatedWatchlist))
+      
+      // Refresh watchlist
+      await fetchWatchlist()
+      return { success: true, message: 'Added to watchlist' }
     } catch (error) {
-      return { success: false, error: 'Network error. Please try again.' }
+      return { success: false, error: 'Failed to add to watchlist' }
     }
   }
 
   const removeFromWatchlist = async (movieId) => {
-    if (!token) return { success: false, error: 'Please login to manage watchlist' }
+    if (!user) return { success: false, error: 'Please login to manage watchlist' }
     
     try {
-      const response = await fetch(`${API_BASE_URL}/watchlist/${movieId}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${token}`
-        }
-      })
+      const userWatchlist = JSON.parse(localStorage.getItem(`watchlist_${user.id}`) || '[]')
+      const updatedWatchlist = userWatchlist.filter(id => id !== movieId)
+      localStorage.setItem(`watchlist_${user.id}`, JSON.stringify(updatedWatchlist))
       
-      const data = await response.json()
-      
-      if (response.ok) {
-        // Refresh watchlist
-        await fetchWatchlist()
-        return { success: true, message: 'Removed from watchlist' }
-      } else {
-        return { success: false, error: data.message || 'Failed to remove from watchlist' }
-      }
+      // Refresh watchlist
+      await fetchWatchlist()
+      return { success: true, message: 'Removed from watchlist' }
     } catch (error) {
-      return { success: false, error: 'Network error. Please try again.' }
+      return { success: false, error: 'Failed to remove from watchlist' }
     }
   }
 
   const isInWatchlist = (movieId) => {
-    return watchlist.some(movie => movie.id === movieId)
+    if (!user) return false
+    const userWatchlist = JSON.parse(localStorage.getItem(`watchlist_${user.id}`) || '[]')
+    return userWatchlist.includes(movieId)
   }
 
   const value = {

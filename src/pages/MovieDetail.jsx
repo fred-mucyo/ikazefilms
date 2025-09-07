@@ -105,7 +105,7 @@ const MovieDetail = () => {
             <div className="error-container">
               <h2>Movie Not Found</h2>
               <p>{error || 'The movie you are looking for does not exist.'}</p>
-              <button onClick={() => navigate('/')} className="btn btn-primary">
+              <button onClick={() => navigate('/', { replace: true })} className="btn btn-primary">
                 Back to Home
               </button>
             </div>
@@ -127,7 +127,7 @@ const MovieDetail = () => {
         <div className="container">
           <div className="movie-detail-container">
             <button 
-              onClick={() => navigate('/')} 
+              onClick={() => navigate('/', { replace: true })} 
               className="back-button"
             >
               ← Back to Movies
@@ -207,7 +207,18 @@ const MovieDetail = () => {
                 <h3 className="right-panel-title">🔥 Popular Now</h3>
                 <div className="thumb-strip">
                   {popular.map(p => (
-                    <button key={p.id} className="thumb-card" onClick={() => navigate(`/movie/${p.id}`)} title={p.title}>
+                    <button 
+                      key={p.id} 
+                      className="thumb-card" 
+                      onClick={() => {
+                        // Clear search when navigating to another movie detail
+                        navigate('/', { replace: true })
+                        setTimeout(() => {
+                          navigate(`/movie/${p.id}`)
+                        }, 0)
+                      }} 
+                      title={p.title}
+                    >
                       <img 
                         src={p.thumbnail_url || defaultThumbnail} 
                         alt={p.title} 

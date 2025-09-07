@@ -151,7 +151,7 @@ const Profile = () => {
 
   const handleLogout = () => {
     logout()
-    navigate('/')
+    navigate('/', { replace: true })
   }
 
   if (!isAuthenticated) {

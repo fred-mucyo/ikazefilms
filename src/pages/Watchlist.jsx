@@ -70,7 +70,7 @@ const Watchlist = () => {
               <h2>Your watchlist is empty</h2>
               <p>Start adding movies to your watchlist to see them here</p>
               <button 
-                onClick={() => navigate('/')}
+                onClick={() => navigate('/', { replace: true })}
                 className="browse-movies-btn"
               >
                 Browse Movies

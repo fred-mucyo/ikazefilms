@@ -1,24 +1,23 @@
-import React, { useState, useContext, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { AuthContext } from '../context/AuthContext';
-import { useAdmin } from '../context/AdminContext';
 import { Search } from 'lucide-react';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [showSearchModal, setShowSearchModal] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const { isAuthenticated, logout, user } = useContext(AuthContext);
-  const { isAdmin } = useAdmin();
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const [activeMenu, setActiveMenu] = useState('HOME');
-  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const userDropdownRef = useRef(null);
+  const searchInputRef = useRef(null);
+  const isNavigatingRef = useRef(false);
 
-  // Sync search term with URL on mount
+  // Sync search term with URL on mount and when location changes
   useEffect(() => {
+    if (isNavigatingRef.current) {
+      isNavigatingRef.current = false;
+      return;
+    }
     const params = new URLSearchParams(location.search);
     const searchParam = params.get('search') || '';
     setSearchTerm(searchParam);
@@ -29,36 +28,46 @@ const Navbar = () => {
     if (location.pathname !== '/') return; // <-- only update URL on home page
 
     const params = new URLSearchParams(location.search);
-    if (searchTerm.trim()) {
-      params.set('search', searchTerm.trim());
-    } else {
-      params.delete('search');
+    const currentSearchParam = params.get('search') || '';
+    
+    // Only update URL if the search term actually changed to prevent loops
+    if (searchTerm.trim() !== currentSearchParam) {
+      if (searchTerm.trim()) {
+        params.set('search', searchTerm.trim());
+      } else {
+        params.delete('search');
+      }
+      navigate({ pathname: '/', search: params.toString() }, { replace: true });
     }
-    navigate({ pathname: '/', search: params.toString() }, { replace: true });
   }, [searchTerm, navigate, location.pathname]);
 
-  const handleLogout = () => {
-    logout();
-    navigate('/');
+  // Handle search submission
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      // Navigate to home page with search term
+      navigate(`/?search=${encodeURIComponent(searchTerm.trim())}`);
+      // Scroll to search results after a short delay
+      setTimeout(() => {
+        const searchResults = document.getElementById('search-results');
+        if (searchResults) {
+          searchResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
   };
 
-  const toggleUserMenu = () => setIsUserMenuOpen(prev => !prev);
-  const toggleMobileMenu = () => setIsMobileMenuOpen(prev => !prev);
-
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (userDropdownRef.current && !userDropdownRef.current.contains(event.target)) {
-        setIsUserMenuOpen(false);
-      }
-    };
-    if (isUserMenuOpen) {
-      document.addEventListener('mousedown', handleClickOutside);
+  // Clear search
+  const clearSearch = () => {
+    setSearchTerm('');
+    if (location.pathname === '/') {
+      isNavigatingRef.current = true;
+      navigate('/', { replace: true });
     }
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [isUserMenuOpen]);
+  };
 
-  useEffect(() => setIsMobileMenuOpen(false), [location.pathname]);
+
+
 
   const scrollToSection = (sectionId) => {
     const doScroll = () => {
@@ -66,7 +75,8 @@ const Navbar = () => {
       if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
     if (location.pathname !== '/') {
-      navigate('/');
+      isNavigatingRef.current = true;
+      navigate('/', { replace: true });
       setTimeout(doScroll, 0);
     } else {
       doScroll();
@@ -85,20 +95,9 @@ const Navbar = () => {
           <div className="brand-tagline">Unlimited Movies & TV Shows</div>
         </Link>
 
-        {/* Mobile Menu Toggle */}
-        <button
-          className={`mobile-menu-toggle ${isMobileMenuOpen ? 'active' : ''}`}
-          onClick={toggleMobileMenu}
-          aria-label="Toggle mobile menu"
-        >
-          <span className="hamburger-line"></span>
-          <span className="hamburger-line"></span>
-          <span className="hamburger-line"></span>
-        </button>
-
         {/* Navigation Links */}
-        <div className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-          <button className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`} onClick={() => { setActiveMenu('HOME'); navigate('/'); }}>
+        <div className="nav-menu">
+          <button className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`} onClick={() => { setActiveMenu('HOME'); isNavigatingRef.current = true; navigate('/', { replace: true }); }}>
             <span className="nav-text">HOME</span>
           </button>
           <button className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`} onClick={() => { setActiveMenu('FEATURED'); scrollToSection('featured'); }}>
@@ -107,77 +106,34 @@ const Navbar = () => {
           <button className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`} onClick={() => { setActiveMenu('POPULAR'); scrollToSection('popular'); }}>
             <span className="nav-text">POPULAR</span>
           </button>
-          <Link to="/watchlist" className={`nav-link ${activeMenu === 'WATCHLIST' ? 'active' : ''}`} onClick={() => setActiveMenu('WATCHLIST')}>
-            <span className="nav-text">WATCHLIST</span>
-          </Link>
         </div>
 
-        {/* Auth & Search */}
-        <div className="nav-auth">
-          <button
-            className="icon-btn search-btn"
-            aria-label="Search"
-            onClick={() => setShowSearchModal(true)}
-          >
-            <Search size={20} />
-          </button>
-
-          {isAuthenticated ? (
-            <div className="user-dropdown" ref={userDropdownRef}>
-              <button className="user-avatar-btn" onClick={toggleUserMenu} aria-label="User Menu">
-                <span className="avatar-circle">{(user?.username?.[0] || 'U').toUpperCase()}</span>
+        {/* Search Bar */}
+        <div className="nav-search">
+          <form onSubmit={handleSearchSubmit} className="search-form">
+            <div className="search-input-container">
+              <input
+                ref={searchInputRef}
+                type="text"
+                placeholder="Search movies..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                onFocus={() => setIsSearchFocused(true)}
+                onBlur={() => setIsSearchFocused(false)}
+                className={`search-input ${isSearchFocused ? 'focused' : ''}`}
+              />
+              <button
+                type="submit"
+                className="search-submit-btn"
+                aria-label="Search"
+              >
+                <Search size={16} />
               </button>
-              {isUserMenuOpen && (
-                <div className="user-dropdown-menu">
-                  <Link to="/change-password" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Change Password</Link>
-                  {isAdmin && <Link to="/admin/dashboard" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Admin Dashboard</Link>}
-                  <button className="dropdown-item danger" onClick={() => { setIsUserMenuOpen(false); handleLogout(); }}>Sign Out</button>
-                </div>
-              )}
             </div>
-          ) : (
-            <div className="auth-avatar" ref={userDropdownRef}>
-              <button className="auth-avatar-btn" onClick={toggleUserMenu} aria-label="Sign In">
-                <span className="auth-avatar-icon">🙍🏾</span>
-              </button>
-              {isUserMenuOpen && (
-                <div className="user-dropdown-menu">
-                  <Link to="/login" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Sign In</Link>
-                  <Link to="/register" className="dropdown-item" onClick={() => setIsUserMenuOpen(false)}>Sign Up</Link>
-                </div>
-              )}
-            </div>
-          )}
+          </form>
         </div>
+
       </div>
-
-      {/* Search Modal */}
-      {showSearchModal && (
-        <div className="search-modal-overlay" onClick={() => setShowSearchModal(false)}>
-          <div className="search-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="search-modal-header">
-              <h3>Search Movies</h3>
-              <button className="search-modal-close" onClick={() => setShowSearchModal(false)}>×</button>
-            </div>
-            <div className="search-modal-form">
-              <div className="search-input-wrapper">
-                <Search size={18} className="search-icon" />
-                <input
-                  type="text"
-                  placeholder="Search movies, descriptions, or interpreters..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="search-modal-input"
-                  autoFocus
-                />
-                {searchTerm && (
-                  <button type="button" onClick={() => setSearchTerm('')} className="clear-search-btn">✕</button>
-                )}
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 };

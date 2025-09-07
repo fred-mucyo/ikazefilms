@@ -1,6 +1,5 @@
 import React from 'react';
 import { createContext, useContext, useState, useEffect } from 'react';
-import { API_BASE_URL } from '../utils/api';
 
 const AuthContext = createContext();
 
@@ -30,23 +29,19 @@ export const AuthProvider = ({ children }) => {
 
   const validateToken = async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/users/profile`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
-
-      if (response.ok) {
-        const userData = await response.json();
+      const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+      if (userData.id && userData.username) {
         setUser(userData);
       } else {
         localStorage.removeItem('token');
+        localStorage.removeItem('userData');
         setToken(null);
         setUser(null);
       }
     } catch (error) {
       console.error('Token validation error:', error);
       localStorage.removeItem('token');
+      localStorage.removeItem('userData');
       setToken(null);
       setUser(null);
     } finally {
@@ -56,48 +51,50 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/auth/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, password }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        setToken(data.token);
-        setUser(data.user);
-        localStorage.setItem('token', data.token);
-        return { success: true, user: data.user };
+      // Check if user exists in localStorage
+      const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
+      const user = existingUsers.find(u => u.username === username && u.password === password);
+      
+      if (user) {
+        const token = btoa(JSON.stringify({ id: user.id, username: user.username }));
+        setToken(token);
+        setUser(user);
+        localStorage.setItem('token', token);
+        localStorage.setItem('userData', JSON.stringify(user));
+        return { success: true, user: user };
       } else {
-        return { success: false, error: data.error || 'Login failed' };
+        return { success: false, error: 'Invalid username or password' };
       }
     } catch (error) {
-      return { success: false, error: 'Network error. Please try again.' };
+      return { success: false, error: 'Login failed. Please try again.' };
     }
   };
 
   const register = async (username, email, password) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/users/register`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, email, password }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        return { success: true, message: data.message };
-      } else {
-        return { success: false, error: data.error || 'Registration failed' };
+      // Check if user already exists
+      const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
+      const userExists = existingUsers.find(u => u.username === username || u.email === email);
+      
+      if (userExists) {
+        return { success: false, error: 'Username or email already exists' };
       }
+
+      // Create new user
+      const newUser = {
+        id: Date.now().toString(),
+        username,
+        email,
+        password,
+        created_at: new Date().toISOString()
+      };
+
+      const updatedUsers = [...existingUsers, newUser];
+      localStorage.setItem('users', JSON.stringify(updatedUsers));
+      
+      return { success: true, message: 'Registration successful! You can now login.' };
     } catch (error) {
-      return { success: false, error: 'Network error. Please try again.' };
+      return { success: false, error: 'Registration failed. Please try again.' };
     }
   };
 
@@ -105,10 +102,20 @@ export const AuthProvider = ({ children }) => {
     setToken(null);
     setUser(null);
     localStorage.removeItem('token');
+    localStorage.removeItem('userData');
   };
 
   const updateUserData = (updatedUserData) => {
-    setUser(updatedUserData);
+    const newUserData = { ...user, ...updatedUserData };
+    setUser(newUserData);
+    localStorage.setItem('userData', JSON.stringify(newUserData));
+    
+    // Update in users array as well
+    const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
+    const updatedUsers = existingUsers.map(u => 
+      u.id === user.id ? newUserData : u
+    );
+    localStorage.setItem('users', JSON.stringify(updatedUsers));
   };
 
   const value = {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
-import { api, getApiUrl } from '../utils/api';
+import { api } from '../utils/api';
 import MovieCard from '../components/MovieCard';
 import FeaturedHero from '../components/FeaturedHero';
 import './Home.css';
@@ -15,41 +15,30 @@ const MOVIES_PER_LOAD = 12;
 const Home = () => {
   const location = useLocation();
   const [movies, setMovies] = useState(staticMovies);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [searchTerm, setSearchTerm] = useState('');
   const [filteredMovies, setFilteredMovies] = useState(staticMovies);
   const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
 
-  // Extract search term from URL
-  useEffect(() => {
+  // Extract search term from URL (read-only, no state management)
+  const searchTerm = useMemo(() => {
     const params = new URLSearchParams(location.search);
-    setSearchTerm(params.get('search') || '');
+    return params.get('search') || '';
   }, [location.search]);
 
-  // Fetch movies
+  // Load movies (now just static data)
   const fetchMovies = async () => {
     try {
       setLoading(true);
       setError(null);
-      const data = (await api.getMovies()) || [];
-      // Merge backend movies with static ones (static movies first, then backend movies, dedupe by id)
-      const existingById = new Map(staticMovies.map(m => [m.id, m]));
-      const merged = [...staticMovies, ...data.filter(m => !existingById.has(m.id))];
-      setMovies(merged);
-      setFilteredMovies(merged);
-      // toast.success('Movies loaded successfully!');
+      const data = await api.getMovies();
+      setMovies(data);
+      setFilteredMovies(data);
     } catch (err) {
       console.error(err);
-      const errorMessage =
-        err.response?.data?.message ||
-        (err.message?.includes('timed out')
-          ? 'Server is waking up. Please wait a moment.'
-          : err.message?.includes('Unable to connect')
-          ? 'Filime ziryoshye zirikuza maze hashye.'
-          : err.message || 'Failed to load movies.');
+      const errorMessage = err.message || 'Failed to load movies.';
       setError(errorMessage);
-      toast.success(errorMessage);
+      toast.error(errorMessage);
     } finally {
       setLoading(false);
     }
@@ -57,51 +46,6 @@ const Home = () => {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
-
-  // Background backend wake-up with retry schedule (1s, 3s, 8s, 15s, 20s, 30s)
-  useEffect(() => {
-    let cancelled = false;
-
-    const delays = [1000, 3000, 8000, 15000, 20000, 30000];
-
-    const ping = async () => {
-      try {
-        const url = `${getApiUrl()}/movies?_=${Date.now()}`;
-        const res = await fetch(url, { method: 'GET', headers: { 'Content-Type': 'application/json' }, signal: AbortSignal.timeout(8000) });
-        if (!res.ok) throw new Error('not ok');
-        // success: backend is awake; no UI change
-        return true;
-      } catch (_) {
-        return false;
-      }
-    };
-
-    const run = async () => {
-      for (let i = 0; i < delays.length; i++) {
-        if (cancelled) return;
-        await new Promise(r => setTimeout(r, delays[i]));
-        const ok = await ping();
-        if (ok) return; // stop on first success
-      }
-      if (!cancelled) {
-        toast((t) => (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <span>Server is still waking up. You can continue browsing static titles.</span>
-            <button
-              onClick={() => { fetchMovies(); toast.dismiss(t.id); }}
-              className="retry-btn"
-              style={{ alignSelf: 'flex-start' }}
-            >
-              Click here to load more movies from our server
-            </button>
-          </div>
-        ), { duration: 8000 });
-      }
-    };
-
-    run();
-    return () => { cancelled = true; };
   }, []);
 
   // Debounced search filtering

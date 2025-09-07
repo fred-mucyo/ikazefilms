@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  margin-top: 20px; /* Extra spacing from navbar */
   margin-bottom: 48px;
   background-color: #000; /* default black background */
 }

@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react'
-import { useParams, Link } from 'react-router-dom'
+import React, { useMemo, useEffect } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
 import staticMovies from '../utils/staticMovies'
 import TrailerEmbed from '../components/TrailerEmbed'
 import Comments from '../components/Comments'
@@ -9,13 +9,26 @@ import './MovieDetail.css'
 
 const StaticMovieDetail = () => {
   const { id } = useParams()
+  const navigate = useNavigate()
   const movie = useMemo(() => staticMovies.find(m => String(m.id) === String(id)) || null, [id])
+
+  // Scroll to trailer section when component mounts
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const trailerSection = document.querySelector('.trailer-section');
+      if (trailerSection) {
+        trailerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100); // Small delay to ensure DOM is ready
+
+    return () => clearTimeout(timer);
+  }, [id]);
 
   if (!movie) {
     return (
       <div className="movie-detail-page container">
         <h2>Movie not found</h2>
-        <Link to="/" className="btn">Back to Home</Link>
+        <button onClick={() => navigate('/', { replace: true })} className="btn">Back to Home</button>
       </div>
     )
   }
@@ -101,7 +114,18 @@ const StaticMovieDetail = () => {
                     ? staticMovies.filter(m => m.is_popular).slice(0, 6)
                     : staticMovies.slice(0, 6)
                   ).map(p => (
-                    <Link key={p.id} className="thumb-card" to={`/static-movie/${p.id}`} title={p.title}>
+                    <button 
+                      key={p.id} 
+                      className="thumb-card" 
+                      onClick={() => {
+                        // Clear search when navigating to another static movie detail
+                        navigate('/', { replace: true })
+                        setTimeout(() => {
+                          navigate(`/static-movie/${p.id}`)
+                        }, 0)
+                      }} 
+                      title={p.title}
+                    >
                       <img
                         src={p.thumbnail_url || p.poster_url || p.image_url || '/hashye-preview.png'}
                         alt={p.title}
@@ -112,7 +136,7 @@ const StaticMovieDetail = () => {
                         <span className="thumb-title">{p.title}</span>
                         {p.is_popular && <span className="thumb-badge">🔥</span>}
                       </div>
-                    </Link>
+                    </button>
                   ))}
                 </div>
               </aside>

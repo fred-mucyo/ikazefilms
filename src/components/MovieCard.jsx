@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useWatchlist } from '../context/WatchlistContext'
 import { useAuth } from '../context/AuthContext'
 import { truncateText } from '../utils/api'
@@ -25,12 +25,21 @@ const MovieCard = ({ movie }) => {
     }
   }
 
+  const handleNavigationWithSearchClear = (path) => {
+    // Clear search by navigating to home first, then to movie detail
+    navigate('/', { replace: true })
+    setTimeout(() => {
+      navigate(path)
+    }, 0)
+  }
+
   const handleThumbnailClick = () => {
+    // Clear search when navigating to movie detail
     if (String(movie.id).startsWith('s')) {
-      navigate(`/static-movie/${movie.id}`)
+      handleNavigationWithSearchClear(`/static-movie/${movie.id}`)
       return
     }
-    navigate(`/movie/${movie.id}`)
+    handleNavigationWithSearchClear(`/movie/${movie.id}`)
   }
 
   const defaultThumbnail = 'https://via.placeholder.com/300x450/1a1a2e/ffffff?text=Movie'
@@ -73,13 +82,19 @@ const MovieCard = ({ movie }) => {
         <div className="movie-card-overlay">
           <div className="movie-card-actions">
             {String(movie.id).startsWith('s') ? (
-              <Link to={`/static-movie/${movie.id}`} className="btn btn-primary watch-full-btn">
-              REBA FILIME
-              </Link>
+              <button 
+                onClick={() => handleNavigationWithSearchClear(`/static-movie/${movie.id}`)}
+                className="btn btn-primary watch-full-btn"
+              >
+                REBA FILIME
+              </button>
             ) : (
-              <Link to={`/movie/${movie.id}`} className="btn btn-primary watch-full-btn">
-               REBA FILIME YOSE
-              </Link>
+              <button 
+                onClick={() => handleNavigationWithSearchClear(`/movie/${movie.id}`)}
+                className="btn btn-primary watch-full-btn"
+              >
+                REBA FILIME YOSE
+              </button>
             )}
             {isAuthenticated && (
               <button
