@@ -5,6 +5,25 @@ import { Download } from "lucide-react";
 
 const staticMovies = [
 
+
+
+
+    
+  {
+    id: 'BallerinaB',
+    title: 'Ballerina B',
+    description: 'Amazing movie ever ',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/ballerinaOg.webp',
+    poster_url: '/ballerinaOg.webp',
+    image_url: '/ballerinaOg.webp',
+    video_url: 'https://hglink.to/jznrgf4v9wry',
+    download_url: 'https://www.mediafire.com/file/3inbvghuysxj50j/BALLERINA_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/b9Rr9ygb-ac?si=PdIj9yTEpt4gIeqd'
+  },
+
    {
     id: 's90',
     title: 'Straw A',
@@ -174,6 +193,7 @@ const staticMovies = [
     poster_url: '/workingman.jpeg',
     image_url: '/workingman.jpeg',
     video_url: 'https://hglink.to/lodwr6jn1tbp',
+    download_url:'https://www.mediafire.com/file/ezr10phz5hni43p/A+WARKING+MAN+A.mp4/file',
     youtube_trailer_url: 'https://youtu.be/zTbgNC42Ops?si=uZ5EnXsdOGrWA98H'
   },
   {
