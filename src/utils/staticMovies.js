@@ -5,6 +5,24 @@ import { Download } from "lucide-react";
 
 const staticMovies = [
 
+      {
+    id: 's109',
+    title: 'Men of honor A',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: 'men of honor.jpg',
+    poster_url: 'men of honor.jpg',
+    image_url: 'men of honor.jpg',
+    video_url: 'https://hglink.to/s6gdz8cweyhc',
+    download_url: 'https://www.mediafire.com/file/9ywpm30nf2nsl8c/MEN_OF_HONOR_A.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/DWkrK8FZ5Jg?si=dcQq1U1DqSBBVlDo'
+  },
+
+
+
+
     {
     id: 's95',
     title: 'NOBODY 1 A',
