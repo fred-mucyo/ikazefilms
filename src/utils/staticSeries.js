@@ -70,14 +70,14 @@ const staticSeries = [
           },
           {
             id: "lost9",
-            title: "LOST IN LOVE EP8",
+            title: "LOST IN LOVE EP9",
             video_url: "",
             download_url: "https://www.mediafire.com/file/nq9r9o1xvf8z2cr/Lost_In_Love_Ep9_A.mp4/file",
             thumbnail_url: "/lostin.jpg",
           },
           {
             id: "lost10",
-            title: "LOST IN LOVE EP8",
+            title: "LOST IN LOVE EP10",
             video_url: "",
             download_url: "https://www.mediafire.com/file/eu6njm1hbyfbyke/Lost_In_Love_10_A.mp4/file",
             thumbnail_url: "/lostin.jpg",
