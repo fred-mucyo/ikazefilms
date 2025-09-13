@@ -89,9 +89,9 @@ const staticSeries = [
         episodes: [
           {
             id: "s2e1",
-            title: "Seven Thirty-Seven",
+            title:  "LOST IN LOVE",
             video_url: "https://hglink.to/episode1s2",
-            thumbnail_url: "/images/bb-s2e1.jpg",
+            thumbnail_url: "/lostin.jpg",
           },
         ],
       },
