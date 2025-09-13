@@ -5,6 +5,25 @@ import { Download } from "lucide-react";
 
 const staticMovies = [
 
+
+
+     {
+    id: '1012',
+    title: 'Men of honor B',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    is_featured: true,
+    thumbnail_url: 'Menofww.webp',
+    poster_url: 'Menofww.webp',
+    image_url: 'Menofww.webp',
+    video_url: 'https://hglink.to/gtn3hnsb1a8e',
+    download_url: 'https://www.mediafire.com/file/zusyab9bl6e1x73/A_WORKING_MAN_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/DWkrK8FZ5Jg?si=dcQq1U1DqSBBVlDo'
+  },
+
+
       {
     id: 's109',
     title: 'Men of honor A',

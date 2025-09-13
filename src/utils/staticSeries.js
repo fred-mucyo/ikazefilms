@@ -2,8 +2,8 @@
 
 const staticSeries = [
   {
-    id: "s110",
-    title: "LOST IN LOVE",
+    id: "s1",
+    title: "SEASON: LOST IN LOVE",
     type: "series",
     description: "Sakla Beni is a Turkish television series in the drama romance genre, set to release with its premiere episode on 2 November 2023. It is produced by OGM Pictures, directed by Nadim Güç, and the screenplay is written by Armağan Gülşah and Nergis Otluoğlu Akoğlu.",
      is_popular: true,
@@ -89,7 +89,7 @@ const staticSeries = [
         seasonNumber: 2,
         episodes: [
           {
-            id: "s2e1",
+            id: "lostsaeson2",
             title:  "LOST IN LOVE",
             video_url: "https://hglink.to/episode1s2",
             thumbnail_url: "/lostin.jpg",
@@ -110,28 +110,66 @@ const staticSeries = [
 
 
     {
-    id: "s40",
-    title: "Bng Bad",
+    id: "s2",
+    title: "VIKINGS S5 EP1",
     type: "series",
-    description: "A chemistry teacher turned meth producer.",
-    poster_url: "/images/breakingbad.jpg",
+    description: "Vikings season 5 Ntigucike ....🔥🔥",
+    poster_url: "/vikings img.jpg",
     seasons: [
       {
-        seasonNumber:1,
+        seasonNumber:5,
         episodes: [
           {
-            id: "s1e1",
-            title: "Pilot",
-            video_url: "https://hglink.to/episode1",
-            download_url: "https://mediafire.com/episode1.mp4",
-            thumbnail_url: "/images/bb-s1e1.jpg",
+            id: "s5e1",
+            title: "VIKINGS S5 EP1",
+            video_url: "https://hglink.to/huyc4uu033oa",
+            download_url: "https://www.mediafire.com/file/zpagc1v2lca9ugk/Vikings_S5_Ep1.mp4/file",
+            thumbnail_url: "/vikings img.jpg",
           },
           {
-            id: "s1e2",
-            title: "Cat's in the Bag...",
-            video_url: "https://hglink.to/episode2",
-            thumbnail_url: "/images/bb-s1e2.jpg",
+            id: "s5e2",
+            title: "VIKINGS S5 EP2",
+            video_url: "https://hglink.to/spklqrp021ty",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/4l8z3u9rw3zjuxf/Vikings_S5ep02.mp4/file",
           },
+          {
+            id: "s5e3",
+            title: "VIKINGS S5 EP3",
+            video_url: "https://hglink.to/l20o79c6ggi9",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/41kko6h4spdd1mc/Vikings_S5_Ep3.mp4/file",
+          },
+            {
+            id: "s5e4",
+            title: "VIKINGS S5 EP4",
+            video_url: "https://hglink.to/ozlf938nctq3",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/1tyibeywcdulvqm/Vikings_S5ep04.mp4/file",
+          },
+
+           {
+            id: "s5e5",
+            title: "VIKINGS S5 EP5",
+            video_url: "https://hglink.to/episode2",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/2xjc3dn5wxvp5a9/Vikings_S5ep05_.mp4/file",
+          },
+            {
+            id: "s5e6",
+            title: "VIKINGS S5 EP6",
+            video_url: "https://hglink.to/episode2",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/ld4hm9nz47mpxem/Vikings.S05e06.mp4/file",
+          },
+
+             {
+            id: "s5e7",
+            title: "VIKINGS S5 EP7",
+            video_url: "https://hglink.to/episode2",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/ld4hm9nz47mpxem/Vikings.S05e06.mp4/file",
+          }
         ],
       },
     ]
