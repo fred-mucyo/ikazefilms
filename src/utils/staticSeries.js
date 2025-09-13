@@ -7,6 +7,7 @@ const staticSeries = [
     type: "series",
     description: "Sakla Beni is a Turkish television series in the drama romance genre, set to release with its premiere episode on 2 November 2023. It is produced by OGM Pictures, directed by Nadim Güç, and the screenplay is written by Armağan Gülşah and Nergis Otluoğlu Akoğlu.",
      is_popular: true,
+     is_featured: true,
     poster_url: "/lostin.jpg",
     seasons: [
       {

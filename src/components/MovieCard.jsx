@@ -86,7 +86,7 @@ const MovieCard = ({ movie }) => {
                 onClick={() => handleNavigationWithSearchClear(`/series/${movie.id}`)}
                 className="btn btn-primary watch-full-btn"
               >
-                REBA SERIES
+                REBA SEASON
               </button>
             ) : String(movie.id).startsWith('s') ? (
               <button 

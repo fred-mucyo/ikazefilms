@@ -15,6 +15,9 @@ import Profile from './pages/Profile'
 import ChangePassword from './pages/ChangePassword'
 import AnalyticsTracker from './components/AnalyticsTracker'
 import SeriesDetail from "./pages/SeriesDetail";
+import SeriesPage from './pages/SeriesPage';
+
+
 
 
 import TermsOfService from "./LegalPages/TermsOfServices";
@@ -47,7 +50,7 @@ function App() {
                   <Route path="/watchlist" element={<Watchlist />} />
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/change-password" element={<ChangePassword />} />
-
+<Route path="/series" element={<SeriesPage />} />
 
 
             <Route path="/terms" element={<TermsOfService />} />

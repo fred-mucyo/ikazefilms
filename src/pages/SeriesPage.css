@@ -1,0 +1,25 @@
+/* src/pages/SeriesPage.css */
+
+.series-page {
+  padding: 2rem 0;
+}
+
+.section-header {
+  margin-bottom: 1rem;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.loading-text {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.no-results {
+  text-align: center;
+  margin-top: 2rem;
+}
