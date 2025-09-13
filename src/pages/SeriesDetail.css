@@ -1,0 +1,191 @@
+/* src/pages/SeriesDetail.css */
+
+.series-detail {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: linear-gradient(135deg, #0f0f23, #1a1a2e, #16213e);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Error message */
+.not-found {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ff6b6b;
+  text-shadow: 0 0 10px rgba(255, 107, 107, 0.6);
+}
+
+/* Header */
+.series-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  align-items: flex-start;
+}
+
+.series-poster {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+  transition: transform 0.4s ease;
+}
+
+.series-poster:hover {
+  transform: scale(1.05);
+}
+
+.series-info {
+  flex: 1;
+  padding-top: 1rem;
+}
+
+.series-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #00d4ff;
+  font-weight: 700;
+ 
+}
+
+.series-description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Season buttons */
+.season-selector {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.season-selector button {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.season-selector button:hover {
+  background: linear-gradient(135deg, #00d4ff, #0099cc);
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0,212,255,0.4);
+}
+
+.season-selector button.active {
+  background: linear-gradient(135deg, #00d4ff, #0099cc);
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0,212,255,0.6);
+}
+
+/* Episodes grid */
+.episodes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.8rem;
+}
+
+.episode-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  backdrop-filter: blur(10px);
+}
+
+.episode-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}
+
+.episode-thumbnail {
+  width: 100%;
+  object-fit: cover;
+  height: 160px;
+  transition: transform 0.4s ease;
+}
+
+.episode-card:hover .episode-thumbnail {
+  transform: scale(1.05);
+}
+
+.episode-info {
+  padding: 1rem 1.2rem;
+}
+
+.episode-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  color: white;
+  font-weight: 600;
+
+}
+
+/* Episode buttons */
+.episode-actions {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.watch-btn, .download-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.watch-btn {
+  background: linear-gradient(135deg, #00d4ff, #0099cc);
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0,212,255,0.3);
+}
+
+.watch-btn:hover {
+  background: linear-gradient(135deg, #00e0ff, #00a3d1);
+  transform: translateY(-2px);
+}
+
+.download-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(255,107,107,0.3);
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #ff7f7f, #ff6b35);
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .series-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .series-poster {
+    width: 85%;
+  }
+
+  .season-selector {
+    justify-content: center;
+  }
+}

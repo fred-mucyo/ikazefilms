@@ -9,31 +9,30 @@ import debounce from 'lodash.debounce';
 import useSEO from "../hooks/useSeo.jsx";
 import InfiniteScroll from 'react-infinite-scroll-component';
 import staticMovies from '../utils/staticMovies';
+import staticSeries from '../utils/staticSeries';
 
 const MOVIES_PER_LOAD = 12;
 
 const Home = () => {
   const location = useLocation();
-  const [movies, setMovies] = useState(staticMovies);
+  const [movies, setMovies] = useState([...staticMovies, ...staticSeries]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [filteredMovies, setFilteredMovies] = useState(staticMovies);
+  const [filteredMovies, setFilteredMovies] = useState([...staticMovies, ...staticSeries]);
   const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
 
-  // Extract search term from URL (read-only, no state management)
   const searchTerm = useMemo(() => {
     const params = new URLSearchParams(location.search);
     return params.get('search') || '';
   }, [location.search]);
 
-  // Load movies (now just static data)
   const fetchMovies = async () => {
     try {
       setLoading(true);
       setError(null);
       const data = await api.getMovies();
-      setMovies(data);
-      setFilteredMovies(data);
+      setMovies([...data, ...staticSeries]);
+      setFilteredMovies([...data, ...staticSeries]);
     } catch (err) {
       console.error(err);
       const errorMessage = err.message || 'Failed to load movies.';
@@ -48,7 +47,6 @@ const Home = () => {
     fetchMovies();
   }, []);
 
-  // Debounced search filtering
   const filterMovies = useMemo(
     () =>
       debounce((term) => {
@@ -72,10 +70,17 @@ const Home = () => {
     return () => filterMovies.cancel();
   }, [searchTerm, filterMovies]);
 
-  // Popular & Recent sections
+  // --- Popular Now: combine movies & series properly ---
   const popularNow = useMemo(() => {
-    const popular = movies.filter((m) => m?.is_popular);
-    return (popular.length ? popular : movies).slice(0, 6);
+    return [...movies]
+      .filter(m => m.is_popular)
+      .sort((a, b) => {
+        // Optional: series first, then movies
+        if (a.type === 'series' && b.type !== 'series') return -1;
+        if (a.type !== 'series' && b.type === 'series') return 1;
+        return 0;
+      })
+      .slice(0, 6);
   }, [movies]);
 
   const recentReleases = useMemo(() => {
@@ -85,7 +90,6 @@ const Home = () => {
       .slice(0, 4);
   }, [movies]);
 
-  // Deduplicated All Movies (exclude popular/recent)
   const allMovies = useMemo(() => {
     const excludedIds = new Set([...popularNow, ...recentReleases].map(m => m.id));
     return filteredMovies.filter((m) => !excludedIds.has(m.id));
@@ -98,7 +102,7 @@ const Home = () => {
       <>
         {useSEO({
           title: "Hashye - Stream Movies & Shows in HD",
-          description: "Discover and stream the latest movies and shows in HD on Hashye. Browse popular movies, recent releases, and our full collection.",
+          description: "Discover and stream the latest movies and shows in HD on Hashye.",
           image: "/hashye-preview.png",
           url: "https://hashye.online/",
         })}
@@ -121,7 +125,7 @@ const Home = () => {
       <>
         {useSEO({
           title: "Hashye - Error Loading Movies",
-          description: "Oops! Something went wrong while loading movies on Hashye. Try refreshing the page.",
+          description: "Oops! Something went wrong while loading movies on Hashye.",
           image: "/hashye-preview.png",
           url: "https://hashye.online/",
         })}
@@ -149,7 +153,7 @@ const Home = () => {
     <>
       {useSEO({
         title: "Hashye - Stream Movies & Shows in HD",
-        description: "Discover and stream the latest movies and shows in HD on Hashye. Browse popular movies, recent releases, and our full collection.",
+        description: "Discover and stream the latest movies and shows in HD on Hashye.",
         image: "/hashye-preview.png",
         url: "https://hashye.online/",
       })}
@@ -213,7 +217,7 @@ const Home = () => {
           {!searchTerm.trim() && allMovies.length > 0 && (
             <div className="movies-section" id="all-movies">
               <div className="section-header">
-                <h2 className="section-title">All Movies</h2>
+                <h2 className="section-title">All Movies & Series</h2>
                 <div className="section-subtitle">Browse our complete collection</div>
               </div>
               <InfiniteScroll

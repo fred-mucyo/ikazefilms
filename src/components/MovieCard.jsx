@@ -26,7 +26,6 @@ const MovieCard = ({ movie }) => {
   }
 
   const handleNavigationWithSearchClear = (path) => {
-    // Clear search by navigating to home first, then to movie detail
     navigate('/', { replace: true })
     setTimeout(() => {
       navigate(path)
@@ -34,7 +33,10 @@ const MovieCard = ({ movie }) => {
   }
 
   const handleThumbnailClick = () => {
-    // Clear search when navigating to movie detail
+    if (movie.type === 'series') {
+      handleNavigationWithSearchClear(`/series/${movie.id}`) // ✅ Series route
+      return
+    }
     if (String(movie.id).startsWith('s')) {
       handleNavigationWithSearchClear(`/static-movie/${movie.id}`)
       return
@@ -55,11 +57,9 @@ const MovieCard = ({ movie }) => {
     return thumbnail && thumbnail !== 'undefined' && thumbnail !== 'null' && thumbnail.trim() !== '' ? thumbnail : defaultThumbnail
   }
 
-  // Generate WebP version if available (replace extension)
   const getWebpThumbnail = () => {
     const url = getThumbnailUrl()
     if (url === defaultThumbnail) return url
-    // Avoid creating .webp for local public assets where .webp may not exist
     if (url.startsWith('/')) return url
     return url.replace(/\.(jpg|jpeg|png)$/i, '.webp')
   }
@@ -81,7 +81,14 @@ const MovieCard = ({ movie }) => {
 
         <div className="movie-card-overlay">
           <div className="movie-card-actions">
-            {String(movie.id).startsWith('s') ? (
+            {movie.type === 'series' ? (
+              <button 
+                onClick={() => handleNavigationWithSearchClear(`/series/${movie.id}`)}
+                className="btn btn-primary watch-full-btn"
+              >
+                REBA SERIES
+              </button>
+            ) : String(movie.id).startsWith('s') ? (
               <button 
                 onClick={() => handleNavigationWithSearchClear(`/static-movie/${movie.id}`)}
                 className="btn btn-primary watch-full-btn"
@@ -126,4 +133,3 @@ const MovieCard = ({ movie }) => {
 }
 
 export default MovieCard
-

@@ -14,6 +14,7 @@ import Watchlist from './pages/Watchlist'
 import Profile from './pages/Profile'
 import ChangePassword from './pages/ChangePassword'
 import AnalyticsTracker from './components/AnalyticsTracker'
+import SeriesDetail from "./pages/SeriesDetail";
 
 
 import TermsOfService from "./LegalPages/TermsOfServices";
@@ -39,6 +40,10 @@ function App() {
                   <Route path="/movie/:id" element={<MovieDetail />} />
                   <Route path="/static-movie/:id" element={<StaticMovieDetail />} />
                   <Route path="/static-movie" element={<StaticMovies />} />
+
+                  <Route path="/series/:id" element={<SeriesDetail />} />
+
+                  
                   <Route path="/watchlist" element={<Watchlist />} />
                   <Route path="/profile" element={<Profile />} />
                   <Route path="/change-password" element={<ChangePassword />} />
