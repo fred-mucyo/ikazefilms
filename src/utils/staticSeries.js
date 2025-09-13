@@ -22,16 +22,16 @@ const staticSeries = [
           {
             id: "lost2",
             title: "LOST IN LOVE EP2",
-            video_url: "https://hglink.to/r0qkf3wnf9be",
-            download_url: "",
-            thumbnail_url: "/snowwhite.jpg",
+            video_url: "https://hglink.to/drdqhoy5pxyw",
+            download_url: "https://www.mediafire.com/file/p5pwmkurymg7eom/Lost_In_Love_Ep2_%2529.mp4/file",
+            thumbnail_url: "/lostin.jpg",
           },
           {
             id: "lost3",
             title: "LOST IN LOVE EP3",
-            video_url: "https://hglink.to/r0qkf3wnf9be",
+            video_url: "",
             download_url: "",
-            thumbnail_url: "/snowwhite.jpg",
+            thumbnail_url: "/lostin.jpg",
           },
           {
             id: "lost4",
