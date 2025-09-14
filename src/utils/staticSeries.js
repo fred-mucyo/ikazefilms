@@ -111,7 +111,7 @@ const staticSeries = [
 
     {
     id: "s2",
-    title: "VIKINGS S5 EP1",
+    title: "VIKINGS SEASON 5 ",
     type: "series",
     description: "Vikings season 5 Ntigucike ....🔥🔥",
     is_popular: true,
@@ -155,6 +155,22 @@ const staticSeries = [
             video_url: "https://hglink.to/0hsf3gqamyrw",
             thumbnail_url: "/vikings img.jpg",
           download_url: "https://www.mediafire.com/file/2xjc3dn5wxvp5a9/Vikings_S5ep05_.mp4/file",
+          },
+
+             {
+            id: "s5e6",
+            title: "VIKINGS S5 EP6",
+            video_url: "https://hglink.to/is5w3h9yaujt",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/ld4hm9nz47mpxem/Vikings.S05e06.mp4/file",
+          },
+
+             {
+            id: "s5e7",
+            title: "VIKINGS S5 EP7",
+            video_url: "https://hglink.to/v299hn4imkw0",
+            thumbnail_url: "/vikings img.jpg",
+          download_url: "https://www.mediafire.com/file/6pbn99lv7d6acwl/Vikings.S05e07.mp4/file",
           },
           
         ],
