@@ -125,6 +125,62 @@ const staticSeries = [
             download_url: "https://www.mediafire.com/file/muol7ccxgmx8fzh/Lost_In_Love_16_.mp4/file",
             thumbnail_url: "/lostin.jpg",
           },
+          {
+            id: "lost17",
+            title: "LOST IN LOVE EP17",
+            video_url: "https://hglink.to/947ba3e5k614",
+            download_url: "https://www.mediafire.com/file/a89sy3nm0344yp7/Lost_in_Love_17_.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost18",
+            title: "LOST IN LOVE EP18",
+            video_url: "https://hglink.to/qlqsr2jpphq5",
+            download_url: "https://www.mediafire.com/file/rrbz0czn9um7sv1/LOST_In_Love_18_%2529.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost19",
+            title: "LOST IN LOVE EP19",
+            video_url: "https://hglink.to/mpiqknb2nci8",
+            download_url: "https://www.mediafire.com/file/xzfc9skx6054qg2/Lost_in_Love_19%2529.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost20",
+            title: "LOST IN LOVE EP20",
+            video_url: "https://hglink.to/60xrb1l8oxxv",
+            download_url: "https://www.mediafire.com/file/nzkftwdfo4pi071/LOST_IN_LOVE_E20.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost21",
+            title: "LOST IN LOVE EP21",
+            video_url: "https://hglink.to/401r8vxtwioe",
+            download_url: "https://www.mediafire.com/file/cvuhh3sewowbc6m/LOST_IN_LOVE_E21.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost22",
+            title: "LOST IN LOVE EP22",
+            video_url: "https://hglink.to/xor208dhauvw",
+            download_url: "https://www.mediafire.com/file/b658p4f025azme5/Lost_In_Love_22_Hd.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost23",
+            title: "LOST IN LOVE EP23",
+            video_url: "https://hglink.to/1a663uo5uaep",
+            download_url: "https://www.mediafire.com/file/384jhl0mve75zyr/Lost_In_Love_23.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost24",
+            title: "LOST IN LOVE EP24",
+            video_url: "https://hglink.to/ywyrqq011r4s",
+            download_url: "https://www.mediafire.com/file/6sxjj4dr9g65t8c/Lost_in_Love_24.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
         ]
       },
       {
@@ -140,7 +196,6 @@ const staticSeries = [
       },
     ],
   },
-
 
 
 
