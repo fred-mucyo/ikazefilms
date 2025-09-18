@@ -201,7 +201,7 @@ const staticSeries = [
     id: "kings",
     title: "OF KINGS AND PROPHETS S1",
     type: "series",
-    description: "Of kings and prophets is an amazing season!!",
+    description: "A biblical drama centered around a battle-weary king, a powerful and resentful prophet, and a resourceful young shepherd.",
     is_popular: true,
     poster_url: "/kings.jpg",
     seasons: [
@@ -211,14 +211,14 @@ const staticSeries = [
           {
             id: "ofkings",
             title:  "OF KINGS AND PROPHETS EP1",
-            video_url: "",
+            video_url: "https://hglink.to/5xzd19iojmmy",
             download_url: "https://www.mediafire.com/file/cpq9l4yqr8tpqe9/Of.Kings+and+Prophets+S01E01.mp4/file",
             thumbnail_url: "/kings.jpg",
           },
            {
             id: "ofkings",
             title:  "OF KINGS AND PROPHETS EP2",
-            video_url: "",
+            video_url: "https://hglink.to/sjaqitw6bbef",
             download_url: "https://www.mediafire.com/file/uer2tng2adtboa0/Of+Kings+and+Prophets+S01E02+.mp4/file",
             thumbnail_url: "/kings.jpg",
           },
