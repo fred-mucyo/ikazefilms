@@ -6,20 +6,34 @@ import { Download } from "lucide-react";
 const staticMovies = [
 
 
+ {
+    id: '1012',
+    title: 'Canary black',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    is_featured: true,
+    thumbnail_url: 'canaryblack.webp',
+    poster_url: 'canaryblack.webp',
+    image_url: 'canaryblack.webp',
+    video_url: 'https://hglink.to/6op9gnt30vdo',
+    download_url: 'https://www.mediafire.com/file/v2epmikmoo1ug86/BLACK+CARINARY.MP4/file',
+    youtube_trailer_url: 'https://youtu.be/tSaw2HTVSsA?si=lPC_3KOw-ARAN7le'
+  },
+
 
      {
     id: '1012',
     title: 'Men of honor B',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'Rocky',
-    created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
     is_featured: true,
     thumbnail_url: 'Menofww.webp',
     poster_url: 'Menofww.webp',
     image_url: 'Menofww.webp',
     video_url: 'https://hglink.to/gtn3hnsb1a8e',
-    download_url: 'https://www.mediafire.com/file/zusyab9bl6e1x73/A_WORKING_MAN_B.mp4/file',
+    download_url: 'https://www.mediafire.com/file/tlrr0kp5dzj793l/MEN_OF_HONOR_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/DWkrK8FZ5Jg?si=dcQq1U1DqSBBVlDo'
   },
 
