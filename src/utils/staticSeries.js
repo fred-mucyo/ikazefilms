@@ -199,7 +199,7 @@ const staticSeries = [
 
   {
     id: "kings",
-    title: "OF KINGS AND PROPHETS S1",
+    title: "OF KINGS AND PROPHETS S1 ALL EPISODES",
     type: "series",
     description: "A biblical drama centered around a battle-weary king, a powerful and resentful prophet, and a resourceful young shepherd.",
     is_popular: true,
@@ -222,11 +222,89 @@ const staticSeries = [
             download_url: "https://www.mediafire.com/file/uer2tng2adtboa0/Of+Kings+and+Prophets+S01E02+.mp4/file",
             thumbnail_url: "/kings.jpg",
           },
+
+           {
+            id: "ofkings",
+            title:  "OF KINGS AND PROPHETS EP3",
+            video_url: "https://hglink.to/8ycgayqm96xb",
+            download_url: "https://www.mediafire.com/file/ifpuf1uhovxqvvc/Of.Kings.And.Prophets.S01e03.mp4/file",
+            thumbnail_url: "/kings.jpg",
+          },
+
+          {
+            id: "ofkings",
+            title:  "OF KINGS AND PROPHETS EP4",
+            video_url: "https://hglink.to/jtjrlurfuwp5",
+            download_url: "https://www.mediafire.com/file/a9qwcwj7nidpfdy/Of.Kings.And.Prophets.S01e04.mp4/file",
+            thumbnail_url: "/kings.jpg",
+          },
         ],
 
       }
     ]
   },
+
+  //  {
+  //   id: "betaal",
+  //   title: "BETAAL",
+  //   type: "series",
+  //   description: "",
+  //   is_popular: true,
+  //   poster_url: "/kings.jpg",
+  //   seasons: [
+  //     { 
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: "betaal",
+  //           title:  "BETAAL EP1",
+  //           video_url: "",
+  //           download_url: "",
+  //           thumbnail_url: "/kings.jpg",
+  //         },
+  //          {
+  //           id: "betaal",
+  //           title:  "BETAAL EP2",
+  //           video_url: "",
+  //           download_url: "",
+  //           thumbnail_url: "/kings.jpg",
+  //         },
+  //       ],
+
+  //     }
+  //   ]
+  // },
+
+  //  {
+  //   id: "betaal",
+  //   title: "BETAAL",
+  //   type: "series",
+  //   description: "",
+  //   is_popular: true,
+  //   poster_url: "/kings.jpg",
+  //   seasons: [
+  //     { 
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: "betaal",
+  //           title:  "BETAAL EP1",
+  //           video_url: "",
+  //           download_url: "",
+  //           thumbnail_url: "/kings.jpg",
+  //         },
+  //          {
+  //           id: "betaal",
+  //           title:  "BETAAL EP2",
+  //           video_url: "",
+  //           download_url: "",
+  //           thumbnail_url: "/kings.jpg",
+  //         },
+  //       ],
+
+  //     }
+  //   ]
+  // },
 
 
 
