@@ -197,7 +197,36 @@ const staticSeries = [
     ],
   },
 
+  {
+    id: "kings",
+    title: "OF KINGS AND PROPHETS S1",
+    type: "series",
+    description: "Of kings and prophets is an amazing season!!",
+    is_popular: true,
+    poster_url: "/kings.jpg",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "ofkings",
+            title:  "OF KINGS AND PROPHETS EP1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/kings.jpg",
+          },
+           {
+            id: "ofkings",
+            title:  "OF KINGS AND PROPHETS EP2",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/kings.jpg",
+          },
+        ],
 
+      }
+    ]
+  },
 
 
 
