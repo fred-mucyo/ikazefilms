@@ -244,36 +244,50 @@ const staticSeries = [
     ]
   },
 
-  //  {
-  //   id: "betaal",
-  //   title: "BETAAL",
-  //   type: "series",
-  //   description: "",
-  //   is_popular: true,
-  //   poster_url: "/kings.jpg",
-  //   seasons: [
-  //     { 
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: "betaal",
-  //           title:  "BETAAL EP1",
-  //           video_url: "",
-  //           download_url: "",
-  //           thumbnail_url: "/kings.jpg",
-  //         },
-  //          {
-  //           id: "betaal",
-  //           title:  "BETAAL EP2",
-  //           video_url: "",
-  //           download_url: "",
-  //           thumbnail_url: "/kings.jpg",
-  //         },
-  //       ],
+   {
+    id: "betaal",
+    title: "BETAAL",
+    type: "series",
+    description: "",
+    is_popular: true,
+    poster_url: "/betaal.jpg",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "betaal",
+            title:  "BETAAL EP1",
+            video_url: "https://hglink.to/30obuv124mf9",
+            download_url: "https://www.mediafire.com/file/e8mnwrdw56gbra2/BETAAL+01.mp4/file",
+            thumbnail_url: "/betaal.jpg",
+          },
+           {
+            id: "betaal",
+            title:  "BETAAL EP2",
+            video_url: "https://hglink.to/a9b0zam0juvq",
+            download_url: "https://www.mediafire.com/file/itirkup8vo59c1u/BETAAL+02.mp4/file",
+            thumbnail_url: "/betaal.jpg",
+          },
+           {
+            id: "betaal",
+            title:  "BETAAL EP3",
+            video_url: "https://hglink.to/am38l0zjmnsp",
+            download_url: "https://www.mediafire.com/file/4bfadjpq9rlx97k/BETAAL+03.mp4/file",
+            thumbnail_url: "/betaal.jpg",
+          },
+           {
+            id: "betaal",
+            title:  "BETAAL EP4 FINAL",
+            video_url: "https://hglink.to/dd5837yzotin",
+            download_url: "https://www.mediafire.com/file/8pnabi16k6llwmf/BETAAL+04+FINAL.mp4/file",
+            thumbnail_url: "/betaal.jpg",
+          },
+        ],
 
-  //     }
-  //   ]
-  // },
+      }
+    ]
+  },
 
   //  {
   //   id: "betaal",
