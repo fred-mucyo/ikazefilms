@@ -5,10 +5,10 @@ const staticSeries = [
     id: "young-famous-african",
     title: "YOUNG FAMOUS & AFRICAN",
     type: "series",
-    description: "Famous cast members include:\n\nDiamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) – Ugandan socialite & entrepreneur 👑\n\nAnnie Macaulay-Idibia & 2Baba – Nigerian actress and legendary singer couple 🎤❤️\n\nKhanyi Mbau – South African actress & media personality 🎬\n\nSwanky Jerry – celebrity stylist from Nigeria 👔\n\nNadia Nakai – South African rapper 🎧",
+    description: "Diamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) and more..",
     is_featured: true,
     is_popular: true,
-    poster_url: "/yfa.jpg",
+    poster_url: "/xxxxYfa.jpg",
     seasons: [
       { 
         seasonNumber: 1,
@@ -77,7 +77,7 @@ const staticSeries = [
     id: "s1",
     title: "SEASON: LOST IN LOVE",
     type: "series",
-    description: "Sakla Beni is a Turkish television series in the drama romance genre, set to release with its premiere episode on 2 November 2023. It is produced by OGM Pictures, directed by Nadim Güç, and the screenplay is written by Armağan Gülşah and Nergis Otluoğlu Akoğlu.",
+    description: "Ntucikwee iyi season...",
      is_popular: true,
      is_featured: true,
     poster_url: "/lostin.jpg",
