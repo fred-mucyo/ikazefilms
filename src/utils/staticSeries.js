@@ -248,7 +248,7 @@ const staticSeries = [
     id: "betaal",
     title: "BETAAL",
     type: "series",
-    description: "Betaal is an amazing new movie!!!",
+    description: "Betaal is an amazing new movie!!",
     is_popular: true,
     poster_url: "/betaal.jpg",
     seasons: [
