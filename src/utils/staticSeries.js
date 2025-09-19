@@ -1,6 +1,78 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+{
+    id: "young-famous-african",
+    title: "YOUNG FAMOUS & AFRICAN",
+    type: "series",
+    description: "Famous cast members include:\n\nDiamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) – Ugandan socialite & entrepreneur 👑\n\nAnnie Macaulay-Idibia & 2Baba – Nigerian actress and legendary singer couple 🎤❤️\n\nKhanyi Mbau – South African actress & media personality 🎬\n\nSwanky Jerry – celebrity stylist from Nigeria 👔\n\nNadia Nakai – South African rapper 🎧",
+    is_featured: true,
+    is_popular: true,
+    poster_url: "/yfa.jpg",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "YFAEP1",
+            title:  "YOUNG,FAMOUS & AFRICAN EP1",
+            video_url: "https://hglink.to/dpiypif77u84",
+            download_url: "https://www.mediafire.com/file/i89dtpsgqhiifq9/Young%252C_Famous_%2526_African_Ep1.mp4/file",
+            thumbnail_url: "/YFA8.jpg",
+          },
+           {
+            id: "YFAEP2",
+            title:  "YOUNG,FAMOUS & AFRICAN EP2",
+            video_url: "https://hglink.to/527yhwbq4c7o",
+            download_url: "https://www.mediafire.com/file/y5egi6z8qjke12v/Young%252C_Famous_%2526_African_Ep2.mp4/file",
+            thumbnail_url: "/YFA44.webp",
+          },
+           {
+            id: "YFAEP3",
+            title:  "YOUNG,FAMOUS & AFRICAN EP3",
+            video_url: "https://hglink.to/gu6gpqqqw73z",
+            download_url: "https://www.mediafire.com/file/bcqqtkqi7y48gmn/Young%252C_Famous_%2526_African_Ep3.mp4/file",
+            thumbnail_url: "/YFA3.jpg",
+          },
+           {
+            id: "YFAEP4",
+            title:  "YOUNG,FAMOUS & AFRICAN EP4",
+            video_url: "https://hglink.to/3stptqvxms80",
+            download_url: "https://www.mediafire.com/file/2f1ifszvqf1srud/Young%252C_Famous_%2526_African_Ep4.mp4/file",
+            thumbnail_url: "/YFA44.webp",
+          },
+
+   {
+            id: "YFAEP5",
+            title:  "YOUNG,FAMOUS & AFRICAN EP5",
+            video_url: "https://hglink.to/4ica1wvtt7f3",
+            download_url: "https://www.mediafire.com/file/ch9x0zed2gz0ist/Young%252C_Famous_%2526_African_Ep5.mp4/file",
+            thumbnail_url: "/YFA44.webp",
+          },
+
+
+   {
+            id: "YFAEP6",
+            title:  "YOUNG,FAMOUS & AFRICAN EP6",
+            video_url: "https://hglink.to/zsumgajjctvc",
+            download_url: "https://www.mediafire.com/file/92nst7eizrpnnvz/Young%252C_Famous_%2526_African_Ep6.mp4/file",
+            thumbnail_url: "/YFA44.webp",
+          },
+
+
+   {
+            id: "YFAEP7",
+            title:  "YOUNG,FAMOUS & AFRICAN EP7",
+            video_url: "https://hglink.to/4is9i8s2g97m",
+            download_url: "https://www.mediafire.com/file/hje9rjhdvdndq29/Young%252C_Famous_%2526_African_Ep7.mp4/file",
+            thumbnail_url: "/YFA44.webp",
+          },
+        ],
+
+      }
+    ]
+  },
+
   {
     id: "s1",
     title: "SEASON: LOST IN LOVE",
@@ -288,44 +360,6 @@ const staticSeries = [
       }
     ]
   },
-
-  //  {
-  //   id: "betaal",
-  //   title: "BETAAL",
-  //   type: "series",
-  //   description: "",
-  //   is_popular: true,
-  //   poster_url: "/kings.jpg",
-  //   seasons: [
-  //     { 
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: "betaal",
-  //           title:  "BETAAL EP1",
-  //           video_url: "",
-  //           download_url: "",
-  //           thumbnail_url: "/kings.jpg",
-  //         },
-  //          {
-  //           id: "betaal",
-  //           title:  "BETAAL EP2",
-  //           video_url: "",
-  //           download_url: "",
-  //           thumbnail_url: "/kings.jpg",
-  //         },
-  //       ],
-
-  //     }
-  //   ]
-  // },
-
-
-
-
-
-
-
 
     {
     id: "s2",
