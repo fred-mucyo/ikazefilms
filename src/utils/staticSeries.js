@@ -263,8 +263,8 @@ const staticSeries = [
           {
             id: "lost26",
             title: "LOST IN LOVE EP26",
-            video_url: "",
-            download_url: "",
+            video_url: "https://hglink.to/jsz9g19a3xi9",
+            download_url: "https://www.mediafire.com/file/z8725owaqt55hol/Lost+in+Love+26+Hd.mp4/file",
             thumbnail_url: "/lostin.jpg",
           },
           {
