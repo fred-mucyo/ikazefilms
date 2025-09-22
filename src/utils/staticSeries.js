@@ -479,7 +479,7 @@ const staticSeries = [
           {
             id: "SQUID1",
             title:  "SQUID GAME S03 EP01",
-            video_url: "https://hglink.to/30obuv124mf9",
+            video_url: "https://hglink.to/mm2lv502gmxj",
             download_url: "https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file",
             thumbnail_url: "/squidgame03.jpeg",
           },
