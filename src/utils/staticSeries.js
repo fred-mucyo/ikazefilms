@@ -316,6 +316,18 @@ const staticSeries = [
         episodes: [
           {
             id: "lostsaeson2",
+            title:  "COMMING SOON.....",
+            video_url: "https://hglink.to/episode1s2",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lostsaeson2",
+            title:  "LOST IN LOVE",
+            video_url: "https://hglink.to/episode1s2",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lostsaeson2",
             title:  "LOST IN LOVE",
             video_url: "https://hglink.to/episode1s2",
             thumbnail_url: "/lostin.jpg",
