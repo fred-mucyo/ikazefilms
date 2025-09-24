@@ -288,6 +288,27 @@ const staticSeries = [
             download_url: "https://www.mediafire.com/file/dh8qhxaodcqse0b/Lost+In+Love+29+Hd.mp4/file",
             thumbnail_url: "/lostin.jpg",
           },
+          {
+            id: "lost30",
+            title: "LOST IN LOVE EP30",
+            video_url: "https://hglink.to/436sn9p779lq",
+            download_url: "https://www.mediafire.com/file/dh8qhxaodcqse0b/Lost+In+Love+29+Hd.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost31",
+            title: "LOST IN LOVE EP31",
+            video_url: "https://hglink.to/436sn9p779lq",
+            download_url: "https://www.mediafire.com/file/dh8qhxaodcqse0b/Lost+In+Love+29+Hd.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
+          {
+            id: "lost32",
+            title: "LOST IN LOVE EP32",
+            video_url: "https://hglink.to/436sn9p779lq",
+            download_url: "https://www.mediafire.com/file/dh8qhxaodcqse0b/Lost+In+Love+29+Hd.mp4/file",
+            thumbnail_url: "/lostin.jpg",
+          },
         ]
       },
       {
