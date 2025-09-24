@@ -94,6 +94,20 @@ const SeriesPage = () => {
             </div>
           )}
         </div>
+
+        {/* ✅ Floating WhatsApp Button */}
+      <a
+        href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v"
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+        />
+        <span className="tooltip">Join us</span>
+      </a>
       </div>
     </>
   );

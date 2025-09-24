@@ -50,6 +50,7 @@ const StaticMovies = () => {
             </div>
           </div>
         </div>
+
       </div>
     </>
   )
