@@ -328,7 +328,7 @@ const staticSeries = [
           },
           {
             id: "lostsaeson2",
-            title:  "LOST IN LOVE",
+            title:  "COMMING SOON....",
             video_url: "https://hglink.to/episode1s2",
             thumbnail_url: "/lostin.jpg",
           },
