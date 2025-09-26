@@ -2,6 +2,69 @@
 
 const staticSeries = [
 {
+    id: "blackbeauty",
+    title: "BLACK IN BEAUTY S02",
+    type: "series",
+    description: "Amazing serie ever iyi ntigucicike ",
+    is_featured: true,
+    is_popular: true,
+    poster_url: "/beautyinblack.webp",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "BINBAEP1",
+            title:  "EPO1",
+            video_url: "https://hglink.to/e7g5sebheri6",
+            download_url: "https://www.mediafire.com/file/ttlml3f51vf6x7j/BEAUTY_IN_BLACK_S2_EP_01_.mp4/file",
+            thumbnail_url: "/beautyinblack.jpeg",
+          },
+           {
+            id: "BIBP2",
+            title:  "EP2",
+            video_url: "https://hglink.to/lgi504dtpc6u",
+            download_url: "https://www.mediafire.com/file/7srmjxjvqsj440y/BEAUTY_IN_BLACK_S02E02.mp4/file",
+            thumbnail_url: "/beauty.jpg",
+          },
+           {
+            id: "BINB3",
+            title:  "EP3",
+            video_url: "https://hglink.to/jbsr96p13i2b",
+            download_url: "https://www.mediafire.com/file/7t0kty7vgz95q6c/BEAUTY_IN_BLACK_S2_EP_3.mp4/file",
+            thumbnail_url: "/beauty.jpg",
+          },
+           {
+            id: "BIN4",
+            title:  "EP4",
+            video_url: "https://hglink.to/2ftij108kdqo",
+            download_url: "https://www.mediafire.com/file/l0u7qrsrydos9n0/BEAUTY_IN_BLACK_S2_EP_04.mp4/file",
+            thumbnail_url: "/beauty.jpg",
+          },
+
+   {
+            id: "BINP5",
+            title:  "EP5",
+            video_url: "https://hglink.to/65abzn89ffax",
+            download_url: "https://www.mediafire.com/file/xouaakwiv39ah2l/BEAUTY_IN_BLACK_S2_EP_05__.mp4/file/file",
+            thumbnail_url: "/beautyinblack.jpeg",
+          },
+
+
+   {
+            id: "BINP6",
+            title:  "EP6",
+            video_url: "https://hglink.to/97bkofiodzt9",
+            download_url: "https://www.mediafire.com/file/455dxl1cjnmva9z/BEAUTY+IN+BLACK+S2+EP+06.mp4/file",
+            thumbnail_url: "/beautyinblack.jpeg",
+          },
+        ],
+
+      }
+    ]
+  },
+
+{
     id: "young-famous-african",
     title: "YOUNG FAMOUS & AFRICAN",
     type: "series",
@@ -428,6 +491,69 @@ const staticSeries = [
       }
     ]
   },
+   {
+    id: "SQUID-GAMES3",
+    title: "SQUID GAME SEASON 3",
+    type: "series",
+    is_popular: true,
+    description: "Amazing movie ever!",
+    poster_url: "/squidgame03.jpeg",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "SQUID1",
+            title:  "SQUID GAME S03 EP01",
+            video_url: "https://hglink.to/mm2lv502gmxj",
+            download_url: "https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/squidgame03.jpeg",
+          },
+           {
+            id: "SQUID2",
+            title:  "SQUID GAME SO3 EP02",
+            video_url: "https://hglink.to/pmwcdnarwirc",
+            download_url: "https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/Squidgame01.jpg",
+          },
+           {
+            id: "SQUID3",
+            title:  "SQUID S03 EP03",
+            video_url: "https://hglink.to/bs75b4td70nj",
+            download_url: "https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/Squidgame01.jpg",
+          },
+           {
+            id: "SQUID04",
+            title:  "SQUID GAME S03 EP04",
+            video_url: "https://hglink.to/gsfwcnp7i29q",
+            download_url: "https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/squidgame.jpg",
+          },
+
+
+
+          {
+            id: "SQUID05",
+            title:  "SQUID GAME S03 EP05",
+            video_url: "https://hglink.to/fssfzbv8enj1",
+            download_url: "https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/squidgame03.jpeg",
+          },
+
+
+          {
+            id: "SQUID06",
+            title:  "SQUID GAME S03 EP06",
+            video_url: "https://hglink.to/g7eeun1f1mgh",
+            download_url: "https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file",
+            thumbnail_url: "/squidgame03.jpeg",
+          },
+        ],
+
+      }
+    ]
+  },
 
     {
     id: "s2",
@@ -497,70 +623,7 @@ const staticSeries = [
       },
     ]
     },
-
-     {
-    id: "SQUID-GAMES3",
-    title: "SQUID GAME SEASON 3",
-    type: "series",
-    description: "Amazing movie ever!",
-    is_popular: true,
-    poster_url: "/squidgame03.jpeg",
-    seasons: [
-      { 
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: "SQUID1",
-            title:  "SQUID GAME S03 EP01",
-            video_url: "https://hglink.to/mm2lv502gmxj",
-            download_url: "https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
-          },
-           {
-            id: "SQUID2",
-            title:  "SQUID GAME SO3 EP02",
-            video_url: "https://hglink.to/pmwcdnarwirc",
-            download_url: "https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/Squidgame01.jpg",
-          },
-           {
-            id: "SQUID3",
-            title:  "SQUID S03 EP03",
-            video_url: "https://hglink.to/bs75b4td70nj",
-            download_url: "https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/Squidgame01.jpg",
-          },
-           {
-            id: "SQUID04",
-            title:  "SQUID GAME S03 EP04",
-            video_url: "https://hglink.to/gsfwcnp7i29q",
-            download_url: "https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame.jpg",
-          },
-
-
-
-          {
-            id: "SQUID05",
-            title:  "SQUID GAME S03 EP05",
-            video_url: "https://hglink.to/fssfzbv8enj1",
-            download_url: "https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
-          },
-
-
-          {
-            id: "SQUID06",
-            title:  "SQUID GAME S03 EP06",
-            video_url: "https://hglink.to/g7eeun1f1mgh",
-            download_url: "https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
-          },
-        ],
-
-      }
-    ]
-  },
+      
 ];
 
 export default staticSeries;

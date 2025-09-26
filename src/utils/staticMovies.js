@@ -6,6 +6,24 @@ import { Download } from "lucide-react";
 const staticMovies = [
 
 
+   {
+    id: '1012',
+    title: 'HAVOC',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    is_featured: true,
+    thumbnail_url: 'havocxx.webp',
+    poster_url: 'havocxx.webp',
+    image_url: 'havocxx.webp',
+    video_url: 'https://hglink.to/klupma9fk47s',
+    download_url: 'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=LZQ2UTCbMWgRh07c'
+  },
+
+
+
  {
     id: '1012',
     title: 'Canary black',
@@ -22,9 +40,36 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/tSaw2HTVSsA?si=lPC_3KOw-ARAN7le'
   },
 
+    { id: '1013',
+    title: 'SAGATWA 1 (THE GODS MUST BE CRAZY)',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'YANGA',
+    created_at: '2024-02-12T00:00:00.000Z',
+    thumbnail_url: 'the gods.jpg',
+    poster_url: 'the gods.jpg',
+    image_url: 'canaryblack.webp',
+    video_url: 'https://hglink.to/6op9gnt30vdo',
+    download_url: 'https://www.mediafire.com/file/rdxnc7947vt47xq/SAGATWA_I.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn'
+  },
+
+
+  //  { id: '1014',
+  //   title: 'SAGATWA 2 (THE GODS MUST BE CRAZY)',
+  //   description: 'Amazing movie Ntigucike.... 😊',
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2024-02-12T00:00:00.000Z',
+  //   thumbnail_url: 'the gods.jpg',
+  //   poster_url: 'the gods.jpg',
+  //   image_url: 'canaryblack.webp',
+  //   video_url: 'https://hglink.to/6op9gnt30vdo',
+  //   download_url: 'https://www.mediafire.com/file/3pvoscuit7u814z/SAGATWA+II.mp4/file',
+  //   youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn'
+  // },
+
 
      {
-    id: '1012',
+    id: '1012222',
     title: 'Men of honor B',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'Rocky',
@@ -87,7 +132,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/yitye7l68wh5',
     youtube_trailer_url: 'https://youtu.be/-I5kX9b9rGc?si=6SCcEPq8G2jkpH7w'
   },
-  
+
     {
     id: 's96',
     title: 'NOBODY 1 B',
@@ -110,7 +155,6 @@ const staticMovies = [
     description: 'Working Man (2019) is a poignant American drama directed by Robert Jury, exploring themes of identity, purpose, and community in the face of economic hardship.',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
     thumbnail_url: '/workingman.jpeg',
     poster_url: '/workingman.jpeg',
     image_url: '/workingman.jpeg',
@@ -119,9 +163,9 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/zTbgNC42Ops?si=WDAYyrpAC6Ea7hXi'
   },
 
-   {
-    id: '107',
-    title: 'WAR C',
+  {
+    id: '105',
+    title: 'WAR A',
     description: 'War is a high-octane Indian action-thriller directed by Siddharth Anand, starring Hrithik Roshan and Tiger Shroff. The film follows Major Kabir Dhaliwal, a skilled Indian intelligence officer who goes rogue after a mission to capture a terrorist goes awry.',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
@@ -129,10 +173,11 @@ const staticMovies = [
     thumbnail_url: '/downloadwar.jpg',
     poster_url: '/waeposter.jpg',
     image_url: '/waeposter.jpg',
-    download_url: 'https://www.mediafire.com/file/znoti3fiwpwl9n6/War_C_Hd.mp4/file',
-    video_url: 'https://hglink.to/lpnx8y0tlauy',
+    download_url: 'https://www.mediafire.com/file/v8h5xa9j908244w/War_India_A.mp4/file',
+    video_url: 'https://hglink.to/l3by3hukovfh',
     youtube_trailer_url: 'https://youtu.be/oGneAab3e88?si=Zbnw611-U7AT8g43'
   },
+
 
   {
     id: '106',
@@ -150,22 +195,19 @@ const staticMovies = [
   },
 
 
-
-  {
-    id: '105',
-    title: 'WAR A',
+ {
+    id: '107',
+    title: 'WAR C',
     description: 'War is a high-octane Indian action-thriller directed by Siddharth Anand, starring Hrithik Roshan and Tiger Shroff. The film follows Major Kabir Dhaliwal, a skilled Indian intelligence officer who goes rogue after a mission to capture a terrorist goes awry.',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
     thumbnail_url: '/downloadwar.jpg',
     poster_url: '/waeposter.jpg',
     image_url: '/waeposter.jpg',
-    download_url: 'https://www.mediafire.com/file/v8h5xa9j908244w/War_India_A.mp4/file',
-    video_url: 'https://hglink.to/l3by3hukovfh',
+    download_url: 'https://www.mediafire.com/file/znoti3fiwpwl9n6/War_C_Hd.mp4/file',
+    video_url: 'https://hglink.to/lpnx8y0tlauy',
     youtube_trailer_url: 'https://youtu.be/oGneAab3e88?si=Zbnw611-U7AT8g43'
   },
-
 
 
 
