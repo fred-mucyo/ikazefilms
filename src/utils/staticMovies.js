@@ -10,16 +10,17 @@ const staticMovies = [
     id: '1012',
     title: 'HAVOC',
     description: 'Amazing movie Ntigucike.... 😊',
-    interpreter_name: 'Rocky',
+    interpreter_name: 'B THE GREAT',
     created_at: '2024-02-12T00:00:00.000Z',
     is_popular: true,
     is_featured: true,
     thumbnail_url: 'havocxx.webp',
     poster_url: 'havocxx.webp',
     image_url: 'havocxx.webp',
-    video_url: 'https://hglink.to/klupma9fk47s',
+
+    video_url:'https://hglink.to/klupma9fk47s',
     download_url: 'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=LZQ2UTCbMWgRh07c'
+    youtube_trailer_url: 'https://youtu.be/YTqc6KRBy4o?si=oW9CNAgR5KszlHaO'
   },
 
 
@@ -54,18 +55,18 @@ const staticMovies = [
   },
 
 
-  //  { id: '1014',
-  //   title: 'SAGATWA 2 (THE GODS MUST BE CRAZY)',
-  //   description: 'Amazing movie Ntigucike.... 😊',
-  //   interpreter_name: 'YANGA',
-  //   created_at: '2024-02-12T00:00:00.000Z',
-  //   thumbnail_url: 'the gods.jpg',
-  //   poster_url: 'the gods.jpg',
-  //   image_url: 'canaryblack.webp',
-  //   video_url: 'https://hglink.to/6op9gnt30vdo',
-  //   download_url: 'https://www.mediafire.com/file/3pvoscuit7u814z/SAGATWA+II.mp4/file',
-  //   youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn'
-  // },
+   { id: '1014',
+    title: 'SAGATWA 2 (THE GODS MUST BE CRAZY)',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'YANGA',
+    created_at: '2024-02-12T00:00:00.000Z',
+    thumbnail_url: 'the gods.jpg',
+    poster_url: 'the gods.jpg',
+    image_url: 'canaryblack.webp',
+    video_url: 'https://hglink.to/prqxw3ia68ic',
+    download_url: 'https://www.mediafire.com/file/3pvoscuit7u814z/SAGATWA_II.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn'
+  },
 
 
      {
