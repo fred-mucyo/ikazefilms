@@ -495,7 +495,7 @@ const staticSeries = [
     id: "SQUID-GAMES3",
     title: "SQUID GAME SEASON 3",
     type: "series",
-    is_popular: true,
+    // is_popular: true,
     description: "Amazing movie ever!",
     poster_url: "/squidgame03.jpeg",
     seasons: [
