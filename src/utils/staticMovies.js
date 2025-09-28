@@ -6,27 +6,86 @@ import { Download } from "lucide-react";
 const staticMovies = [
 
 
+     {
+    id: '10137',
+    title: 'THE BEE KEEPER A',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: 'THE BEE K.webp',
+    poster_url: 'THE BEE K.webp',
+    image_url: 'THE BEE K.webp',
+   video_url:'https://hglink.to/nfnwh440h23q',
+    download_url: 'https://www.mediafire.com/file/56fi3jcrlfc40f6/THE_BEEKEEPER_A.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/SzINZZ6iqxY?si=7hxz5yvIe6H-7sKD'
+  },
+
+
+{
+    id: '10137',
+    title: 'THE BEE KEEPER B',
+    description: 'Amazing movie Ntigucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: 'THE BEE K.webp',
+    poster_url: 'THE BEE K.webp',
+    image_url: 'THE BEE K.webp',
+   video_url:'https://hglink.to/c5jsc43rmldn',
+    download_url: 'https://www.mediafire.com/file/7p27csfyvu1k9a6/THE_BEEKEEPER_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/SzINZZ6iqxY?si=7hxz5yvIe6H-7sKD'
+  },
+
    {
-    id: '1012',
+    id: '101211',
     title: 'HAVOC',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'B THE GREAT',
-    created_at: '2024-02-12T00:00:00.000Z',
+    created_at: '2025-02-12T00:00:00.000Z',
     is_popular: true,
     is_featured: true,
     thumbnail_url: 'havocxx.webp',
     poster_url: 'havocxx.webp',
     image_url: 'havocxx.webp',
-
     video_url:'https://hglink.to/klupma9fk47s',
     download_url: 'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
     youtube_trailer_url: 'https://youtu.be/YTqc6KRBy4o?si=oW9CNAgR5KszlHaO'
   },
 
 
+   {
+    id: 's41',
+    title: "Heads of State A",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    // created_at: '2025-08-30T00:00:00.000Z',
+    //  is_popular: true,
+    thumbnail_url: '/heads.jpg',
+    poster_url: '/heads.jpg',
+    image_url: '/heads.jpg',
+    video_url: 'https://hglink.to/i6331zcdqx8n',
+    download_url:'https://www.mediafire.com/file/j7bc59ac7zmwm2f/HEADS_OF_STATE_A.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
+
+  {
+    id: 's41 headsB',
+    title: "Heads of State B",
+    description: 'Gripping stories at a glance.',
+    interpreter_name: 'ROCKY',
+    // created_at: '2025-08-30T00:00:00.000Z',
+    //  is_popular: true,
+    thumbnail_url: '/heads.jpg',
+    poster_url: '/heads.jpg',
+    image_url: '/heads.jpg',
+    video_url: 'https://hglink.to/i6331zcdqx8n',
+    download_url:'https://www.mediafire.com/file/96b2klf0r9mnt9o/HEADS_OF_STATE_B.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
+  },
+
+
 
  {
-    id: '1012',
+    id: '10146',
     title: 'Canary black',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'Rocky',
@@ -41,7 +100,7 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/tSaw2HTVSsA?si=lPC_3KOw-ARAN7le'
   },
 
-    { id: '1013',
+    { id: '10113',
     title: 'SAGATWA 1 (THE GODS MUST BE CRAZY)',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'YANGA',
@@ -55,7 +114,7 @@ const staticMovies = [
   },
 
 
-   { id: '1014',
+   { id: '10134',
     title: 'SAGATWA 2 (THE GODS MUST BE CRAZY)',
     description: 'Amazing movie Ntigucike.... 😊',
     interpreter_name: 'YANGA',
@@ -881,40 +940,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/hsmj62und74o',
     youtube_trailer_url: 'https://youtu.be/2b3vBaINZ7w?si=vceZHfd4fMU9H31s'
   },
-
-  {
-    id: 's41',
-    title: "Heads of State A",
-    description: 'Gripping stories at a glance.',
-    interpreter_name: 'ROCKY',
-    created_at: '2025-08-30T00:00:00.000Z',
-     is_popular: true,
-    thumbnail_url: '/heads.jpg',
-    poster_url: '/heads.jpg',
-    image_url: '/heads.jpg',
-    video_url: 'https://hglink.to/i6331zcdqx8n',
-    download_url:'https://www.mediafire.com/file/j7bc59ac7zmwm2f/HEADS_OF_STATE_A.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
-  },
-
-  {
-    id: 's41 headsB',
-    title: "Heads of State B",
-    description: 'Gripping stories at a glance.',
-    interpreter_name: 'ROCKY',
-    created_at: '2025-08-30T00:00:00.000Z',
-     is_popular: true,
-    thumbnail_url: '/heads.jpg',
-    poster_url: '/heads.jpg',
-    image_url: '/heads.jpg',
-    video_url: 'https://hglink.to/i6331zcdqx8n',
-    download_url:'https://www.mediafire.com/file/96b2klf0r9mnt9o/HEADS_OF_STATE_B.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY'
-  },
-
-
-
-  {
+ {
     id: 's42',
     title: "Freelance",
     description: 'Gripping stories at a glance.',

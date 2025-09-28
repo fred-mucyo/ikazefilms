@@ -227,7 +227,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Recent Releases
+          Recent Releases
           <div className="movies-section" id="recent">
             <div className="section-header">
               <h2 className="section-title">Recent Releases</h2>
@@ -238,7 +238,7 @@ const Home = () => {
                 <MovieCard key={`recent-${movie.id}`} movie={movie} loading="lazy" />
               ))}
             </div>
-          </div> */}
+          </div>
 
           {/* All Movies */}
           {!searchTerm.trim() && allMovies.length > 0 && (
