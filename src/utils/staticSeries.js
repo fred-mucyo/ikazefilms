@@ -517,7 +517,7 @@ const staticSeries = [
     type: "series",
     // is_popular: true,
     description: "Amazing movie ever!",
-    poster_url: "/island.jpeg",
+    poster_url: "/island.webp",
     seasons: [
       { 
         seasonNumber: 1,
@@ -526,14 +526,14 @@ const staticSeries = [
             id: "island",
             title:  "THE I-LAND EP 1",
             video_url: "",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/mjd0icgp28n7iax/THE+I+LAND+EP++01.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
             id: "island",
             title:  "THE I-LAND EP 2",
             video_url: "",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/7suky9vjw4vdtql/THE+I+LAND+EP++02.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
@@ -547,21 +547,21 @@ const staticSeries = [
             id: "island",
             title:  "THE I-LAND EP 4",
             video_url: "",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/jamyv9xn18whuzt/THE+I+LAND+EP++04.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
             id: "island",
             title:  "THE I-LAND EP 5",
             video_url: "",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/pomhx9sdsoyskmj/THE+I+LAND+EP++05.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
             id: "island",
             title:  "THE I-LAND EP 6",
             video_url: "",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/3w2oqiiyo8ntk6f/THE+I+LAND+EP+06.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
