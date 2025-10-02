@@ -567,7 +567,7 @@ const staticSeries = [
           {
             id: "island",
             title:  "THE I-LAND EP 7",
-            video_url: "",
+            video_url: "https://hglink.to/tcmw2k138tjy",
             download_url: "",
             thumbnail_url: "/island.jpg",
           },
