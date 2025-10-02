@@ -540,7 +540,7 @@ const staticSeries = [
             id: "island",
             title:  "THE I-LAND EP 3",
             video_url: "https://hglink.to/m7z6cxvxqtvr",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/srhmh02h97bkkf3/THE+ISLAND+E03.mp4/file",
             thumbnail_url: "/island.jpg",
           },
           {
