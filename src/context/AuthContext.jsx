@@ -53,10 +53,14 @@ export const AuthProvider = ({ children }) => {
     try {
       // Check if user exists in localStorage
       const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
-      const user = existingUsers.find(u => u.username === username && u.password === password);
-      
+      const user = existingUsers.find(
+        (u) => u.username === username && u.password === password,
+      );
+
       if (user) {
-        const token = btoa(JSON.stringify({ id: user.id, username: user.username }));
+        const token = btoa(
+          JSON.stringify({ id: user.id, username: user.username }),
+        );
         setToken(token);
         setUser(user);
         localStorage.setItem('token', token);
@@ -74,8 +78,10 @@ export const AuthProvider = ({ children }) => {
     try {
       // Check if user already exists
       const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
-      const userExists = existingUsers.find(u => u.username === username || u.email === email);
-      
+      const userExists = existingUsers.find(
+        (u) => u.username === username || u.email === email,
+      );
+
       if (userExists) {
         return { success: false, error: 'Username or email already exists' };
       }
@@ -86,15 +92,21 @@ export const AuthProvider = ({ children }) => {
         username,
         email,
         password,
-        created_at: new Date().toISOString()
+        created_at: new Date().toISOString(),
       };
 
       const updatedUsers = [...existingUsers, newUser];
       localStorage.setItem('users', JSON.stringify(updatedUsers));
-      
-      return { success: true, message: 'Registration successful! You can now login.' };
+
+      return {
+        success: true,
+        message: 'Registration successful! You can now login.',
+      };
     } catch (error) {
-      return { success: false, error: 'Registration failed. Please try again.' };
+      return {
+        success: false,
+        error: 'Registration failed. Please try again.',
+      };
     }
   };
 
@@ -109,11 +121,11 @@ export const AuthProvider = ({ children }) => {
     const newUserData = { ...user, ...updatedUserData };
     setUser(newUserData);
     localStorage.setItem('userData', JSON.stringify(newUserData));
-    
+
     // Update in users array as well
     const existingUsers = JSON.parse(localStorage.getItem('users') || '[]');
-    const updatedUsers = existingUsers.map(u => 
-      u.id === user.id ? newUserData : u
+    const updatedUsers = existingUsers.map((u) =>
+      u.id === user.id ? newUserData : u,
     );
     localStorage.setItem('users', JSON.stringify(updatedUsers));
   };
@@ -129,9 +141,5 @@ export const AuthProvider = ({ children }) => {
     isAuthenticated: !!token && !!user,
   };
 
-  return (
-    <AuthContext.Provider value={value}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };

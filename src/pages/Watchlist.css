@@ -159,41 +159,41 @@
   .watchlist-page {
     padding: 1rem 0;
   }
-  
+
   .container {
     padding: 0 15px;
   }
-  
+
   .watchlist-header h1 {
     font-size: 2.5rem;
   }
-  
+
   .watchlist-header p {
     font-size: 1rem;
   }
-  
+
   .search-input {
     max-width: 100%;
     margin: 0 1rem;
     padding: 0.7rem 1rem;
     font-size: 0.9rem;
   }
-  
+
   .watchlist-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 1rem;
     margin: 0 1rem;
   }
-  
+
   .empty-watchlist {
     margin: 0 1rem;
     padding: 3rem 1rem;
   }
-  
+
   .empty-watchlist h2 {
     font-size: 1.8rem;
   }
-  
+
   .no-results {
     margin: 0 1rem;
   }
@@ -203,25 +203,25 @@
   .watchlist-page {
     padding: 0.5rem 0;
   }
-  
+
   .container {
     padding: 0 10px;
   }
-  
+
   .watchlist-header h1 {
     font-size: 2rem;
   }
-  
+
   .search-input {
     font-size: 0.9rem;
     padding: 0.6rem 0.9rem;
   }
-  
+
   .browse-movies-btn {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
   }
-  
+
   .watchlist-grid {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 0.8rem;
@@ -232,12 +232,12 @@
   .watchlist-header h1 {
     font-size: 1.8rem;
   }
-  
+
   .watchlist-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 0.6rem;
   }
-  
+
   .search-input {
     font-size: 0.8rem;
     padding: 0.5rem 0.8rem;
@@ -250,7 +250,7 @@
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 2rem;
   }
-  
+
   .search-input {
     max-width: 450px;
     padding: 1rem 1.5rem;
@@ -264,11 +264,10 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 2.5rem;
   }
-  
+
   .search-input {
     max-width: 500px;
     padding: 1.2rem 1.8rem;
     font-size: 1.2rem;
   }
 }
-

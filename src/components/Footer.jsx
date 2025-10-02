@@ -1,10 +1,9 @@
+import { Route, Link } from 'react-router-dom';
+import React from 'react';
+import './Footer.css';
 
-import { Route, Link } from "react-router-dom";
-import React from 'react'
-import './Footer.css'
-
-import TermsOfService from "../LegalPages/TermsOfServices";
-import PrivacyPolicy from "../LegalPages/PrivacyPolicy";
+import TermsOfService from '../LegalPages/TermsOfServices';
+import PrivacyPolicy from '../LegalPages/PrivacyPolicy';
 
 const Footer = () => {
   return (
@@ -19,29 +18,47 @@ const Footer = () => {
         </div>
 
         <div className="footer-links">
-  <Link to="/terms" className="footer-link">Terms of Service</Link>
-  <Link to="/privacy" className="footer-link">Privacy Policy</Link>
-          <a href="https://www.instagram.com/hashye.online/" target="_blank" rel="noreferrer" className="footer-link">IG</a>
-          <a href="https://www.tiktok.com/@hashye.online?_t=ZM-8z7Yvtk9IJh&_r=1" target="_blank" rel="noreferrer" className="footer-link">TikTok</a>
+          <Link to="/terms" className="footer-link">
+            Terms of Service
+          </Link>
+          <Link to="/privacy" className="footer-link">
+            Privacy Policy
+          </Link>
+          <a
+            href="https://www.instagram.com/hashye.online/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            IG
+          </a>
+          <a
+            href="https://www.tiktok.com/@hashye.online?_t=ZM-8z7Yvtk9IJh&_r=1"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            TikTok
+          </a>
 
-
-
-<a href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v" target="_blank" rel="noreferrer" className="footer-link">Whatsapp</a>
-
-
-
+          <a
+            href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Whatsapp
+          </a>
         </div>
 
         <div className="footer-copy">
-          <span>© {new Date().getFullYear()} Hashye.online  All rights reserved.</span>
+          <span>
+            © {new Date().getFullYear()} Hashye.online All rights reserved.
+          </span>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-
-
-export default Footer
-
-
+export default Footer;

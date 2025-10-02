@@ -31,8 +31,6 @@
   transition: transform 0.3s ease;
 }
 
-
-
 /* Movie Badge */
 .movie-badge {
   position: absolute;
@@ -52,9 +50,15 @@
 }
 
 @keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Clickable Thumbnail */
@@ -234,7 +238,9 @@
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Compact Card Styles for Smaller Grid */
@@ -275,8 +281,6 @@
   min-height: 20px;
 }
 
-
-
 .compact-grid .movie-card-content {
   padding: 6px;
 }
@@ -304,15 +308,15 @@
   .compact-grid .movie-card-image img {
     height: 220px;
   }
-  
+
   .compact-grid .movie-card-content {
     padding: 10px;
   }
-  
+
   .compact-grid .movie-card-title {
     font-size: 0.95rem;
   }
-  
+
   .compact-grid .btn {
     padding: 6px 12px;
     font-size: 0.75rem;
@@ -323,27 +327,25 @@
   .compact-grid .movie-card-image img {
     height: 140px;
   }
-  
+
   .compact-grid .movie-card-content {
     padding: 4px;
   }
-  
+
   .compact-grid .movie-card-title {
     font-size: 0.75rem;
     line-height: 1.1;
   }
-  
+
   .compact-grid .movie-card-description {
     font-size: 0.6rem;
     line-height: 1.2;
   }
-  
+
   .compact-grid .btn {
     padding: 4px 8px;
     font-size: 0.65rem;
   }
-  
-
 }
 
 /* Large TV Screens (4K and above) */
@@ -351,17 +353,15 @@
   .movie-card-image img {
     height: 400px;
   }
-  
 
-  
   .movie-card-title {
     font-size: 1.4rem;
   }
-  
+
   .movie-card-description {
     font-size: 1.1rem;
   }
-  
+
   .btn {
     padding: 12px 16px;
     font-size: 1rem;
@@ -374,13 +374,11 @@
   .movie-card-image img {
     height: 320px;
   }
-  
 
-  
   .movie-card-title {
     font-size: 1.2rem;
   }
-  
+
   .btn {
     padding: 10px 14px;
     font-size: 0.9rem;
@@ -393,40 +391,37 @@
   .movie-card-image img {
     height: 250px;
   }
-  
 
-  
   .btn {
     padding: 8px 12px;
     font-size: 0.8rem;
     min-height: 36px;
   }
-.movie-card {
-  min-height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+  .movie-card {
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* Responsive Design */
 @media (max-width: 768px) {
   .movie-card-image img {
     height: 280px;
   }
-  
+
   .movie-card-actions {
     padding: 12px;
     gap: 6px;
   }
-  
+
   .btn {
     padding: 6px 10px;
     font-size: 0.7rem;
     min-height: 28px;
     max-width: 100px;
   }
-  
+
   .trailer-btn {
     max-width: 100px !important;
   }
@@ -436,27 +431,27 @@
   .movie-card-image img {
     height: 240px;
   }
-  
+
   .movie-card-actions {
     padding: 10px;
     gap: 5px;
   }
-  
+
   .btn {
     padding: 5px 8px;
     font-size: 0.65rem;
     min-height: 26px;
     max-width: 90px;
   }
-  
+
   .trailer-btn {
     max-width: 90px !important;
   }
-  
+
   .movie-card-title {
     font-size: 1rem;
   }
-  
+
   .movie-card-description {
     font-size: 0.8rem;
   }
@@ -467,36 +462,36 @@
   .movie-card-image img {
     height: 450px;
   }
-  
+
   .movie-card-content {
     padding: 24px;
   }
-  
+
   .movie-card-title {
     font-size: 1.5rem;
   }
-  
+
   .movie-card-description {
     font-size: 1.1rem;
   }
-  
+
   .btn {
     padding: 12px 20px;
     font-size: 0.9rem;
   }
-  
+
   .compact-grid .movie-card-image img {
     height: 280px;
   }
-  
+
   .compact-grid .movie-card-content {
     padding: 12px;
   }
-  
+
   .compact-grid .movie-card-title {
     font-size: 1.1rem;
   }
-  
+
   .compact-grid .btn {
     padding: 8px 16px;
     font-size: 0.8rem;
@@ -508,19 +503,19 @@
   .movie-card-image img {
     height: 420px;
   }
-  
+
   .movie-card-content {
     padding: 20px;
   }
-  
+
   .movie-card-title {
     font-size: 1.4rem;
   }
-  
+
   .compact-grid .movie-card-image img {
     height: 260px;
   }
-  
+
   .compact-grid .btn {
     padding: 7px 14px;
     font-size: 0.75rem;
@@ -532,7 +527,7 @@
   .movie-card-image img {
     height: 400px;
   }
-  
+
   .compact-grid .movie-card-image img {
     height: 240px;
   }
@@ -543,7 +538,7 @@
   .movie-card-image img {
     height: 380px;
   }
-  
+
   .compact-grid .movie-card-image img {
     height: 220px;
   }
@@ -553,19 +548,19 @@
   .movie-card-image img {
     height: 400px;
   }
-  
+
   .movie-card-content {
     padding: 20px;
   }
-  
+
   .movie-card-title {
     font-size: 1.3rem;
   }
-  
+
   .movie-card-description {
     font-size: 1rem;
   }
-  
+
   .btn {
     padding: 12px 20px;
     font-size: 0.95rem;
@@ -576,11 +571,11 @@
   .movie-card-image img {
     height: 350px;
   }
-  
+
   .movie-card-actions {
     padding: 12px;
   }
-  
+
   .btn {
     padding: 8px 12px;
     font-size: 0.75rem;
@@ -589,19 +584,17 @@
     align-items: center;
     justify-content: center;
   }
-  
-
 }
 
 @media (max-width: 480px) {
   .movie-card-image img {
     height: 300px;
   }
-  
+
   .movie-card-content {
     padding: 15px;
   }
-  
+
   .movie-card-title {
     font-size: 1.1rem;
   }
@@ -611,21 +604,21 @@
   .compact-grid .movie-card-image img {
     height: 120px;
   }
-  
+
   .compact-grid .movie-card-content {
     padding: 3px;
   }
-  
+
   .compact-grid .movie-card-title {
     font-size: 0.7rem;
     line-height: 1.1;
   }
-  
+
   .compact-grid .movie-card-description {
     font-size: 0.55rem;
     line-height: 1.2;
   }
-  
+
   .compact-grid .btn {
     padding: 3px 6px;
     font-size: 0.6rem;
@@ -634,6 +627,4 @@
     align-items: center;
     justify-content: center;
   }
-  
-
 }

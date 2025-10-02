@@ -1,49 +1,52 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
-import { WatchlistContext } from '../context/WatchlistContext'
-import MovieCard from '../components/MovieCard'
-import useSEO from '../hooks/useSeo.jsx'
-import './Watchlist.css'
+import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
+import { WatchlistContext } from '../context/WatchlistContext';
+import MovieCard from '../components/MovieCard';
+import useSEO from '../hooks/useSeo.jsx';
+import './Watchlist.css';
 
 const Watchlist = () => {
-  const { user } = useContext(AuthContext)
-  const { watchlist } = useContext(WatchlistContext)
-  const [filteredWatchlist, setFilteredWatchlist] = useState([])
-  const [searchTerm, setSearchTerm] = useState('')
-  const navigate = useNavigate()
+  const { user } = useContext(AuthContext);
+  const { watchlist } = useContext(WatchlistContext);
+  const [filteredWatchlist, setFilteredWatchlist] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!user) {
-      navigate('/login')
-      return
+      navigate('/login');
+      return;
     }
-  }, [user, navigate])
+  }, [user, navigate]);
 
   useEffect(() => {
     if (searchTerm.trim() === '') {
-      setFilteredWatchlist(watchlist)
+      setFilteredWatchlist(watchlist);
     } else {
-      const term = searchTerm.toLowerCase()
-      const filtered = watchlist.filter(movie => {
-        const title = movie.title?.toLowerCase() || ''
-        const desc = movie.description?.toLowerCase() || ''
-        const interp = movie.interpreter_name?.toLowerCase() || ''
-        return title.includes(term) || desc.includes(term) || interp.includes(term)
-      })
-      setFilteredWatchlist(filtered)
+      const term = searchTerm.toLowerCase();
+      const filtered = watchlist.filter((movie) => {
+        const title = movie.title?.toLowerCase() || '';
+        const desc = movie.description?.toLowerCase() || '';
+        const interp = movie.interpreter_name?.toLowerCase() || '';
+        return (
+          title.includes(term) || desc.includes(term) || interp.includes(term)
+        );
+      });
+      setFilteredWatchlist(filtered);
     }
-  }, [watchlist, searchTerm])
+  }, [watchlist, searchTerm]);
 
-  if (!user) return null
+  if (!user) return null;
 
   return (
     <>
       {useSEO({
         title: `${user.name}'s Watchlist - Hashye.online`,
-        description: "Keep track of movies you want to watch on Hashye. Browse, search, and manage your personal watchlist.",
-        image: "/hashye-preview.png",
-        url: "https://hashye.online/watchlist",
+        description:
+          'Keep track of movies you want to watch on Hashye. Browse, search, and manage your personal watchlist.',
+        image: '/hashye-preview.png',
+        url: 'https://hashye.online/watchlist',
       })}
       <div className="watchlist-page">
         <div className="container">
@@ -69,7 +72,7 @@ const Watchlist = () => {
               <div className="empty-icon">📺</div>
               <h2>Your watchlist is empty</h2>
               <p>Start adding movies to your watchlist to see them here</p>
-              <button 
+              <button
                 onClick={() => navigate('/', { replace: true })}
                 className="browse-movies-btn"
               >
@@ -79,7 +82,7 @@ const Watchlist = () => {
           ) : filteredWatchlist.length === 0 ? (
             <div className="no-results">
               <p>No movies found matching "{searchTerm}"</p>
-              <button 
+              <button
                 onClick={() => setSearchTerm('')}
                 className="clear-search-btn"
               >
@@ -89,12 +92,15 @@ const Watchlist = () => {
           ) : (
             <>
               <div className="watchlist-stats">
-                <span>{filteredWatchlist.length} movie{filteredWatchlist.length !== 1 ? 's' : ''} in your watchlist</span>
+                <span>
+                  {filteredWatchlist.length} movie
+                  {filteredWatchlist.length !== 1 ? 's' : ''} in your watchlist
+                </span>
               </div>
               <div className="watchlist-grid">
-                {filteredWatchlist.map(movie => (
-                  <MovieCard 
-                    key={movie.id} 
+                {filteredWatchlist.map((movie) => (
+                  <MovieCard
+                    key={movie.id}
                     movie={movie}
                     showWatchlistButton={true}
                   />
@@ -105,9 +111,7 @@ const Watchlist = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Watchlist
-
-
+export default Watchlist;

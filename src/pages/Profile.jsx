@@ -1,161 +1,171 @@
-import React, { useContext, useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
-import { api } from '../utils/api'
-import './Profile.css'
+import React, { useContext, useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
+import { api } from '../utils/api';
+import './Profile.css';
 
 const Profile = () => {
-  const { user, token, logout, updateUserData, isAuthenticated } = useContext(AuthContext)
-  const [profile, setProfile] = useState(null)
-  const [isEditing, setIsEditing] = useState(false)
-  const [showPasswordChange, setShowPasswordChange] = useState(false)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState('')
-  const [success, setSuccess] = useState('')
+  const { user, token, logout, updateUserData, isAuthenticated } =
+    useContext(AuthContext);
+  const [profile, setProfile] = useState(null);
+  const [isEditing, setIsEditing] = useState(false);
+  const [showPasswordChange, setShowPasswordChange] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
   const [formData, setFormData] = useState({
     username: '',
-    email: ''
-  })
+    email: '',
+  });
   const [passwordData, setPasswordData] = useState({
     currentPassword: '',
     newPassword: '',
-    confirmPassword: ''
-  })
-  const [passwordLoading, setPasswordLoading] = useState(false)
-  const navigate = useNavigate()
+    confirmPassword: '',
+  });
+  const [passwordLoading, setPasswordLoading] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate('/login')
-      return
+      navigate('/login');
+      return;
     }
-    fetchProfile()
-  }, [isAuthenticated, navigate])
+    fetchProfile();
+  }, [isAuthenticated, navigate]);
 
   const fetchProfile = async () => {
     try {
-      setLoading(true)
-      const userProfile = await api.getUserProfile(token)
-      setProfile(userProfile)
+      setLoading(true);
+      const userProfile = await api.getUserProfile(token);
+      setProfile(userProfile);
       setFormData({
         username: userProfile.username || '',
-        email: userProfile.email || ''
-      })
+        email: userProfile.email || '',
+      });
     } catch (err) {
-      setError('Failed to load profile')
-      console.error('Error fetching profile:', err)
+      setError('Failed to load profile');
+      console.error('Error fetching profile:', err);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target
-    setFormData(prev => ({
+    const { name, value } = e.target;
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
-    }))
-  }
+      [name]: value,
+    }));
+  };
 
   const handlePasswordChange = (e) => {
-    const { name, value } = e.target
-    setPasswordData(prev => ({
+    const { name, value } = e.target;
+    setPasswordData((prev) => ({
       ...prev,
-      [name]: value
-    }))
-  }
+      [name]: value,
+    }));
+  };
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    setError('')
-    setSuccess('')
+    e.preventDefault();
+    setError('');
+    setSuccess('');
 
     // Validate that at least one field has meaningful content
-    const trimmedUsername = formData.username.trim()
-    const trimmedEmail = formData.email.trim()
-    
+    const trimmedUsername = formData.username.trim();
+    const trimmedEmail = formData.email.trim();
+
     if (!trimmedUsername && !trimmedEmail) {
-      setError('At least one field (username or email) is required for update.')
-      return
+      setError(
+        'At least one field (username or email) is required for update.',
+      );
+      return;
     }
 
     // Validate username length if provided
-    if (trimmedUsername && (trimmedUsername.length < 3 || trimmedUsername.length > 50)) {
-      setError('Username must be between 3 and 50 characters.')
-      return
+    if (
+      trimmedUsername &&
+      (trimmedUsername.length < 3 || trimmedUsername.length > 50)
+    ) {
+      setError('Username must be between 3 and 50 characters.');
+      return;
     }
 
     // Validate email format if provided
     if (trimmedEmail && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail)) {
-      setError('Please enter a valid email address.')
-      return
+      setError('Please enter a valid email address.');
+      return;
     }
 
     try {
       const updatedProfile = await api.updateUserProfile(token, {
         username: trimmedUsername || undefined,
-        email: trimmedEmail || undefined
-      })
-      setSuccess('Profile updated successfully!')
-      setIsEditing(false)
-      
+        email: trimmedEmail || undefined,
+      });
+      setSuccess('Profile updated successfully!');
+      setIsEditing(false);
+
       // Update both local profile state and global auth context
-      setProfile(updatedProfile.user)
-      updateUserData(updatedProfile.user)
-      
+      setProfile(updatedProfile.user);
+      updateUserData(updatedProfile.user);
+
       // Auto-hide success message after 3 seconds
-      setTimeout(() => setSuccess(''), 3000)
+      setTimeout(() => setSuccess(''), 3000);
     } catch (err) {
-      setError(err.message || 'Failed to update profile')
-      console.error('Error updating profile:', err)
+      setError(err.message || 'Failed to update profile');
+      console.error('Error updating profile:', err);
     }
-  }
+  };
 
   const handlePasswordSubmit = async (e) => {
-    e.preventDefault()
-    setError('')
-    setSuccess('')
+    e.preventDefault();
+    setError('');
+    setSuccess('');
 
     // Validate passwords match
     if (passwordData.newPassword !== passwordData.confirmPassword) {
-      setError('New passwords do not match')
-      return
+      setError('New passwords do not match');
+      return;
     }
 
     // Validate password length
     if (passwordData.newPassword.length < 8) {
-      setError('New password must be at least 8 characters long')
-      return
+      setError('New password must be at least 8 characters long');
+      return;
     }
 
     try {
-      setPasswordLoading(true)
-      await api.changePassword(token, passwordData.currentPassword, passwordData.newPassword)
-      setSuccess('Password changed successfully!')
-      setShowPasswordChange(false)
+      setPasswordLoading(true);
+      await api.changePassword(
+        token,
+        passwordData.currentPassword,
+        passwordData.newPassword,
+      );
+      setSuccess('Password changed successfully!');
+      setShowPasswordChange(false);
       setPasswordData({
         currentPassword: '',
         newPassword: '',
-        confirmPassword: ''
-      })
-      
+        confirmPassword: '',
+      });
+
       // Auto-hide success message after 3 seconds
-      setTimeout(() => setSuccess(''), 3000)
+      setTimeout(() => setSuccess(''), 3000);
     } catch (err) {
-      setError(err.message || 'Failed to change password')
-      console.error('Error changing password:', err)
+      setError(err.message || 'Failed to change password');
+      console.error('Error changing password:', err);
     } finally {
-      setPasswordLoading(false)
+      setPasswordLoading(false);
     }
-  }
+  };
 
   const handleLogout = () => {
-    logout()
-    navigate('/', { replace: true })
-  }
+    logout();
+    navigate('/', { replace: true });
+  };
 
   if (!isAuthenticated) {
-    return null
+    return null;
   }
 
   if (loading) {
@@ -168,7 +178,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    )
+    );
   }
 
   return (
@@ -179,17 +189,9 @@ const Profile = () => {
           <p>Manage your account settings</p>
         </div>
 
-        {error && (
-          <div className="error-message">
-            {error}
-          </div>
-        )}
+        {error && <div className="error-message">{error}</div>}
 
-        {success && (
-          <div className="success-message">
-            {success}
-          </div>
-        )}
+        {success && <div className="success-message">{success}</div>}
 
         <div className="profile-content">
           <div className="profile-card">
@@ -211,26 +213,27 @@ const Profile = () => {
                 </div>
                 <div className="info-group">
                   <label>Member Since</label>
-                  <p>{profile?.created_at ? new Date(profile.created_at).toLocaleDateString() : 'Unknown'}</p>
+                  <p>
+                    {profile?.created_at
+                      ? new Date(profile.created_at).toLocaleDateString()
+                      : 'Unknown'}
+                  </p>
                 </div>
-                
+
                 <div className="profile-actions">
-                  <button 
+                  <button
                     onClick={() => setIsEditing(true)}
                     className="edit-btn"
                   >
                     Edit Profile
                   </button>
-                  <button 
+                  <button
                     onClick={() => setShowPasswordChange(true)}
                     className="password-btn"
                   >
                     Change Password
                   </button>
-                  <button 
-                    onClick={handleLogout}
-                    className="logout-btn"
-                  >
+                  <button onClick={handleLogout} className="logout-btn">
                     Logout
                   </button>
                 </div>
@@ -250,7 +253,7 @@ const Profile = () => {
                     maxLength="50"
                   />
                 </div>
-                
+
                 <div className="form-group">
                   <label htmlFor="email">Email</label>
                   <input
@@ -264,21 +267,18 @@ const Profile = () => {
                 </div>
 
                 <div className="form-actions">
-                  <button 
-                    type="submit"
-                    className="save-btn"
-                  >
+                  <button type="submit" className="save-btn">
                     Save Changes
                   </button>
-                  <button 
+                  <button
                     type="button"
                     onClick={() => {
-                      setIsEditing(false)
+                      setIsEditing(false);
                       setFormData({
                         username: profile?.username || '',
-                        email: profile?.email || ''
-                      })
-                      setError('')
+                        email: profile?.email || '',
+                      });
+                      setError('');
                     }}
                     className="cancel-btn"
                   >
@@ -299,7 +299,7 @@ const Profile = () => {
                     required
                   />
                 </div>
-                
+
                 <div className="form-group">
                   <label htmlFor="newPassword">New Password</label>
                   <input
@@ -327,23 +327,25 @@ const Profile = () => {
                 </div>
 
                 <div className="form-actions">
-                  <button 
+                  <button
                     type="submit"
                     className="save-btn"
                     disabled={passwordLoading}
                   >
-                    {passwordLoading ? 'Changing Password...' : 'Change Password'}
+                    {passwordLoading
+                      ? 'Changing Password...'
+                      : 'Change Password'}
                   </button>
-                  <button 
+                  <button
                     type="button"
                     onClick={() => {
-                      setShowPasswordChange(false)
+                      setShowPasswordChange(false);
                       setPasswordData({
                         currentPassword: '',
                         newPassword: '',
-                        confirmPassword: ''
-                      })
-                      setError('')
+                        confirmPassword: '',
+                      });
+                      setError('');
                     }}
                     className="cancel-btn"
                   >
@@ -356,7 +358,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

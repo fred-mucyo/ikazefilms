@@ -5,7 +5,11 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.85) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.85) 100%
+  );
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px 0;
@@ -148,7 +152,9 @@
   outline: none;
   border-color: #00d4ff;
   background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 0 0 2px rgba(0, 212, 255, 0.2), 0 4px 20px rgba(0, 212, 255, 0.1);
+  box-shadow:
+    0 0 0 2px rgba(0, 212, 255, 0.2),
+    0 4px 20px rgba(0, 212, 255, 0.1);
   transform: translateY(-1px);
 }
 
@@ -160,7 +166,9 @@
 .search-input.focused {
   border-color: #00d4ff;
   background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 0 0 2px rgba(0, 212, 255, 0.2), 0 4px 20px rgba(0, 212, 255, 0.1);
+  box-shadow:
+    0 0 0 2px rgba(0, 212, 255, 0.2),
+    0 4px 20px rgba(0, 212, 255, 0.1);
   transform: translateY(-1px);
 }
 
@@ -199,25 +207,25 @@
     max-width: 1600px;
     padding: 0 40px;
   }
-  
+
   .nav-menu {
     gap: 40px;
   }
-  
+
   .nav-link {
     font-size: 1rem;
     padding: 12px 18px;
   }
-  
+
   .nav-search {
     max-width: 400px;
   }
-  
+
   .search-input {
     font-size: 16px;
     padding: 12px 50px 12px 18px;
   }
-  
+
   .search-submit-btn {
     width: 32px;
     height: 32px;
@@ -236,16 +244,16 @@
   .nav-container {
     padding: 0 20px;
   }
-  
+
   .nav-menu {
     gap: 20px;
   }
-  
+
   .nav-link {
     font-size: 0.85rem;
     padding: 8px 12px;
   }
-  
+
   .nav-search {
     max-width: 280px;
   }
@@ -255,37 +263,41 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 12px 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.85) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.85) 100%
+    );
   }
-  
+
   .nav-container {
     padding: 0 15px;
     justify-content: space-between;
   }
-  
+
   /* Hide navigation menu on mobile */
   .nav-menu {
     display: none;
   }
-  
+
   .nav-search {
     max-width: 100%;
     margin: 0;
     flex: 1;
     min-width: 200px;
   }
-  
+
   .search-input {
     font-size: 14px;
     padding: 10px 50px 10px 16px;
   }
-  
+
   .search-submit-btn {
     width: 28px;
     height: 28px;
     right: 8px;
   }
-  
+
   .search-submit-btn:hover {
     transform: translateY(-50%) scale(1.05);
   }
@@ -296,35 +308,34 @@
   .nav-container {
     padding: 0 10px;
   }
-  
+
   .brand-logo {
     gap: 6px;
   }
-  
+
   .logo-text {
     font-size: 1.3rem;
   }
-  
+
   .brand-tagline {
     font-size: 0.65rem;
   }
-  
+
   .nav-search {
     min-width: 150px;
   }
-  
+
   .search-input {
     font-size: 13px;
     padding: 8px 45px 8px 14px;
   }
-  
+
   .search-submit-btn {
     width: 24px;
     height: 24px;
     right: 6px;
   }
 }
-
 
 /* Mobile Menu Toggle Button */
 .mobile-menu-toggle {
@@ -362,8 +373,6 @@
     padding: 12px 0;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .mobile-logo-wrapper {

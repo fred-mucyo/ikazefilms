@@ -9,7 +9,11 @@
   text-align: center;
   margin-bottom: 60px;
   padding: 60px 0;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(102, 126, 234, 0.1) 0%,
+    rgba(118, 75, 162, 0.1) 100%
+  );
   border-radius: 24px;
   position: relative;
   overflow: hidden;
@@ -69,11 +73,11 @@
   .compact-grid {
     grid-template-columns: repeat(6, 1fr);
   }
-  
+
   .section-title {
     font-size: 3rem;
   }
-  
+
   .section-subtitle {
     font-size: 1.2rem;
   }
@@ -103,16 +107,16 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5rem;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  
+
   .section-title {
     font-size: 1.5rem;
   }
-  
+
   .section-subtitle {
     font-size: 0.9rem;
   }
@@ -282,16 +286,16 @@
     max-width: 1800px;
     padding: 0 40px;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(6, 1fr);
     gap: 24px;
   }
-  
+
   .hero-title {
     font-size: 4rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.4rem;
   }
@@ -303,24 +307,24 @@
     max-width: 2400px;
     padding: 0 60px;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(8, 1fr);
     gap: 32px;
   }
-  
+
   .hero-title {
     font-size: 5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.6rem;
   }
-  
+
   .section-title {
     font-size: 3.5rem;
   }
-  
+
   .section-subtitle {
     font-size: 1.3rem;
   }
@@ -332,12 +336,12 @@
     max-width: 1400px;
     padding: 0 30px;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
-  
+
   .hero-title {
     font-size: 3.5rem;
   }
@@ -349,7 +353,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
   }
-  
+
   .hero-title {
     font-size: 3rem;
   }
@@ -361,7 +365,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
   }
-  
+
   .hero-title {
     font-size: 2.8rem;
   }
@@ -371,7 +375,7 @@
   .home-page {
     padding: 20px 0;
   }
-  
+
   .container {
     padding: 0 20px;
   }
@@ -381,27 +385,27 @@
     padding: 40px 20px;
     border-radius: 16px;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .section-subtitle {
     font-size: 1rem;
   }
-  
+
   .movies-section {
     margin-top: 30px;
   }
-  
+
   .error-actions {
     flex-direction: column;
     align-items: center;
@@ -413,28 +417,28 @@
   .container {
     padding: 0 15px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1rem;
   }
-  
+
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .section-subtitle {
     font-size: 0.9rem;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
-  
+
   .trailer-highlight {
     font-size: 12px;
   }
@@ -445,15 +449,15 @@
   .container {
     padding: 0 10px;
   }
-  
+
   .hero-title {
     font-size: 1.8rem;
   }
-  
+
   .section-title {
     font-size: 1.6rem;
   }
-  
+
   .movies-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
@@ -462,12 +466,11 @@
     width: 100%;
     max-width: 250px;
   }
-  
+
   .error-help ul {
     max-width: 100%;
   }
 }
-
 
 /* Floating WhatsApp Button */
 .whatsapp-float {
@@ -482,7 +485,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   z-index: 9999;
   transition: transform 0.3s ease;
 }
@@ -516,19 +519,3 @@
   opacity: 1;
   transform: translateY(-50%) translateX(-5px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

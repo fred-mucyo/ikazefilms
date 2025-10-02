@@ -1,5 +1,5 @@
-import React from 'react'
-import './LoadingSpinner.css'
+import React from 'react';
+import './LoadingSpinner.css';
 
 const LoadingSpinner = ({ size = 'medium', text = 'Loading...' }) => {
   return (
@@ -7,8 +7,7 @@ const LoadingSpinner = ({ size = 'medium', text = 'Loading...' }) => {
       <div className="spinner"></div>
       {text && <p>{text}</p>}
     </div>
-  )
-}
+  );
+};
 
-export default LoadingSpinner
-
+export default LoadingSpinner;

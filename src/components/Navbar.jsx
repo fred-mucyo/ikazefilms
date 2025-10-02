@@ -29,7 +29,7 @@
 
 //     const params = new URLSearchParams(location.search);
 //     const currentSearchParam = params.get('search') || '';
-    
+
 //     // Only update URL if the search term actually changed to prevent loops
 //     if (searchTerm.trim() !== currentSearchParam) {
 //       if (searchTerm.trim()) {
@@ -66,9 +66,6 @@
 //     }
 //   };
 
-
-
-
 //   const scrollToSection = (sectionId) => {
 //     const doScroll = () => {
 //       const el = document.getElementById(sectionId);
@@ -101,17 +98,10 @@
 //             <span className="nav-text">HOME</span>
 //           </button>
 
-
-//                  <button className={`nav-link as-button ${activeMenu === 'SERIES' ? 'active' : ''}`} 
+//                  <button className={`nav-link as-button ${activeMenu === 'SERIES' ? 'active' : ''}`}
 //         onClick={() => { setActiveMenu('SERIES'); isNavigatingRef.current = true; navigate('/series'); }}>
 //   <span className="nav-text">SEASONS</span>
 // </button>
-
-
-
-
-
-
 
 //           <button className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`} onClick={() => { setActiveMenu('FEATURED'); scrollToSection('featured'); }}>
 //             <span className="nav-text">FEATURED</span>
@@ -120,7 +110,6 @@
 //             <span className="nav-text">POPULAR</span>
 //           </button>
 
-  
 //         </div>
 
 //         {/* Search Bar */}
@@ -155,9 +144,6 @@
 
 // export default Navbar;
 
-
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { Search, Menu, X } from 'lucide-react';
@@ -190,7 +176,7 @@ const Navbar = () => {
 
     const params = new URLSearchParams(location.search);
     const currentSearchParam = params.get('search') || '';
-    
+
     if (searchTerm.trim() !== currentSearchParam) {
       if (searchTerm.trim()) {
         params.set('search', searchTerm.trim());
@@ -207,7 +193,8 @@ const Navbar = () => {
       navigate(`/?search=${encodeURIComponent(searchTerm.trim())}`);
       setTimeout(() => {
         const searchResults = document.getElementById('search-results');
-        if (searchResults) searchResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (searchResults)
+          searchResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 100);
     }
   };
@@ -226,7 +213,7 @@ const Navbar = () => {
     }
   };
 
-  const handleMobileMenuToggle = () => setMobileMenuOpen(prev => !prev);
+  const handleMobileMenuToggle = () => setMobileMenuOpen((prev) => !prev);
 
   const handleNavClick = (menu, path, sectionId) => {
     setActiveMenu(menu);
@@ -242,39 +229,48 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-  <div className="mobile-logo-wrapper">
-    {/* Hamburger toggle */}
-    <button className="mobile-menu-toggle" onClick={() => setMobileMenuOpen(prev => !prev)}>
-      {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-    </button>
+        <div className="mobile-logo-wrapper">
+          {/* Hamburger toggle */}
+          <button
+            className="mobile-menu-toggle"
+            onClick={() => setMobileMenuOpen((prev) => !prev)}
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
 
-    {/* Logo/Brand */}
-    <Link to="/" className="nav-brand">
-    
-      <span className="logo-text">HASHYE</span>
-    </Link>
-  </div>
-        
+          {/* Logo/Brand */}
+          <Link to="/" className="nav-brand">
+            <span className="logo-text">HASHYE</span>
+          </Link>
+        </div>
 
         {/* Navigation Links */}
         <div className={`nav-menu ${mobileMenuOpen ? 'open' : ''}`}>
-          <button className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`} 
-                  onClick={() => handleNavClick('HOME', '/', null)}>
+          <button
+            className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`}
+            onClick={() => handleNavClick('HOME', '/', null)}
+          >
             <span className="nav-text">HOME</span>
           </button>
 
-          <button className={`nav-link as-button ${activeMenu === 'SERIES' ? 'active' : ''}`} 
-                  onClick={() => handleNavClick('SERIES', '/series', null)}>
+          <button
+            className={`nav-link as-button ${activeMenu === 'SERIES' ? 'active' : ''}`}
+            onClick={() => handleNavClick('SERIES', '/series', null)}
+          >
             <span className="nav-text">SEASONS</span>
           </button>
 
-          <button className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`} 
-                  onClick={() => handleNavClick('FEATURED', null, 'featured')}>
+          <button
+            className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`}
+            onClick={() => handleNavClick('FEATURED', null, 'featured')}
+          >
             <span className="nav-text">FEATURED</span>
           </button>
 
-          <button className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`} 
-                  onClick={() => handleNavClick('POPULAR', null, 'popular')}>
+          <button
+            className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`}
+            onClick={() => handleNavClick('POPULAR', null, 'popular')}
+          >
             <span className="nav-text">POPULAR</span>
           </button>
         </div>
@@ -293,7 +289,11 @@ const Navbar = () => {
                 onBlur={() => setIsSearchFocused(false)}
                 className={`search-input ${isSearchFocused ? 'focused' : ''}`}
               />
-              <button type="submit" className="search-submit-btn" aria-label="Search">
+              <button
+                type="submit"
+                className="search-submit-btn"
+                aria-label="Search"
+              >
                 <Search size={16} />
               </button>
             </div>

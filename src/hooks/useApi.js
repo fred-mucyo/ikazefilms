@@ -1,33 +1,33 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback } from 'react';
 
 export const useApi = () => {
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState(null)
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const callApi = useCallback(async (apiFunction, ...args) => {
     try {
-      setLoading(true)
-      setError(null)
-      const result = await apiFunction(...args)
-      return result
+      setLoading(true);
+      setError(null);
+      const result = await apiFunction(...args);
+      return result;
     } catch (err) {
-      const errorMessage = err.response?.data?.message || err.message || 'An error occurred'
-      setError(errorMessage)
-      throw err
+      const errorMessage =
+        err.response?.data?.message || err.message || 'An error occurred';
+      setError(errorMessage);
+      throw err;
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }, [])
+  }, []);
 
   const clearError = useCallback(() => {
-    setError(null)
-  }, [])
+    setError(null);
+  }, []);
 
   return {
     loading,
     error,
     callApi,
-    clearError
-  }
-}
-
+    clearError,
+  };
+};

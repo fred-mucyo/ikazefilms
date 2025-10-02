@@ -33,7 +33,7 @@
 .series-poster {
   width: 300px;
   border-radius: 16px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
   transition: transform 0.4s ease;
 }
 
@@ -51,7 +51,6 @@
   margin-bottom: 1rem;
   color: #00d4ff;
   font-weight: 700;
- 
 }
 
 .series-description {
@@ -72,7 +71,7 @@
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(8px);
   color: #fff;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
   cursor: pointer;
@@ -83,13 +82,13 @@
 .season-selector button:hover {
   background: linear-gradient(135deg, #00d4ff, #0099cc);
   color: #000;
-  box-shadow: 0 4px 12px rgba(0,212,255,0.4);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
 }
 
 .season-selector button.active {
   background: linear-gradient(135deg, #00d4ff, #0099cc);
   color: #000;
-  box-shadow: 0 4px 12px rgba(0,212,255,0.6);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.6);
 }
 
 /* Episodes grid */
@@ -103,14 +102,16 @@
   background: rgba(255, 255, 255, 0.05);
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.6);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
   backdrop-filter: blur(10px);
 }
 
 .episode-card:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
 }
 
 .episode-thumbnail {
@@ -133,7 +134,6 @@
   margin-bottom: 0.6rem;
   color: white;
   font-weight: 600;
-
 }
 
 /* Episode buttons */
@@ -142,7 +142,8 @@
   gap: 0.6rem;
 }
 
-.watch-btn, .download-btn {
+.watch-btn,
+.download-btn {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -154,7 +155,7 @@
 .watch-btn {
   background: linear-gradient(135deg, #00d4ff, #0099cc);
   color: #000;
-  box-shadow: 0 4px 10px rgba(0,212,255,0.3);
+  box-shadow: 0 4px 10px rgba(0, 212, 255, 0.3);
 }
 
 .watch-btn:hover {
@@ -165,7 +166,7 @@
 .download-btn {
   background: linear-gradient(135deg, #ff6b6b, #ee5a24);
   color: #fff;
-  box-shadow: 0 4px 10px rgba(255,107,107,0.3);
+  box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
 }
 
 .download-btn:hover {

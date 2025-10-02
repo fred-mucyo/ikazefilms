@@ -1,14 +1,14 @@
-import React from "react";
-import { Shield, Mail, Globe, Building2 } from "lucide-react";
+import React from 'react';
+import { Shield, Mail, Globe, Building2 } from 'lucide-react';
 
-import "./LegalPages.css";
+import './LegalPages.css';
 
 const CONFIG = {
-  appName: "Hashye.online",
-  contactEmail: "hashyeonline@gmail.com",
-  effectiveDate: "August 20, 2025",
-  companyAddress: "Kigali, Rwanda",
-  websiteUrl: "https://hashye.online",
+  appName: 'Hashye.online',
+  contactEmail: 'hashyeonline@gmail.com',
+  effectiveDate: 'August 20, 2025',
+  companyAddress: 'Kigali, Rwanda',
+  websiteUrl: 'https://hashye.online',
 };
 
 function Card({ children }) {
@@ -28,14 +28,18 @@ export default function PrivacyPolicy() {
         </div>
         <div>
           <h1 className="legal-title">Privacy Policy</h1>
-          <p className="legal-subtitle">Effective {C.effectiveDate} · For {C.appName}</p>
+          <p className="legal-subtitle">
+            Effective {C.effectiveDate} · For {C.appName}
+          </p>
         </div>
       </header>
 
       <Card>
         <CardContent>
           <section className="legal-section">
-            <p>At <strong>{C.appName}</strong>, your privacy matters.</p>
+            <p>
+              At <strong>{C.appName}</strong>, your privacy matters.
+            </p>
             <h2>1. Information We Collect</h2>
             <ul>
               <li>Account details: email, name, login.</li>
@@ -50,7 +54,10 @@ export default function PrivacyPolicy() {
               <li>For safety and compliance.</li>
             </ul>
             <h2>3. Sharing of Information</h2>
-            <p>We don’t sell data. Shared only with trusted providers or when required by law.</p>
+            <p>
+              We don’t sell data. Shared only with trusted providers or when
+              required by law.
+            </p>
             <h2>4. Data Retention</h2>
             <p>Data is kept only as long as necessary or required legally.</p>
             <h2>5. Your Rights</h2>
@@ -66,9 +73,10 @@ export default function PrivacyPolicy() {
             <p>We may update this policy; continued use = acceptance.</p>
             <h2>9. Contact</h2>
             <p>
-              <Mail size={14} /> <a href={`mailto:${C.contactEmail}`}>{C.contactEmail}</a> ·{" "}
-              <Building2 size={14} /> {C.companyAddress} ·{" "}
-              <Globe size={14} /> <a href={C.websiteUrl}>{C.websiteUrl}</a>
+              <Mail size={14} />{' '}
+              <a href={`mailto:${C.contactEmail}`}>{C.contactEmail}</a> ·{' '}
+              <Building2 size={14} /> {C.companyAddress} · <Globe size={14} />{' '}
+              <a href={C.websiteUrl}>{C.websiteUrl}</a>
             </p>
           </section>
         </CardContent>

@@ -1,12 +1,13 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet-async';
 
 // default SEO values (used when nothing is passed)
 const defaultSEO = {
-  title: "🎬 Hashye.online - Stream Movies & Shows in HD",
-  description: "Discover, watch, and enjoy the latest movies and shows in HD with Hashye.online",
-  image: "/hashye-preview.png", // should exist in /public
-  url: "https://hashye.online/",
-  type: "website",
+  title: '🎬 Hashye.online - Stream Movies & Shows in HD',
+  description:
+    'Discover, watch, and enjoy the latest movies and shows in HD with Hashye.online',
+  image: '/hashye-preview.png', // should exist in /public
+  url: 'https://hashye.online/',
+  type: 'website',
 };
 
 export default function useSEO({

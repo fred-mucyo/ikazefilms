@@ -1,22 +1,24 @@
-import React, { useMemo } from 'react'
-import TrailerEmbed from './TrailerEmbed'
-import './FeaturedHero.css'
+import React, { useMemo } from 'react';
+import TrailerEmbed from './TrailerEmbed';
+import './FeaturedHero.css';
 
 const FeaturedHero = ({ movies = [] }) => {
   const featured = useMemo(() => {
-    if (!Array.isArray(movies) || movies.length === 0) return null
-    const flagged = movies.find((m) => m.is_featured)
-    if (flagged) return flagged
-    const withTrailer = movies.filter((m) => m.youtube_trailer_url)
-    return (withTrailer[0] || movies[0]) ?? null
-  }, [movies])
+    if (!Array.isArray(movies) || movies.length === 0) return null;
+    const flagged = movies.find((m) => m.is_featured);
+    if (flagged) return flagged;
+    const withTrailer = movies.filter((m) => m.youtube_trailer_url);
+    return (withTrailer[0] || movies[0]) ?? null;
+  }, [movies]);
 
-  if (!featured) return null
+  if (!featured) return null;
 
-  const createdYear = featured.created_at ? new Date(featured.created_at).getFullYear() : ''
+  const createdYear = featured.created_at
+    ? new Date(featured.created_at).getFullYear()
+    : '';
 
   // Background image handling (WebP + fallback)
-  const bgStyle = { backgroundColor: '#000' }
+  const bgStyle = { backgroundColor: '#000' };
 
   return (
     <section className="featured-hero" style={bgStyle}>
@@ -51,7 +53,12 @@ const FeaturedHero = ({ movies = [] }) => {
           <div className="featured-trailer">
             <TrailerEmbed
               youtubeUrl={featured.youtube_trailer_url}
-              thumbnailUrl={featured.thumbnail_url || featured.poster_url || featured.image_url || '/hashye-preview.png'}
+              thumbnailUrl={
+                featured.thumbnail_url ||
+                featured.poster_url ||
+                featured.image_url ||
+                '/hashye-preview.png'
+              }
               title={featured.title}
               loading="lazy"
             />
@@ -59,7 +66,7 @@ const FeaturedHero = ({ movies = [] }) => {
         )}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FeaturedHero
+export default FeaturedHero;

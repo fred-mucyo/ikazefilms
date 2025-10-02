@@ -6,7 +6,7 @@
   font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
   background-color: #f8f9fa;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   color: #1c1c1e;
   line-height: 1.7;
 }
@@ -28,8 +28,12 @@
   color: #fff;
 }
 
-.icon-box.green { background-color: #34d399; }
-.icon-box.indigo { background-color: #6366f1; }
+.icon-box.green {
+  background-color: #34d399;
+}
+.icon-box.indigo {
+  background-color: #6366f1;
+}
 
 .legal-title {
   font-size: 2rem;
@@ -48,7 +52,7 @@
   background-color: #ffffff;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
   margin-bottom: 25px;
   transition: transform 0.2s ease;
 }
@@ -70,7 +74,8 @@
   color: #111827;
 }
 
-.legal-section p, .legal-section li {
+.legal-section p,
+.legal-section li {
   font-size: 0.95rem;
   color: #374151;
 }

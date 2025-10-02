@@ -1,16 +1,19 @@
-import React, { useMemo, useEffect } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
-import staticMovies from '../utils/staticMovies'
-import TrailerEmbed from '../components/TrailerEmbed'
-import Comments from '../components/Comments'
-import { truncateText, formatDate } from '../utils/api'
-import useSEO from "../hooks/useSeo.jsx"
-import './MovieDetail.css'
+import React, { useMemo, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import staticMovies from '../utils/staticMovies';
+import TrailerEmbed from '../components/TrailerEmbed';
+import Comments from '../components/Comments';
+import { truncateText, formatDate } from '../utils/api';
+import useSEO from '../hooks/useSeo.jsx';
+import './MovieDetail.css';
 
 const StaticMovieDetail = () => {
-  const { id } = useParams()
-  const navigate = useNavigate()
-  const movie = useMemo(() => staticMovies.find(m => String(m.id) === String(id)) || null, [id])
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const movie = useMemo(
+    () => staticMovies.find((m) => String(m.id) === String(id)) || null,
+    [id],
+  );
 
   // Scroll to trailer section when component mounts
   useEffect(() => {
@@ -28,19 +31,31 @@ const StaticMovieDetail = () => {
     return (
       <div className="movie-detail-page container">
         <h2>Movie not found</h2>
-        <button onClick={() => navigate('/', { replace: true })} className="btn">Back to Home</button>
+        <button
+          onClick={() => navigate('/', { replace: true })}
+          className="btn"
+        >
+          Back to Home
+        </button>
       </div>
-    )
+    );
   }
 
-  const poster = movie.thumbnail_url || movie.poster_url || movie.image_url || movie.cover_url
-  const year = movie.created_at ? new Date(movie.created_at).getFullYear() : ''
+  const poster =
+    movie.thumbnail_url ||
+    movie.poster_url ||
+    movie.image_url ||
+    movie.cover_url;
+  const year = movie.created_at ? new Date(movie.created_at).getFullYear() : '';
 
   return (
     <>
       {useSEO({
         title: `${movie.title} - Hashye`,
-        description: truncateText(movie.description || 'Watch now on Hashye', 150),
+        description: truncateText(
+          movie.description || 'Watch now on Hashye',
+          150,
+        ),
         image: poster || '/hashye-preview.png',
         url: `https://hashye.online/static-movie/${movie.id}`,
       })}
@@ -51,9 +66,12 @@ const StaticMovieDetail = () => {
               <div className="movie-info">
                 <h1 className="movie-title">{movie.title}</h1>
                 <p className="movie-description meta">
-                  {year}{movie.interpreter_name ? ` • ${movie.interpreter_name}` : ''}
+                  {year}
+                  {movie.interpreter_name ? ` • ${movie.interpreter_name}` : ''}
                 </p>
-                {movie.description && <p className="movie-description">{movie.description}</p>}
+                {movie.description && (
+                  <p className="movie-description">{movie.description}</p>
+                )}
 
                 {movie.youtube_trailer_url && (
                   <div className="trailer-section">
@@ -110,31 +128,40 @@ const StaticMovieDetail = () => {
               <aside className="right-panel">
                 <h3 className="right-panel-title">🔥 Popular Now</h3>
                 <div className="thumb-strip">
-                  {(staticMovies.filter(m => m.is_popular).slice(0, 6).length
-                    ? staticMovies.filter(m => m.is_popular).slice(0, 6)
+                  {(staticMovies.filter((m) => m.is_popular).slice(0, 6).length
+                    ? staticMovies.filter((m) => m.is_popular).slice(0, 6)
                     : staticMovies.slice(0, 6)
-                  ).map(p => (
-                    <button 
-                      key={p.id} 
-                      className="thumb-card" 
+                  ).map((p) => (
+                    <button
+                      key={p.id}
+                      className="thumb-card"
                       onClick={() => {
                         // Clear search when navigating to another static movie detail
-                        navigate('/', { replace: true })
+                        navigate('/', { replace: true });
                         setTimeout(() => {
-                          navigate(`/static-movie/${p.id}`)
-                        }, 0)
-                      }} 
+                          navigate(`/static-movie/${p.id}`);
+                        }, 0);
+                      }}
                       title={p.title}
                     >
                       <img
-                        src={p.thumbnail_url || p.poster_url || p.image_url || '/hashye-preview.png'}
+                        src={
+                          p.thumbnail_url ||
+                          p.poster_url ||
+                          p.image_url ||
+                          '/hashye-preview.png'
+                        }
                         alt={p.title}
                         loading="lazy"
-                        onError={(e) => { e.currentTarget.src = '/hashye-preview.png' }}
+                        onError={(e) => {
+                          e.currentTarget.src = '/hashye-preview.png';
+                        }}
                       />
                       <div className="thumb-info">
                         <span className="thumb-title">{p.title}</span>
-                        {p.is_popular && <span className="thumb-badge">🔥</span>}
+                        {p.is_popular && (
+                          <span className="thumb-badge">🔥</span>
+                        )}
                       </div>
                     </button>
                   ))}
@@ -145,7 +172,7 @@ const StaticMovieDetail = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default StaticMovieDetail
+export default StaticMovieDetail;

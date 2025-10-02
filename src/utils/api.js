@@ -14,7 +14,7 @@ export const api = {
       }
 
       console.log('Loading static movies:', staticMovies.length);
-      
+
       // Cache results
       movieCache = staticMovies;
       return staticMovies;
@@ -27,7 +27,7 @@ export const api = {
   // Fetch single movie by ID (now searches static data)
   getMovie: async (id) => {
     try {
-      const movie = staticMovies.find(m => m.id === id);
+      const movie = staticMovies.find((m) => m.id === id);
       if (!movie) {
         throw new Error(`Movie not found: ${id}`);
       }
@@ -73,7 +73,7 @@ export const api = {
       if (userData.password !== currentPassword) {
         throw new Error('Current password is incorrect');
       }
-      
+
       const updatedUser = { ...userData, password: newPassword };
       localStorage.setItem('userData', JSON.stringify(updatedUser));
       return { message: 'Password changed successfully' };
@@ -81,12 +81,12 @@ export const api = {
       console.error('Error changing password:', error);
       throw error;
     }
-  }
+  },
 };
 
 // Helper: get streaming URL (now returns direct video URL)
 export const getStreamUrl = (movieId) => {
-  const movie = staticMovies.find(m => m.id === movieId);
+  const movie = staticMovies.find((m) => m.id === movieId);
   return movie?.video_url || '#';
 };
 
@@ -97,7 +97,7 @@ export const formatDate = (dateString) => {
   return date.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
   });
 };
 

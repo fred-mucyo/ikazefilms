@@ -355,10 +355,13 @@
   font-style: italic;
 }
 
-
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Responsive Design */
@@ -368,55 +371,55 @@
     margin-top: 30px;
     border-radius: 12px;
   }
-  
+
   .comments-section h3 {
     font-size: 1.2rem;
     margin-bottom: 15px;
   }
-  
+
   .comment-form-footer {
     flex-direction: column;
     align-items: stretch;
     gap: 8px;
   }
-  
+
   .btn {
     width: 100%;
     min-width: auto;
     padding: 12px 16px;
     font-size: 0.85rem;
   }
-  
+
   .comment-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  
+
   .comment-actions {
     align-self: flex-end;
   }
-  
+
   .rating-selector {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
-  
+
   .comment-input-group {
     gap: 12px;
   }
-  
+
   .comment-input-group textarea {
     padding: 12px;
     font-size: 0.95rem;
     min-height: 70px;
   }
-  
+
   .comment-item {
     padding: 6px;
   }
-  
+
   .comment-text {
     font-size: 0.95rem;
   }
@@ -428,67 +431,67 @@
     margin-top: 20px;
     border-radius: 10px;
   }
-  
+
   .comments-section h3 {
     font-size: 1.1rem;
     margin-bottom: 12px;
   }
-  
+
   .comment-item {
     padding: 6px;
     border-radius: 4px;
   }
-  
+
   .comment-input-group {
     gap: 10px;
   }
-  
+
   .comment-input-group textarea {
     padding: 10px;
     font-size: 0.9rem;
     min-height: 60px;
     border-radius: 8px;
   }
-  
+
   .rating-selector {
     gap: 8px;
   }
-  
+
   .rating-selector label {
     font-size: 0.9rem;
   }
-  
+
   .star-btn {
     font-size: 1rem;
     padding: 3px;
   }
-  
+
   .comment-form-footer {
     gap: 6px;
   }
-  
+
   .btn {
     padding: 10px 14px;
     font-size: 0.8rem;
   }
-  
+
   .comment-header {
     gap: 6px;
   }
-  
+
   .comment-username {
     font-size: 0.95rem;
   }
-  
+
   .comment-text {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   .comment-date {
     font-size: 0.8rem;
   }
-  
+
   .char-count {
     font-size: 0.8rem;
   }

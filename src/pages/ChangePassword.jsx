@@ -1,75 +1,79 @@
-import React, { useContext, useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
-import { AuthContext } from '../context/AuthContext'
-import { api } from '../utils/api'
-import './ChangePassword.css'
+import React, { useContext, useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
+import { api } from '../utils/api';
+import './ChangePassword.css';
 
 const ChangePassword = () => {
-  const { isAuthenticated, token } = useContext(AuthContext)
-  const [error, setError] = useState('')
-  const [success, setSuccess] = useState('')
+  const { isAuthenticated, token } = useContext(AuthContext);
+  const [error, setError] = useState('');
+  const [success, setSuccess] = useState('');
   const [passwordData, setPasswordData] = useState({
     currentPassword: '',
     newPassword: '',
-    confirmPassword: ''
-  })
-  const [passwordLoading, setPasswordLoading] = useState(false)
-  const navigate = useNavigate()
+    confirmPassword: '',
+  });
+  const [passwordLoading, setPasswordLoading] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!isAuthenticated) {
-      navigate('/login')
-      return
+      navigate('/login');
+      return;
     }
-  }, [isAuthenticated, navigate])
+  }, [isAuthenticated, navigate]);
 
   const handlePasswordChange = (e) => {
-    const { name, value } = e.target
-    setPasswordData(prev => ({
+    const { name, value } = e.target;
+    setPasswordData((prev) => ({
       ...prev,
-      [name]: value
-    }))
-  }
+      [name]: value,
+    }));
+  };
 
   const handlePasswordSubmit = async (e) => {
-    e.preventDefault()
-    setError('')
-    setSuccess('')
+    e.preventDefault();
+    setError('');
+    setSuccess('');
 
     // Validate passwords match
     if (passwordData.newPassword !== passwordData.confirmPassword) {
-      setError('New passwords do not match')
-      return
+      setError('New passwords do not match');
+      return;
     }
 
     // Validate password length
     if (passwordData.newPassword.length < 8) {
-      setError('New password must be at least 8 characters long')
-      return
+      setError('New password must be at least 8 characters long');
+      return;
     }
 
     try {
-      setPasswordLoading(true)
-      await api.changePassword(token, passwordData.currentPassword, passwordData.newPassword)
-      setSuccess('Password changed successfully!')
+      setPasswordLoading(true);
+      await api.changePassword(
+        token,
+        passwordData.currentPassword,
+        passwordData.newPassword,
+      );
+      setSuccess('Password changed successfully!');
       setPasswordData({
         currentPassword: '',
         newPassword: '',
-        confirmPassword: ''
-      })
-      
+        confirmPassword: '',
+      });
+
       // Auto-hide success message after 3 seconds
-      setTimeout(() => setSuccess(''), 3000)
+      setTimeout(() => setSuccess(''), 3000);
     } catch (err) {
-      setError(err.message || 'Failed to change password')
-      console.error('Error changing password:', err)
+      setError(err.message || 'Failed to change password');
+      console.error('Error changing password:', err);
     } finally {
-      setPasswordLoading(false)
+      setPasswordLoading(false);
     }
-  }
+  };
 
   if (!isAuthenticated) {
-    return null
+    return null;
   }
 
   return (
@@ -80,21 +84,16 @@ const ChangePassword = () => {
           <p>Update your account password</p>
         </div>
 
-        {error && (
-          <div className="error-message">
-            {error}
-          </div>
-        )}
+        {error && <div className="error-message">{error}</div>}
 
-        {success && (
-          <div className="success-message">
-            {success}
-          </div>
-        )}
+        {success && <div className="success-message">{success}</div>}
 
         <div className="change-password-content">
           <div className="change-password-card">
-            <form onSubmit={handlePasswordSubmit} className="change-password-form">
+            <form
+              onSubmit={handlePasswordSubmit}
+              className="change-password-form"
+            >
               <div className="form-group">
                 <label htmlFor="currentPassword">Current Password</label>
                 <input
@@ -107,7 +106,7 @@ const ChangePassword = () => {
                   placeholder="Enter your current password"
                 />
               </div>
-              
+
               <div className="form-group">
                 <label htmlFor="newPassword">New Password</label>
                 <input
@@ -137,23 +136,23 @@ const ChangePassword = () => {
               </div>
 
               <div className="form-actions">
-                <button 
+                <button
                   type="submit"
                   className="save-btn"
                   disabled={passwordLoading}
                 >
                   {passwordLoading ? 'Changing Password...' : 'Change Password'}
                 </button>
-                <button 
+                <button
                   type="button"
                   onClick={() => {
                     setPasswordData({
                       currentPassword: '',
                       newPassword: '',
-                      confirmPassword: ''
-                    })
-                    setError('')
-                    setSuccess('')
+                      confirmPassword: '',
+                    });
+                    setError('');
+                    setSuccess('');
                   }}
                   className="cancel-btn"
                 >
@@ -165,7 +164,7 @@ const ChangePassword = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ChangePassword
+export default ChangePassword;

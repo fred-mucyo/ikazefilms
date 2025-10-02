@@ -260,8 +260,12 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .loading-spinner p {
@@ -275,26 +279,26 @@
   .profile-page {
     padding: 1rem 0;
   }
-  
+
   .profile-header h1 {
     font-size: 2.5rem;
   }
-  
+
   .profile-header p {
     font-size: 1rem;
   }
-  
+
   .profile-card {
     margin: 0 1rem;
     padding: 2rem;
   }
-  
+
   .profile-actions,
   .form-actions {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .edit-btn,
   .password-btn,
   .logout-btn,
@@ -309,26 +313,26 @@
   .profile-header h1 {
     font-size: 2rem;
   }
-  
+
   .profile-card {
     padding: 1.5rem;
   }
-  
+
   .avatar-placeholder {
     width: 80px;
     height: 80px;
     font-size: 2rem;
   }
-  
+
   .info-group p {
     font-size: 1rem;
     padding: 0.6rem;
   }
-  
+
   .profile-actions {
     gap: 0.8rem;
   }
-  
+
   .edit-btn,
   .password-btn,
   .logout-btn {
@@ -336,4 +340,3 @@
     font-size: 0.9rem;
   }
 }
-
