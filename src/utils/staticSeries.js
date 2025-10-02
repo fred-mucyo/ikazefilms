@@ -491,6 +491,91 @@ const staticSeries = [
       }
     ]
   },
+
+  // {
+  //   id: "SQUID-GAMES3",
+  //   title: "SQUID GAME SEASON 3",
+  //   type: "series",
+  //   // is_popular: true,
+  //   description: "Amazing movie ever!",
+  //   poster_url: "/squidgame03.jpeg",
+  //   seasons: [
+  //     { 
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+
+  //         }
+  //       ]
+  //       }
+  //     ]
+  //   },
+
+    {
+    id: "ISLAND",
+    title: "THE I-LAND",
+    type: "series",
+    // is_popular: true,
+    description: "Amazing movie ever!",
+    poster_url: "/island.jpeg",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "",
+            download_url: "",
+            thumbnail_url: "/island.jpg",
+          },
+        ]
+        }
+      ]
+    },
+
    {
     id: "SQUID-GAMES3",
     title: "SQUID GAME SEASON 3",
