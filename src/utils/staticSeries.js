@@ -491,6 +491,91 @@ const staticSeries = [
       }
     ]
   },
+
+  // {
+  //   id: "SQUID-GAMES3",
+  //   title: "SQUID GAME SEASON 3",
+  //   type: "series",
+  //   // is_popular: true,
+  //   description: "Amazing movie ever!",
+  //   poster_url: "/squidgame03.jpeg",
+  //   seasons: [
+  //     { 
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+
+  //         }
+  //       ]
+  //       }
+  //     ]
+  //   },
+
+    {
+    id: "ISLAND",
+    title: "THE I-LAND",
+    type: "series",
+    // is_popular: true,
+    description: "Amazing movie ever!",
+    poster_url: "/island.webp",
+    seasons: [
+      { 
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: "island",
+            title:  "THE I-LAND EP 1",
+            video_url: "https://hglink.to/srawuu2zruuq",
+            download_url: "https://www.mediafire.com/file/mjd0icgp28n7iax/THE+I+LAND+EP++01.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 2",
+            video_url: "https://hglink.to/li01nd7w1jz4",
+            download_url: "https://www.mediafire.com/file/7suky9vjw4vdtql/THE+I+LAND+EP++02.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 3",
+            video_url: "https://hglink.to/m7z6cxvxqtvr",
+            download_url: "https://www.mediafire.com/file/srhmh02h97bkkf3/THE+ISLAND+E03.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 4",
+            video_url: "https://hglink.to/n3a1j52xvphi",
+            download_url: "https://www.mediafire.com/file/jamyv9xn18whuzt/THE+I+LAND+EP++04.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 5",
+            video_url: "https://hglink.to/af5h4ocr1djn",
+            download_url: "https://www.mediafire.com/file/pomhx9sdsoyskmj/THE+I+LAND+EP++05.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 6",
+            video_url: "https://hglink.to/putat41bgslz",
+            download_url: "https://www.mediafire.com/file/3w2oqiiyo8ntk6f/THE+I+LAND+EP+06.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+          {
+            id: "island",
+            title:  "THE I-LAND EP 7",
+            video_url: "https://hglink.to/tcmw2k138tjy",
+            download_url: "https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file",
+            thumbnail_url: "/island.jpg",
+          },
+        ]
+        }
+      ]
+    },
+
    {
     id: "SQUID-GAMES3",
     title: "SQUID GAME SEASON 3",
