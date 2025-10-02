@@ -539,7 +539,7 @@ const staticSeries = [
           {
             id: "island",
             title:  "THE I-LAND EP 3",
-            video_url: "",
+            video_url: "https://hglink.to/m7z6cxvxqtvr",
             download_url: "",
             thumbnail_url: "/island.jpg",
           },
@@ -568,7 +568,7 @@ const staticSeries = [
             id: "island",
             title:  "THE I-LAND EP 7",
             video_url: "https://hglink.to/tcmw2k138tjy",
-            download_url: "",
+            download_url: "https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file",
             thumbnail_url: "/island.jpg",
           },
         ]
