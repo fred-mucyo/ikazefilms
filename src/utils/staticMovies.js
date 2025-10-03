@@ -171,7 +171,7 @@ const staticMovies = [
     image_url: '/THE BEE K.webp',
     video_url: 'https://hglink.to/nfnwh440h23q',
     download_url:'https://www.mediafire.com/file/56fi3jcrlfc40f6/THE_BEEKEEPER_A.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/SzINZZ6iqxY?si=7hxz5yvIe6H-7sKD',
+    youtube_trailer_url:'https://hglink.to/nfnwh440h23q',
   },
 
   {
@@ -186,7 +186,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/c5jsc43rmldn',
     download_url:
       'https://www.mediafire.com/file/7p27csfyvu1k9a6/THE_BEEKEEPER_B.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/SzINZZ6iqxY?si=7hxz5yvIe6H-7sKD',
+    youtube_trailer_url: 'https://hglink.to/c5jsc43rmldn',
   },
 
   {
@@ -218,7 +218,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/i6331zcdqx8n',
     download_url:
       'https://www.mediafire.com/file/j7bc59ac7zmwm2f/HEADS_OF_STATE_A.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY',
+    youtube_trailer_url:'https://hglink.to/i6331zcdqx8n',
   },
 
   {
@@ -234,7 +234,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/i6331zcdqx8n',
     download_url:
       'https://www.mediafire.com/file/96b2klf0r9mnt9o/HEADS_OF_STATE_B.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/8J646zM7UM8?si=MY1ow4m7_YBZg_GY',
+    youtube_trailer_url:'https://hglink.to/i6331zcdqx8n',
   },
 
   {
@@ -248,7 +248,7 @@ const staticMovies = [
     image_url: '/canaryblack.webp',
     video_url: 'https://hglink.to/6op9gnt30vdo',
     download_url:'https://www.mediafire.com/file/v2epmikmoo1ug86/BLACK+CARINARY.MP4/file',
-    youtube_trailer_url: 'https://youtu.be/tSaw2HTVSsA?si=lPC_3KOw-ARAN7le',
+    youtube_trailer_url: 'https://hglink.to/6op9gnt30vdo',
   },
 
   {
@@ -263,7 +263,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/6op9gnt30vdo',
     download_url:
       'https://www.mediafire.com/file/rdxnc7947vt47xq/SAGATWA_I.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn',
+    youtube_trailer_url:  'https://hglink.to/6op9gnt30vdo',
   },
 
   {
@@ -278,7 +278,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/prqxw3ia68ic',
     download_url:
       'https://www.mediafire.com/file/3pvoscuit7u814z/SAGATWA_II.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/SVponf30jng?si=giMQ_cApS0wOIazn',
+    youtube_trailer_url: 'https://hglink.to/prqxw3ia68ic',
   },
 
   {
@@ -292,7 +292,7 @@ const staticMovies = [
     image_url: '/Menofww.webp',
     video_url: 'https://hglink.to/gtn3hnsb1a8e',
     download_url:'https://www.mediafire.com/file/tlrr0kp5dzj793l/MEN_OF_HONOR_B.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/DWkrK8FZ5Jg?si=dcQq1U1DqSBBVlDo',
+    youtube_trailer_url:  'https://hglink.to/gtn3hnsb1a8e',
   },
 
   {
@@ -306,7 +306,7 @@ const staticMovies = [
     image_url: '/men of honor.jpg',
     video_url: 'https://hglink.to/s6gdz8cweyhc',
     download_url:'https://www.mediafire.com/file/9ywpm30nf2nsl8c/MEN_OF_HONOR_A.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/DWkrK8FZ5Jg?si=dcQq1U1DqSBBVlDo',
+    youtube_trailer_url: 'https://hglink.to/s6gdz8cweyhc',
   },
 
   {
@@ -321,7 +321,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/exu1007iflaf',
     download_url:
       'https://www.mediafire.com/file/es0031nji6afht0/NOBODY_PART_1-.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB',
+    youtube_trailer_url: 'https://hglink.to/exu1007iflaf',
   },
 
   {
@@ -336,7 +336,7 @@ const staticMovies = [
     download_url:
       'https://www.mediafire.com/file/5h0qrz716hsbuas/JAAT_B__.mp4/file',
     video_url: 'https://hglink.to/yitye7l68wh5',
-    youtube_trailer_url: 'https://youtu.be/-I5kX9b9rGc?si=6SCcEPq8G2jkpH7w',
+    youtube_trailer_url: 'https://hglink.to/yitye7l68wh5',
   },
 
   {
