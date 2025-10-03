@@ -21,6 +21,20 @@ const MovieDetail = () => {
   const [isWatchlistLoading, setIsWatchlistLoading] = useState(false);
   const [popular, setPopular] = useState([]);
 
+
+  // Scroll to trailer section when component mounts
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        const trailerSection = document.querySelector('.trailer-section');
+        if (trailerSection) {
+          trailerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100); // Small delay to ensure DOM is ready
+  
+      return () => clearTimeout(timer);
+    }, [id]);
+
+
   useEffect(() => {
     fetchMovie();
   }, [id]);
@@ -146,7 +160,7 @@ const MovieDetail = () => {
 
                 {movie.youtube_trailer_url && (
                   <div className="trailer-section">
-                    <h3>🎬 Watch Trailer</h3>
+                    <h3>🎬 Watch Movie</h3>
                     <TrailerEmbed
                       youtubeUrl={movie.youtube_trailer_url}
                       thumbnailUrl={getThumbnail(movie)}

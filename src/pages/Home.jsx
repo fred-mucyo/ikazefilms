@@ -90,7 +90,7 @@ const Home = () => {
     return [...movies]
       .filter((m) => m?.created_at)
       .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
-      .slice(0, 4);
+      .slice(0, 12);
   }, [movies]);
 
   const allMovies = useMemo(() => {
