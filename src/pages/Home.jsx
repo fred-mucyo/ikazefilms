@@ -83,7 +83,7 @@ const Home = () => {
         if (a.type !== 'series' && b.type === 'series') return 1;
         return 0;
       })
-      .slice(0, 6);
+      .slice(0, 8);
   }, [movies]);
 
   const recentReleases = useMemo(() => {
@@ -252,7 +252,7 @@ const Home = () => {
               ))}
             </div>
           </div>
-          Recent Releases
+
           <div className="movies-section" id="recent">
             <div className="section-header">
               <h2 className="section-title">Recent Releases</h2>

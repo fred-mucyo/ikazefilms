@@ -4,55 +4,132 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+   {
+    id: 'ADVITAMA',
+    title: 'AD VITAM A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular: true,
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/advitam.webp',
+    poster_url: '/advitam.webp',
+    image_url: '/advitam.webp',
+    video_url: 'https://hglink.to/2xba87fao8lc',
+    download_url:
+      'https://www.mediafire.com/file/xd9ayn1m1ulwq4r/AD+VITAM+A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/2xba87fao8lci',
+  },
+  {
+    id: 'ADVITAMB',
+    title: 'ADVITAM B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/advitam.webp',
+    poster_url: '/advitam.webp',
+    image_url: '/advitam.webp',
+    video_url: 'https://hglink.to/xpnx4ivj503i',
+    download_url:
+      'https://www.mediafire.com/file/z1pubg77v3u09yl/AD+VITAM+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/xpnx4ivj503i',
+  },
+  {
+    id: 'Gentlemen',
+    title: 'GENTLEMAN',
+    description: 'Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular: true,
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/Gentleman.webp',
+    poster_url: '/Gentleman.webp',
+    image_url: '/Gentleman.webp',
+    video_url: 'https://hglink.to/9c89fnsyh1rh',
+    download_url:
+      'https://www.mediafire.com/file/84ko5ya7mcz4hxn/GENTLEMAN.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/9c89fnsyh1rh',
+  },
 
-{
-    id: 'ACLOD',
+  {
+    id: 'TOHSTAN',
+    title: 'OPERATION DUMBO DROP',
+    description: 'Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular: true,
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/operation dumb drop.webp',
+    poster_url: '/operation dumb drop.webp',
+    image_url: '/operation dumb drop.webp',
+    video_url: 'https://hglink.to/5a97bb9fnyn1',
+    download_url:
+      'https://www.mediafire.com/file/dtxnc3h4wwwlhti/Operation_Dumbo_Drop.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/5a97bb9fnyn1',
+  },
+
+  {
+    id: 'Olastmen',
+    title: 'OUR LAST MEN IN PHILIPINE',
+    description:
+      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/our-last-men-in-the-philippines.webp',
+    poster_url: '/our-last-men-in-the-philippines.webp',
+    image_url: '/our-last-men-in-the-philippines.webp',
+    video_url: 'https://hglink.to/3y4crml6mw22',
+    download_url:
+      'https://www.mediafire.com/file/bdq0gjx5rr0mutl/OUR+LAST+MEN+IN+PHILIPINE.mp4/file ',
+    youtube_trailer_url: 'https://hglink.to/3y4crml6mw22',
+  },
+
+  {
+    id: 'ACLOD-A',
     title: 'A COLD LIGHT OF A DAY A',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    description:
+      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
     interpreter_name: 'ROCKY',
     created_at: '2025-02-12T00:00:00.000Z',
     thumbnail_url: '/cold_light_of_day_movie.webp',
     poster_url: '/cold_light_of_day_movie.webp',
     image_url: '/cold_light_of_day_movie.webp',
     video_url: 'https://hglink.to/0b3grorxg43q',
-    download_url:'https://www.mediafire.com/file/88f355r0ck67t2j/A+COLD+LIGHT+OF+A+DAY+A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/88f355r0ck67t2j/A+COLD+LIGHT+OF+A+DAY+A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/0b3grorxg43q',
   },
 
+  {
+    id: 'ACLOD-B',
+    title: 'A COLD LIGHT OF A DAY B',
+    description:
+      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-02-12T00:00:00.000Z',
+    thumbnail_url: '/cold_light_of_day_movie.webp',
+    poster_url: '/cold_light_of_day_movie.webp',
+    image_url: '/cold_light_of_day_movie.webp',
+    video_url: 'https://hglink.to/ndktyxs9kgur',
+    download_url:
+      'https://www.mediafire.com/file/xtilp7cqe6mt77a/A+COLD+LIGHT+OF+A+DAY+B.mp4/file ',
+    youtube_trailer_url: 'https://hglink.to/ndktyxs9kgur',
+  },
 
-
-
-  // {
-  //   id: 'ACLOD-B',
-  //   title: 'A COLD LIGHT OF A DAY B',
-  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
-  //   interpreter_name: 'ROCKY',
-  //   created_at: '2025-02-12T00:00:00.000Z',
-  //   thumbnail_url: 'behappy.webp',
-  //   poster_url: 'behappy.webp',
-  //   image_url: 'behappy.webp',
-  //   video_url: 'https://hglink.to/0b3grorxg43q',
-  //   download_url:'https://www.mediafire.com/file/88f355r0ck67t2j/A+COLD+LIGHT+OF+A+DAY+A.mp4/file',
-  //   youtube_trailer_url: 'https://hglink.to/0b3grorxg43q',
-  // },
-
-
-
- {
+  {
     id: 'AUGUSTRUSH',
     title: 'AUGAST RUSH',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    description:
+      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
     interpreter_name: 'ROCKY',
     created_at: '2025-02-12T00:00:00.000Z',
     thumbnail_url: '/augast rush.webp',
     poster_url: '/augast rush.webp',
     image_url: '/augast rush.webp',
     video_url: 'https://hglink.to/suu5tn70ldjy',
-    download_url:'https://www.mediafire.com/file/1pie9r25ncl8sbr/AUGAST+RUSH.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/1pie9r25ncl8sbr/AUGAST+RUSH.mp4/file',
     youtube_trailer_url: 'https://hglink.to/suu5tn70ldjy',
   },
 
-{
+  {
     id: 'BEHAPPY1',
     title: 'BE HAPPY ',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -63,74 +140,13 @@ const staticMovies = [
     poster_url: '/behappy.webp',
     image_url: '/behappy.webp',
     video_url: 'https://hglink.to/6oexv9u81a9e',
-    download_url:'https://www.mediafire.com/file/7ptesa8g3g1k12h/BE+HAPPY.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/7ptesa8g3g1k12h/BE+HAPPY.mp4/file',
     youtube_trailer_url: 'https://hglink.to/6oexv9u81a9e',
   },
 
-
+ 
   {
-    id: 'ADVITAMA',
-    title: 'AD VITAM A',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/advitam.webp',
-    poster_url: '/advitam.webp',
-    image_url: '/advitam.webp',
-    video_url: 'https://hglink.to/2xba87fao8lc',
-    download_url:'https://www.mediafire.com/file/xd9ayn1m1ulwq4r/AD+VITAM+A.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/2xba87fao8lci',
-  },
-       {
-    id: 'ADVITAMB',
-    title: 'ADVITAM B',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    is_popular:true,
-    is_featured: true,
-    created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/advitam.webp',
-    poster_url: '/advitam.webp',
-    image_url: '/advitam.webp',
-    video_url: 'https://hglink.to/xpnx4ivj503i',
-    download_url:'https://www.mediafire.com/file/z1pubg77v3u09yl/AD+VITAM+B.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/xpnx4ivj503i',
-  },
-{
-    id: 'Gentlemen',
-    title: 'GENTLEMAN',
-    description: 'Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    is_popular:true,
-    is_featured: true,
-    created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/Gentleman.webp',
-    poster_url: '/Gentleman.webp',
-    image_url: '/Gentleman.webp',
-    video_url: 'https://hglink.to/9c89fnsyh1rh',
-    download_url:'https://www.mediafire.com/file/84ko5ya7mcz4hxn/GENTLEMAN.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/9c89fnsyh1rh',
-  },
-
-
-      {
-    id: 'TOHSTAN',
-    title: 'OPERATION DUMBO DROP',
-    description: 'Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    is_popular:true,
-    created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/operation dumb drop.webp',
-    poster_url: '/operation dumb drop.webp',
-    image_url: '/operation dumb drop.webp',
-    video_url: 'https://hglink.to/5a97bb9fnyn1',
-    download_url:'https://www.mediafire.com/file/dtxnc3h4wwwlhti/Operation_Dumbo_Drop.mp4/file',
-    youtube_trailer_url:'https://hglink.to/5a97bb9fnyn1',
-  },
-
-
-
-    {
     id: '1013CC',
     title: 'THUGS OF HINDUSRAN A',
     description: 'Aka kararenze ni Ntikagucike.... 😊',
@@ -140,12 +156,12 @@ const staticMovies = [
     poster_url: '/thugs  of hindustan (3).webp',
     image_url: '/thugs  of hindustan (3).webp',
     video_url: 'https://hglink.to/79yekzzd6ire',
-    download_url:'https://www.mediafire.com/file/23y4z76n0h9otov/THUGS_OF_HINDUSTAN_A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/23y4z76n0h9otov/THUGS_OF_HINDUSTAN_A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/79yekzzd6ire',
   },
 
-
-   {
+  {
     id: '1013Cw',
     title: 'THUGS OF HINDUSRAN B',
     description: 'Aka kararenze ni Ntikagucike.... 😊',
@@ -155,10 +171,11 @@ const staticMovies = [
     poster_url: '/thugs  of hindustan (3).webp',
     image_url: '/thugs  of hindustan (3).webp',
     video_url: 'https://hglink.to/weoe00jwtjch',
-    download_url:'https://www.mediafire.com/file/2fa2mjd5ibcrwb2/THUGS_OF_HINDUSTAN_B.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/e/weoe00jwtjch<IFRAME SRC="https://hglink.to/e/weoe00jwtjch" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>',
+    download_url:
+      'https://www.mediafire.com/file/2fa2mjd5ibcrwb2/THUGS_OF_HINDUSTAN_B.mp4/file',
+    youtube_trailer_url:
+      'https://hglink.to/e/weoe00jwtjch<IFRAME SRC="https://hglink.to/e/weoe00jwtjch" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>',
   },
-
 
   {
     id: '10137',
@@ -170,8 +187,9 @@ const staticMovies = [
     poster_url: '/THE BEE K.webp',
     image_url: '/THE BEE K.webp',
     video_url: 'https://hglink.to/nfnwh440h23q',
-    download_url:'https://www.mediafire.com/file/56fi3jcrlfc40f6/THE_BEEKEEPER_A.mp4/file',
-    youtube_trailer_url:'https://hglink.to/nfnwh440h23q',
+    download_url:
+      'https://www.mediafire.com/file/56fi3jcrlfc40f6/THE_BEEKEEPER_A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/nfnwh440h23q',
   },
 
   {
@@ -201,7 +219,8 @@ const staticMovies = [
     poster_url: '/havocxx.webp',
     image_url: '/havocxx.webp',
     video_url: 'https://hglink.to/klupma9fk47s',
-    download_url:'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
     youtube_trailer_url: 'https://youtu.be/YTqc6KRBy4o?si=oW9CNAgR5KszlHaO',
   },
 
@@ -218,7 +237,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/i6331zcdqx8n',
     download_url:
       'https://www.mediafire.com/file/j7bc59ac7zmwm2f/HEADS_OF_STATE_A.mp4/file',
-    youtube_trailer_url:'https://hglink.to/i6331zcdqx8n',
+    youtube_trailer_url: 'https://hglink.to/i6331zcdqx8n',
   },
 
   {
@@ -234,7 +253,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/i6331zcdqx8n',
     download_url:
       'https://www.mediafire.com/file/96b2klf0r9mnt9o/HEADS_OF_STATE_B.mp4/file',
-    youtube_trailer_url:'https://hglink.to/i6331zcdqx8n',
+    youtube_trailer_url: 'https://hglink.to/i6331zcdqx8n',
   },
 
   {
@@ -247,7 +266,8 @@ const staticMovies = [
     poster_url: '/canaryblack.webp',
     image_url: '/canaryblack.webp',
     video_url: 'https://hglink.to/6op9gnt30vdo',
-    download_url:'https://www.mediafire.com/file/v2epmikmoo1ug86/BLACK+CARINARY.MP4/file',
+    download_url:
+      'https://www.mediafire.com/file/v2epmikmoo1ug86/BLACK+CARINARY.MP4/file',
     youtube_trailer_url: 'https://hglink.to/6op9gnt30vdo',
   },
 
@@ -263,7 +283,7 @@ const staticMovies = [
     video_url: 'https://hglink.to/6op9gnt30vdo',
     download_url:
       'https://www.mediafire.com/file/rdxnc7947vt47xq/SAGATWA_I.mp4/file',
-    youtube_trailer_url:  'https://hglink.to/6op9gnt30vdo',
+    youtube_trailer_url: 'https://hglink.to/6op9gnt30vdo',
   },
 
   {
@@ -291,8 +311,9 @@ const staticMovies = [
     poster_url: '/Menofww.webp',
     image_url: '/Menofww.webp',
     video_url: 'https://hglink.to/gtn3hnsb1a8e',
-    download_url:'https://www.mediafire.com/file/tlrr0kp5dzj793l/MEN_OF_HONOR_B.mp4/file',
-    youtube_trailer_url:  'https://hglink.to/gtn3hnsb1a8e',
+    download_url:
+      'https://www.mediafire.com/file/tlrr0kp5dzj793l/MEN_OF_HONOR_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/gtn3hnsb1a8e',
   },
 
   {
@@ -305,7 +326,8 @@ const staticMovies = [
     poster_url: '/men of honor.jpg',
     image_url: '/men of honor.jpg',
     video_url: 'https://hglink.to/s6gdz8cweyhc',
-    download_url:'https://www.mediafire.com/file/9ywpm30nf2nsl8c/MEN_OF_HONOR_A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/9ywpm30nf2nsl8c/MEN_OF_HONOR_A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/s6gdz8cweyhc',
   },
 
@@ -536,7 +558,7 @@ const staticMovies = [
     thumbnail_url: '/nobody.webp',
     poster_url: '/nobody.webp',
     image_url: '/nobody.webp',
-    backdrop_url:'/nobody.webp',
+    backdrop_url: '/nobody.webp',
     video_url: 'https://hglink.to/23c6gz2rsc81',
     download_url:
       'https://www.mediafire.com/file/qdpr84agqrv8ar1/NOBODY_PART_2_A.mp4/file',

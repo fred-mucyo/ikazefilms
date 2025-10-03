@@ -21,19 +21,17 @@ const MovieDetail = () => {
   const [isWatchlistLoading, setIsWatchlistLoading] = useState(false);
   const [popular, setPopular] = useState([]);
 
-
   // Scroll to trailer section when component mounts
-    useEffect(() => {
-      const timer = setTimeout(() => {
-        const trailerSection = document.querySelector('.trailer-section');
-        if (trailerSection) {
-          trailerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }, 100); // Small delay to ensure DOM is ready
-  
-      return () => clearTimeout(timer);
-    }, [id]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const trailerSection = document.querySelector('.trailer-section');
+      if (trailerSection) {
+        trailerSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100); // Small delay to ensure DOM is ready
 
+    return () => clearTimeout(timer);
+  }, [id]);
 
   useEffect(() => {
     fetchMovie();

@@ -1,11 +1,200 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
- {
+  {
+    id: 'Fatalseduction',
+    title: 'FATAL SEDUCTION',
+    type: 'series',
+    description:
+      'Fatal Seduction is an amazing serie that cebrate the black culture!!',
+    is_popular: true,
+    poster_url: '/fatalseductionD.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'fs1',
+            title: 'EP1',
+            video_url: 'https://hglink.to/qmvt9j13f78k',
+            download_url:
+              'https://www.mediafire.com/file/effqkx6b2bch2cm/FATAL+SEDUCTION+S01E01.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+          {
+            id: 'fs2',
+            title: 'EP2',
+            video_url: 'https://hglink.to/p4gpi0k6p9j9',
+            download_url:
+              'https://www.mediafire.com/file/wq99s8lrt0ezt06/FATAL+SEDUCTION+S01E02.mp4/file ',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+          {
+            id: 'fs3',
+            title: 'EP3',
+            video_url: 'https://hglink.to/9kv1usel6d1b',
+            download_url:
+              'https://www.mediafire.com/file/39h4l0h889y3y6r/FATAL+SEDUCTION+S01E04.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+          {
+            id: 'fs4',
+            title: 'EP4 ',
+            video_url: 'https://hglink.to/sybi5xbgyeea',
+            download_url:
+              'https://www.mediafire.com/file/8pnabi16k6llwmf/BETAAL+04+FINAL.mp4/file',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+
+          {
+            id: 'fs5',
+            title: 'EP5',
+            video_url: 'https://hglink.to/anfmby5o3sa2',
+            download_url:
+              'https://www.mediafire.com/file/y3vl5fweadh41c8/FATAL_SEDUCTION_S01E05.mp4/file ',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+
+          {
+            id: 'fs6',
+            title: 'EP6',
+            video_url: 'https://hglink.to/q1knq6q15so6',
+            download_url:
+              'https://www.mediafire.com/file/ow5k7or0l55lhac/FATAL+SEDUCTION+S01E06.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+
+          {
+            id: 'fs7',
+            title: 'EP7',
+            video_url: 'https://hglink.to/rw4dpsythjzw',
+            download_url:
+              'https://www.mediafire.com/file/o920j79crm1s06k/FATAL_SEDUCTION_S01E07.mp4/file',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+
+          {
+            id: 'fs8',
+            title: 'EP8',
+            video_url: 'https://hglink.to/625dnfplgil0',
+            download_url:
+              'https://www.mediafire.com/file/jfim19juwuof9lm/FATAL_SEDUCTION_S01E08.mp4/file',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+          {
+            id: 'fs9',
+            title: 'EP9',
+            video_url: 'https://hglink.to/qznnjawgwuq3',
+            download_url:
+              'https://www.mediafire.com/file/s67v9zfom1npqih/FATAL_SEDUCTION_S01E09.mp4/file',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+          {
+            id: 'fs10',
+            title: 'EP10',
+            video_url: 'https://hglink.to/0dyge8gywmmt',
+            download_url:
+              'https://www.mediafire.com/file/38psqsf79yldjh9/FATAL_SEDUCTION_S01E10.mp4/file ',
+            thumbnail_url: '/fatalseductionE.webp',
+          },
+          {
+            id: 'fs11',
+            title: 'EP11',
+            video_url: 'https://hglink.to/hv8d47ojd4fb',
+            download_url:
+              'https://www.mediafire.com/file/se0vlgxo5cdn52y/FATAL_SEDUCTION_S01E11.mp4/file  ',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+          {
+            id: 'fs12',
+            title: 'EP12',
+            video_url: 'https://hglink.to/m06okexj9lvc',
+            download_url:
+              'https://www.mediafire.com/file/4o5zlp9svy5kwgr/FATAL_SEDUCTION_S01E12.mp4/file',
+            thumbnail_url: '/fatalseductionC.webp',
+          },
+          {
+            id: 'fs13',
+            title: 'EP13',
+            video_url: 'https://hglink.to/u3xu8un1mxoz',
+            download_url:
+              'https://www.mediafire.com/file/lmtkb9pq1vic8np/FATAL_SEDUCTION_S01E13.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+
+          {
+            id: 'fs14',
+            title: 'EP14',
+            video_url: 'https://hglink.to/fgt037x8kmp9',
+            download_url:
+              'https://www.mediafire.com/file/ihnv60hwfd8aj5w/FATAL_SEDUCTION_S01E14.mp4/file',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+        ],
+      },
+
+      {
+        seasonNumber: 2,
+        episodes: [
+          {
+            id: 'fss2ep1',
+            title: 'EP1',
+            video_url: 'https://hglink.to/pci78bo8g2og',
+            download_url:
+              'https://www.mediafire.com/file/p4u4c0bv6bufv58/FATAL+SEDIUCTION+S02E01.mp4/file',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+          {
+            id: 'fss2ep2',
+            title: 'EP2',
+            video_url: 'https://hglink.to/jf6xquqzv979',
+            download_url:
+              'https://www.mediafire.com/file/9l1wqugbewvo9tq/FATAL+SEDIUCTION+S02E02.mp4/file ',
+            thumbnail_url: '/fatalseductionB.webp',
+          },
+          {
+            id: 'fss2ep3',
+            title: 'EP3',
+            video_url: 'https://hglink.to/a5c4w8jhbx6h',
+            download_url:
+              'https://www.mediafire.com/file/w5b9tghrwiygh31/FATAL+SEDIUCTION+S02E03.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+          {
+            id: 'fss2ep4',
+            title: 'EP4',
+            video_url: 'https://hglink.to/8seaz8733vd6',
+            download_url:
+              'https://www.mediafire.com/file/3yxhl7ent1p5v77/FATAL+SEDUCTION+S02E04.mp4/file ',
+            thumbnail_url: '/fatalseductionC.webp',
+          },
+          {
+            id: 'fss2ep5',
+            title: 'EP5',
+            video_url: 'https://hglink.to/h4chc251fzj9',
+            download_url:
+              'https://www.mediafire.com/file/uh2a47bl2ss0v13/FATAL+SEDUCTION+S02+E+05.mp4/file ',
+            thumbnail_url: '/fatalseductionD.webp',
+          },
+          {
+            id: 'fss2ep6',
+            title: 'EP6',
+            video_url: 'https://hglink.to/q7nz43vskc1x',
+            download_url:
+              'https://www.mediafire.com/file/qgee9ma1zqc3g1y/FATAL+SEDIUCTION+S02E06.mp4/file ',
+            thumbnail_url: '/fatalseductionF.webp',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
     id: 'MESSIAH',
     title: 'MESSIAH',
     type: 'series',
-    description: '10 EPISODES , MESSIAH (umukiza) yaje mu murwa Aka ga serie ntikabacike 🔥🔥🔥',
+    description:
+      '10 EPISODES , MESSIAH (umukiza) yaje mu murwa Aka ga serie ntikabacike 🔥🔥🔥',
     is_featured: true,
     is_popular: true,
     poster_url: '/messiah.jpg',
@@ -17,7 +206,8 @@ const staticSeries = [
             id: 'MESS1',
             title: 'MESSIAH EP1',
             video_url: 'https://hglink.to/nweqhsx03h3g',
-            download_url:'https://www.mediafire.com/file/e2p1hep9s0p7t9o/MESSIAH_E1.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/e2p1hep9s0p7t9o/MESSIAH_E1.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
 
@@ -25,7 +215,8 @@ const staticSeries = [
             id: 'MS2',
             title: 'MESSIAH EP2',
             video_url: 'https://hglink.to/8tcx172nu5w1',
-            download_url:'https://www.mediafire.com/file/i4s0ut7aicxn8yw/MESSIAH_E2.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/i4s0ut7aicxn8yw/MESSIAH_E2.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
 
@@ -33,7 +224,8 @@ const staticSeries = [
             id: 'MS3',
             title: 'MESSIAH EP3',
             video_url: 'https://hglink.to/ffq1kjwab9ks',
-            download_url:'https://www.mediafire.com/file/6si05ekcayxusby/MESSIAH_E3.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/6si05ekcayxusby/MESSIAH_E3.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
 
@@ -41,71 +233,63 @@ const staticSeries = [
             id: 'MS4',
             title: 'MESSIAH EP4',
             video_url: 'https://hglink.to/uslly3wmmwbf',
-            download_url:'https://www.mediafire.com/file/omxkai18ya6foc1/MESSIAH_E4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/omxkai18ya6foc1/MESSIAH_E4.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-                {
+          {
             id: 'MS5',
             title: 'MESSIAH EP5',
             video_url: 'https://hglink.to/1d9owbpocp4e',
-            download_url:'https://www.mediafire.com/file/48ygaedz5knf3uo/MESSIAH_E5.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/48ygaedz5knf3uo/MESSIAH_E5.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-                {
+          {
             id: 'MS6',
             title: 'MESSIAH EP6',
             video_url: 'https://hglink.to/7p6qhcvd8ez1',
-            download_url:'https://www.mediafire.com/file/2hpbnq01is4bpbr/MESSIAH_E6.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/2hpbnq01is4bpbr/MESSIAH_E6.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-                {
+          {
             id: 'MS7',
             title: 'MESSIAH EP7',
             video_url: 'https://hglink.to/f0bbutztb6uc',
-            download_url:'https://www.mediafire.com/file/p0o9d4pxs9tx93l/MESSIAH_E7.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/p0o9d4pxs9tx93l/MESSIAH_E7.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-                {
+          {
             id: 'MS8',
             title: 'MESSIAH EP8',
             video_url: 'https://hglink.to/z5h9x32yga44',
-            download_url:'https://www.mediafire.com/file/flo4kif2t7r9rrz/MESSIAH_E8.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/flo4kif2t7r9rrz/MESSIAH_E8.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-                {
+          {
             id: 'MS9',
             title: 'MESSIAH EP9',
             video_url: 'https://hglink.to/slru9kayqc14',
-            download_url:'https://www.mediafire.com/file/glip96fuyzpzaon/MESSIAH_E9.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/glip96fuyzpzaon/MESSIAH_E9.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
-           
-                {
+
+          {
             id: 'MS10',
             title: 'MESSIAH EP FINAL 10',
             video_url: 'https://hglink.to/d7kpmgsllmpm',
-            download_url:'https://www.mediafire.com/file/ic5vj89fuc0rcoi/MESSIAH_S01E10_FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ic5vj89fuc0rcoi/MESSIAH_S01E10_FINAL.mp4/file',
             thumbnail_url: '/messiah.jpg',
           },
         ],
       },
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: 'Bloodsisters',
@@ -123,7 +307,8 @@ const staticSeries = [
             id: 'BS1',
             title: 'BLOOD SISTERS EP1',
             video_url: 'https://hglink.to/adjxk3u6q6yx',
-            download_url:'https://www.mediafire.com/file/pg1hg0mbx0vrgf0/BLOOD_SISTERS_E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/pg1hg0mbx0vrgf0/BLOOD_SISTERS_E01.mp4/file',
             thumbnail_url: '/Blood-Sisters (4).webp',
           },
 
@@ -131,7 +316,8 @@ const staticSeries = [
             id: 'BS2',
             title: 'BLOOD SISTERS EP2',
             video_url: 'https://hglink.to/m03s617fk09l',
-            download_url:'https://www.mediafire.com/file/8z1hi4lzhe687a2/BLOOD_SISTERS_E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/8z1hi4lzhe687a2/BLOOD_SISTERS_E02.mp4/file',
             thumbnail_url: '/Blood-Sisters (4).webp',
           },
 
@@ -139,7 +325,8 @@ const staticSeries = [
             id: 'BS3',
             title: 'BLOOD SISTERS EP3',
             video_url: 'https://hglink.to/11350yx4pt2c',
-            download_url:'https://www.mediafire.com/file/tpwz5ma1ui2bu48/BLOOD_SISTERS_3.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/tpwz5ma1ui2bu48/BLOOD_SISTERS_3.mp4/file',
             thumbnail_url: '/Blood-Sisters (4).webp',
           },
 
@@ -147,7 +334,8 @@ const staticSeries = [
             id: 'BS4',
             title: 'BLOOD SISTERS EP4',
             video_url: 'https://hglink.to/ojycwpdqtgm2',
-            download_url:'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
             thumbnail_url: '/Blood-Sisters (4).webp',
           },
         ],
@@ -155,142 +343,152 @@ const staticSeries = [
     ],
   },
 
-    {
-    id: "ISLAND",
-    title: "THE I-LAND",
-    type: "series",
+  {
+    id: 'ISLAND',
+    title: 'THE I-LAND',
+    type: 'series',
     is_popular: true,
-    description: "Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.",
-    poster_url: "/island.webp",
+    description:
+      'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
+    poster_url: '/island.webp',
     seasons: [
-      { 
+      {
         seasonNumber: 1,
         episodes: [
           {
-            id: "island",
-            title:  "THE I-LAND EP 1",
-            video_url: "https://hglink.to/srawuu2zruuq",
-            download_url: "https://www.mediafire.com/file/mjd0icgp28n7iax/THE+I+LAND+EP++01.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 1',
+            video_url: 'https://hglink.to/srawuu2zruuq',
+            download_url:
+              'https://www.mediafire.com/file/mjd0icgp28n7iax/THE+I+LAND+EP++01.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 2",
-            video_url: "https://hglink.to/li01nd7w1jz4",
-            download_url: "https://www.mediafire.com/file/7suky9vjw4vdtql/THE+I+LAND+EP++02.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 2',
+            video_url: 'https://hglink.to/li01nd7w1jz4',
+            download_url:
+              'https://www.mediafire.com/file/7suky9vjw4vdtql/THE+I+LAND+EP++02.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 3",
-            video_url: "https://hglink.to/m7z6cxvxqtvr",
-            download_url: "https://www.mediafire.com/file/srhmh02h97bkkf3/THE+ISLAND+E03.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 3',
+            video_url: 'https://hglink.to/m7z6cxvxqtvr',
+            download_url:
+              'https://www.mediafire.com/file/srhmh02h97bkkf3/THE+ISLAND+E03.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 4",
-            video_url: "https://hglink.to/n3a1j52xvphi",
-            download_url: "https://www.mediafire.com/file/jamyv9xn18whuzt/THE+I+LAND+EP++04.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 4',
+            video_url: 'https://hglink.to/n3a1j52xvphi',
+            download_url:
+              'https://www.mediafire.com/file/jamyv9xn18whuzt/THE+I+LAND+EP++04.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 5",
-            video_url: "https://hglink.to/af5h4ocr1djn",
-            download_url: "https://www.mediafire.com/file/pomhx9sdsoyskmj/THE+I+LAND+EP++05.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 5',
+            video_url: 'https://hglink.to/af5h4ocr1djn',
+            download_url:
+              'https://www.mediafire.com/file/pomhx9sdsoyskmj/THE+I+LAND+EP++05.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 6",
-            video_url: "https://hglink.to/putat41bgslz",
-            download_url: "https://www.mediafire.com/file/3w2oqiiyo8ntk6f/THE+I+LAND+EP+06.mp4/file",
-            thumbnail_url: "/island.jpg",
+            id: 'island',
+            title: 'THE I-LAND EP 6',
+            video_url: 'https://hglink.to/putat41bgslz',
+            download_url:
+              'https://www.mediafire.com/file/3w2oqiiyo8ntk6f/THE+I+LAND+EP+06.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
           {
-            id: "island",
-            title:  "THE I-LAND EP 7 FINAL",
-            video_url: "https://hglink.to/tcmw2k138tjy",
-            download_url: "https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file",
-            thumbnail_url: "/island.jpg",
-          },
-        ]
-        }
-      ]
-    },
-
-   {
-    id: "SQUID-GAMES3",
-    title: "SQUID GAME SEASON 3",
-    type: "series",
-    // is_popular: true,
-    description: "Amazing movie ever!",
-    poster_url: "/squidgame03.jpeg",
-    seasons: [
-      { 
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: "SQUID1",
-            title:  "SQUID GAME S03 EP01",
-            video_url: "https://hglink.to/mm2lv502gmxj",
-            download_url: "https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
-          },
-           {
-            id: "SQUID2",
-            title:  "SQUID GAME SO3 EP02",
-            video_url: "https://hglink.to/pmwcdnarwirc",
-            download_url: "https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/Squidgame01.jpg",
-          },
-           {
-            id: "SQUID3",
-            title:  "SQUID S03 EP03",
-            video_url: "https://hglink.to/bs75b4td70nj",
-            download_url: "https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/Squidgame01.jpg",
-          },
-           {
-            id: "SQUID04",
-            title:  "SQUID GAME S03 EP04",
-            video_url: "https://hglink.to/gsfwcnp7i29q",
-            download_url: "https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame.jpg",
-          },
-
-
-
-          {
-            id: "SQUID05",
-            title:  "SQUID GAME S03 EP05",
-            video_url: "https://hglink.to/fssfzbv8enj1",
-            download_url: "https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
-          },
-
-
-          {
-            id: "SQUID06",
-            title:  "SQUID GAME S03 EP06",
-            video_url: "https://hglink.to/g7eeun1f1mgh",
-            download_url: "https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file",
-            thumbnail_url: "/squidgame03.jpeg",
+            id: 'island',
+            title: 'THE I-LAND EP 7 FINAL',
+            video_url: 'https://hglink.to/tcmw2k138tjy',
+            download_url:
+              'https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file',
+            thumbnail_url: '/island.jpg',
           },
         ],
-
-      }
-    ]
+      },
+    ],
   },
 
-    {
-    id: "s2",
-    title: "VIKINGS SEASON 5 ",
-    type: "series",
-    description: "Vikings season 5 Ntigucike ....🔥🔥",
+  {
+    id: 'SQUID-GAMES3',
+    title: 'SQUID GAME SEASON 3',
+    type: 'series',
     // is_popular: true,
-    poster_url: "/vikings img.jpg",
+    description: 'Amazing movie ever!',
+    poster_url: '/squidgame03.jpeg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'SQUID1',
+            title: 'SQUID GAME S03 EP01',
+            video_url: 'https://hglink.to/mm2lv502gmxj',
+            download_url:
+              'https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
+          {
+            id: 'SQUID2',
+            title: 'SQUID GAME SO3 EP02',
+            video_url: 'https://hglink.to/pmwcdnarwirc',
+            download_url:
+              'https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/Squidgame01.jpg',
+          },
+          {
+            id: 'SQUID3',
+            title: 'SQUID S03 EP03',
+            video_url: 'https://hglink.to/bs75b4td70nj',
+            download_url:
+              'https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/Squidgame01.jpg',
+          },
+          {
+            id: 'SQUID04',
+            title: 'SQUID GAME S03 EP04',
+            video_url: 'https://hglink.to/gsfwcnp7i29q',
+            download_url:
+              'https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/squidgame.jpg',
+          },
+
+          {
+            id: 'SQUID05',
+            title: 'SQUID GAME S03 EP05',
+            video_url: 'https://hglink.to/fssfzbv8enj1',
+            download_url:
+              'https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
+
+          {
+            id: 'SQUID06',
+            title: 'SQUID GAME S03 EP06',
+            video_url: 'https://hglink.to/g7eeun1f1mgh',
+            download_url:
+              'https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 's2',
+    title: 'VIKINGS SEASON 5 ',
+    type: 'series',
+    description: 'Vikings season 5 Ntigucike ....🔥🔥',
+    // is_popular: true,
+    poster_url: '/vikings img.jpg',
     seasons: [
       {
         seasonNumber: 1,
