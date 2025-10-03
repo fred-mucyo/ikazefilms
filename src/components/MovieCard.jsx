@@ -73,45 +73,50 @@ const MovieCard = ({ movie }) => {
 
   return (
     <div className="movie-card">
-      <div className="movie-card-image">
-        <picture>
-          <source srcSet={getWebpThumbnail()} type="image/webp" />
-          <img
-            src={getThumbnailUrl()}
-            alt={movie.title}
-            onClick={handleThumbnailClick}
-            className="clickable-thumbnail"
-            loading="lazy"
-            onError={(e) => {
-              e.target.src = defaultThumbnail;
-            }}
-          />
-        </picture>
-<div className="movie-card-overlay">
-  <button
-    onClick={() => {
-      if (movie.type === 'series') {
-        handleNavigationWithSearchClear(`/series/${movie.id}`);
-      } else if (String(movie.id).startsWith('s')) {
-        handleNavigationWithSearchClear(`/static-movie/${movie.id}`);
-      } else {
-        handleNavigationWithSearchClear(`/movie/${movie.id}`);
-      }
-    }}
-    className="play-btn"
-    aria-label="Play"
-  >
-    <Play size={20} strokeWidth={2.5} />
-  </button>
+      <div
+  className="movie-card-image"
+  onClick={handleThumbnailClick}
+  style={{ cursor: 'pointer' }}
+>
+  <picture>
+    <source srcSet={getWebpThumbnail()} type="image/webp" />
+    <img
+      src={getThumbnailUrl()}
+      alt={movie.title}
+      className="clickable-thumbnail"
+      loading="lazy"
+      onError={(e) => {
+        e.target.src = defaultThumbnail;
+      }}
+    />
+  </picture>
+
+  <div className="movie-card-overlay">
+    <button
+      onClick={(e) => {
+        e.stopPropagation(); // Prevent triggering parent click twice
+        handleNavigationWithSearchClear(
+          movie.type === 'series'
+            ? `/series/${movie.id}`
+            : String(movie.id).startsWith('s')
+            ? `/static-movie/${movie.id}`
+            : `/movie/${movie.id}`
+        );
+      }}
+      className="play-btn"
+      aria-label="Play"
+    >
+      <Play size={20} strokeWidth={2.5} />
+    </button>
+  </div>
+
+  {(movie.is_popular || movie.is_featured) && (
+    <div className="movie-badge">
+      {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+    </div>
+  )}
 </div>
 
-
-        {(movie.is_popular || movie.is_featured) && (
-          <div className="movie-badge">
-            {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
-          </div>
-        )}
-      </div>
 
       <div className="movie-card-content">
         <h3 className="movie-card-title">{movie.title}</h3>
@@ -125,12 +130,25 @@ const MovieCard = ({ movie }) => {
             <strong>Interpreter:</strong> {movie.interpreter_name}
           </p>
         )}
-        {movie.created_at && (
-          <p className="movie-card-date">
-            <strong>Added:</strong>{' '}
-            {new Date(movie.created_at).toLocaleDateString()}
-          </p>
-        )}
+    {/* {movie.created_at && (
+  <p className="movie-card-date">
+    <strong>Added:</strong>{' '}
+    {(() => {
+      const now = new Date();
+      const uploadedDate = new Date(movie.created_at);
+      const diffMs = now - uploadedDate;
+      const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+
+      if (diffHours < 24) {
+        return `${diffHours} hour${diffHours !== 1 ? 's' : ''} ago`;
+      } else {
+        const diffDays = Math.floor(diffHours / 24);
+        return `${diffDays} day${diffDays !== 1 ? 's' : ''} ago`;
+      }
+    })()}
+  </p>
+)} */}
+
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_popular: true,
-    created_at: '2025-02-12T00:00:00.000Z',
+    created_at: '2025-10-04',
     thumbnail_url: '/heads.webp',
     poster_url: '/advitam.webp',
     image_url: '/advitam.webp',
