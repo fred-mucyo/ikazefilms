@@ -54,7 +54,7 @@ const staticMovies = [
 
 {
     id: 'BEHAPPY1',
-    title: 'BE HAPPY A',
+    title: 'BE HAPPY ',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_featured: true,
@@ -67,23 +67,6 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/6oexv9u81a9e',
   },
 
-
-
-  {
-    id: 'BEHAPPY2',
-    title: 'BE HAPPY B',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    is_featured: true,
-    is_popular:true,
-    created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/behappy.webp',
-    poster_url: '/behappy.webp',
-    image_url: '/behappy.webp',
-    video_url: 'https://hglink.to/6oexv9u81a9e',
-    download_url:'https://www.mediafire.com/file/7ptesa8g3g1k12h/BE+HAPPY.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/6oexv9u81a9e',
-  },
 
   {
     id: 'ADVITAMA',
@@ -94,9 +77,9 @@ const staticMovies = [
     thumbnail_url: '/advitam.webp',
     poster_url: '/advitam.webp',
     image_url: '/advitam.webp',
-    video_url: 'https://hglink.to/xpnx4ivj503i',
-    download_url:'https://www.mediafire.com/file/z1pubg77v3u09yl/AD+VITAM+B.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/xpnx4ivj503i',
+    video_url: 'https://hglink.to/2xba87fao8lc',
+    download_url:'https://www.mediafire.com/file/xd9ayn1m1ulwq4r/AD+VITAM+A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/2xba87fao8lci',
   },
        {
     id: 'ADVITAMB',
@@ -109,9 +92,9 @@ const staticMovies = [
     thumbnail_url: '/advitam.webp',
     poster_url: '/advitam.webp',
     image_url: '/advitam.webp',
-    video_url: 'https://hglink.to/2xba87fao8lc',
-    download_url:'https://www.mediafire.com/file/xd9ayn1m1ulwq4r/AD+VITAM+A.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/2xba87fao8lc',
+    video_url: 'https://hglink.to/xpnx4ivj503i',
+    download_url:'https://www.mediafire.com/file/z1pubg77v3u09yl/AD+VITAM+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/xpnx4ivj503i',
   },
 {
     id: 'Gentlemen',
