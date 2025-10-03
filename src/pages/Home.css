@@ -1,7 +1,7 @@
 /* Home Page Styles */
 .home-page {
-  min-height: 100vh;
-  padding: 40px 0;
+
+  padding:0;
 }
 
 /* Hero Section */
@@ -17,6 +17,8 @@
   border-radius: 24px;
   position: relative;
   overflow: hidden;
+
+   /* padding: 40px 20px; */
 }
 
 .hero-section::before {
@@ -519,3 +521,6 @@
   opacity: 1;
   transform: translateY(-50%) translateX(-5px);
 }
+
+
+

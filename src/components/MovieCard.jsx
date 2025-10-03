@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useWatchlist } from '../context/WatchlistContext';
 import { useAuth } from '../context/AuthContext';
 import { truncateText } from '../utils/api';
+import { Play } from 'lucide-react';
 import './MovieCard.css';
 
 const MovieCard = ({ movie }) => {
@@ -86,54 +87,24 @@ const MovieCard = ({ movie }) => {
             }}
           />
         </picture>
+<div className="movie-card-overlay">
+  <button
+    onClick={() => {
+      if (movie.type === 'series') {
+        handleNavigationWithSearchClear(`/series/${movie.id}`);
+      } else if (String(movie.id).startsWith('s')) {
+        handleNavigationWithSearchClear(`/static-movie/${movie.id}`);
+      } else {
+        handleNavigationWithSearchClear(`/movie/${movie.id}`);
+      }
+    }}
+    className="play-btn"
+    aria-label="Play"
+  >
+    <Play size={20} strokeWidth={2.5} />
+  </button>
+</div>
 
-        <div className="movie-card-overlay">
-          <div className="movie-card-actions">
-            {movie.type === 'series' ? (
-              <button
-                onClick={() =>
-                  handleNavigationWithSearchClear(`/series/${movie.id}`)
-                }
-                className="btn btn-primary watch-full-btn"
-              >
-                REBA SEASON
-              </button>
-            ) : String(movie.id).startsWith('s') ? (
-              <button
-                onClick={() =>
-                  handleNavigationWithSearchClear(`/static-movie/${movie.id}`)
-                }
-                className="btn btn-primary watch-full-btn"
-              >
-                REBA FILIME
-              </button>
-            ) : (
-              <button
-                onClick={() =>
-                  handleNavigationWithSearchClear(`/movie/${movie.id}`)
-                }
-                className="btn btn-primary watch-full-btn"
-              >
-                REBA FILIME YOSE
-              </button>
-            )}
-            {isAuthenticated && (
-              <button
-                onClick={handleWatchlistToggle}
-                disabled={isLoading}
-                className={`btn ${isInWatchlist(movie.id) ? 'btn-danger' : 'btn-success'}`}
-              >
-                {isLoading ? (
-                  <span className="spinner spinner-sm"></span>
-                ) : isInWatchlist(movie.id) ? (
-                  '❌ Remove'
-                ) : (
-                  'Add to Watchlist'
-                )}
-              </button>
-            )}
-          </div>
-        </div>
 
         {(movie.is_popular || movie.is_featured) && (
           <div className="movie-badge">
@@ -144,11 +115,11 @@ const MovieCard = ({ movie }) => {
 
       <div className="movie-card-content">
         <h3 className="movie-card-title">{movie.title}</h3>
-        {movie.description && (
+        {/* {movie.description && (
           <p className="movie-card-description">
             {truncateText(movie.description, 100)}
           </p>
-        )}
+        )} */}
         {movie.interpreter_name && (
           <p className="movie-card-interpreter">
             <strong>Interpreter:</strong> {movie.interpreter_name}
@@ -166,3 +137,10 @@ const MovieCard = ({ movie }) => {
 };
 
 export default MovieCard;
+
+
+
+
+
+
+

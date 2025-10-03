@@ -11,7 +11,7 @@ const staticMovies = [
     interpreter_name: 'ROCKY',
     is_popular: true,
     created_at: '2025-02-12T00:00:00.000Z',
-    thumbnail_url: '/advitam.webp',
+    thumbnail_url: '/heads.webp',
     poster_url: '/advitam.webp',
     image_url: '/advitam.webp',
     video_url: 'https://hglink.to/2xba87fao8lc',
