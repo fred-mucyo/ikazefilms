@@ -431,7 +431,7 @@ const staticSeries = [
             id: 'highschool',
             title: 'HIGHSCHOOL EP 1',
             video_url: 'https://hglink.to/cyc8rcyvqhvz',
-            download_url: '',
+            download_url: 'https://www.mediafire.com/file/oy7w13pa57jz7g8/HIGH+SCHOOL+E1+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
