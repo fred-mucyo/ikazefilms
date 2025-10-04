@@ -445,7 +445,7 @@ const staticSeries = [
             id: 'highschool',
             title: 'HIGHSCHOOL EP 3',
             video_url: 'https://hglink.to/yai15wyhbxga',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/kgh67ej3hhjedf7/HIGH+SCHOOL+E03+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
