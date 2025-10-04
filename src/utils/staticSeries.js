@@ -552,7 +552,7 @@ const staticSeries = [
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 8',
             video_url: 'https://hglink.to/y2thche25cvd',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/f0tnepwy2wuvwno/NIGHT+HAS+COME+E08.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
