@@ -517,7 +517,7 @@ const staticSeries = [
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 3',
             video_url: 'https://hglink.to/ragih7607f68',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/scxxakaji5xxj1f/NIGHT+HAS+COME+E03.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
