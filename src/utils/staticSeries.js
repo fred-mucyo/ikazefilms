@@ -452,7 +452,7 @@ const staticSeries = [
             id: 'highschool',
             title: 'HIGHSCHOOL EP 4',
             video_url: 'https://hglink.to/63s0zumna5zx',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/p6jy4au7mxu86rd/HIGH+SCHOOL+4.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
