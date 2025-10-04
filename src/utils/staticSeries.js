@@ -490,10 +490,10 @@ const staticSeries = [
 
    {
     id: 'NIGHTHASCOME',
-    title: 'HIGHSCHOOL',
+    title: 'NIGHT HAS COME',
     type: 'series',
     is_popular: true,
-    description: '',
+    description: 'Watch amazing korean horro movie!❤️‍🔥',
     poster_url: '/nighthascome.webp',
     seasons: [
       {
@@ -538,7 +538,7 @@ const staticSeries = [
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 6',
             video_url: 'https://hglink.to/fv4x7u7slo8j',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/fd3m2hr1psrn61i/NIGHT+HAS+COME+EP06.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
