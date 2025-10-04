@@ -421,7 +421,7 @@ const staticSeries = [
     title: 'HIGHSCHOOL',
     type: 'series',
     is_popular: true,
-    description: '',
+    description: 'Aga serie keza cyane, Ntikagucike!!❤️‍🔥❤️‍🔥❤️‍🔥',
     poster_url: '/highschool.webp',
     seasons: [
       {
