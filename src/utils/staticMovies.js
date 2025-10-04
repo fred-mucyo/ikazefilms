@@ -215,9 +215,9 @@ const staticMovies = [
     created_at: '2025-02-12T00:00:00.000Z',
     is_popular: true,
     is_featured: true,
-    thumbnail_url: '/havocxx.webp',
-    poster_url: '/havocxx.webp',
-    image_url: '/havocxx.webp',
+    thumbnail_url: '/havoc.webp',
+    poster_url: '/havoc.webp',
+    image_url: '/havoc.webp',
     video_url: 'https://hglink.to/klupma9fk47s',
     download_url:
       'https://www.mediafire.com/file/gmu8xnumvitblyb/HAVOC.mp4/file',
@@ -375,17 +375,32 @@ const staticMovies = [
       'https://www.mediafire.com/file/9hb4qxa7q0lol4b/NOBODY_PART_1_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB',
   },
+   {
+    id: 's2',
+    title: 'A WORKING MAN A',
+    description: 'Best movie ever.',
+    interpreter_name: 'Rocky',
+    created_at: '2024-02-12T00:00:00.000Z',
+    is_popular: true,
+    thumbnail_url: '/workingma.webp',
+    poster_url: '/workingma.webp',
+    image_url: '/workingma.webp',
+    video_url: 'https://hglink.to/lodwr6jn1tbp',
+    download_url:
+      'https://www.mediafire.com/file/ezr10phz5hni43p/A+WARKING+MAN+A.mp4/file',
+    youtube_trailer_url: 'https://youtu.be/zTbgNC42Ops?si=uZ5EnXsdOGrWA98H',
+  },
 
   {
     id: '108',
-    title: 'Working man B',
+    title: 'A WORKING MAN B',
     description:
       'Working Man (2019) is a poignant American drama directed by Robert Jury, exploring themes of identity, purpose, and community in the face of economic hardship.',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
-    thumbnail_url: '/workingman.jpeg',
-    poster_url: '/workingman.jpeg',
-    image_url: '/workingman.jpeg',
+    thumbnail_url: '/workingma.webp',
+    poster_url: '/workingma.webp',
+    image_url: '/workingma.webp',
     download_url:
       'https://www.mediafire.com/file/zusyab9bl6e1x73/A_WORKING_MAN_B.mp4/file',
     video_url: 'https://hglink.to/dy1somwlbv6e',
@@ -581,21 +596,7 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/-5X2pt95cIo?si=th6aaMtfv1kHhdLL',
   },
 
-  {
-    id: 's2',
-    title: 'The working man',
-    description: 'Best movie ever.',
-    interpreter_name: 'Rocky',
-    created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
-    thumbnail_url: '/workingman.jpeg',
-    poster_url: '/workingman.jpeg',
-    image_url: '/workingman.jpeg',
-    video_url: 'https://hglink.to/lodwr6jn1tbp',
-    download_url:
-      'https://www.mediafire.com/file/ezr10phz5hni43p/A+WARKING+MAN+A.mp4/file',
-    youtube_trailer_url: 'https://youtu.be/zTbgNC42Ops?si=uZ5EnXsdOGrWA98H',
-  },
+
   {
     id: 's3',
     title: 'JAAT A',
@@ -846,18 +847,18 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/PfeQX80tjdQ?si=Wx5vcKWtXwzP50PE',
   },
 
-  {
-    id: 's21',
-    title: 'Havoc',
-    description: 'Gripping stories at a glance.',
-    interpreter_name: 'GAHEZA',
-    created_at: '2024-08-30T00:00:00.000Z',
-    thumbnail_url: '/havoc.jpg',
-    poster_url: '/havoc.jpg',
-    image_url: '/havoc.jpg',
-    video_url: 'https://hglink.to/59qmk7lvvudb',
-    youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=8lOGzv-bjEhGaZKj',
-  },
+  // {
+  //   id: 's21',
+  //   title: 'Havoc',
+  //   description: 'Gripping stories at a glance.',
+  //   interpreter_name: 'GAHEZA',
+  //   created_at: '2024-08-30T00:00:00.000Z',
+  //   thumbnail_url: '/havoc.webp',
+  //   poster_url: '/havoc.webp',
+  //   image_url: '/havoc.webp',
+  //   video_url: 'https://hglink.to/59qmk7lvvudb',
+  //   youtube_trailer_url: 'https://youtu.be/6txjTWLoSc8?si=8lOGzv-bjEhGaZKj',
+  // },
 
   {
     id: 's22',
