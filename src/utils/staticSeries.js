@@ -451,14 +451,14 @@ const staticSeries = [
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 4',
-            video_url: '',
+            video_url: 'https://hglink.to/63s0zumna5zx',
             download_url:'',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 5',
-            video_url: '',
+            video_url: 'https://hglink.to/cr8k72olxpgb',
             download_url:'',
             thumbnail_url: '/highschool.webp',
           },
