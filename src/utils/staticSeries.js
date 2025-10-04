@@ -580,7 +580,7 @@ const staticSeries = [
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 12 FINAL',
             video_url: 'https://hglink.to/06y40ejd1593',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/9kcmlcqdyqxuu4l/NIGHT+HAS+COME+E12+FINAL.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
         ],
