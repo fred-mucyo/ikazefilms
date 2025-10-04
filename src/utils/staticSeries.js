@@ -488,6 +488,78 @@ const staticSeries = [
     ],
   },
 
+   {
+    id: 'HIGHSCHOOL',
+    title: 'HIGHSCHOOL',
+    type: 'series',
+    is_popular: true,
+    description: '',
+    poster_url: '/highschool.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 1',
+            video_url: 'https://hglink.to/cyc8rcyvqhvz',
+            download_url: 'https://www.mediafire.com/file/oy7w13pa57jz7g8/HIGH+SCHOOL+E1+(1).mp4/file',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 2',
+            video_url: 'https://hglink.to/cyc8rcyvqhvz',
+            download_url: 'https://www.mediafire.com/file/kyloab3ym6jc8bk/HIGH+SCHOOL+E2+(1).mp4/file',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 3',
+            video_url: 'https://hglink.to/yai15wyhbxga',
+            download_url:'https://www.mediafire.com/file/kgh67ej3hhjedf7/HIGH+SCHOOL+E03+(1).mp4/file',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 4',
+            video_url: 'https://hglink.to/63s0zumna5zx',
+            download_url:'https://www.mediafire.com/file/p6jy4au7mxu86rd/HIGH+SCHOOL+4.mp4/file',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 5',
+            video_url: 'https://hglink.to/cr8k72olxpgb',
+            download_url:'',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 6',
+            video_url: 'https://hglink.to/ao04o1ibc6xh',
+            download_url:'',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 7',
+            video_url: 'https://hglink.to/c328f2p8lczu',
+            download_url:'',
+            thumbnail_url: '/highschool.webp',
+          },
+          {
+            id: 'highschool',
+            title: 'HIGHSCHOOL EP 8 FINAL',
+            video_url: 'https://hglink.to/jhz2wmcb65oy',
+            download_url:'',
+            thumbnail_url: '/highschool.webp',
+          },
+        ],
+      },
+    ],
+  },
+
 
   {
     id: 'SQUID-GAMES3',
