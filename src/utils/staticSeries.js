@@ -437,7 +437,7 @@ const staticSeries = [
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 2',
-            video_url: 'https://hglink.to/cyc8rcyvqhvz',
+            video_url: 'https://hglink.to/r28yhly3ynb2',
             download_url: 'https://www.mediafire.com/file/kyloab3ym6jc8bk/HIGH+SCHOOL+E2+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
