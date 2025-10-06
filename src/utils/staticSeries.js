@@ -501,6 +501,92 @@ const staticSeries = [
     ],
   },
 
+      {
+    id: 'HOUSEOFDAVID',
+    title: 'THE HOUSE OF DAVID',
+    type: 'series',
+    is_popular: true,
+    description:'',
+    poster_url: '/ladyvoye.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 1',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 2',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 3',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 4',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 5',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID EP 6',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID 7',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID 8',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID 9',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+          {
+            id: 'island',
+            title: 'THE HOUSE OF DAVID 10',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/ladyvoye.webp',
+          },
+        ],
+      },
+    ],
+  },
+
    {
     id: 'HIGHSCHOOL',
     title: 'HIGHSCHOOL',
