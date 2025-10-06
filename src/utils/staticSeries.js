@@ -465,7 +465,7 @@ const staticSeries = [
             id: 'island',
             title: 'LADY VOYEUR EP 6',
             video_url: 'https://hglink.to/6hkmif9sfk3s',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/003fge9a3kzr7wm/LADY+VOYEUR+S01E06.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
