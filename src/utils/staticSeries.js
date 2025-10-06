@@ -348,8 +348,7 @@ const staticSeries = [
     title: 'THE I-LAND',
     type: 'series',
     is_popular: true,
-    description:
-      'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
+    description:'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
     poster_url: '/island.webp',
     seasons: [
       {
@@ -409,6 +408,92 @@ const staticSeries = [
             video_url: 'https://hglink.to/tcmw2k138tjy',
             download_url:
               'https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file',
+            thumbnail_url: '/island.jpg',
+          },
+        ],
+      },
+    ],
+  },
+
+    {
+    id: 'LOVEVOYE',
+    title: 'LADY VOYEUR',
+    type: 'series',
+    is_popular: true,
+    description:'',
+    poster_url: '/island.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 1',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 2',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 3',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 4',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 5',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR EP 6',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR 7',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR 8',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR 9',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/island.jpg',
+          },
+          {
+            id: 'island',
+            title: 'LADY VOYEUR 10 FINAL',
+            video_url: '',
+            download_url:'',
             thumbnail_url: '/island.jpg',
           },
         ],
