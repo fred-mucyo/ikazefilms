@@ -486,7 +486,7 @@ const staticSeries = [
             id: 'island',
             title: 'LADY VOYEUR 9',
             video_url: 'https://hglink.to/fhej7az37h2v',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/l4qfxexvbpuo88s/LADY+VOYEUR+E09.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
