@@ -587,6 +587,92 @@ const staticSeries = [
     ],
   },
 
+  {
+    id: 'HOUSEOFDAVID',
+    title: 'AS THE CLOW FLIES',
+    type: 'series',
+    is_popular: true,
+    description:'',
+    poster_url: '/houseofdavid.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 1',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 2',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 3',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 4',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 5',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES EP 6',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES 7',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES 8',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES 9',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+          {
+            id: 'island',
+            title: 'AS THE CLOW FLIES 10',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/houseofdavid.webp',
+          },
+        ],
+      },
+    ],
+  },
+
    {
     id: 'HIGHSCHOOL',
     title: 'HIGHSCHOOL',
