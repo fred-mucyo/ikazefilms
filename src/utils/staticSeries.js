@@ -1628,6 +1628,65 @@ const staticSeries = [
       },
     ],
   },
+
+   {
+    id: 'INGANNO',
+    title: 'INGANNO',
+    type: 'series',
+    description: '',
+    is_popular: true,
+    poster_url: '/ingano.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'ingano',
+            title: 'INGANNO EP1',
+            video_url: 'https://hglink.to/mm3f86cihq09',
+            download_url: '',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano',
+            title: 'INGANNO EP2',
+            video_url: 'https://hglink.to/hgc0o3ieq9qq',
+            download_url:  '',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'ingano',
+            title: 'INGANNO EP3',
+            video_url: 'https://hglink.to/rpnfvdqzj0p6',
+            download_url:  '',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'ingano',
+            title: 'INGANNO EP4',
+            video_url: 'https://hglink.to/08cr10ew4q8p',
+            download_url: '',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'ingano',
+            title: 'INGANNO EP5',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'ingano',
+            title: 'INGANNO EP6 FINAL',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/betaal.jpg',
+          },
+        ],
+      },
+    ],
+  },
 ];
+
 
 export default staticSeries;
