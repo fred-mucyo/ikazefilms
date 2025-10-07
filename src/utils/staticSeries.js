@@ -727,7 +727,7 @@ const staticSeries = [
             id: 'island',
             title: 'AS THE CLOW FLIES 19',
             video_url: 'https://hglink.to/357kwex3nq9c',
-            download_url:'',
+            download_url:'https://www.mediafire.com/file/d3wvsghi4ay5ttz/AS+THE+CROW+FLIES+EP+19.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
            {
