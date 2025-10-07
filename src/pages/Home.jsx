@@ -270,6 +270,47 @@ const Home = () => {
               ))}
             </div>
           </div>
+          {/* Search Results */}
+{searchTerm.trim() && filteredMovies.length > 0 && (
+  <div className="movies-section" id="search-results">
+    <div className="section-header">
+      <h2 className="section-title">
+        Search Results for "{searchTerm}"
+      </h2>
+      <div className="section-subtitle">
+        Movies matching your search
+      </div>
+    </div>
+    <InfiniteScroll
+      dataLength={Math.min(visibleCount, filteredMovies.length)}
+      next={loadMoreMovies}
+      hasMore={visibleCount < filteredMovies.length}
+      loader={<p className="loading-text">Loading more movies...</p>}
+    >
+      <div className="movies-grid compact-grid">
+        {filteredMovies.slice(0, visibleCount).map((movie) => (
+          <MovieCard key={movie.id} movie={movie} loading="lazy" />
+        ))}
+      </div>
+    </InfiniteScroll>
+  </div>
+)}
+
+{/* No search results */}
+{searchTerm.trim() && filteredMovies.length === 0 && (
+  <div className="no-results" id="search-results" aria-live="polite">
+    <div className="no-results-icon" role="img" aria-label="No Results">
+      🎬
+    </div>
+    <h3>No movies found for "{searchTerm}"</h3>
+    <p> Reba niba wanditse neza izina cg{' '}
+  <a href="https://wa.me/250786054441" target="_blank" rel="noopener noreferrer">
+    Utuvugishe kuri WhatsApp
+  </a>
+</p>
+  </div>
+)}
+
           {/* All Movies */}
           {!searchTerm.trim() && allMovies.length > 0 && (
             <div className="movies-section" id="all-movies">
