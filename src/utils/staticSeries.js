@@ -1,8 +1,7 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-   
-      {
+{
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
     type: 'series',
@@ -338,6 +337,63 @@ const staticSeries = [
             thumbnail_url: '/ASTHECLOW.webp',
           },
           
+        ],
+      },
+    ],
+  },
+       {
+    id: 'INGANNO',
+    title: 'INGANNO',
+    type: 'series',
+    description: '',
+    is_popular: true,
+    poster_url: '/ingano.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'ingano1',
+            title: 'INGANNO EP1',
+            video_url: 'https://hglink.to/mm3f86cihq09',
+            download_url: 'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano2',
+            title: 'INGANNO EP2',
+            video_url: 'https://hglink.to/hgc0o3ieq9qq',
+            download_url:  'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano3',
+            title: 'INGANNO EP3',
+            video_url: 'https://hglink.to/rpnfvdqzj0p6',
+            download_url:  'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano4',
+            title: 'INGANNO EP4',
+            video_url: 'https://hglink.to/08cr10ew4q8p',
+            download_url: 'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano5',
+            title: 'INGANNO EP5',
+            video_url: 'https://hglink.to/any6j5vrhmor',
+            download_url: 'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano6',
+            title: 'INGANNO EP6 FINAL',
+            video_url: 'https://hglink.to/zqcdpnonplbi',
+            download_url: 'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
         ],
       },
     ],
@@ -1608,64 +1664,6 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/8pnabi16k6llwmf/BETAAL+04+FINAL.mp4/file',
             thumbnail_url: '/betaal.jpg',
-          },
-        ],
-      },
-    ],
-  },
-
-   {
-    id: 'INGANNO',
-    title: 'INGANNO',
-    type: 'series',
-    description: '',
-    is_popular: true,
-    poster_url: '/ingano.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'ingano1',
-            title: 'INGANNO EP1',
-            video_url: 'https://hglink.to/mm3f86cihq09',
-            download_url: 'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
-            thumbnail_url: '/ingano.webp',
-          },
-          {
-            id: 'ingano2',
-            title: 'INGANNO EP2',
-            video_url: 'https://hglink.to/hgc0o3ieq9qq',
-            download_url:  'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
-            thumbnail_url: '/ingano.webp',
-          },
-          {
-            id: 'ingano3',
-            title: 'INGANNO EP3',
-            video_url: 'https://hglink.to/rpnfvdqzj0p6',
-            download_url:  'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
-            thumbnail_url: '/ingano.webp',
-          },
-          {
-            id: 'ingano4',
-            title: 'INGANNO EP4',
-            video_url: 'https://hglink.to/08cr10ew4q8p',
-            download_url: 'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
-            thumbnail_url: '/ingano.webp',
-          },
-          {
-            id: 'ingano5',
-            title: 'INGANNO EP5',
-            video_url: 'https://hglink.to/any6j5vrhmor',
-            download_url: 'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
-            thumbnail_url: '/ingano.webp',
-          },
-          {
-            id: 'ingano6',
-            title: 'INGANNO EP6 FINAL',
-            video_url: 'https://hglink.to/zqcdpnonplbi',
-            download_url: 'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
-            thumbnail_url: '/ingano.webp',
           },
         ],
       },

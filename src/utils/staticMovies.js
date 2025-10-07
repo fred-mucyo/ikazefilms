@@ -4,6 +4,19 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+     {
+    id: 'thosewhowishmedead',
+    title: 'THOSE WHO WISH  ME DEAD',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/thosewhomedead.webp',
+    poster_url: '/thosewhomedead.webp',
+    image_url: '/thosewhomedead.webp',
+    video_url: 'https://hglink.to/952e83snm8gk',
+    download_url:'https://www.mediafire.com/file/1mqnl4u47b88s1o/THOSE+WHO+WISH+ME+DEAD.mp4/file ',
+    youtube_trailer_url: 'https://hglink.to/952e83snm8gk',
+  },
 
    {
     id: 'Baywatchii',
@@ -83,8 +96,7 @@ const staticMovies = [
   {
     id: 'Olastmen',
     title: 'OUR LAST MEN IN PHILIPINE',
-    description:
-      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    description:'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
     interpreter_name: 'ROCKY',
     created_at: '2025-02-12T00:00:00.000Z',
     thumbnail_url: '/our-last-men-in-the-philippines.webp',
