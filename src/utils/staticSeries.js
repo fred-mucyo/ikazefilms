@@ -1,144 +1,7 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-   {
-    id: 'kings',
-    title: 'OF KINGS AND PROPHETS S1 ALL EPISODES',
-    type: 'series',
-    description:
-      'A biblical drama centered around a battle-weary king, a powerful and resentful prophet, and a resourceful young shepherd.',
-    is_popular: true,
-    poster_url: '/kings.jpg',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP1',
-            video_url: 'https://hglink.to/5xzd19iojmmy',
-            download_url:
-              'https://www.mediafire.com/file/cpq9l4yqr8tpqe9/Of.Kings+and+Prophets+S01E01.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkIings',
-            title: 'OF KINGS AND PROPHETS EP2',
-            video_url: 'https://hglink.to/sjaqitw6bbef',
-            download_url:
-              'https://www.mediafire.com/file/uer2tng2adtboa0/Of+Kings+and+Prophets+S01E02+.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-
-          {
-            id: 'ofkiTngs',
-            title: 'OF KINGS AND PROPHETS EP3',
-            video_url: 'https://hglink.to/8ycgayqm96xb',
-            download_url:
-              'https://www.mediafire.com/file/ifpuf1uhovxqvvc/Of.Kings.And.Prophets.S01e03.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-
-          {
-            id: 'ofkTings',
-            title: 'OF KINGS AND PROPHETS EP4',
-            video_url: 'https://hglink.to/jtjrlurfuwp5',
-            download_url:
-              'https://www.mediafire.com/file/a9qwcwj7nidpfdy/Of.Kings.And.Prophets.S01e04.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP5',
-            video_url: 'https://hglink.to/i8vlyyvz613i',
-            download_url:
-              'https://www.mediafire.com/file/es9zo0vmvbgevf9/Of.Kings.And.Prophets.S01e05.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP6',
-            video_url: 'https://hglink.to/f5cgltjvi6hg',
-            download_url:
-              'https://www.mediafire.com/file/g4i05ugp6i9djxg/Of_Kings_And_Prophets_6.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP7',
-            video_url: 'https://hglink.to/3a1d7s82x9g1',
-            download_url:
-              'https://www.mediafire.com/file/gt5xv6euv32jyat/Of.Kings.And.Prophets.S01e07.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP8',
-            video_url: 'https://hglink.to/1ilohc6aiu2f',
-            download_url:
-              'https://www.mediafire.com/file/0ho7j6118ye87ym/Of.Kings.And.Prophets.S01e08.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-          {
-            id: 'ofkings',
-            title: 'OF KINGS AND PROPHETS EP9',
-            video_url: 'https://hglink.to/z2v7dnzsz0ys',
-            download_url:
-              'https://www.mediafire.com/file/qiv8t8f28do11ks/Of.Kings.And.Prophets.S01e09.mp4/file',
-            thumbnail_url: '/kings.jpg',
-          },
-        ],
-      },
-    ],
-  },
-
-  {
-    id: 'betaal',
-    title: 'BETAAL',
-    type: 'series',
-    description: 'Betaal is an amazing new movie!!',
-    is_popular: true,
-    poster_url: '/betaal.jpg',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'betaal',
-            title: 'BETAAL EP1',
-            video_url: 'https://hglink.to/30obuv124mf9',
-            download_url:
-              'https://www.mediafire.com/file/e8mnwrdw56gbra2/BETAAL+01.mp4/file',
-            thumbnail_url: '/betaal.jpg',
-          },
-          {
-            id: 'betaal',
-            title: 'BETAAL EP2',
-            video_url: 'https://hglink.to/a9b0zam0juvq',
-            download_url:
-              'https://www.mediafire.com/file/itirkup8vo59c1u/BETAAL+02.mp4/file',
-            thumbnail_url: '/betaal.jpg',
-          },
-          {
-            id: 'betaal',
-            title: 'BETAAL EP3',
-            video_url: 'https://hglink.to/am38l0zjmnsp',
-            download_url:
-              'https://www.mediafire.com/file/4bfadjpq9rlx97k/BETAAL+03.mp4/file',
-            thumbnail_url: '/betaal.jpg',
-          },
-          {
-            id: 'betaal',
-            title: 'BETAAL EP4 FINAL',
-            video_url: 'https://hglink.to/dd5837yzotin',
-            download_url:
-              'https://www.mediafire.com/file/8pnabi16k6llwmf/BETAAL+04+FINAL.mp4/file',
-            thumbnail_url: '/betaal.jpg',
-          },
-        ],
-      },
-    ],
-  },
+   
       {
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
@@ -465,6 +328,13 @@ const staticSeries = [
             title: 'AS THE CLOW FLIES 23',
             video_url: 'https://hglink.to/jl6ided8flfp',
             download_url:'https://www.mediafire.com/file/bt8fbri72jmbjua/AS+THE+CROW+FLIES+EP+23+mp4.mp4/file',
+            thumbnail_url: '/ASTHECLOW.webp',
+          },
+           {
+            id: 'island',
+            title: 'AS THE CLOW FLIES 24 FINAL',
+            video_url: 'https://hglink.to/bapw8vhq3ldb',
+            download_url:'https://www.mediafire.com/file/1qcd7sa9mptdk3x/AS+THE+CROW+FLIES+EP+24+FINAL.mp4.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           
@@ -880,192 +750,6 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file',
             thumbnail_url: '/island.jpg',
-          },
-        ],
-      },
-    ],
-  },
-
-    
-
-
-  {
-    id: 'ASTHECLOWFLIES',
-    title: 'AS THE CLOW FLIES',
-    type: 'series',
-    is_popular: true,
-    description:'',
-    poster_url: '/ASTHECLOW.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 1',
-            video_url: 'https://hglink.to/ed1rrflyzrj0',
-            download_url: 'https://www.mediafire.com/file/c397cdsd5qupez1/AS+THE+CROW+FLIES+E01.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 2',
-            video_url: 'https://hglink.to/1rq9iz42oyvl',
-            download_url: 'https://www.mediafire.com/file/akjvrgqscc2ncns/AS+THE+CROW+FLIES+S01E02.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 3',
-            video_url: 'https://hglink.to/9x4hmclu8jfl',
-            download_url: 'https://www.mediafire.com/file/xcordaqg4lj097c/AS+THE+CROW+FLIES+E03.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 4',
-            video_url: 'https://hglink.to/4tlfectr6g60',
-            download_url: 'https://www.mediafire.com/file/mcp4vqfeshfgcno/AS+THE+CROW+FLIES+E04.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 5',
-            video_url: 'https://hglink.to/5zw6lwae9cvv',
-            download_url:'https://www.mediafire.com/file/4h80vkkdi8sqc08/AS+THE+CROW+FLIES+E05.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES EP 6',
-            video_url: 'https://hglink.to/1il96ovf0aho',
-            download_url:'https://www.mediafire.com/file/a3hkeex9ssdtcy2/AS+THE+CROW+FLIES+E06.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 7',
-            video_url: 'https://hglink.to/q1oe2zfs40zv',
-            download_url:'https://www.mediafire.com/file/glixz1rgkdm7x28/AS+THE+CROW+FLIES+E07.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 8',
-            video_url: 'https://hglink.to/8b83n1z0fa39',
-            download_url:'https://www.mediafire.com/file/sgf7zlqtplpfugd/AS+THE+CROW+FLIES+E08.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 9',
-            video_url: 'https://hglink.to/9srliqr2j3xd',
-            download_url:'https://www.mediafire.com/file/e4ewrq8o2wmbbo4/AS+THE+CROW+FLIES+E09.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 10',
-            video_url: 'https://hglink.to/8kiri7jwwnak',
-            download_url:'https://www.mediafire.com/file/6cc0rgszpfhhfl4/AS+THE+CROW+FLIES+E10.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          }, {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 11',
-            video_url: 'https://hglink.to/3eb70i56wjor',
-            download_url:'https://www.mediafire.com/file/opnlielrwuzyak3/AS+THE+CROW+FLIES+EP+11.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 12',
-            video_url: 'https://hglink.to/00j6g41tbtl9',
-            download_url:'https://www.mediafire.com/file/8bdfo3npnzyk3g0/AS_THE_CROW_FLIES_EP_12.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 13',
-            video_url: 'https://hglink.to/25rokf35tigl',
-            download_url:'https://www.mediafire.com/file/rua4dqg47sq776o/AS+THE+CROW+FLIES+EP+13.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-           {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 14',
-            video_url: 'https://hglink.to/uj8ghcbznnzl',
-            download_url:'https://www.mediafire.com/file/tyq0q6e5odikcap/AS+THE+CROW+FLIES+EP+14.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 15',
-            video_url: 'https://hglink.to/55d51wlo9k9p',
-            download_url:'https://www.mediafire.com/file/cug0wfar17kcepx/AS+THE+CROW+FLIES+EP+15.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 16',
-            video_url: 'https://hglink.to/6ce0t75kiq9v',
-            download_url:'https://www.mediafire.com/file/6s1cfc8r8iobthi/AS+THE+CROW+FLIES+EP+16.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-           {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 17',
-            video_url: 'https://hglink.to/haumbvv9oj41',
-            download_url:'https://www.mediafire.com/file/zdkh2vsrtv73bn3/AS+THE+CROW+FLIES+EP+17.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 18',
-            video_url: 'https://hglink.to/y0ykdr60kdng',
-            download_url:'https://www.mediafire.com/file/dto8nz9lv4mv84v/AS+THE+CROW+FLIES+EP+18.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 19',
-            video_url: 'https://hglink.to/357kwex3nq9c',
-            download_url:'https://www.mediafire.com/file/d3wvsghi4ay5ttz/AS+THE+CROW+FLIES+EP+19.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-           {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 20',
-            video_url: 'https://hglink.to/3ovrahhp8fhz',
-            download_url:'https://www.mediafire.com/file/ghrb0nf8v05is4o/AS+THE+CROW+FLIES+EP+20.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 21',
-            video_url: 'https://hglink.to/okjo0p83z57q',
-            download_url:'https://www.mediafire.com/file/yjsxwb141pznlu4/AS+THE+CROW+FLIES+EP+21.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-          {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 22',
-            video_url: 'https://hglink.to/2mie4d4v0fpl',
-            download_url:'https://www.mediafire.com/file/rj4vj7ym7i576b7/AS+THE+CROW+FLIES+EP+22.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-           {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 23',
-            video_url: 'https://hglink.to/jl6ided8flfp',
-            download_url:'https://www.mediafire.com/file/bt8fbri72jmbjua/AS+THE+CROW+FLIES+EP+23+mp4.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
-          },
-           {
-            id: 'island',
-            title: 'AS THE CLOW FLIES 24 FINAL',
-            video_url: 'https://hglink.to/bapw8vhq3ldb',
-            download_url:'https://www.mediafire.com/file/1qcd7sa9mptdk3x/AS+THE+CROW+FLIES+EP+24+FINAL.mp4.mp4/file',
-            thumbnail_url: '/ASTHECLOW.webp',
           },
         ],
       },
@@ -1786,6 +1470,144 @@ const staticSeries = [
             title: 'COMMING SOON....',
             video_url: 'https://hglink.to/episode1s2',
             thumbnail_url: '/lostin.jpg',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'kings',
+    title: 'OF KINGS AND PROPHETS S1 ALL EPISODES',
+    type: 'series',
+    description:
+      'A biblical drama centered around a battle-weary king, a powerful and resentful prophet, and a resourceful young shepherd.',
+    is_popular: true,
+    poster_url: '/kings.jpg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP1',
+            video_url: 'https://hglink.to/5xzd19iojmmy',
+            download_url:
+              'https://www.mediafire.com/file/cpq9l4yqr8tpqe9/Of.Kings+and+Prophets+S01E01.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkIings',
+            title: 'OF KINGS AND PROPHETS EP2',
+            video_url: 'https://hglink.to/sjaqitw6bbef',
+            download_url:
+              'https://www.mediafire.com/file/uer2tng2adtboa0/Of+Kings+and+Prophets+S01E02+.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+
+          {
+            id: 'ofkiTngs',
+            title: 'OF KINGS AND PROPHETS EP3',
+            video_url: 'https://hglink.to/8ycgayqm96xb',
+            download_url:
+              'https://www.mediafire.com/file/ifpuf1uhovxqvvc/Of.Kings.And.Prophets.S01e03.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+
+          {
+            id: 'ofkTings',
+            title: 'OF KINGS AND PROPHETS EP4',
+            video_url: 'https://hglink.to/jtjrlurfuwp5',
+            download_url:
+              'https://www.mediafire.com/file/a9qwcwj7nidpfdy/Of.Kings.And.Prophets.S01e04.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP5',
+            video_url: 'https://hglink.to/i8vlyyvz613i',
+            download_url:
+              'https://www.mediafire.com/file/es9zo0vmvbgevf9/Of.Kings.And.Prophets.S01e05.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP6',
+            video_url: 'https://hglink.to/f5cgltjvi6hg',
+            download_url:
+              'https://www.mediafire.com/file/g4i05ugp6i9djxg/Of_Kings_And_Prophets_6.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP7',
+            video_url: 'https://hglink.to/3a1d7s82x9g1',
+            download_url:
+              'https://www.mediafire.com/file/gt5xv6euv32jyat/Of.Kings.And.Prophets.S01e07.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP8',
+            video_url: 'https://hglink.to/1ilohc6aiu2f',
+            download_url:
+              'https://www.mediafire.com/file/0ho7j6118ye87ym/Of.Kings.And.Prophets.S01e08.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+          {
+            id: 'ofkings',
+            title: 'OF KINGS AND PROPHETS EP9',
+            video_url: 'https://hglink.to/z2v7dnzsz0ys',
+            download_url:
+              'https://www.mediafire.com/file/qiv8t8f28do11ks/Of.Kings.And.Prophets.S01e09.mp4/file',
+            thumbnail_url: '/kings.jpg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'betaal',
+    title: 'BETAAL',
+    type: 'series',
+    description: 'Betaal is an amazing new movie!!',
+    is_popular: true,
+    poster_url: '/betaal.jpg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'betaal',
+            title: 'BETAAL EP1',
+            video_url: 'https://hglink.to/30obuv124mf9',
+            download_url:
+              'https://www.mediafire.com/file/e8mnwrdw56gbra2/BETAAL+01.mp4/file',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'betaal',
+            title: 'BETAAL EP2',
+            video_url: 'https://hglink.to/a9b0zam0juvq',
+            download_url:
+              'https://www.mediafire.com/file/itirkup8vo59c1u/BETAAL+02.mp4/file',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'betaal',
+            title: 'BETAAL EP3',
+            video_url: 'https://hglink.to/am38l0zjmnsp',
+            download_url:
+              'https://www.mediafire.com/file/4bfadjpq9rlx97k/BETAAL+03.mp4/file',
+            thumbnail_url: '/betaal.jpg',
+          },
+          {
+            id: 'betaal',
+            title: 'BETAAL EP4 FINAL',
+            video_url: 'https://hglink.to/dd5837yzotin',
+            download_url:
+              'https://www.mediafire.com/file/8pnabi16k6llwmf/BETAAL+04+FINAL.mp4/file',
+            thumbnail_url: '/betaal.jpg',
           },
         ],
       },
