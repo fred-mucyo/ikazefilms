@@ -83,7 +83,7 @@ const Home = () => {
         if (a.type !== 'series' && b.type === 'series') return 1;
         return 0;
       })
-      .slice(0, 8);
+      .slice(0, 15);
   }, [movies]);
 
   const recentReleases = useMemo(() => {
