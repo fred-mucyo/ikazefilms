@@ -4,7 +4,22 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
    {
+    id: 'Baywatchii',
+    title: 'BAYWATCH',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular: true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/baywatch.webp',
+    poster_url: '/baywatch.webp',
+    image_url: '/baywatch.webp',
+    video_url: 'https://hglink.to/1f8d4rj3oe01',
+    download_url:'https://www.mediafire.com/file/dz8bm3x18qpz3wj/BAYWATCH_2.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/1f8d4rj3oe01',
+  },
+{
     id: 'ADVITAMA',
     title: 'AD VITAM A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
