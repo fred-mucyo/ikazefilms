@@ -4,6 +4,53 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+   {
+    id: 'FighterA',
+    title: 'FIGHTER A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/fighter-indian-movie-poster-md.webp',
+    poster_url: '/fighter-indian-movie-poster-md.webp',
+    image_url: '/fighter-indian-movie-poster-md.webp',
+    video_url: 'https://hglink.to/ke18haht0wnn',
+    download_url:'https://www.mediafire.com/file/qxlx2yr7x7m19qx/FIGHTER_A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/ke18haht0wnn',
+  },
+
+  {
+    id: 'FighterB',
+    title: 'FIGHTER B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/fighter-indian-movie-poster-md.webp',
+    poster_url: '/fighter-indian-movie-poster-md.webp',
+    image_url: '/fighter-indian-movie-poster-md.webp',
+    video_url: 'https://hglink.to/ib9sndodh4lw',
+    download_url:'https://www.mediafire.com/file/noy8uv9wojv3u3j/FIGHTER_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/ib9sndodh4lw',
+  },
+
+
+
+    {
+    id: 'MAHARSHI',
+    title: 'MAHARSHI',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/MAHARSHI.webp',
+    poster_url: '/MAHARSHI.webp',
+    image_url: '/MAHARSHI.webp',
+    video_url: 'https://hglink.to/9h3a3y108u3v',
+    download_url:'https://www.mediafire.com/file/2w0iraho9vd9591/MAHARSHI.mp4.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/9h3a3y108u3v',
+  },
+
+
+
      {
     id: 'thosewhowishmedead',
     title: 'THOSE WHO WISH  ME DEAD',

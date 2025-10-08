@@ -1,6 +1,85 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+
+  {
+    id: 'PHF',
+    title: 'PARIS HAS FALLEN',
+    type: 'series',
+    description: '08 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+    is_featured: true,
+    is_popular: true,
+    poster_url: '/parishasfallen.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'PHF1',
+            title: 'EP1',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF2',
+            title: 'EP2',
+            video_url: '',
+            download_url:
+              '',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF3',
+            title: 'EP3',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF4',
+            title: 'EP4',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+            {
+            id: 'PHF5',
+            title: 'EP5',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+            {
+            id: 'PHF6',
+            title: 'EP6',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+            {
+            id: 'PHF7',
+            title: 'EP7',
+            video_url: '',
+            download_url:'',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+            {
+            id: 'PHF8',
+            title: 'EP8',
+            video_url: 'https://hglink.to/ojycwpdqtgm2',
+            download_url:
+              'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
+            thumbnail_url: '/Blood-Sisters (4).webp',
+          },
+            
+        ],
+      },
+    ],
+  },
 {
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
