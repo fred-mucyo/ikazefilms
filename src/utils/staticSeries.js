@@ -17,64 +17,64 @@ const staticSeries = [
           {
             id: 'PHF1',
             title: 'EP1',
-            video_url: '',
-            download_url:'',
+            video_url: 'https://hglink.to/f8gccyclb3i3',
+            download_url:'https://www.mediafire.com/file/xsoqdw5dk87933v/PARIS_HAS_FALLEN_E01.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
 
           {
             id: 'PHF2',
             title: 'EP2',
-            video_url: '',
+            video_url: 'https://hglink.to/nexjfhby8r3f',
             download_url:
-              '',
+              'https://www.mediafire.com/file/0cifyk94mcu222d/PARIS_HAS_FALLEN_E02.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
 
           {
             id: 'PHF3',
             title: 'EP3',
-            video_url: '',
-            download_url:'',
+            video_url: 'https://hglink.to/isv84c89s1kn',
+            download_url:'https://www.mediafire.com/file/bncw9g2iwirwe0o/PARIS_HAS_FALLEN_E03.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
 
           {
             id: 'PHF4',
             title: 'EP4',
-            video_url: '',
-            download_url:'',
+            video_url: 'https://hglink.to/jtdgo1nep303',
+            download_url:'https://www.mediafire.com/file/13kaldkbxfpb4ow/PARIS_HAS_FALLEN_E04.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
             {
             id: 'PHF5',
             title: 'EP5',
-            video_url: '',
-            download_url:'',
+            video_url: 'https://hglink.to/l16t3878npcw',
+            download_url:'https://www.mediafire.com/file/5iqnx2mhsgyvdmd/PARIS_HAS_FALLEN_E05.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
-          },
-            {
-            id: 'PHF6',
-            title: 'EP6',
-            video_url: '',
-            download_url:'',
-            thumbnail_url: '/parishasfallen.webp',
-          },
-            {
-            id: 'PHF7',
-            title: 'EP7',
-            video_url: '',
-            download_url:'',
-            thumbnail_url: '/parishasfallen.webp',
-          },
-            {
-            id: 'PHF8',
-            title: 'EP8',
-            video_url: 'https://hglink.to/ojycwpdqtgm2',
-            download_url:
-              'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
-            thumbnail_url: '/Blood-Sisters (4).webp',
-          },
+        },
+          //   {
+          //   id: 'PHF6',
+          //   title: 'EP6',
+          //   video_url: '',
+          //   download_url:'',
+          //   thumbnail_url: '/parishasfallen.webp',
+          // },
+          //   {
+          //   id: 'PHF7',
+          //   title: 'EP7',
+          //   video_url: '',
+          //   download_url:'',
+          //   thumbnail_url: '/parishasfallen.webp',
+          // },
+          //   {
+          //   id: 'PHF8',
+          //   title: 'EP8',
+          //   video_url: 'https://hglink.to/ojycwpdqtgm2',
+          //   download_url:
+          //     'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
+          //   thumbnail_url: '/Blood-Sisters (4).webp',
+          // },
             
         ],
       },
