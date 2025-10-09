@@ -304,7 +304,7 @@ const Home = () => {
     </div>
     <h3>No movies found for "{searchTerm}"</h3>
     <p> Reba niba wanditse neza izina cg{' '}
-  <a href="https://wa.me/250786054441" target="_blank" rel="noopener noreferrer">
+  <a href="https://chat.whatsapp.com/JEJeboBdJ0c4D6vD6Qz1oA?mode=ems_copy_t" target="_blank" rel="noopener noreferrer">
     Utuvugishe kuri WhatsApp
   </a>
 </p>
