@@ -512,6 +512,28 @@
 
 
 
+.whatsapp-link {
+  color: #25D366; /* WhatsApp green */
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+  color: #128C7E; /* Darker green on hover */
+}
+
+.whatsapp-text {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+
+
 
 
 

@@ -1,8 +1,86 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-   
+
+  {
+    id: 'PHF',
+    title: 'PARIS HAS FALLEN',
+    type: 'series',
+    description: '08 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+    is_featured: true,
+    is_popular: true,
+    poster_url: '/parishasfallen.webp',
+    seasons: [
       {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'PHF1',
+            title: 'EP1',
+            video_url: 'https://hglink.to/f8gccyclb3i3',
+            download_url:'https://www.mediafire.com/file/xsoqdw5dk87933v/PARIS_HAS_FALLEN_E01.mp4/file',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF2',
+            title: 'EP2',
+            video_url: 'https://hglink.to/nexjfhby8r3f',
+            download_url:
+              'https://www.mediafire.com/file/0cifyk94mcu222d/PARIS_HAS_FALLEN_E02.mp4/file',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF3',
+            title: 'EP3',
+            video_url: 'https://hglink.to/isv84c89s1kn',
+            download_url:'https://www.mediafire.com/file/bncw9g2iwirwe0o/PARIS_HAS_FALLEN_E03.mp4/file',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+
+          {
+            id: 'PHF4',
+            title: 'EP4',
+            video_url: 'https://hglink.to/jtdgo1nep303',
+            download_url:'https://www.mediafire.com/file/13kaldkbxfpb4ow/PARIS_HAS_FALLEN_E04.mp4/file',
+            thumbnail_url: '/parishasfallen.webp',
+          },
+            {
+            id: 'PHF5',
+            title: 'EP5',
+            video_url: 'https://hglink.to/l16t3878npcw',
+            download_url:'https://www.mediafire.com/file/5iqnx2mhsgyvdmd/PARIS_HAS_FALLEN_E05.mp4/file',
+            thumbnail_url: '/parishasfallen.webp',
+        },
+          //   {
+          //   id: 'PHF6',
+          //   title: 'EP6',
+          //   video_url: '',
+          //   download_url:'',
+          //   thumbnail_url: '/parishasfallen.webp',
+          // },
+          //   {
+          //   id: 'PHF7',
+          //   title: 'EP7',
+          //   video_url: '',
+          //   download_url:'',
+          //   thumbnail_url: '/parishasfallen.webp',
+          // },
+          //   {
+          //   id: 'PHF8',
+          //   title: 'EP8',
+          //   video_url: 'https://hglink.to/ojycwpdqtgm2',
+          //   download_url:
+          //     'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
+          //   thumbnail_url: '/Blood-Sisters (4).webp',
+          // },
+            
+        ],
+      },
+    ],
+  },
+{
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
     type: 'series',
@@ -338,6 +416,63 @@ const staticSeries = [
             thumbnail_url: '/ASTHECLOW.webp',
           },
           
+        ],
+      },
+    ],
+  },
+       {
+    id: 'INGANNO',
+    title: 'INGANNO',
+    type: 'series',
+    description: '',
+    is_popular: true,
+    poster_url: '/ingano.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'ingano1',
+            title: 'INGANNO EP1',
+            video_url: 'https://hglink.to/mm3f86cihq09',
+            download_url: 'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano2',
+            title: 'INGANNO EP2',
+            video_url: 'https://hglink.to/hgc0o3ieq9qq',
+            download_url:  'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano3',
+            title: 'INGANNO EP3',
+            video_url: 'https://hglink.to/rpnfvdqzj0p6',
+            download_url:  'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano4',
+            title: 'INGANNO EP4',
+            video_url: 'https://hglink.to/08cr10ew4q8p',
+            download_url: 'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano5',
+            title: 'INGANNO EP5',
+            video_url: 'https://hglink.to/any6j5vrhmor',
+            download_url: 'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
+          {
+            id: 'ingano6',
+            title: 'INGANNO EP6 FINAL',
+            video_url: 'https://hglink.to/zqcdpnonplbi',
+            download_url: 'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
+            thumbnail_url: '/ingano.webp',
+          },
         ],
       },
     ],
@@ -996,12 +1131,12 @@ const staticSeries = [
   },
 
   {
-    id: 's2',
-    title: 'VIKINGS SEASON 5 ',
+    id: 'beautys2',
+    title: 'BEAUTY IN BLACK S02',
     type: 'series',
-    description: 'Vikings season 5 Ntigucike ....🔥🔥',
-    // is_popular: true,
-    poster_url: '/vikings img.jpg',
+    description: 'Beauty in black season  Ntigucike ....🔥🔥',
+    is_popular: true,
+    poster_url: '/beautyinblack.jpeg',
     seasons: [
       {
         seasonNumber: 1,
@@ -1055,7 +1190,23 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/455dxl1cjnmva9z/BEAUTY+IN+BLACK+S2+EP+06.mp4/file',
             thumbnail_url: '/beautyinblack.jpeg',
-          },
+          }
+          //  {
+          //   id: 'BINP7',
+          //   title: 'EP7',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/51iuaf7i7japipr/BEAUTY+IN+BLACK+E07.mp4/file ',
+          //   thumbnail_url: '/beautyinblack.jpeg',
+          // },
+          //  {
+          //   id: 'BINP8',
+          //   title: 'EP8',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/nyqzzka1wp0v0fq/BEAUTY+IN+BLACK+E08.mp4/file ',
+          //   thumbnail_url: '/beautyinblack.jpeg',
+          // },
         ],
       },
     ],
@@ -1628,7 +1779,7 @@ const staticSeries = [
 
     {
     id: 'OVOL',
-    title: 'THE OVAL SEASONS',
+    title: 'THE OVAL',
     type: 'series',
     description: 'Ntucikwee iyi season...',
     is_popular: true,

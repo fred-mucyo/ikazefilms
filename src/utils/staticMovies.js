@@ -4,6 +4,79 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+     {
+    id: 'killration',
+    title: 'KILL RATIO',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/KILL RATIO.webp',
+    poster_url: '/KILL RATIO.webp',
+    image_url: '/KILL RATIO.webp',
+    video_url: 'https://hglink.to/vg3cs6pzh37l',
+    download_url:'https://www.mediafire.com/file/0201g0ewvvimsv6/Kill+Ratio.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/vg3cs6pzh37l',
+  },
+
+   {
+    id: 'FighterA',
+    title: 'FIGHTER A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/fighter-indian-movie-poster-md.webp',
+    poster_url: '/fighter-indian-movie-poster-md.webp',
+    image_url: '/fighter-indian-movie-poster-md.webp',
+    video_url: 'https://hglink.to/ke18haht0wnn',
+    download_url:'https://www.mediafire.com/file/qxlx2yr7x7m19qx/FIGHTER_A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/ke18haht0wnn',
+  },
+
+  {
+    id: 'FighterB',
+    title: 'FIGHTER B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/fighter-indian-movie-poster-md.webp',
+    poster_url: '/fighter-indian-movie-poster-md.webp',
+    image_url: '/fighter-indian-movie-poster-md.webp',
+    video_url: 'https://hglink.to/ib9sndodh4lw',
+    download_url:'https://www.mediafire.com/file/noy8uv9wojv3u3j/FIGHTER_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/ib9sndodh4lw',
+  },
+
+
+
+    {
+    id: 'MAHARSHI',
+    title: 'MAHARSHI',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/MAHARSHI.webp',
+    poster_url: '/MAHARSHI.webp',
+    image_url: '/MAHARSHI.webp',
+    video_url: 'https://hglink.to/9h3a3y108u3v',
+    download_url:'https://www.mediafire.com/file/2w0iraho9vd9591/MAHARSHI.mp4.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/9h3a3y108u3v',
+  },
+
+
+
+     {
+    id: 'thosewhowishmedead',
+    title: 'THOSE WHO WISH  ME DEAD',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/thosewhomedead.webp',
+    poster_url: '/thosewhomedead.webp',
+    image_url: '/thosewhomedead.webp',
+    video_url: 'https://hglink.to/952e83snm8gk',
+    download_url:'https://www.mediafire.com/file/1mqnl4u47b88s1o/THOSE+WHO+WISH+ME+DEAD.mp4/file ',
+    youtube_trailer_url: 'https://hglink.to/952e83snm8gk',
+  },
 
    {
     id: 'Baywatchii',
@@ -24,11 +97,12 @@ const staticMovies = [
     title: 'AD VITAM A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
+    is_featured:true,
     is_popular: true,
     created_at: '2025-10-04',
-    thumbnail_url: '/advitam.webp',
-    poster_url: '/advitam.webp',
-    image_url: '/advitam.webp',
+    thumbnail_url: '/AdVitamggg.webp',
+    poster_url: '/AdVitamggg.webp',
+    image_url: '/AdVitamggg.webp',
     video_url: 'https://hglink.to/2xba87fao8lc',
     download_url:
       'https://www.mediafire.com/file/xd9ayn1m1ulwq4r/AD+VITAM+A.mp4/file',
@@ -83,8 +157,7 @@ const staticMovies = [
   {
     id: 'Olastmen',
     title: 'OUR LAST MEN IN PHILIPINE',
-    description:
-      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    description:'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
     interpreter_name: 'ROCKY',
     created_at: '2025-02-12T00:00:00.000Z',
     thumbnail_url: '/our-last-men-in-the-philippines.webp',
