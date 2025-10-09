@@ -1131,12 +1131,12 @@ const staticSeries = [
   },
 
   {
-    id: 's2',
-    title: 'VIKINGS SEASON 5 ',
+    id: 'beautys2',
+    title: 'BEAUTY IN BLACK S02',
     type: 'series',
-    description: 'Vikings season 5 Ntigucike ....🔥🔥',
-    // is_popular: true,
-    poster_url: '/vikings img.jpg',
+    description: 'Beauty in black season  Ntigucike ....🔥🔥',
+    is_popular: true,
+    poster_url: '/beautyinblack.jpeg',
     seasons: [
       {
         seasonNumber: 1,
@@ -1190,7 +1190,23 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/455dxl1cjnmva9z/BEAUTY+IN+BLACK+S2+EP+06.mp4/file',
             thumbnail_url: '/beautyinblack.jpeg',
-          },
+          }
+          //  {
+          //   id: 'BINP7',
+          //   title: 'EP7',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/51iuaf7i7japipr/BEAUTY+IN+BLACK+E07.mp4/file ',
+          //   thumbnail_url: '/beautyinblack.jpeg',
+          // },
+          //  {
+          //   id: 'BINP8',
+          //   title: 'EP8',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/nyqzzka1wp0v0fq/BEAUTY+IN+BLACK+E08.mp4/file ',
+          //   thumbnail_url: '/beautyinblack.jpeg',
+          // },
         ],
       },
     ],

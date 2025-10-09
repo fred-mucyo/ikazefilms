@@ -4,6 +4,19 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+     {
+    id: 'killration',
+    title: 'KILL RATIO',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/KILL RATIO.webp',
+    poster_url: '/KILL RATIO.webp',
+    image_url: '/KILL RATIO.webp',
+    video_url: 'https://hglink.to/vg3cs6pzh37l',
+    download_url:'https://www.mediafire.com/file/0201g0ewvvimsv6/Kill+Ratio.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/vg3cs6pzh37l',
+  },
 
    {
     id: 'FighterA',
