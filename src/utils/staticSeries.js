@@ -1614,63 +1614,272 @@ const staticSeries = [
     ],
   },
 
-   {
-    id: 'INGANNO',
-    title: 'INGANNO',
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    id: 'OVOL',
+    title: 'THE OVAL SEASONS',
     type: 'series',
-    description: '',
+    description: 'Ntucikwee iyi season...',
     is_popular: true,
-    poster_url: '/ingano.webp',
+    is_featured: true,
+    poster_url: '/ovol.webp',
     seasons: [
       {
         seasonNumber: 1,
         episodes: [
           {
-            id: 'ingano',
-            title: 'INGANNO EP1',
-            video_url: 'https://hglink.to/mm3f86cihq09',
-            download_url: 'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost1',
+            title: 'THE OVAL EP1',
+            video_url: 'https://hglink.to/osw7era0kchd',
+            download_url:  'https://www.mediafire.com/file/wx2pt51fi3tcfzk/The+Oval+S1E1_2.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
           {
-            id: 'ingano',
-            title: 'INGANNO EP2',
-            video_url: 'https://hglink.to/hgc0o3ieq9qq',
-            download_url:  'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost2',
+            title: 'THE OVAL EP2',
+            video_url: 'https://hglink.to/00ima8kd0e9s',
+            download_url:  'https://www.mediafire.com/file/plbzxq408i92g72/The+Oval+S1E2_2.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
           {
-            id: 'ingano',
-            title: 'INGANNO EP3',
-            video_url: 'https://hglink.to/rpnfvdqzj0p6',
-            download_url:  'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost3',
+            title: 'THE OVAL EP3',
+            video_url: 'https://hglink.to/uezvzg5tz0v3',
+            download_url:  'https://www.mediafire.com/file/h451eujwt6mut2m/The+Oval+S1E3.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
           {
-            id: 'ingano',
-            title: 'INGANNO EP4',
-            video_url: 'https://hglink.to/08cr10ew4q8p',
-            download_url: 'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost4',
+            title: 'THE OVAL EP4',
+            video_url: 'https://hglink.to/1fq0ipmoai3b',
+            download_url:  'https://www.mediafire.com/file/hbpczu97ryzrdwz/The+Oval+S1E4.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
           {
-            id: 'ingano',
-            title: 'INGANNO EP5',
-            video_url: 'https://hglink.to/any6j5vrhmor',
-            download_url: 'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost5',
+            title: 'THE OVAL EP5',
+            video_url: 'https://hglink.to/f6kdkjmax4cx',
+            download_url:  'https://www.mediafire.com/file/ojlhychr6i7wphj/The+Oval+S1E5.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
           {
-            id: 'ingano',
-            title: 'INGANNO EP6 FINAL',
-            video_url: 'https://hglink.to/zqcdpnonplbi',
-            download_url: 'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
-            thumbnail_url: '/ingano.webp',
+            id: 'lost6',
+            title: 'THE OVAL EP6',
+            video_url: 'https://hglink.to/6f00lw97vq6b',
+            download_url:  'https://www.mediafire.com/file/blfpeybq4vs2oeo/The+Oval+S1E6.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost7',
+            title: 'THE OVAL EP7',
+            video_url: 'https://hglink.to/x0olgwpcqa8h',
+            download_url:  'https://www.mediafire.com/file/hbla8hkolom302g/The+Oval+S1E7.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost8',
+            title: 'THE OVAL EP8',
+            video_url: 'https://hglink.to/ncikoyses0pc',
+            download_url:  'https://www.mediafire.com/file/67glsd6nd0d71dj/The+Oval+S1E8.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost9',
+            title: 'THE OVAL EP9',
+            video_url: 'https://hglink.to/sb9vdpi6fpf7',
+            download_url:  'https://www.mediafire.com/file/tni92rjbl8s5ut5/The+Oval+S1E9.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost10',
+            title: 'THE OVAL EP10',
+            video_url: 'https://hglink.to/ocq3ev9z3t06',
+            download_url:  'https://www.mediafire.com/file/ri411a0b8i06k2e/The+Oval+S1E10.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost11',
+            title: 'THE OVAL EP11',
+            video_url: 'https://hglink.to/hjx9mjubqp9t',
+            download_url:  'https://www.mediafire.com/file/2uapik042mezy8n/The+Oval+S1E11.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost12',
+            title: 'THE OVAL EP12',
+            video_url: 'https://hglink.to/pza52osi3f3s',
+            download_url:  'https://www.mediafire.com/file/bvh7gtwxwf8s7np/The+Oval+S1E12.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost13',
+            title: 'THE OVAL EP13',
+            video_url:  'https://hglink.to/4w6d1e6uxwpo',
+            download_url:  'https://www.mediafire.com/file/pmao2cvs13231mn/The+Oval+S1E13.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost14',
+            title: 'THE OVAL EP14',
+            video_url: 'https://hglink.to/i4rptusyqz0y',
+            download_url:  'https://www.mediafire.com/file/2k7izxebw72od5u/The_Oval_S1E14.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost15',
+            title: 'THE OVAL EP15',
+            video_url: 'https://hglink.to/p5tmpkx3e1db',
+            download_url:  'https://www.mediafire.com/file/ead647mmqixapop/The+Oval+S1E15.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost16',
+            title: 'THE OVAL EP16',
+            video_url: 'https://hglink.to/wblvtc1ldptd',
+            download_url:  'https://www.mediafire.com/file/y7elzhke76d1su6/The+Oval+S1E16.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost17',
+            title: 'THE OVAL EP17',
+            video_url: 'https://hglink.to/db7w0845mlu8',
+            download_url:  'https://www.mediafire.com/file/oqr93u644bsk382/The+Oval+S1E17.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost18',
+            title: 'THE OVAL EP18',
+            video_url: 'https://hglink.to/4cgyhf7yz97z',
+            download_url:  'https://www.mediafire.com/file/whomjmqleunoea1/The+Oval+S1E18.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost19',
+            title: 'THE OVAL EP19',
+            video_url: 'https://hglink.to/e726jt8wk43c',
+            download_url:  'https://www.mediafire.com/file/mboel8opt9nabub/The+Oval+S1E19.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost20',
+            title: 'THE OVAL EP20',
+            video_url: 'https://hglink.to/v2y6lcec5kr8',
+            download_url:  'https://www.mediafire.com/file/e7nfgx013jh5625/The+Oval+S1E20.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost21',
+            title: 'THE OVAL EP21',
+            video_url: 'https://hglink.to/k0ha0cxvzlcp',
+            download_url: 'https://www.mediafire.com/file/js5k6sea5n7etvo/The+Oval+S1E21.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost22',
+            title: 'THE OVAL EP22',
+            video_url: 'https://hglink.to/dbwi9cyay3gg',
+            download_url:  'https://www.mediafire.com/file/1ogkiywrqxrgvjq/The+Oval+S1E22.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost23',
+            title: 'THE OVAL EP23',
+            video_url: 'https://hglink.to/ohcloc4iy2ov',
+            download_url: 'https://www.mediafire.com/file/gt2rwe9zxbxd28z/The+Oval+S1E23.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost24',
+            title: 'THE OVAL EP24',
+            video_url: 'https://hglink.to/95a95wej3gds',
+            download_url:  'https://www.mediafire.com/file/rvwnigbxm7bp66r/The+Oval+S1E24.mp4/file',
+            thumbnail_url: '/ovol.webp',
+          },
+          {
+            id: 'lost25',
+            title: 'THE OVAL EP25 FINAL',
+            video_url: 'https://hglink.to/blf7d730yufs',
+            download_url: 'https://www.mediafire.com/file/sznwemifphd4q4i/The+Oval+E25+FINAL.mp4/file',
+            thumbnail_url: '/ovol.webp',
           },
         ],
       },
+      // {
+      //   seasonNumber: 2,
+      //   episodes: [
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP1',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP2',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP3',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP4',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP5',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP6',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //     {
+      //       id: 'lostsaeson2',
+      //       title: 'THE OVAL EP7',
+      //       video_url: '',
+      //       thumbnail_url: '/ovol.webp',
+      //     },
+      //   ],
+      // },
     ],
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ];
 
 
