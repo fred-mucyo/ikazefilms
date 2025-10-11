@@ -4,6 +4,25 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+  {
+    id: 'war2',
+    title: 'WAR 2',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_featured:true,
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/war2x.webp',
+    poster_url: '/war2x.webp',
+    image_url: '/war2x.webp',
+    video_url: 'https://hglink.to/sn9ef5jan7nf',
+    download_url:'https://www.mediafire.com/file/7eybkr913j5j7wr/WAR+2.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/sn9ef5jan7nf',
+  },
+
+
+
+
+
      {
     id: 'killration',
     title: 'KILL RATIO',
