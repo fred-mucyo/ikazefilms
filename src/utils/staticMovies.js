@@ -4,15 +4,35 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+  {
+    id: 'war2',
+    title: 'WAR 2',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_featured:true,
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/war2x.webp',
+    poster_url: '/war2x.webp',
+    image_url: '/war2x.webp',
+    video_url: 'https://hglink.to/sn9ef5jan7nf',
+    download_url:'https://www.mediafire.com/file/7eybkr913j5j7wr/WAR+2.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/sn9ef5jan7nf',
+  },
+
+
+
+
+
      {
     id: 'killration',
     title: 'KILL RATIO',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_featured:true,
     interpreter_name: 'ROCKY',
     created_at: '2025-10-04',
-    thumbnail_url: '/KILL RATIO.webp',
-    poster_url: '/KILL RATIO.webp',
-    image_url: '/KILL RATIO.webp',
+    thumbnail_url: '/killra.webp',
+    poster_url: '/killra.webp',
+    image_url: '/killra.webp',
     video_url: 'https://hglink.to/vg3cs6pzh37l',
     download_url:'https://www.mediafire.com/file/0201g0ewvvimsv6/Kill+Ratio.mp4/file',
     youtube_trailer_url: 'https://hglink.to/vg3cs6pzh37l',
@@ -139,7 +159,6 @@ const staticMovies = [
     title: 'AD VITAM A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
-    is_featured:true,
     is_popular: true,
     created_at: '2025-10-04',
     thumbnail_url: '/AdVitamggg.webp',
