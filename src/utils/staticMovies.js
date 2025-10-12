@@ -66,6 +66,48 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/ib9sndodh4lw',
   },
 
+  {
+    id: 'karatelegends',
+    title: 'KARATE KID LEGENDS A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/karate.webp',
+    poster_url: '/karate.webp',
+    image_url: '/karate.webp',
+    video_url: 'https://hglink.to/j6r6j4hs7xue',
+    download_url:'https://www.mediafire.com/file/2xr4wo8rb6mxras/KARATE+KID+LEGENDS+A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/j6r6j4hs7xue',
+  },
+
+   {
+    id: 'karatelegends',
+    title: 'KARATE KID LEGENDS B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/karate.webp',
+    poster_url: '/karate.webp',
+    image_url: '/karate.webp',
+    video_url: 'https://hglink.to/pkwzmsvusvpt',
+    download_url:'https://www.mediafire.com/file/xyhnvfmhc6lar5t/KARATE+KID+LEGENDS+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/pkwzmsvusvpt',
+  },
+
+  {
+    id: 'ENDOFDAYS',
+    title: 'END OF DAYS',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/endofdays.webp',
+    poster_url: '/endofdays.webp',
+    image_url: '/endofdays.webp',
+    video_url: 'https://hglink.to/cscq0wnfc6fq',
+    download_url:'https://www.mediafire.com/file/yecqr6k7x1s7d24/End_Of_Days.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/cscq0wnfc6fq',
+  },
+
    {
     id: 'shaitan',
     title: 'SHAITAN',
