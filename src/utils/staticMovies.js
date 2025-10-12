@@ -4,6 +4,24 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+   {
+    id: 'war2Rocky',
+    title: 'WAR 2 B (ROCKY)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+     is_featured:true,
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/war2x.webp',
+    poster_url: '/war2x.webp',
+    image_url: '/war2x.webp',
+    video_url: 'https://hglink.to/gytjayfhqh5u',
+    download_url:'https://www.mediafire.com/file/mnj7klva93qvf8a/WAR2+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/gytjayfhqh5u',
+  },
+
+
+
+
 
 
     {
