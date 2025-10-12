@@ -1778,7 +1778,7 @@ const staticSeries = [
 
 
     {
-    id: 'OVOL',
+    id: 'oval',
     title: 'THE OVAL',
     type: 'series',
     description: 'Ntucikwee iyi season...',
@@ -1966,53 +1966,60 @@ const staticSeries = [
           },
         ],
       },
-      // {
-      //   seasonNumber: 2,
-      //   episodes: [
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP1',
-      //       video_url: 'https://hglink.to/bz67nnaa1z58',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP2',
-      //       video_url: 'https://hglink.to/fmotk9nl6t7v',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP3',
-      //       video_url: 'https://hglink.to/m4nfdicceqzh',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP4',
-      //       video_url: 'https://hglink.to/o6kmqn64r3er',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP5',
-      //       video_url: 'https://hglink.to/nvkh3wf9g13s',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP6',
-      //       video_url: 'https://hglink.to/xdwwj4v918ro',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //     {
-      //       id: 'lostsaeson2',
-      //       title: 'THE OVAL EP7',
-      //       video_url: 'https://hglink.to/0zhl9rre7f82',
-      //       thumbnail_url: '/ovol.webp',
-      //     },
-      //   ],
-      // },
+      {
+        seasonNumber: 2,
+        episodes: [
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP1',
+            video_url: 'https://hglink.to/bz67nnaa1z58',
+            thumbnail_url: '/ovol.webp',
+            download_url: 'https://www.mediafire.com/file/zyy3maag573va8k/The+Oval+S2E01.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP2',
+            video_url: 'https://hglink.to/fmotk9nl6t7v',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/16i5bi73q752yxi/The+Oval+S2E02.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP3',
+            video_url: 'https://hglink.to/m4nfdicceqzh',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/3w4h6ylr7i1zqyt/The+Oval+S2E03.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP4',
+            video_url: 'https://hglink.to/o6kmqn64r3er',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/ntw407ckuyf0nnb/The+Oval+S2E04.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP5',
+            video_url: 'https://hglink.to/nvkh3wf9g13s',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/hs0utzturr3zoef/The+Oval+S2E05.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP6',
+            video_url: 'https://hglink.to/xdwwj4v918ro',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/lf54u0grvvsupaj/The+Oval+S2E06.mp4/file',
+          },
+          {
+            id: 'lostsaeson2',
+            title: 'THE OVAL EP7',
+            video_url: 'https://hglink.to/0zhl9rre7f82',
+            thumbnail_url: '/ovol.webp',
+              download_url: 'https://www.mediafire.com/file/jcykza1op4q9250/The+Oval+S2E07.mp4/file',
+          },
+        ],
+      },
     ],
   },
 
