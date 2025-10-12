@@ -4,11 +4,27 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+
+    {
+    id: 'war2BTHEGREAT',
+    title: 'WAR 2 (full movie)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+     is_featured:true,
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/war2x.webp',
+    poster_url: '/war2x.webp',
+    image_url: '/war2x.webp',
+    video_url: 'https://hglink.to/hrfc8cuv5g69',
+    download_url:'https://www.mediafire.com/file/bionm69aqa5sovq/WAR+2+gahezaa.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/hrfc8cuv5g69',
+  },
   {
     id: 'war2',
     title: 'WAR 2',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_featured:true,
+    is_popular:true,
     interpreter_name: 'ROCKY',
     created_at: '2025-10-04',
     thumbnail_url: '/war2x.webp',
