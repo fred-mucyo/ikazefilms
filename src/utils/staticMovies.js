@@ -82,6 +82,48 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/ib9sndodh4lw',
   },
 
+   {
+    id: 'shaitan',
+    title: 'SHAITAN',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/shaitan.webp',
+    poster_url: '/shaitan.webp',
+    image_url: '/shaitan.webp',
+    video_url: 'https://hglink.to/hihivlpcjrep',
+    download_url:'https://www.mediafire.com/file/t33qjmgq76knk58/SHAITAAN.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/hihivlpcjrep',
+  },
+
+   {
+    id: 'RRR1',
+    title: 'RRR A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/rrr1.webp',
+    poster_url: '/rrr1.webp',
+    image_url: '/rrr1.webp',
+    video_url: 'https://hglink.to/atyjg72uxyx5',
+    download_url: 'https://www.mediafire.com/file/coif4tojeqfvsrd/RRR+A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/atyjg72uxyx5',
+  },
+
+     {
+    id: 'RRR1',
+    title: 'RRR B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/rrr1.webp',
+    poster_url: '/rrr1.webp',
+    image_url: '/rrr1.webp',
+    video_url: 'https://hglink.to/7fn5dtlc6cvo',
+    download_url: 'https://www.mediafire.com/file/gaa0f7qth2sn0tk/RRR+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/7fn5dtlc6cvo',
+  },
+
 
 
     {
@@ -1436,20 +1478,6 @@ const staticMovies = [
     video_url: 'https://hglink.to/xj2eiiyqk8w4',
     youtube_trailer_url: 'https://youtu.be/jzQn0-WH4WM?si=n47bYgqWUZz380ni',
   },
-
-  {
-    id: 's58',
-    title: 'RRR',
-    description: 'Gripping stories at a glance.',
-    interpreter_name: 'ROCKY',
-    created_at: '2024-08-30T00:00:00.000Z',
-    thumbnail_url: '/rrr.jpg',
-    poster_url: '/rrr.jpg',
-    image_url: '/rrr.jpg',
-    video_url: 'https://hglink.to/5ftp996gdjjd',
-    youtube_trailer_url: 'https://youtu.be/NgBoMJy386M?si=5Ndlc97dA9HkmUTi',
-  },
-
   {
     id: 's59',
     title: 'Singham Again',
