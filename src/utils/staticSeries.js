@@ -450,7 +450,7 @@ const staticSeries = [
           },
           {
             id: 'HOD8',
-            title: 'THE HOUSE OF DAVID 8',
+            title: 'THE HOUSE OF DAVID 8 FINAL',
             video_url: 'https://hglink.to/mdtr2lf44jwk',
             download_url:'https://www.mediafire.com/file/sy28had80x1c6pk/THE+HOUSE+OF+DAVID+E08.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
@@ -459,6 +459,152 @@ const staticSeries = [
       },
     ],
   },
+
+  //  {
+  //   id: 'sexlife',
+  //   title: 'SEX LIFE',
+  //   type: 'series',
+  //   is_popular: true,
+  //   description:'',
+  //   poster_url: '/sex.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'SX1',
+  //           title: 'SEX LIFE EP 1',
+  //           video_url: 'https://hglink.to/ptihm3ymgjp9',
+  //           download_url: ' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX2',
+  //           title: 'SEX LIFE EP 2',
+  //           video_url: 'https://hglink.to/wdm6te67zg0h',
+  //           download_url: ' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX3',
+  //           title: 'SEX LIFE EP 3',
+  //           video_url: ' ',
+  //           download_url: ' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX4',
+  //           title: 'SEX LIFE EP 4',
+  //           video_url: ' ',
+  //           download_url: ' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX5',
+  //           title: 'SEX LIFE EP 5',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX6',
+  //           title: 'SEX LIFE EP 6',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX7',
+  //           title: 'SEX LIFE EP7',
+  //           video_url:  '',
+  //           download_url:' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //         {
+  //           id: 'SX8',
+  //           title: 'SEX LIFE EP8 FINAL',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/sex.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
+   //  {
+  //   id: 'alex',
+  //   title: 'ALEX RIDER',
+  //   type: 'series',
+  //   is_popular: true,
+  //   description:'',
+  //   poster_url: '/alex.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'AR1',
+  //           title: 'ALEX RIDER EP 1',
+  //           video_url: '',
+  //           download_url: ' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR2',
+  //           title: 'ALEX RIDER EP 2',
+  //           video_url: ' ',
+  //           download_url: ' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR3',
+  //           title: 'ALEX RIDER EP 3',
+  //           video_url: ' ',
+  //           download_url: ' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR4',
+  //           title: 'ALEX RIDER EP 4',
+  //           video_url: ' ',
+  //           download_url: ' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR5',
+  //           title: 'ALEX RIDER EP 5',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR7',
+  //           title: 'ALEX RIDER EP 6',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR7',
+  //           title: 'ALEX RIDER EP7',
+  //           video_url:  '',
+  //           download_url:' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //         {
+  //           id: 'AR8',
+  //           title: 'ALEX RIDER EP8 FINAL',
+  //           video_url: ' ',
+  //           download_url:' ',
+  //           thumbnail_url: '/alex.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
+
     {
     id: 'ASTHECLOWFLIES',
     title: 'AS THE CLOW FLIES',
@@ -1103,9 +1249,9 @@ const staticSeries = [
           {
             id: 'island',
             title: 'THE I-LAND EP 7 FINAL',
-            video_url: 'https://hglink.to/tcmw2k138tjy',
+            video_url: 'https://hglink.to/7fw1h1yfqsko',
             download_url:
-              'https://www.mediafire.com/file/to6z549dkgka7fn/THE+I+LAND+E07+FINAL.mp4/file',
+              'https://www.mediafire.com/file/3ubjy5dfyfe6hpw/The_I_Land_EP7_FInal.mp4/file',
             thumbnail_url: '/island.jpg',
           },
         ],
