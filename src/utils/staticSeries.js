@@ -2,6 +2,190 @@
 
 const staticSeries = [
 
+
+
+
+  //  {
+  //   id: 'fakeprofile',
+  //   title: 'FAKE PROFILE S02',
+  //   type: 'series',
+  //   description: '10 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+  //   is_featured: true,
+  //   is_popular: true,
+  //   poster_url: '/fakeprofile2.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'fake1',
+  //           title: 'EP1',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+
+  //         {
+  //           id: 'fake2',
+  //           title: 'EP2',
+  //           video_url: '',
+  //           download_url:
+  //             '',
+  //           thumbnail_url: '/fakeprofile2.webp',
+  //         },
+
+  //         {
+  //           id: 'fake3',
+  //           title: 'EP3',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+
+  //         {
+  //           id: 'fake4',
+  //           title: 'EP4',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+  //           {
+  //           id: 'fake5',
+  //           title: 'EP5',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //       },
+  //           {
+  //           id: 'fake6',
+  //           title: 'EP6',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+  //           {
+  //           id: 'fake7',
+  //           title: 'EP7',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+            
+  //            {
+  //           id: 'fake8',
+  //           title: 'EP8',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+  //              {
+  //           id: 'fake9',
+  //           title: 'EP9',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+  //              {
+  //           id: 'fake10',
+  //           title: 'EP10',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/fakeprofile.webp',
+  //         },
+            
+            
+  //       ],
+  //     },
+  //   ],
+  // },
+
+
+
+
+  
+
+  // {
+  //   id: 'MASTEROFHOUSE1',
+  //   title: 'MASTER OF THE HOUSE',
+  //   type: 'series',
+  //   description: '07 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+  //   is_featured: true,
+  //   is_popular: true,
+  //   poster_url: '/master1.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'master1',
+  //           title: 'EP1',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master2.webp',
+  //         },
+
+  //         {
+  //           id: 'master2',
+  //           title: 'EP2',
+  //           video_url: '',
+  //           download_url:
+  //             '',
+  //           thumbnail_url: '/master2.webp',
+  //         },
+
+  //         {
+  //           id: 'master3',
+  //           title: 'EP3',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master1.webp',
+  //         },
+
+  //         {
+  //           id: 'master4',
+  //           title: 'EP4',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master2.webp',
+  //         },
+  //           {
+  //           id: 'master5',
+  //           title: 'EP5',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master1.webp',
+  //       },
+  //           {
+  //           id: 'master6',
+  //           title: 'EP6',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master2.webp',
+  //         },
+  //           {
+  //           id: 'master7',
+  //           title: 'EP7',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/master2.webp',
+  //         },
+            
+            
+  //       ],
+  //     },
+  //   ],
+  // },
+
+
+
+
+
+
+
+
+
+///the above to be added 
+
   {
     id: 'PHF',
     title: 'PARIS HAS FALLEN',
@@ -1440,8 +1624,6 @@ const staticSeries = [
     type: 'series',
     description:
       'Diamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) and more.. ',
-    is_featured: true,
-    is_popular: true,
     poster_url: '/xxxxYfa.jpg',
     seasons: [
       {
@@ -1944,7 +2126,6 @@ const staticSeries = [
     title: 'BETAAL',
     type: 'series',
     description: 'Betaal is an amazing new movie!!',
-    is_popular: true,
     poster_url: '/betaal.jpg',
     seasons: [
       {

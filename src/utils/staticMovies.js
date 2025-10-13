@@ -4,13 +4,31 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+
+    {
+    id: 'prosecutor1',
+    title: 'PROSECUTOR',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/prosecutorw.webp',
+    poster_url: '/prosecutor (1).webp',
+    image_url: '/prosecutor (1).webp',
+    video_url: 'https://hglink.to/dewt0sayiyiw',
+    download_url:'https://www.mediafire.com/file/yzf9j1qj1qs933t/THE_PROSECUTOR.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/dewt0sayiyiw',
+  },
+
+
+
    {
     id: 'war2Rocky',
     title: 'WAR 2 B (ROCKY)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
      is_featured:true,
-    interpreter_name: 'B THE GREAT',
-    created_at: '2025-10-04',
+    interpreter_name: 'ROCKY',
+    // created_at: '2025-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
@@ -21,16 +39,14 @@ const staticMovies = [
 
 
 
-
-
-
     {
     id: 'war2BTHEGREAT',
     title: 'WAR 2 (full movie)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_popular:true,
      is_featured:true,
     interpreter_name: 'B THE GREAT',
-    created_at: '2025-10-04',
+    // created_at: '2025-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
@@ -40,11 +56,11 @@ const staticMovies = [
   },
   {
     id: 'war2',
-    title: 'WAR 2',
+    title: 'WAR 2 A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     is_popular:true,
     interpreter_name: 'ROCKY',
-    created_at: '2025-10-04',
+    // created_at: '202-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
@@ -101,7 +117,7 @@ const staticMovies = [
   },
 
   {
-    id: 'karatelegends',
+    id: 'karatelegends1',
     title: 'KARATE KID LEGENDS A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
@@ -115,7 +131,7 @@ const staticMovies = [
   },
 
    {
-    id: 'karatelegends',
+    id: 'karatelegends2',
     title: 'KARATE KID LEGENDS B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
@@ -490,7 +506,7 @@ const staticMovies = [
     thumbnail_url: '/canaryblack.webp',
     poster_url: '/canaryblack.webp',
     image_url: '/canaryblack.webp',
-    video_url: 'https://hglink.to/6op9gnt30vdo',
+    video_url: 'https://hglink.to/v5clqotx86ye',
     download_url:
       'https://www.mediafire.com/file/v2epmikmoo1ug86/BLACK+CARINARY.MP4/file',
     youtube_trailer_url: 'https://hglink.to/6op9gnt30vdo',
