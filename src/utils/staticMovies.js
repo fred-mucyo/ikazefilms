@@ -66,8 +66,42 @@ const staticMovies = [
       'https://www.mediafire.com/file/7eybkr913j5j7wr/WAR+2.mp4/file',
     youtube_trailer_url: 'https://hglink.to/sn9ef5jan7nf',
   },
+   {
+    id: 'indecent_proposal',
+    title: 'INDECENT PROPOSAL',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_popular:true,
+    interpreter_name: 'YANGA',
+    created_at: '2025-10-04',
+    thumbnail_url: '/indecent.webp',
+    poster_url: '/indecent.webp',
+    image_url: '/indecent.webp',
+    video_url: 'https://hglink.to/pase3wvzueqy',
+    download_url:'https://www.mediafire.com/file/v18q8xxs3x3e4v8/INDECENT_PROPOSAL.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/pase3wvzueqy',
+  },
 
-  {
+   {
+    id: 'sky_in_the_next_door',
+    title: 'SKY IN THE NEXT DOOR',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    is_popular:true,
+    interpreter_name: 'YANGA',
+    created_at: '2025-10-04',
+    thumbnail_url: '/spy.webp',
+    poster_url: '/spy.webp',
+    image_url: '/spy.webp',
+    video_url: 'https://hglink.to/mpoobmvp6zql',
+    download_url:'https://www.mediafire.com/file/bd1f28viih5agrh/SPY_IN_THE_NEXT_DOOR.mp4.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/mpoobmvp6zql',
+  },
+
+
+
+
+
+
+     {
     id: 'killration',
     title: 'KILL RATIO',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
