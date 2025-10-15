@@ -1706,71 +1706,71 @@ const staticSeries = [
     ],
   },
 
-  {
-    id: 'SQUID-GAMES3',
-    title: 'SQUID GAME SEASON 3',
-    type: 'series',
-    // is_popular: true,
-    description: 'Amazing movie ever!',
-    poster_url: '/squidgame03.jpeg',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'SQUID1',
-            title: 'SQUID GAME S03 EP01',
-            video_url: 'https://hglink.to/mm2lv502gmxj',
-            download_url:
-              'https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/squidgame03.jpeg',
-          },
-          {
-            id: 'SQUID2',
-            title: 'SQUID GAME SO3 EP02',
-            video_url: 'https://hglink.to/pmwcdnarwirc',
-            download_url:
-              'https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/Squidgame01.jpg',
-          },
-          {
-            id: 'SQUID3',
-            title: 'SQUID S03 EP03',
-            video_url: 'https://hglink.to/bs75b4td70nj',
-            download_url:
-              'https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/Squidgame01.jpg',
-          },
-          {
-            id: 'SQUID04',
-            title: 'SQUID GAME S03 EP04',
-            video_url: 'https://hglink.to/gsfwcnp7i29q',
-            download_url:
-              'https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/squidgame.jpg',
-          },
+  // {
+  //   id: 'SQUID-GAMES3',
+  //   title: 'SQUID GAME SEASON 3',
+  //   type: 'series',
+  //   // is_popular: true,
+  //   description: 'Amazing movie ever!',
+  //   poster_url: '/squidgame03.jpeg',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'SQUID1',
+  //           title: 'SQUID GAME S03 EP01',
+  //           video_url: 'https://hglink.to/mm2lv502gmxj',
+  //           download_url:
+  //             'https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/squidgame03.jpeg',
+  //         },
+  //         {
+  //           id: 'SQUID2',
+  //           title: 'SQUID GAME SO3 EP02',
+  //           video_url: 'https://hglink.to/pmwcdnarwirc',
+  //           download_url:
+  //             'https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/Squidgame01.jpg',
+  //         },
+  //         {
+  //           id: 'SQUID3',
+  //           title: 'SQUID S03 EP03',
+  //           video_url: 'https://hglink.to/bs75b4td70nj',
+  //           download_url:
+  //             'https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/Squidgame01.jpg',
+  //         },
+  //         {
+  //           id: 'SQUID04',
+  //           title: 'SQUID GAME S03 EP04',
+  //           video_url: 'https://hglink.to/gsfwcnp7i29q',
+  //           download_url:
+  //             'https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/squidgame.jpg',
+  //         },
 
-          {
-            id: 'SQUID05',
-            title: 'SQUID GAME S03 EP05',
-            video_url: 'https://hglink.to/fssfzbv8enj1',
-            download_url:
-              'https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/squidgame03.jpeg',
-          },
+  //         {
+  //           id: 'SQUID05',
+  //           title: 'SQUID GAME S03 EP05',
+  //           video_url: 'https://hglink.to/fssfzbv8enj1',
+  //           download_url:
+  //             'https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/squidgame03.jpeg',
+  //         },
 
-          {
-            id: 'SQUID06',
-            title: 'SQUID GAME S03 EP06',
-            video_url: 'https://hglink.to/g7eeun1f1mgh',
-            download_url:
-              'https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file',
-            thumbnail_url: '/squidgame03.jpeg',
-          },
-        ],
-      },
-    ],
-  },
+  //         {
+  //           id: 'SQUID06',
+  //           title: 'SQUID GAME S03 EP06',
+  //           video_url: 'https://hglink.to/g7eeun1f1mgh',
+  //           download_url:
+  //             'https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file',
+  //           thumbnail_url: '/squidgame03.jpeg',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   {
     id: 'beautys2',
@@ -1854,80 +1854,80 @@ const staticSeries = [
     ],
   },
 
-  {
-    id: 'young-famous-african',
-    title: 'YOUNG FAMOUS & AFRICAN',
-    type: 'series',
-    description:
-      'Diamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) and more.. ',
-    poster_url: '/xxxxYfa.jpg',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'YFAEP1',
-            title: 'YOUNG,FAMOUS & AFRICAN EP1',
-            video_url: 'https://hglink.to/dpiypif77u84',
-            download_url:
-              'https://www.mediafire.com/file/i89dtpsgqhiifq9/Young%252C_Famous_%2526_African_Ep1.mp4/file',
-            thumbnail_url: '/YFA8.jpg',
-          },
-          {
-            id: 'YFAEP2',
-            title: 'YOUNG,FAMOUS & AFRICAN EP2',
-            video_url: 'https://hglink.to/527yhwbq4c7o',
-            download_url:
-              'https://www.mediafire.com/file/y5egi6z8qjke12v/Young%252C_Famous_%2526_African_Ep2.mp4/file',
-            thumbnail_url: '/YFA44.webp',
-          },
-          {
-            id: 'YFAEP3',
-            title: 'YOUNG,FAMOUS & AFRICAN EP3',
-            video_url: 'https://hglink.to/gu6gpqqqw73z',
-            download_url:
-              'https://www.mediafire.com/file/bcqqtkqi7y48gmn/Young%252C_Famous_%2526_African_Ep3.mp4/file',
-            thumbnail_url: '/YFA3.jpg',
-          },
-          {
-            id: 'YFAEP4',
-            title: 'YOUNG,FAMOUS & AFRICAN EP4',
-            video_url: 'https://hglink.to/3stptqvxms80',
-            download_url:
-              'https://www.mediafire.com/file/2f1ifszvqf1srud/Young%252C_Famous_%2526_African_Ep4.mp4/file',
-            thumbnail_url: '/YFA44.webp',
-          },
+  // {
+  //   id: 'young-famous-african',
+  //   title: 'YOUNG FAMOUS & AFRICAN',
+  //   type: 'series',
+  //   description:
+  //     'Diamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) and more.. ',
+  //   poster_url: '/xxxxYfa.jpg',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'YFAEP1',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP1',
+  //           video_url: 'https://hglink.to/dpiypif77u84',
+  //           download_url:
+  //             'https://www.mediafire.com/file/i89dtpsgqhiifq9/Young%252C_Famous_%2526_African_Ep1.mp4/file',
+  //           thumbnail_url: '/YFA8.jpg',
+  //         },
+  //         {
+  //           id: 'YFAEP2',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP2',
+  //           video_url: 'https://hglink.to/527yhwbq4c7o',
+  //           download_url:
+  //             'https://www.mediafire.com/file/y5egi6z8qjke12v/Young%252C_Famous_%2526_African_Ep2.mp4/file',
+  //           thumbnail_url: '/YFA44.webp',
+  //         },
+  //         {
+  //           id: 'YFAEP3',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP3',
+  //           video_url: 'https://hglink.to/gu6gpqqqw73z',
+  //           download_url:
+  //             'https://www.mediafire.com/file/bcqqtkqi7y48gmn/Young%252C_Famous_%2526_African_Ep3.mp4/file',
+  //           thumbnail_url: '/YFA3.jpg',
+  //         },
+  //         {
+  //           id: 'YFAEP4',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP4',
+  //           video_url: 'https://hglink.to/3stptqvxms80',
+  //           download_url:
+  //             'https://www.mediafire.com/file/2f1ifszvqf1srud/Young%252C_Famous_%2526_African_Ep4.mp4/file',
+  //           thumbnail_url: '/YFA44.webp',
+  //         },
 
-          {
-            id: 'YFAEP5',
-            title: 'YOUNG,FAMOUS & AFRICAN EP5',
-            video_url: 'https://hglink.to/4ica1wvtt7f3',
-            download_url:
-              'https://www.mediafire.com/file/ch9x0zed2gz0ist/Young%252C_Famous_%2526_African_Ep5.mp4/file',
-            thumbnail_url: '/YFA44.webp',
-          },
+  //         {
+  //           id: 'YFAEP5',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP5',
+  //           video_url: 'https://hglink.to/4ica1wvtt7f3',
+  //           download_url:
+  //             'https://www.mediafire.com/file/ch9x0zed2gz0ist/Young%252C_Famous_%2526_African_Ep5.mp4/file',
+  //           thumbnail_url: '/YFA44.webp',
+  //         },
 
-          {
-            id: 'YFAEP6',
-            title: 'YOUNG,FAMOUS & AFRICAN EP6',
-            video_url: 'https://hglink.to/zsumgajjctvc',
-            download_url:
-              'https://www.mediafire.com/file/92nst7eizrpnnvz/Young%252C_Famous_%2526_African_Ep6.mp4/file',
-            thumbnail_url: '/YFA44.webp',
-          },
+  //         {
+  //           id: 'YFAEP6',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP6',
+  //           video_url: 'https://hglink.to/zsumgajjctvc',
+  //           download_url:
+  //             'https://www.mediafire.com/file/92nst7eizrpnnvz/Young%252C_Famous_%2526_African_Ep6.mp4/file',
+  //           thumbnail_url: '/YFA44.webp',
+  //         },
 
-          {
-            id: 'YFAEP7',
-            title: 'YOUNG,FAMOUS & AFRICAN EP7',
-            video_url: 'https://hglink.to/4is9i8s2g97m',
-            download_url:
-              'https://www.mediafire.com/file/hje9rjhdvdndq29/Young%252C_Famous_%2526_African_Ep7.mp4/file',
-            thumbnail_url: '/YFA44.webp',
-          },
-        ],
-      },
-    ],
-  },
+  //         {
+  //           id: 'YFAEP7',
+  //           title: 'YOUNG,FAMOUS & AFRICAN EP7',
+  //           video_url: 'https://hglink.to/4is9i8s2g97m',
+  //           download_url:
+  //             'https://www.mediafire.com/file/hje9rjhdvdndq29/Young%252C_Famous_%2526_African_Ep7.mp4/file',
+  //           thumbnail_url: '/YFA44.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   {
     id: 's1',
