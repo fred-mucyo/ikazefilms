@@ -74,6 +74,35 @@ const MovieDetail = () => {
     }
   };
 
+
+  const handleShare = async () => {
+  const shareData = {
+    title: movie.title,
+    text: `🎬 Watch "${movie.title}" now on Hashye.online!`,
+    url: `https://hashye.online/movie/${movie.id}`,
+  };
+
+  if (navigator.share) {
+    // ✅ Modern browsers (mobile, Chrome, Safari, Edge, etc.)
+    try {
+      await navigator.share(shareData);
+      console.log('Movie shared successfully!');
+    } catch (err) {
+      console.warn('Share cancelled or failed:', err);
+    }
+  } else {
+    // ⚙️ Fallback for older browsers
+    try {
+      await navigator.clipboard.writeText(shareData.url);
+      alert('📋 Link copied! You can paste it anywhere to share.');
+    } catch (err) {
+      console.error('Failed to copy:', err);
+      alert('❌ Could not copy link. Please copy it manually.');
+    }
+  }
+};
+
+
   const openExternal = (url) => {
     if (!url) return;
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -183,6 +212,7 @@ const MovieDetail = () => {
                       >
                         ⬇️ Download
                       </a>
+                      <button onClick={handleShare} className="btn btn-secondary share-btn">📤 Share</button>
                     </>
 
                     // btn btn-secondary download-btn
