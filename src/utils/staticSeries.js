@@ -1,190 +1,182 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+  {
+    id: 'fakeprofile',
+    title: 'FAKE PROFILE S02',
+    type: 'series',
+    description: '10 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+    is_popular: true,
+    poster_url: '/fakeprofile2.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'fake1',
+            title: 'EP1',
+            video_url: 'https://hglink.to/n8ne590yxkmz',
+            download_url:
+              'https://www.mediafire.com/file/5bzkmros1uliips/FAKE_PROFILE_S02EP1.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
 
+          {
+            id: 'fake2',
+            title: 'EP2',
+            video_url: 'https://hglink.to/uayuhl5p379c',
+            download_url:
+              'https://www.mediafire.com/file/vuokhtkz7626b2u/FAKE_PROFILE_S02E2.mp4/file',
+            thumbnail_url: '/fakeprofile2.webp',
+          },
 
+          {
+            id: 'fake3',
+            title: 'EP3',
+            video_url: 'https://hglink.to/gmw0ghzegvlf',
+            download_url:
+              'https://www.mediafire.com/file/ki98x64y3if4684/FAKE_PROFILE_S02E3.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
 
+          {
+            id: 'fake4',
+            title: 'EP4',
+            video_url: 'https://hglink.to/kdwj7mbjcwdk',
+            download_url:
+              'https://www.mediafire.com/file/q87ga8chuvk0wtb/FAKE_PROFILE_S02E4.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+          {
+            id: 'fake5',
+            title: 'EP5',
+            video_url: 'https://hglink.to/wyl850x06swa',
+            download_url:
+              'https://www.mediafire.com/file/yhm1jjpres8joet/FAKE_PROFILE_S02EP5.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+          {
+            id: 'fake6',
+            title: 'EP6',
+            video_url: 'https://hglink.to/s5778djdmwla',
+            download_url:
+              'https://www.mediafire.com/file/59q6io31b2pwpoz/FAKE_PROFILE_S02EP6.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+          {
+            id: 'fake7',
+            title: 'EP7',
+            video_url: 'https://hglink.to/p168oevkklv5',
+            download_url:
+              'https://www.mediafire.com/file/zsfbvp98dkh5zqi/FAKE_PROFILE_S02E7.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
 
-  //  {
-  //   id: 'fakeprofile',
-  //   title: 'FAKE PROFILE S02',
-  //   type: 'series',
-  //   description: '10 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-  //   is_featured: true,
-  //   is_popular: true,
-  //   poster_url: '/fakeprofile2.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'fake1',
-  //           title: 'EP1',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
+          {
+            id: 'fake8',
+            title: 'EP8',
+            video_url: 'https://hglink.to/jsx3rt998edd',
+            download_url:
+              'https://www.mediafire.com/file/wtphxm5j83jfnd5/FAKE_PROFILE_S02E8..mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+          {
+            id: 'fake9',
+            title: 'EP9',
+            video_url: 'https://hglink.to/zkutn3f7bbdk',
+            download_url:
+              'https://www.mediafire.com/file/czjzfv8ti7gv8ue/FAKE_PROFILE_S02E9.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+          {
+            id: 'fake10',
+            title: 'EP10',
+            video_url: 'https://hglink.to/mfgfng5e91bf',
+            download_url:
+              'https://www.mediafire.com/file/keq0numi8hghe8t/FAKE_PROFILE_S02EP10_FINAL.mp4/file',
+            thumbnail_url: '/fakeprofile.webp',
+          },
+        ],
+      },
+    ],
+  },
 
-  //         {
-  //           id: 'fake2',
-  //           title: 'EP2',
-  //           video_url: '',
-  //           download_url:
-  //             '',
-  //           thumbnail_url: '/fakeprofile2.webp',
-  //         },
+  {
+    id: 'MASTEROFHOUSE1',
+    title: 'MASTER OF THE HOUSE',
+    type: 'series',
+    description: '07 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
+    is_popular: true,
+    poster_url: '/master1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'master1',
+            title: 'EP1',
+            video_url: 'https://hglink.to/zcojfedds8hx',
+            download_url:
+              'https://www.mediafire.com/file/1jux3nrhx7jf51a/MASTER_OF_THE_HOUSE_S01E01.mp4/file',
+            thumbnail_url: '/master2.webp',
+          },
 
-  //         {
-  //           id: 'fake3',
-  //           title: 'EP3',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
+          {
+            id: 'master2',
+            title: 'EP2',
+            video_url: 'https://hglink.to/ad7khom7w1rm',
+            download_url:
+              'https://www.mediafire.com/file/rri3w2wh4wk9ybl/MASTER_OF_THE_HOUSE_S01E02.mp4/file',
+            thumbnail_url: '/master2.webp',
+          },
 
-  //         {
-  //           id: 'fake4',
-  //           title: 'EP4',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-  //           {
-  //           id: 'fake5',
-  //           title: 'EP5',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //       },
-  //           {
-  //           id: 'fake6',
-  //           title: 'EP6',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-  //           {
-  //           id: 'fake7',
-  //           title: 'EP7',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-            
-  //            {
-  //           id: 'fake8',
-  //           title: 'EP8',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-  //              {
-  //           id: 'fake9',
-  //           title: 'EP9',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-  //              {
-  //           id: 'fake10',
-  //           title: 'EP10',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fakeprofile.webp',
-  //         },
-            
-            
-  //       ],
-  //     },
-  //   ],
-  // },
+          {
+            id: 'master3',
+            title: 'EP3',
+            video_url: 'https://hglink.to/5xpse0uw90rp',
+            download_url:
+              'https://www.mediafire.com/file/8az66vdu1rlaujv/MASTER+OF+THE+HOUSE+S01E03.mp4/file',
+            thumbnail_url: '/master1.webp',
+          },
 
+          {
+            id: 'master4',
+            title: 'EP4',
+            video_url: 'https://hglink.to/rynw57w9ul6c',
+            download_url:
+              'https://www.mediafire.com/file/4u1ru04acysr7d2/MASTER+OF+THE+HOUSE+E04.mp4/file',
+            thumbnail_url: '/master2.webp',
+          },
+          {
+            id: 'master5',
+            title: 'EP5',
+            video_url: 'https://hglink.to/9tnaq79n94lr',
+            download_url:
+              'https://www.mediafire.com/file/d72f0nm03j4lo98/MASTER+OF+THE+HOUSE+E5.mp4/file',
+            thumbnail_url: '/master1.webp',
+          },
+          {
+            id: 'master6',
+            title: 'EP6',
+            video_url: 'https://hglink.to/2jdv9066qtr4',
+            download_url:
+              'https://www.mediafire.com/file/503ccgvhsrufqm8/MASTER+OF+THE+HOUSE+E06.mp4/file',
+            thumbnail_url: '/master2.webp',
+          },
+          {
+            id: 'master7',
+            title: 'EP7',
+            video_url: 'https://hglink.to/u54wddmfvgfs',
+            download_url:
+              'https://www.mediafire.com/file/vzws2j16jojckzp/MASTER+OF+THE+HOUSE+EP+07+final.mp4/file',
+            thumbnail_url: '/master2.webp',
+          },
+        ],
+      },
+    ],
+  },
 
-
-
-  
-
-  // {
-  //   id: 'MASTEROFHOUSE1',
-  //   title: 'MASTER OF THE HOUSE',
-  //   type: 'series',
-  //   description: '07 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-  //   is_featured: true,
-  //   is_popular: true,
-  //   poster_url: '/master1.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'master1',
-  //           title: 'EP1',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master2.webp',
-  //         },
-
-  //         {
-  //           id: 'master2',
-  //           title: 'EP2',
-  //           video_url: '',
-  //           download_url:
-  //             '',
-  //           thumbnail_url: '/master2.webp',
-  //         },
-
-  //         {
-  //           id: 'master3',
-  //           title: 'EP3',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master1.webp',
-  //         },
-
-  //         {
-  //           id: 'master4',
-  //           title: 'EP4',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master2.webp',
-  //         },
-  //           {
-  //           id: 'master5',
-  //           title: 'EP5',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master1.webp',
-  //       },
-  //           {
-  //           id: 'master6',
-  //           title: 'EP6',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master2.webp',
-  //         },
-  //           {
-  //           id: 'master7',
-  //           title: 'EP7',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/master2.webp',
-  //         },
-            
-            
-  //       ],
-  //     },
-  //   ],
-  // },
-
-
-
-
-
-
-
-
-
-///the above to be added 
+  ///the above to be added
 
   {
     id: 'PHF',
@@ -202,7 +194,8 @@ const staticSeries = [
             id: 'PHF1',
             title: 'EP1',
             video_url: 'https://hglink.to/f8gccyclb3i3',
-            download_url:'https://www.mediafire.com/file/xsoqdw5dk87933v/PARIS_HAS_FALLEN_E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/xsoqdw5dk87933v/PARIS_HAS_FALLEN_E01.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
 
@@ -219,7 +212,8 @@ const staticSeries = [
             id: 'PHF3',
             title: 'EP3',
             video_url: 'https://hglink.to/isv84c89s1kn',
-            download_url:'https://www.mediafire.com/file/bncw9g2iwirwe0o/PARIS_HAS_FALLEN_E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/bncw9g2iwirwe0o/PARIS_HAS_FALLEN_E03.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
 
@@ -227,16 +221,18 @@ const staticSeries = [
             id: 'PHF4',
             title: 'EP4',
             video_url: 'https://hglink.to/jtdgo1nep303',
-            download_url:'https://www.mediafire.com/file/13kaldkbxfpb4ow/PARIS_HAS_FALLEN_E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/13kaldkbxfpb4ow/PARIS_HAS_FALLEN_E04.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
           },
-            {
+          {
             id: 'PHF5',
             title: 'EP5',
             video_url: 'https://hglink.to/l16t3878npcw',
-            download_url:'https://www.mediafire.com/file/5iqnx2mhsgyvdmd/PARIS_HAS_FALLEN_E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/5iqnx2mhsgyvdmd/PARIS_HAS_FALLEN_E05.mp4/file',
             thumbnail_url: '/parishasfallen.webp',
-        },
+          },
           //   {
           //   id: 'PHF6',
           //   title: 'EP6',
@@ -259,13 +255,12 @@ const staticSeries = [
           //     'https://www.mediafire.com/file/1ldhvzd4q044ho7/BLOOD_SISTERS_4_final.mp4/file',
           //   thumbnail_url: '/Blood-Sisters (4).webp',
           // },
-            
         ],
       },
     ],
   },
 
-     {
+  {
     id: 'grande_secret',
     title: 'GRANDE SECRET',
     type: 'series',
@@ -281,217 +276,245 @@ const staticSeries = [
             id: 'lost1',
             title: 'GRANDE SECRET EP1',
             video_url: 'https://hglink.to/20c3pp754or1',
-            download_url:  'https://www.mediafire.com/file/gprsogstmti2a0e/Grand_Secrets_01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/gprsogstmti2a0e/Grand_Secrets_01.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost2',
             title: 'GRANDE SECRET EP2',
             video_url: 'https://hglink.to/6mjl7vjuym75',
-            download_url:  'https://www.mediafire.com/file/ndthizifo1r5ldd/Grand_Secrets_02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ndthizifo1r5ldd/Grand_Secrets_02.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost3',
             title: 'GRANDE SECRET EP3',
             video_url: 'https://hglink.to/6mjl7vjuym75',
-            download_url:  'https://www.mediafire.com/file/0dkgihks6v25oan/Grand_Secrets_03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/0dkgihks6v25oan/Grand_Secrets_03.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost4',
             title: 'GRANDE SECRET EP4',
             video_url: 'https://hglink.to/h4u50m3jmzr1',
-            download_url:  'https://www.mediafire.com/file/7rtv27rxdiys8ja/Grand_Secrets_04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/7rtv27rxdiys8ja/Grand_Secrets_04.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost5',
             title: 'GRANDE SECRET EP5',
             video_url: 'https://hglink.to/2aosnf0xg08l',
-            download_url:  'https://www.mediafire.com/file/cs7tlykngf8yqya/Grand_Secrets_05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/cs7tlykngf8yqya/Grand_Secrets_05.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost6',
             title: 'GRANDE SECRET EP6',
             video_url: 'https://hglink.to/szawuf9bbz7g',
-            download_url:  'https://www.mediafire.com/file/v9novrggmdqdubq/Grand_Secrets_06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/v9novrggmdqdubq/Grand_Secrets_06.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost7',
             title: 'GRANDE SECRET EP7',
             video_url: 'https://hglink.to/fv0d3ch2iy39',
-            download_url:  'https://www.mediafire.com/file/f765lhqtewsmjs3/Grand_Secrets_07.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/f765lhqtewsmjs3/Grand_Secrets_07.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost8',
             title: 'GRANDE SECRET EP8',
             video_url: 'https://hglink.to/fv0d3ch2iy39',
-            download_url:  'https://www.mediafire.com/file/m3ofoct9f42tugw/Grand_Secrets_08.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/m3ofoct9f42tugw/Grand_Secrets_08.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost9',
             title: 'GRANDE SECRET EP9',
             video_url: 'https://hglink.to/yp9p1zk7dcfe',
-            download_url:  'https://www.mediafire.com/file/jthl3ylxp2nu69t/Grand_Secrets_09.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/jthl3ylxp2nu69t/Grand_Secrets_09.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost10',
             title: 'GRANDE SECRET EP10',
             video_url: 'https://hglink.to/pkhzsbcyulem',
-            download_url:  'https://www.mediafire.com/file/ysje21q38nuswrq/Grand_Secrets_10.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ysje21q38nuswrq/Grand_Secrets_10.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost11',
             title: 'GRANDE SECRET EP11',
             video_url: 'https://hglink.to/pkhzsbcyulem',
-            download_url:  'https://www.mediafire.com/file/9t04qxfa0h0p66t/Grand_Secrets_11.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/9t04qxfa0h0p66t/Grand_Secrets_11.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost12',
             title: 'GRANDE SECRET EP12',
             video_url: 'https://hglink.to/io185np3yd19',
-            download_url:  'https://www.mediafire.com/file/rdv5k3cryt7gkn0/Grand_Secrets_12.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rdv5k3cryt7gkn0/Grand_Secrets_12.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost13',
             title: 'GRANDE SECRET EP13',
-            video_url:  'https://hglink.to/qac3tn74ectu',
-            download_url:  'https://www.mediafire.com/file/sz0rsgxh476efhb/Grand_Secrets_13.mp4/file',
+            video_url: 'https://hglink.to/qac3tn74ectu',
+            download_url:
+              'https://www.mediafire.com/file/sz0rsgxh476efhb/Grand_Secrets_13.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost14',
             title: 'GRANDE SECRET EP14',
             video_url: 'https://hglink.to/z8gxuip272pg',
-            download_url:  'https://www.mediafire.com/file/z3w59bx9dg7hmj8/Grand_Secrets_14.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/z3w59bx9dg7hmj8/Grand_Secrets_14.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost15',
             title: 'GRANDE SECRET EP15',
             video_url: 'https://hglink.to/iifu3oq15yd9',
-            download_url:  'https://www.mediafire.com/file/gbpev9m5ks8ag2d/Grand_Secrets_15.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/gbpev9m5ks8ag2d/Grand_Secrets_15.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost16',
             title: 'GRANDE SECRET EP16',
             video_url: 'https://hglink.to/m4vn2cesug9f',
-            download_url:  'https://www.mediafire.com/file/8zzyzcu4wxd5e70/Grand_Secrets_16.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/8zzyzcu4wxd5e70/Grand_Secrets_16.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost17',
             title: 'GRANDE SECRET EP17',
             video_url: 'https://hglink.to/07xp1vbasdz0',
-            download_url:  'https://www.mediafire.com/file/7fc9yu4mbeiawij/Grand_Secrets_17.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/7fc9yu4mbeiawij/Grand_Secrets_17.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost18',
             title: 'GRANDE SECRET EP18',
             video_url: 'https://hglink.to/2r85vrzxagoq',
-            download_url:  'https://www.mediafire.com/file/6stejf0bhyalk9b/Grand_Secrets_18.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/6stejf0bhyalk9b/Grand_Secrets_18.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost19',
             title: 'GRANDE SECRET EP19',
             video_url: 'https://hglink.to/b0aecsqgnxuc',
-            download_url:  'https://www.mediafire.com/file/4uztmc5xp66e7nj/Grand_Secrets_19.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/4uztmc5xp66e7nj/Grand_Secrets_19.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost20',
             title: 'GRANDE SECRET EP20',
             video_url: 'https://hglink.to/rekjq63rvgls',
-            download_url:  'https://www.mediafire.com/file/t9vb8fpx6c8u645/Grand_Secrets_20.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/t9vb8fpx6c8u645/Grand_Secrets_20.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost21',
             title: 'GRANDE SECRET EP21',
             video_url: 'https://hglink.to/v50d4eh0yyhc',
-            download_url: 'https://www.mediafire.com/file/c0xc9fuqkmjr073/Grand_Secrets_21.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/c0xc9fuqkmjr073/Grand_Secrets_21.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost22',
             title: 'GRANDE SECRET EP22',
             video_url: 'https://hglink.to/kkw6h8mlyfmd',
-            download_url:  'https://www.mediafire.com/file/d8g2u44wvvhr4rr/Grand_Secrets_22.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/d8g2u44wvvhr4rr/Grand_Secrets_22.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost23',
             title: 'GRANDE SECRET EP23',
             video_url: 'https://hglink.to/c3zmhkqy8a5j',
-            download_url: 'https://www.mediafire.com/file/mni03ihq646hc2k/Grand_Secrets_23.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/mni03ihq646hc2k/Grand_Secrets_23.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost24',
             title: 'GRANDE SECRET EP24',
             video_url: 'https://hglink.to/liavi1qt065i',
-            download_url:  'https://www.mediafire.com/file/qxn5uptuso48009/Grand_Secrets_24.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/qxn5uptuso48009/Grand_Secrets_24.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost25',
             title: 'GRANDE SECRET EP25',
             video_url: 'https://hglink.to/g66y675etxef',
-            download_url: 'https://www.mediafire.com/file/j2i6y5uxk3yyjxt/Grand_Secrets_25.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/j2i6y5uxk3yyjxt/Grand_Secrets_25.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost25',
             title: 'GRANDE SECRET EP26',
             video_url: 'https://hglink.to/iqq4lzhmafyy',
-            download_url: 'https://www.mediafire.com/file/ufzvgr7uxult0ap/Grand_Secrets_26.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ufzvgr7uxult0ap/Grand_Secrets_26.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost25',
             title: 'GRANDE SECRET EP27',
             video_url: 'https://hglink.to/2997zl6vb9w2',
-            download_url: 'https://www.mediafire.com/file/xn80wp7ti40nrv3/Grand_Secrets_27.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/xn80wp7ti40nrv3/Grand_Secrets_27.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost25',
             title: 'GRANDE SECRET EP28',
             video_url: 'https://hglink.to/u2hc2cgkeyyi',
-            download_url: 'https://www.mediafire.com/file/odw5zaxbi2m4jbs/Grand_Secrets_28.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/odw5zaxbi2m4jbs/Grand_Secrets_28.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
           {
             id: 'lost25',
             title: 'GRANDE SECRET EP29 FINAL',
             video_url: 'https://hglink.to/w29pg8kwsvj5',
-            download_url: 'https://www.mediafire.com/file/uwuwmk2n1cji9rd/Grand_Secrets_29Final.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/uwuwmk2n1cji9rd/Grand_Secrets_29Final.mp4/file',
             thumbnail_url: '/grandee.webp',
           },
         ],
       },
-    ]
-    },
+    ],
+  },
 
-
-{
+  {
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
     type: 'series',
     is_popular: true,
-    description:'',
+    description: '',
     poster_url: '/ladyvoye.webp',
     seasons: [
       {
@@ -501,70 +524,80 @@ const staticSeries = [
             id: 'ladyVoyer1',
             title: 'LADY VOYEUR EP 1',
             video_url: 'https://hglink.to/7qdhvqm592i3',
-            download_url: 'https://www.mediafire.com/file/2sihmjkepq0h3kg/LADY+VOYEUR+S01E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/2sihmjkepq0h3kg/LADY+VOYEUR+S01E01.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer2',
             title: 'LADY VOYEUR EP 2',
             video_url: 'https://hglink.to/sp2u5mmwavdm',
-            download_url: 'https://www.mediafire.com/file/dmfwpg0lqj2p4mo/LADY+VOYEUR+S01E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/dmfwpg0lqj2p4mo/LADY+VOYEUR+S01E02.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer3',
             title: 'LADY VOYEUR EP 3',
             video_url: 'https://hglink.to/i83w4nu66xjq',
-            download_url: 'https://www.mediafire.com/file/9inzulfe2iyuvrp/LADY+VOYEUR+S01E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/9inzulfe2iyuvrp/LADY+VOYEUR+S01E03.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer4',
             title: 'LADY VOYEUR EP 4',
             video_url: 'https://hglink.to/strrcf64wu4y',
-            download_url: 'https://www.mediafire.com/file/1u0yluxcmgro08i/LADY+VOYEUR+S01E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/1u0yluxcmgro08i/LADY+VOYEUR+S01E04.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer5',
             title: 'LADY VOYEUR EP 5',
             video_url: 'https://hglink.to/7w6uwl3cygpl',
-            download_url:'https://www.mediafire.com/file/rzo1qj0191wv36d/LADY+VOYEUR+S01E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rzo1qj0191wv36d/LADY+VOYEUR+S01E05.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer6',
             title: 'LADY VOYEUR EP 6',
             video_url: 'https://hglink.to/6hkmif9sfk3s',
-            download_url:'https://www.mediafire.com/file/003fge9a3kzr7wm/LADY+VOYEUR+S01E06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/003fge9a3kzr7wm/LADY+VOYEUR+S01E06.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer7',
             title: 'LADY VOYEUR 7',
             video_url: 'https://hglink.to/dmfr16ki8ka7',
-            download_url:'https://www.mediafire.com/file/il3gkv9dumn7m9x/Lady+Voyeur+E07.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/il3gkv9dumn7m9x/Lady+Voyeur+E07.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer8',
             title: 'LADY VOYEUR 8',
             video_url: 'https://hglink.to/25bdvcvx1zf5',
-            download_url:'https://www.mediafire.com/file/3oxpsdaab34bqqo/LADY+VOYEUR+E08.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/3oxpsdaab34bqqo/LADY+VOYEUR+E08.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'ladyVoyer9',
             title: 'LADY VOYEUR 9',
             video_url: 'https://hglink.to/fhej7az37h2v',
-            download_url:'https://www.mediafire.com/file/l4qfxexvbpuo88s/LADY+VOYEUR+E09.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/l4qfxexvbpuo88s/LADY+VOYEUR+E09.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
           {
             id: 'islanladyVoyer10',
             title: 'LADY VOYEUR 10 FINAL',
             video_url: 'https://hglink.to/1d1aqt8taysp',
-            download_url:'https://www.mediafire.com/file/4fndzgokm9jx4sf/LADY+VOYEUR+E10+FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/4fndzgokm9jx4sf/LADY+VOYEUR+E10+FINAL.mp4/file',
             thumbnail_url: '/ladyvoye.webp',
           },
         ],
@@ -572,12 +605,12 @@ const staticSeries = [
     ],
   },
 
-   {
+  {
     id: 'HOUSEOFDAVID',
     title: 'THE HOUSE OF DAVID',
     type: 'series',
     is_popular: true,
-    description:'',
+    description: '',
     poster_url: '/houseofdavid.webp',
     seasons: [
       {
@@ -587,56 +620,64 @@ const staticSeries = [
             id: 'HOD1',
             title: 'THE HOUSE OF DAVID EP 1',
             video_url: 'https://hglink.to/y8ixej7h3peq',
-            download_url: 'https://www.mediafire.com/file/txvbwf2f510dr5n/HOUSE+OF+DAVID+E1.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/txvbwf2f510dr5n/HOUSE+OF+DAVID+E1.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD2',
             title: 'THE HOUSE OF DAVID EP 2',
             video_url: 'https://hglink.to/z75xo6v3rolm',
-            download_url: 'https://www.mediafire.com/file/azir652xiqi236b/HOUSE+OF+DAVID+E2.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/azir652xiqi236b/HOUSE+OF+DAVID+E2.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD3',
             title: 'THE HOUSE OF DAVID EP 3',
             video_url: 'https://hglink.to/xrpkdjz8y05h',
-            download_url: 'https://www.mediafire.com/file/nqdd4s3hnx2pnri/HOUSE+OF+DAVID+E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/nqdd4s3hnx2pnri/HOUSE+OF+DAVID+E03.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD4',
             title: 'THE HOUSE OF DAVID EP 4',
             video_url: 'https://hglink.to/6grafkdjemk5',
-            download_url: 'https://www.mediafire.com/file/4iwgb8bj5y8qckw/HOUSE+OF+DAVID+E4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/4iwgb8bj5y8qckw/HOUSE+OF+DAVID+E4.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD5',
             title: 'THE HOUSE OF DAVID EP 5',
             video_url: 'https://hglink.to/r047cf1x4kwk',
-            download_url:'https://www.mediafire.com/file/pg9c179s9z4pqos/THE+HOUSE+OF+DAVID+S01E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/pg9c179s9z4pqos/THE+HOUSE+OF+DAVID+S01E05.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD6',
             title: 'THE HOUSE OF DAVID EP 6',
             video_url: 'https://hglink.to/cusvheb06gzb',
-            download_url:'https://www.mediafire.com/file/hguczmxh5t89475/THE+HOUSE+OF+DAVID+E06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hguczmxh5t89475/THE+HOUSE+OF+DAVID+E06.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD7',
             title: 'THE HOUSE OF DAVID 7',
             video_url: 'https://hglink.to/2sfokkegq3oz',
-            download_url:'https://www.mediafire.com/file/g45j4bv14knkte4/HOUSE+OF+DAVID+7.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/g45j4bv14knkte4/HOUSE+OF+DAVID+7.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
           {
             id: 'HOD8',
             title: 'THE HOUSE OF DAVID 8 FINAL',
             video_url: 'https://hglink.to/mdtr2lf44jwk',
-            download_url:'https://www.mediafire.com/file/sy28had80x1c6pk/THE+HOUSE+OF+DAVID+E08.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/sy28had80x1c6pk/THE+HOUSE+OF+DAVID+E08.mp4/file',
             thumbnail_url: '/houseofdavid.webp',
           },
         ],
@@ -716,7 +757,7 @@ const staticSeries = [
   //   ],
   // },
 
-   //  {
+  //  {
   //   id: 'alex',
   //   title: 'ALEX RIDER',
   //   type: 'series',
@@ -788,13 +829,12 @@ const staticSeries = [
   //   ],
   // },
 
-
-    {
+  {
     id: 'ASTHECLOWFLIES',
     title: 'AS THE CLOW FLIES',
     type: 'series',
     is_popular: true,
-    description:'',
+    description: '',
     poster_url: '/ASTHECLOW.webp',
     seasons: [
       {
@@ -804,175 +844,199 @@ const staticSeries = [
             id: 'Asthecrowflies1',
             title: 'AS THE CLOW FLIES EP 1',
             video_url: 'https://hglink.to/ed1rrflyzrj0',
-            download_url: 'https://www.mediafire.com/file/c397cdsd5qupez1/AS+THE+CROW+FLIES+E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/c397cdsd5qupez1/AS+THE+CROW+FLIES+E01.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies2',
             title: 'AS THE CLOW FLIES EP 2',
             video_url: 'https://hglink.to/1rq9iz42oyvl',
-            download_url: 'https://www.mediafire.com/file/akjvrgqscc2ncns/AS+THE+CROW+FLIES+S01E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/akjvrgqscc2ncns/AS+THE+CROW+FLIES+S01E02.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
-            id:'Asthecrowflies3',
+            id: 'Asthecrowflies3',
             title: 'AS THE CLOW FLIES EP 3',
             video_url: 'https://hglink.to/9x4hmclu8jfl',
-            download_url: 'https://www.mediafire.com/file/xcordaqg4lj097c/AS+THE+CROW+FLIES+E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/xcordaqg4lj097c/AS+THE+CROW+FLIES+E03.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies4',
             title: 'AS THE CLOW FLIES EP 4',
             video_url: 'https://hglink.to/4tlfectr6g60',
-            download_url: 'https://www.mediafire.com/file/mcp4vqfeshfgcno/AS+THE+CROW+FLIES+E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/mcp4vqfeshfgcno/AS+THE+CROW+FLIES+E04.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies5',
             title: 'AS THE CLOW FLIES EP 5',
             video_url: 'https://hglink.to/5zw6lwae9cvv',
-            download_url:'https://www.mediafire.com/file/4h80vkkdi8sqc08/AS+THE+CROW+FLIES+E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/4h80vkkdi8sqc08/AS+THE+CROW+FLIES+E05.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies6',
             title: 'AS THE CLOW FLIES EP 6',
             video_url: 'https://hglink.to/1il96ovf0aho',
-            download_url:'https://www.mediafire.com/file/a3hkeex9ssdtcy2/AS+THE+CROW+FLIES+E06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/a3hkeex9ssdtcy2/AS+THE+CROW+FLIES+E06.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies7',
             title: 'AS THE CLOW FLIES 7',
             video_url: 'https://hglink.to/q1oe2zfs40zv',
-            download_url:'https://www.mediafire.com/file/glixz1rgkdm7x28/AS+THE+CROW+FLIES+E07.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/glixz1rgkdm7x28/AS+THE+CROW+FLIES+E07.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies8',
             title: 'AS THE CLOW FLIES 8',
             video_url: 'https://hglink.to/8b83n1z0fa39',
-            download_url:'https://www.mediafire.com/file/sgf7zlqtplpfugd/AS+THE+CROW+FLIES+E08.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/sgf7zlqtplpfugd/AS+THE+CROW+FLIES+E08.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies9',
             title: 'AS THE CLOW FLIES 9',
             video_url: 'https://hglink.to/9srliqr2j3xd',
-            download_url:'https://www.mediafire.com/file/e4ewrq8o2wmbbo4/AS+THE+CROW+FLIES+E09.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/e4ewrq8o2wmbbo4/AS+THE+CROW+FLIES+E09.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies10',
             title: 'AS THE CLOW FLIES 10',
             video_url: 'https://hglink.to/8kiri7jwwnak',
-            download_url:'https://www.mediafire.com/file/6cc0rgszpfhhfl4/AS+THE+CROW+FLIES+E10.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/6cc0rgszpfhhfl4/AS+THE+CROW+FLIES+E10.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
-          }, {
+          },
+          {
             id: 'Asthecrowflies11',
             title: 'AS THE CLOW FLIES 11',
             video_url: 'https://hglink.to/3eb70i56wjor',
-            download_url:'https://www.mediafire.com/file/opnlielrwuzyak3/AS+THE+CROW+FLIES+EP+11.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/opnlielrwuzyak3/AS+THE+CROW+FLIES+EP+11.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies12',
             title: 'AS THE CLOW FLIES 12',
             video_url: 'https://hglink.to/00j6g41tbtl9',
-            download_url:'https://www.mediafire.com/file/8bdfo3npnzyk3g0/AS_THE_CROW_FLIES_EP_12.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/8bdfo3npnzyk3g0/AS_THE_CROW_FLIES_EP_12.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies13',
             title: 'AS THE CLOW FLIES 13',
             video_url: 'https://hglink.to/25rokf35tigl',
-            download_url:'https://www.mediafire.com/file/rua4dqg47sq776o/AS+THE+CROW+FLIES+EP+13.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rua4dqg47sq776o/AS+THE+CROW+FLIES+EP+13.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-           {
+          {
             id: 'Asthecrowflies14',
             title: 'AS THE CLOW FLIES 14',
             video_url: 'https://hglink.to/uj8ghcbznnzl',
-            download_url:'https://www.mediafire.com/file/tyq0q6e5odikcap/AS+THE+CROW+FLIES+EP+14.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/tyq0q6e5odikcap/AS+THE+CROW+FLIES+EP+14.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies15',
             title: 'AS THE CLOW FLIES 15',
             video_url: 'https://hglink.to/55d51wlo9k9p',
-            download_url:'https://www.mediafire.com/file/cug0wfar17kcepx/AS+THE+CROW+FLIES+EP+15.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/cug0wfar17kcepx/AS+THE+CROW+FLIES+EP+15.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies16',
             title: 'AS THE CLOW FLIES 16',
             video_url: 'https://hglink.to/6ce0t75kiq9v',
-            download_url:'https://www.mediafire.com/file/6s1cfc8r8iobthi/AS+THE+CROW+FLIES+EP+16.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/6s1cfc8r8iobthi/AS+THE+CROW+FLIES+EP+16.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-           {
+          {
             id: 'Asthecrowflies17',
             title: 'AS THE CLOW FLIES 17',
             video_url: 'https://hglink.to/haumbvv9oj41',
-            download_url:'https://www.mediafire.com/file/zdkh2vsrtv73bn3/AS+THE+CROW+FLIES+EP+17.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/zdkh2vsrtv73bn3/AS+THE+CROW+FLIES+EP+17.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies18',
             title: 'AS THE CLOW FLIES 18',
             video_url: 'https://hglink.to/y0ykdr60kdng',
-            download_url:'https://www.mediafire.com/file/dto8nz9lv4mv84v/AS+THE+CROW+FLIES+EP+18.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/dto8nz9lv4mv84v/AS+THE+CROW+FLIES+EP+18.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies19',
             title: 'AS THE CLOW FLIES 19',
             video_url: 'https://hglink.to/357kwex3nq9c',
-            download_url:'https://www.mediafire.com/file/d3wvsghi4ay5ttz/AS+THE+CROW+FLIES+EP+19.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/d3wvsghi4ay5ttz/AS+THE+CROW+FLIES+EP+19.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-           {
+          {
             id: 'Asthecrowflies20',
             title: 'AS THE CLOW FLIES 20',
             video_url: 'https://hglink.to/3ovrahhp8fhz',
-            download_url:'https://www.mediafire.com/file/ghrb0nf8v05is4o/AS+THE+CROW+FLIES+EP+20.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ghrb0nf8v05is4o/AS+THE+CROW+FLIES+EP+20.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies21',
             title: 'AS THE CLOW FLIES 21',
             video_url: 'https://hglink.to/okjo0p83z57q',
-            download_url:'https://www.mediafire.com/file/yjsxwb141pznlu4/AS+THE+CROW+FLIES+EP+21.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/yjsxwb141pznlu4/AS+THE+CROW+FLIES+EP+21.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
           {
             id: 'Asthecrowflies22',
             title: 'AS THE CLOW FLIES 22',
             video_url: 'https://hglink.to/2mie4d4v0fpl',
-            download_url:'https://www.mediafire.com/file/rj4vj7ym7i576b7/AS+THE+CROW+FLIES+EP+22.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rj4vj7ym7i576b7/AS+THE+CROW+FLIES+EP+22.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-           {
+          {
             id: 'Asthecrowflies23',
             title: 'AS THE CLOW FLIES 23',
             video_url: 'https://hglink.to/jl6ided8flfp',
-            download_url:'https://www.mediafire.com/file/bt8fbri72jmbjua/AS+THE+CROW+FLIES+EP+23+mp4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/bt8fbri72jmbjua/AS+THE+CROW+FLIES+EP+23+mp4.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-           {
+          {
             id: 'island',
             title: 'AS THE CLOW FLIES 24 FINAL',
             video_url: 'https://hglink.to/bapw8vhq3ldb',
-            download_url:'https://www.mediafire.com/file/1qcd7sa9mptdk3x/AS+THE+CROW+FLIES+EP+24+FINAL.mp4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/1qcd7sa9mptdk3x/AS+THE+CROW+FLIES+EP+24+FINAL.mp4.mp4/file',
             thumbnail_url: '/ASTHECLOW.webp',
           },
-          
         ],
       },
     ],
   },
-       {
+  {
     id: 'INGANNO',
     title: 'INGANNO',
     type: 'series',
@@ -987,42 +1051,48 @@ const staticSeries = [
             id: 'ingano1',
             title: 'INGANNO EP1',
             video_url: 'https://hglink.to/mm3f86cihq09',
-            download_url: 'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ixk245qvetii5lr/INGANNO+E+01.mp4/file',
             thumbnail_url: '/ingano.webp',
           },
           {
             id: 'ingano2',
             title: 'INGANNO EP2',
             video_url: 'https://hglink.to/hgc0o3ieq9qq',
-            download_url:  'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/w3cf8up2pv79iyr/INGANNO+EP+02.mp4/file',
             thumbnail_url: '/ingano.webp',
           },
           {
             id: 'ingano3',
             title: 'INGANNO EP3',
             video_url: 'https://hglink.to/rpnfvdqzj0p6',
-            download_url:  'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
             thumbnail_url: '/ingano.webp',
           },
           {
             id: 'ingano4',
             title: 'INGANNO EP4',
             video_url: 'https://hglink.to/08cr10ew4q8p',
-            download_url: 'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
             thumbnail_url: '/ingano.webp',
           },
           {
             id: 'ingano5',
             title: 'INGANNO EP5',
             video_url: 'https://hglink.to/any6j5vrhmor',
-            download_url: 'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
             thumbnail_url: '/ingano.webp',
           },
           {
             id: 'ingano6',
             title: 'INGANNO EP6 FINAL',
             video_url: 'https://hglink.to/zqcdpnonplbi',
-            download_url: 'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
             thumbnail_url: '/ingano.webp',
           },
         ],
@@ -1376,7 +1446,8 @@ const staticSeries = [
     title: 'THE I-LAND',
     type: 'series',
     is_popular: true,
-    description:'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
+    description:
+      'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
     poster_url: '/island.webp',
     seasons: [
       {
@@ -1443,7 +1514,7 @@ const staticSeries = [
     ],
   },
 
-   {
+  {
     id: 'HIGHSCHOOL',
     title: 'HIGHSCHOOL',
     type: 'series',
@@ -1458,56 +1529,64 @@ const staticSeries = [
             id: 'highschool',
             title: 'HIGHSCHOOL EP 1',
             video_url: 'https://hglink.to/cyc8rcyvqhvz',
-            download_url: 'https://www.mediafire.com/file/oy7w13pa57jz7g8/HIGH+SCHOOL+E1+(1).mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/oy7w13pa57jz7g8/HIGH+SCHOOL+E1+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 2',
             video_url: 'https://hglink.to/r28yhly3ynb2',
-            download_url: 'https://www.mediafire.com/file/kyloab3ym6jc8bk/HIGH+SCHOOL+E2+(1).mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/kyloab3ym6jc8bk/HIGH+SCHOOL+E2+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 3',
             video_url: 'https://hglink.to/yai15wyhbxga',
-            download_url:'https://www.mediafire.com/file/kgh67ej3hhjedf7/HIGH+SCHOOL+E03+(1).mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/kgh67ej3hhjedf7/HIGH+SCHOOL+E03+(1).mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 4',
             video_url: 'https://hglink.to/63s0zumna5zx',
-            download_url:'https://www.mediafire.com/file/p6jy4au7mxu86rd/HIGH+SCHOOL+4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/p6jy4au7mxu86rd/HIGH+SCHOOL+4.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 5',
             video_url: 'https://hglink.to/cr8k72olxpgb',
-            download_url:'https://www.mediafire.com/file/3m9830jsg2cohdh/HIGH+SCHOOL+05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/3m9830jsg2cohdh/HIGH+SCHOOL+05.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 6',
             video_url: 'https://hglink.to/ao04o1ibc6xh',
-            download_url:'https://www.mediafire.com/file/3epjqf40hsl3mti/HIGH+SCHOOL+6.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/3epjqf40hsl3mti/HIGH+SCHOOL+6.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 7',
             video_url: 'https://hglink.to/c328f2p8lczu',
-            download_url:'https://www.mediafire.com/file/c8hg28xpd71iss2/HIGH+SCHOOL+7.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/c8hg28xpd71iss2/HIGH+SCHOOL+7.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
           {
             id: 'highschool',
             title: 'HIGHSCHOOL EP 8 FINAL',
             video_url: 'https://hglink.to/jhz2wmcb65oy',
-            download_url:'https://www.mediafire.com/file/pjns26lpbe477um/HIGH+SCHOOL+8+final+mp4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/pjns26lpbe477um/HIGH+SCHOOL+8+final+mp4.mp4/file',
             thumbnail_url: '/highschool.webp',
           },
         ],
@@ -1515,7 +1594,7 @@ const staticSeries = [
     ],
   },
 
-   {
+  {
     id: 'NIGHTHASCOME',
     title: 'NIGHT HAS COME',
     type: 'series',
@@ -1530,91 +1609,102 @@ const staticSeries = [
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 1',
             video_url: 'https://hglink.to/87kcur1lgycr',
-            download_url: 'https://www.mediafire.com/file/nri6g948vzn60gu/NIGHT+HAS+COME+E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/nri6g948vzn60gu/NIGHT+HAS+COME+E01.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 2',
             video_url: 'https://hglink.to/i17ztxuy17sc',
-            download_url: 'https://www.mediafire.com/file/0cgq4zx1xadd5vr/NIGHT+HAS+COME+E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/0cgq4zx1xadd5vr/NIGHT+HAS+COME+E02.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 3',
             video_url: 'https://hglink.to/ragih7607f68',
-            download_url:'https://www.mediafire.com/file/scxxakaji5xxj1f/NIGHT+HAS+COME+E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/scxxakaji5xxj1f/NIGHT+HAS+COME+E03.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 4',
             video_url: 'https://hglink.to/fp8mo7ktch4j',
-            download_url:'https://www.mediafire.com/file/91wyjccf3fgrzap/NIGHT+HAS+COME+E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/91wyjccf3fgrzap/NIGHT+HAS+COME+E04.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 5',
             video_url: 'https://hglink.to/gslrduxtitz7',
-            download_url:'https://www.mediafire.com/file/lhjmr98334zj5lr/NIGHT+HAS+COME+EP+05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/lhjmr98334zj5lr/NIGHT+HAS+COME+EP+05.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 6',
             video_url: 'https://hglink.to/fv4x7u7slo8j',
-            download_url:'https://www.mediafire.com/file/fd3m2hr1psrn61i/NIGHT+HAS+COME+EP06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/fd3m2hr1psrn61i/NIGHT+HAS+COME+EP06.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 7',
             video_url: 'https://hglink.to/jx9sw2wm7rmp',
-            download_url:'https://www.mediafire.com/file/v15ewlhtahj1y7j/NIGHT+HAS+COME+E07.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/v15ewlhtahj1y7j/NIGHT+HAS+COME+E07.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 8',
             video_url: 'https://hglink.to/y2thche25cvd',
-            download_url:'https://www.mediafire.com/file/f0tnepwy2wuvwno/NIGHT+HAS+COME+E08.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/f0tnepwy2wuvwno/NIGHT+HAS+COME+E08.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 9',
             video_url: 'https://hglink.to/uv1k9z9k0w2r',
-            download_url:'https://www.mediafire.com/file/oi7shcspdqw45xk/NIGHT+HAS+COME+E09.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/oi7shcspdqw45xk/NIGHT+HAS+COME+E09.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 10',
             video_url: 'https://hglink.to/u36ys5s2f77a',
-            download_url:'https://www.mediafire.com/file/vfqk3c97ukyubwx/NIGHT+HAS+COME+EP+10.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/vfqk3c97ukyubwx/NIGHT+HAS+COME+EP+10.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 11',
             video_url: 'https://hglink.to/po1ehf5lmtzf',
-            download_url:'https://www.mediafire.com/file/x8w0c6n5ha7lm9t/NIGHT+HAS+COME+E+11.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/x8w0c6n5ha7lm9t/NIGHT+HAS+COME+E+11.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
           {
             id: 'NIGHTHASCOME',
             title: 'NIGHT HAS COME EP 12 FINAL',
             video_url: 'https://hglink.to/06y40ejd1593',
-            download_url:'https://www.mediafire.com/file/9kcmlcqdyqxuu4l/NIGHT+HAS+COME+E12+FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/9kcmlcqdyqxuu4l/NIGHT+HAS+COME+E12+FINAL.mp4/file',
             thumbnail_url: '/nighthascome.webp',
           },
         ],
       },
     ],
   },
-
 
   {
     id: 'SQUID-GAMES3',
@@ -1743,7 +1833,7 @@ const staticSeries = [
               'https://www.mediafire.com/file/455dxl1cjnmva9z/BEAUTY+IN+BLACK+S2+EP+06.mp4/file',
             thumbnail_url: '/beautyinblack.jpeg',
           },
-           {
+          {
             id: 'BINP7',
             title: 'EP7',
             video_url: 'https://hglink.to/9hwk46cqb3qh',
@@ -1751,7 +1841,7 @@ const staticSeries = [
               'https://www.mediafire.com/file/51iuaf7i7japipr/BEAUTY+IN+BLACK+E07.mp4/file ',
             thumbnail_url: '/beautyinblack.jpeg',
           },
-           {
+          {
             id: 'BINP8',
             title: 'EP8',
             video_url: 'https://hglink.to/shl709ajftc7',
@@ -2314,19 +2404,7 @@ const staticSeries = [
     ],
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-    {
+  {
     id: 'oval',
     title: 'THE OVAL',
     type: 'series',
@@ -2342,175 +2420,200 @@ const staticSeries = [
             id: 'lost1',
             title: 'THE OVAL EP1',
             video_url: 'https://hglink.to/osw7era0kchd',
-            download_url:  'https://www.mediafire.com/file/wx2pt51fi3tcfzk/The+Oval+S1E1_2.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/wx2pt51fi3tcfzk/The+Oval+S1E1_2.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost2',
             title: 'THE OVAL EP2',
             video_url: 'https://hglink.to/00ima8kd0e9s',
-            download_url:  'https://www.mediafire.com/file/plbzxq408i92g72/The+Oval+S1E2_2.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/plbzxq408i92g72/The+Oval+S1E2_2.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost3',
             title: 'THE OVAL EP3',
             video_url: 'https://hglink.to/uezvzg5tz0v3',
-            download_url:  'https://www.mediafire.com/file/h451eujwt6mut2m/The+Oval+S1E3.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/h451eujwt6mut2m/The+Oval+S1E3.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost4',
             title: 'THE OVAL EP4',
             video_url: 'https://hglink.to/1fq0ipmoai3b',
-            download_url:  'https://www.mediafire.com/file/hbpczu97ryzrdwz/The+Oval+S1E4.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hbpczu97ryzrdwz/The+Oval+S1E4.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost5',
             title: 'THE OVAL EP5',
             video_url: 'https://hglink.to/f6kdkjmax4cx',
-            download_url:  'https://www.mediafire.com/file/ojlhychr6i7wphj/The+Oval+S1E5.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ojlhychr6i7wphj/The+Oval+S1E5.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost6',
             title: 'THE OVAL EP6',
             video_url: 'https://hglink.to/6f00lw97vq6b',
-            download_url:  'https://www.mediafire.com/file/blfpeybq4vs2oeo/The+Oval+S1E6.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/blfpeybq4vs2oeo/The+Oval+S1E6.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost7',
             title: 'THE OVAL EP7',
             video_url: 'https://hglink.to/x0olgwpcqa8h',
-            download_url:  'https://www.mediafire.com/file/hbla8hkolom302g/The+Oval+S1E7.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hbla8hkolom302g/The+Oval+S1E7.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost8',
             title: 'THE OVAL EP8',
             video_url: 'https://hglink.to/ncikoyses0pc',
-            download_url:  'https://www.mediafire.com/file/67glsd6nd0d71dj/The+Oval+S1E8.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/67glsd6nd0d71dj/The+Oval+S1E8.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost9',
             title: 'THE OVAL EP9',
             video_url: 'https://hglink.to/sb9vdpi6fpf7',
-            download_url:  'https://www.mediafire.com/file/tni92rjbl8s5ut5/The+Oval+S1E9.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/tni92rjbl8s5ut5/The+Oval+S1E9.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost10',
             title: 'THE OVAL EP10',
             video_url: 'https://hglink.to/ocq3ev9z3t06',
-            download_url:  'https://www.mediafire.com/file/ri411a0b8i06k2e/The+Oval+S1E10.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ri411a0b8i06k2e/The+Oval+S1E10.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost11',
             title: 'THE OVAL EP11',
             video_url: 'https://hglink.to/hjx9mjubqp9t',
-            download_url:  'https://www.mediafire.com/file/2uapik042mezy8n/The+Oval+S1E11.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/2uapik042mezy8n/The+Oval+S1E11.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost12',
             title: 'THE OVAL EP12',
             video_url: 'https://hglink.to/pza52osi3f3s',
-            download_url:  'https://www.mediafire.com/file/bvh7gtwxwf8s7np/The+Oval+S1E12.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/bvh7gtwxwf8s7np/The+Oval+S1E12.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost13',
             title: 'THE OVAL EP13',
-            video_url:  'https://hglink.to/4w6d1e6uxwpo',
-            download_url:  'https://www.mediafire.com/file/pmao2cvs13231mn/The+Oval+S1E13.mp4/file',
+            video_url: 'https://hglink.to/4w6d1e6uxwpo',
+            download_url:
+              'https://www.mediafire.com/file/pmao2cvs13231mn/The+Oval+S1E13.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost14',
             title: 'THE OVAL EP14',
             video_url: 'https://hglink.to/i4rptusyqz0y',
-            download_url:  'https://www.mediafire.com/file/2k7izxebw72od5u/The_Oval_S1E14.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/2k7izxebw72od5u/The_Oval_S1E14.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost15',
             title: 'THE OVAL EP15',
             video_url: 'https://hglink.to/p5tmpkx3e1db',
-            download_url:  'https://www.mediafire.com/file/ead647mmqixapop/The+Oval+S1E15.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ead647mmqixapop/The+Oval+S1E15.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost16',
             title: 'THE OVAL EP16',
             video_url: 'https://hglink.to/wblvtc1ldptd',
-            download_url:  'https://www.mediafire.com/file/y7elzhke76d1su6/The+Oval+S1E16.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/y7elzhke76d1su6/The+Oval+S1E16.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost17',
             title: 'THE OVAL EP17',
             video_url: 'https://hglink.to/db7w0845mlu8',
-            download_url:  'https://www.mediafire.com/file/oqr93u644bsk382/The+Oval+S1E17.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/oqr93u644bsk382/The+Oval+S1E17.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost18',
             title: 'THE OVAL EP18',
             video_url: 'https://hglink.to/4cgyhf7yz97z',
-            download_url:  'https://www.mediafire.com/file/whomjmqleunoea1/The+Oval+S1E18.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/whomjmqleunoea1/The+Oval+S1E18.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost19',
             title: 'THE OVAL EP19',
             video_url: 'https://hglink.to/e726jt8wk43c',
-            download_url:  'https://www.mediafire.com/file/mboel8opt9nabub/The+Oval+S1E19.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/mboel8opt9nabub/The+Oval+S1E19.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost20',
             title: 'THE OVAL EP20',
             video_url: 'https://hglink.to/v2y6lcec5kr8',
-            download_url:  'https://www.mediafire.com/file/e7nfgx013jh5625/The+Oval+S1E20.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/e7nfgx013jh5625/The+Oval+S1E20.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost21',
             title: 'THE OVAL EP21',
             video_url: 'https://hglink.to/k0ha0cxvzlcp',
-            download_url: 'https://www.mediafire.com/file/js5k6sea5n7etvo/The+Oval+S1E21.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/js5k6sea5n7etvo/The+Oval+S1E21.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost22',
             title: 'THE OVAL EP22',
             video_url: 'https://hglink.to/dbwi9cyay3gg',
-            download_url:  'https://www.mediafire.com/file/1ogkiywrqxrgvjq/The+Oval+S1E22.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/1ogkiywrqxrgvjq/The+Oval+S1E22.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost23',
             title: 'THE OVAL EP23',
             video_url: 'https://hglink.to/ohcloc4iy2ov',
-            download_url: 'https://www.mediafire.com/file/gt2rwe9zxbxd28z/The+Oval+S1E23.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/gt2rwe9zxbxd28z/The+Oval+S1E23.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost24',
             title: 'THE OVAL EP24',
             video_url: 'https://hglink.to/95a95wej3gds',
-            download_url:  'https://www.mediafire.com/file/rvwnigbxm7bp66r/The+Oval+S1E24.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rvwnigbxm7bp66r/The+Oval+S1E24.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
           {
             id: 'lost25',
             title: 'THE OVAL EP25 FINAL',
             video_url: 'https://hglink.to/blf7d730yufs',
-            download_url: 'https://www.mediafire.com/file/sznwemifphd4q4i/The+Oval+E25+FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/sznwemifphd4q4i/The+Oval+E25+FINAL.mp4/file',
             thumbnail_url: '/ovol.webp',
           },
         ],
@@ -2523,71 +2626,61 @@ const staticSeries = [
             title: 'THE OVAL EP1',
             video_url: 'https://hglink.to/bz67nnaa1z58',
             thumbnail_url: '/ovol.webp',
-            download_url: 'https://www.mediafire.com/file/zyy3maag573va8k/The+Oval+S2E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/zyy3maag573va8k/The+Oval+S2E01.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP2',
             video_url: 'https://hglink.to/fmotk9nl6t7v',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/16i5bi73q752yxi/The+Oval+S2E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/16i5bi73q752yxi/The+Oval+S2E02.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP3',
             video_url: 'https://hglink.to/m4nfdicceqzh',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/3w4h6ylr7i1zqyt/The+Oval+S2E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/3w4h6ylr7i1zqyt/The+Oval+S2E03.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP4',
             video_url: 'https://hglink.to/o6kmqn64r3er',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/ntw407ckuyf0nnb/The+Oval+S2E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ntw407ckuyf0nnb/The+Oval+S2E04.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP5',
             video_url: 'https://hglink.to/nvkh3wf9g13s',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/hs0utzturr3zoef/The+Oval+S2E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hs0utzturr3zoef/The+Oval+S2E05.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP6',
             video_url: 'https://hglink.to/xdwwj4v918ro',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/lf54u0grvvsupaj/The+Oval+S2E06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/lf54u0grvvsupaj/The+Oval+S2E06.mp4/file',
           },
           {
             id: 'lostsaeson2',
             title: 'THE OVAL EP7',
             video_url: 'https://hglink.to/0zhl9rre7f82',
             thumbnail_url: '/ovol.webp',
-              download_url: 'https://www.mediafire.com/file/jcykza1op4q9250/The+Oval+S2E07.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/jcykza1op4q9250/The+Oval+S2E07.mp4/file',
           },
         ],
       },
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ];
-
 
 export default staticSeries;

@@ -1,12 +1,11 @@
 /* Home Page Styles */
 .home-page {
-  padding:0;
+  padding: 0;
 }
 
 /* Hero Section */
 .hero-section {
   padding: 40px 20px;
-
 }
 
 .hero-section::before {
@@ -510,10 +509,8 @@
   transform: translateY(-50%) translateX(-5px);
 }
 
-
-
 .whatsapp-link {
-  color: #25D366; /* WhatsApp green */
+  color: #25d366; /* WhatsApp green */
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -521,7 +518,7 @@
 
 .whatsapp-link:hover {
   text-decoration: underline;
-  color: #128C7E; /* Darker green on hover */
+  color: #128c7e; /* Darker green on hover */
 }
 
 .whatsapp-text {
@@ -530,10 +527,3 @@
   color: #333;
   line-height: 1.5;
 }
-
-
-
-
-
-
-

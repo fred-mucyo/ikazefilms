@@ -74,49 +74,48 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie-card">
       <div
-  className="movie-card-image"
-  onClick={handleThumbnailClick}
-  style={{ cursor: 'pointer' }}
->
-  <picture>
-    <source srcSet={getWebpThumbnail()} type="image/webp" />
-    <img
-      src={getThumbnailUrl()}
-      alt={movie.title}
-      className="clickable-thumbnail"
-      loading="lazy"
-      onError={(e) => {
-        e.target.src = defaultThumbnail;
-      }}
-    />
-  </picture>
+        className="movie-card-image"
+        onClick={handleThumbnailClick}
+        style={{ cursor: 'pointer' }}
+      >
+        <picture>
+          <source srcSet={getWebpThumbnail()} type="image/webp" />
+          <img
+            src={getThumbnailUrl()}
+            alt={movie.title}
+            className="clickable-thumbnail"
+            loading="lazy"
+            onError={(e) => {
+              e.target.src = defaultThumbnail;
+            }}
+          />
+        </picture>
 
-  <div className="movie-card-overlay">
-    <button
-      onClick={(e) => {
-        e.stopPropagation(); // Prevent triggering parent click twice
-        handleNavigationWithSearchClear(
-          movie.type === 'series'
-            ? `/series/${movie.id}`
-            : String(movie.id).startsWith('s')
-            ? `/static-movie/${movie.id}`
-            : `/movie/${movie.id}`
-        );
-      }}
-      className="play-btn"
-      aria-label="Play"
-    >
-      <Play size={20} strokeWidth={2.5} />
-    </button>
-  </div>
+        <div className="movie-card-overlay">
+          <button
+            onClick={(e) => {
+              e.stopPropagation(); // Prevent triggering parent click twice
+              handleNavigationWithSearchClear(
+                movie.type === 'series'
+                  ? `/series/${movie.id}`
+                  : String(movie.id).startsWith('s')
+                    ? `/static-movie/${movie.id}`
+                    : `/movie/${movie.id}`,
+              );
+            }}
+            className="play-btn"
+            aria-label="Play"
+          >
+            <Play size={20} strokeWidth={2.5} />
+          </button>
+        </div>
 
-  {(movie.is_popular || movie.is_featured) && (
-    <div className="movie-badge">
-      {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
-    </div>
-  )}
-</div>
-
+        {(movie.is_popular || movie.is_featured) && (
+          <div className="movie-badge">
+            {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+          </div>
+        )}
+      </div>
 
       <div className="movie-card-content">
         <h3 className="movie-card-title">{movie.title}</h3>
@@ -130,7 +129,7 @@ const MovieCard = ({ movie }) => {
             <strong>Interpreter:</strong> {movie.interpreter_name}
           </p>
         )}
-    {/* {movie.created_at && (
+        {/* {movie.created_at && (
   <p className="movie-card-date">
     <strong>Added:</strong>{' '}
     {(() => {
@@ -148,17 +147,9 @@ const MovieCard = ({ movie }) => {
     })()}
   </p>
 )} */}
-
       </div>
     </div>
   );
 };
 
 export default MovieCard;
-
-
-
-
-
-
-

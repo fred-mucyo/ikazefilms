@@ -4,9 +4,7 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
-
-
-    {
+  {
     id: 'prosecutor1',
     title: 'PROSECUTOR',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -16,59 +14,58 @@ const staticMovies = [
     poster_url: '/prosecutor (1).webp',
     image_url: '/prosecutor (1).webp',
     video_url: 'https://hglink.to/dewt0sayiyiw',
-    download_url:'https://www.mediafire.com/file/yzf9j1qj1qs933t/THE_PROSECUTOR.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/yzf9j1qj1qs933t/THE_PROSECUTOR.mp4/file',
     youtube_trailer_url: 'https://hglink.to/dewt0sayiyiw',
   },
 
-
-
-   {
+  {
     id: 'war2Rocky',
     title: 'WAR 2 B (ROCKY)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-     is_featured:true,
+    is_featured: true,
     interpreter_name: 'ROCKY',
     // created_at: '2025-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
     video_url: 'https://hglink.to/gytjayfhqh5u',
-    download_url:'https://www.mediafire.com/file/mnj7klva93qvf8a/WAR2+B.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/mnj7klva93qvf8a/WAR2+B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/gytjayfhqh5u',
   },
 
-
-
-    {
+  {
     id: 'war2BTHEGREAT',
     title: 'WAR 2 (full movie)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-     is_featured:true,
+    is_popular: true,
+    is_featured: true,
     interpreter_name: 'B THE GREAT',
     // created_at: '2025-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
     video_url: 'https://hglink.to/hrfc8cuv5g69',
-    download_url:'https://www.mediafire.com/file/bionm69aqa5sovq/WAR+2+gahezaa.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/bionm69aqa5sovq/WAR+2+gahezaa.mp4/file',
     youtube_trailer_url: 'https://hglink.to/hrfc8cuv5g69',
   },
   {
     id: 'war2',
     title: 'WAR 2 A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
+    is_popular: true,
     interpreter_name: 'ROCKY',
     // created_at: '202-10-04',
     thumbnail_url: '/war2x.webp',
     poster_url: '/war2x.webp',
     image_url: '/war2x.webp',
     video_url: 'https://hglink.to/sn9ef5jan7nf',
-    download_url:'https://www.mediafire.com/file/7eybkr913j5j7wr/WAR+2.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/7eybkr913j5j7wr/WAR+2.mp4/file',
     youtube_trailer_url: 'https://hglink.to/sn9ef5jan7nf',
   },
-
    {
     id: 'indecent_proposal',
     title: 'INDECENT PROPOSAL',
@@ -114,95 +111,95 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/3jl1582lqhqs',
   },
 
-    {
-    id: 'state_of_the_union',
-    title: 'XXX STATE OF THE UNION',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'YANGA',
-    created_at: '2025-10-04',
-    thumbnail_url: '/state_of_union.webp',
-    poster_url: '/state_of_union.webp',
-    image_url: '/state_of_union.webp',
-    video_url: 'https://hglink.to/sj3hyivl086v',
-    download_url:'https://www.mediafire.com/file/gfwvgtt5mx3fj09/XXX+State+Of+The+Union.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/sj3hyivl086v',
-  },
+  //   {
+  //   id: 'state_of_the_union',
+  //   title: 'XXX STATE OF THE UNION',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/state_of_union.webp',
+  //   poster_url: '/state_of_union.webp',
+  //   image_url: '/state_of_union.webp',
+  //   video_url: 'https://hglink.to/sj3hyivl086v',
+  //   download_url:'https://www.mediafire.com/file/gfwvgtt5mx3fj09/XXX+State+Of+The+Union.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/sj3hyivl086v',
+  // },
 
-    {
-    id: 'the_hard_corps',
-    title: 'THE HARD CORPS',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'YANGA',
-    created_at: '2025-10-04',
-    thumbnail_url: '/hard_corps.webp',
-    poster_url: '/hard_corps.webp',
-    image_url: '/hard_corps.webp',
-    video_url: 'https://hglink.to/fle9504jici5',
-    download_url:'https://www.mediafire.com/file/ro7kq1lxw08sfb6/The+Hard+Corps.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/fle9504jici5',
-  },
+  //   {
+  //   id: 'the_hard_corps',
+  //   title: 'THE HARD CORPS',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/hard_corps.webp',
+  //   poster_url: '/hard_corps.webp',
+  //   image_url: '/hard_corps.webp',
+  //   video_url: 'https://hglink.to/fle9504jici5',
+  //   download_url:'https://www.mediafire.com/file/ro7kq1lxw08sfb6/The+Hard+Corps.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/fle9504jici5',
+  // },
 
-    {
-    id: 'money_train',
-    title: 'MONEY TRAIN',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'YANGA',
-    created_at: '2025-10-04',
-    thumbnail_url: '/money_train.webp',
-    poster_url: '/money_train.webp',
-    image_url: '/money_train.webp',
-    video_url: 'https://hglink.to/kmqh5q00rwon',
-    download_url:'https://www.mediafire.com/file/sga5jadzdy2d2b5/Money+Train.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/kmqh5q00rwon',
-  },
+  //   {
+  //   id: 'money_train',
+  //   title: 'MONEY TRAIN',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/money_train.webp',
+  //   poster_url: '/money_train.webp',
+  //   image_url: '/money_train.webp',
+  //   video_url: 'https://hglink.to/kmqh5q00rwon',
+  //   download_url:'https://www.mediafire.com/file/sga5jadzdy2d2b5/Money+Train.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/kmqh5q00rwon',
+  // },
 
-    {
-    id: 'note_book',
-    title: 'NOTE BOOK',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'YANGA',
-    created_at: '2025-10-04',
-    thumbnail_url: '/note_book.webp',
-    poster_url: '/note_book.webp',
-    image_url: '/note_book.webp',
-    video_url: 'https://hglink.to/0dxt822wdes7',
-    download_url:'https://www.mediafire.com/file/0rqke1gk5arjq0w/Note+Book.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/0dxt822wdes7',
-  },
+  //   {
+  //   id: 'note_book',
+  //   title: 'NOTE BOOK',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/note_book.webp',
+  //   poster_url: '/note_book.webp',
+  //   image_url: '/note_book.webp',
+  //   video_url: 'https://hglink.to/0dxt822wdes7',
+  //   download_url:'https://www.mediafire.com/file/0rqke1gk5arjq0w/Note+Book.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/0dxt822wdes7',
+  // },
 
-    {
-    id: 'die_another_day',
-    title: 'DIE ANOTHER DAY',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'YANGA',
-    created_at: '2025-10-04',
-    thumbnail_url: '/die_another.webp',
-    poster_url: '/die_another.webp',
-    image_url: '/die_another.webp',
-    video_url: 'https://hglink.to/ww9js2nsq1ur',
-    download_url:'https://www.mediafire.com/file/452x1zzwunfipsn/Die+Another+Day.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/ww9js2nsq1ur',
-  },
+  //   {
+  //   id: 'die_another_day',
+  //   title: 'DIE ANOTHER DAY',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'YANGA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/die_another.webp',
+  //   poster_url: '/die_another.webp',
+  //   image_url: '/die_another.webp',
+  //   video_url: 'https://hglink.to/ww9js2nsq1ur',
+  //   download_url:'https://www.mediafire.com/file/452x1zzwunfipsn/Die+Another+Day.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/ww9js2nsq1ur',
+  // },
 
-    {
-    id: 'saaho',
-    title: 'SAAHO',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_popular:true,
-    interpreter_name: 'ROCKY',
-    created_at: '2025-10-04',
-    thumbnail_url: '/saaho.webp',
-    poster_url: '/saaho.webp',
-    image_url: '/saaho.webp',
-    video_url: 'https://hglink.to/bwy770t7c7wk',
-    download_url:'https://www.mediafire.com/file/0zrhib7dwf5y6n0/SAAHO.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/bwy770t7c7wk',
-  },
+  //   {
+  //   id: 'saaho',
+  //   title: 'SAAHO',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   is_popular:true,
+  //   interpreter_name: 'ROCKY',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url: '/saaho.webp',
+  //   poster_url: '/saaho.webp',
+  //   image_url: '/saaho.webp',
+  //   video_url: 'https://hglink.to/bwy770t7c7wk',
+  //   download_url:'https://www.mediafire.com/file/0zrhib7dwf5y6n0/SAAHO.mp4/file',
+  //   youtube_trailer_url: 'https://hglink.to/bwy770t7c7wk',
+  // },
 
 
 
@@ -213,18 +210,19 @@ const staticMovies = [
     id: 'killration',
     title: 'KILL RATIO',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    is_featured:true,
+    is_featured: true,
     interpreter_name: 'ROCKY',
     created_at: '2025-10-04',
     thumbnail_url: '/killra.webp',
     poster_url: '/killra.webp',
     image_url: '/killra.webp',
     video_url: 'https://hglink.to/vg3cs6pzh37l',
-    download_url:'https://www.mediafire.com/file/0201g0ewvvimsv6/Kill+Ratio.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/0201g0ewvvimsv6/Kill+Ratio.mp4/file',
     youtube_trailer_url: 'https://hglink.to/vg3cs6pzh37l',
   },
 
-   {
+  {
     id: 'FighterA',
     title: 'FIGHTER A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -234,7 +232,8 @@ const staticMovies = [
     poster_url: '/fighter-indian-movie-poster-md.webp',
     image_url: '/fighter-indian-movie-poster-md.webp',
     video_url: 'https://hglink.to/ke18haht0wnn',
-    download_url:'https://www.mediafire.com/file/qxlx2yr7x7m19qx/FIGHTER_A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/qxlx2yr7x7m19qx/FIGHTER_A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/ke18haht0wnn',
   },
 
@@ -248,7 +247,8 @@ const staticMovies = [
     poster_url: '/fighter-indian-movie-poster-md.webp',
     image_url: '/fighter-indian-movie-poster-md.webp',
     video_url: 'https://hglink.to/ib9sndodh4lw',
-    download_url:'https://www.mediafire.com/file/noy8uv9wojv3u3j/FIGHTER_B.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/noy8uv9wojv3u3j/FIGHTER_B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/ib9sndodh4lw',
   },
 
@@ -262,11 +262,12 @@ const staticMovies = [
     poster_url: '/karate.webp',
     image_url: '/karate.webp',
     video_url: 'https://hglink.to/j6r6j4hs7xue',
-    download_url:'https://www.mediafire.com/file/2xr4wo8rb6mxras/KARATE+KID+LEGENDS+A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/2xr4wo8rb6mxras/KARATE+KID+LEGENDS+A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/j6r6j4hs7xue',
   },
 
-   {
+  {
     id: 'karatelegends2',
     title: 'KARATE KID LEGENDS B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -276,7 +277,8 @@ const staticMovies = [
     poster_url: '/karate.webp',
     image_url: '/karate.webp',
     video_url: 'https://hglink.to/pkwzmsvusvpt',
-    download_url:'https://www.mediafire.com/file/xyhnvfmhc6lar5t/KARATE+KID+LEGENDS+B.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/xyhnvfmhc6lar5t/KARATE+KID+LEGENDS+B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/pkwzmsvusvpt',
   },
 
@@ -290,10 +292,11 @@ const staticMovies = [
     poster_url: '/salaar.webp',
     image_url: '/salaar.webp',
     video_url: 'https://hglink.to/u0cs9wj5xggn',
-    download_url:'https://www.mediafire.com/file/x22k50joappv304/SALAAR+A..mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/x22k50joappv304/SALAAR+A..mp4/file',
     youtube_trailer_url: 'https://hglink.to/u0cs9wj5xggn',
   },
-   {
+  {
     id: 'salaar',
     title: 'SALAAR B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -303,10 +306,11 @@ const staticMovies = [
     poster_url: '/salaar.webp',
     image_url: '/salaar.webp',
     video_url: 'https://hglink.to/e79mqvg4uz7s',
-    download_url:'https://www.mediafire.com/file/81ux1aj4a76l8eq/SALAAR+B.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/81ux1aj4a76l8eq/SALAAR+B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/e79mqvg4uz7s',
   },
-   {
+  {
     id: 'salaar',
     title: 'SALAAR C',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -316,11 +320,12 @@ const staticMovies = [
     poster_url: '/salaar.webp',
     image_url: '/salaar.webp',
     video_url: 'https://hglink.to/e79mqvg4uz7s',
-    download_url:'https://www.mediafire.com/file/fp24r1rvhhiqv53/SALAAR+C.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/fp24r1rvhhiqv53/SALAAR+C.mp4/file',
     youtube_trailer_url: 'https://hglink.to/e79mqvg4uz7s',
   },
 
-   {
+  {
     id: 'shaitan',
     title: 'SHAITAN',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -330,7 +335,8 @@ const staticMovies = [
     poster_url: '/shaitan.webp',
     image_url: '/shaitan.webp',
     video_url: 'https://hglink.to/hihivlpcjrep',
-    download_url:'https://www.mediafire.com/file/t33qjmgq76knk58/SHAITAAN.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/t33qjmgq76knk58/SHAITAAN.mp4/file',
     youtube_trailer_url: 'https://hglink.to/hihivlpcjrep',
   },
   {
@@ -343,7 +349,8 @@ const staticMovies = [
     poster_url: '/adulters.webp',
     image_url: '/adulters.webp',
     video_url: 'https://hglink.to/t8t1mv1gyv6a',
-    download_url:'https://www.mediafire.com/file/5e2b92b030xddjg/ADULTERERS.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/5e2b92b030xddjg/ADULTERERS.mp4/file',
     youtube_trailer_url: 'https://hglink.to/t8t1mv1gyv6a',
   },
   {
@@ -356,7 +363,8 @@ const staticMovies = [
     poster_url: '/coming.webp',
     image_url: '/coming.webp',
     video_url: 'https://hglink.to/d39arnawpbgv',
-    download_url:'https://www.mediafire.com/file/p7xb6z3on1itu43/COMMING_2_AMERICA.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/p7xb6z3on1itu43/COMMING_2_AMERICA.mp4/file',
     youtube_trailer_url: 'https://hglink.to/d39arnawpbgv',
   },
   {
@@ -369,7 +377,8 @@ const staticMovies = [
     poster_url: '/old.webp',
     image_url: '/old.webp',
     video_url: 'https://hglink.to/qlpcl0l91lw0',
-    download_url:'https://www.mediafire.com/file/as8q4oebqbzvsj5/OLD_GUARD_A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/as8q4oebqbzvsj5/OLD_GUARD_A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/qlpcl0l91lw0',
   },
   {
@@ -382,11 +391,12 @@ const staticMovies = [
     poster_url: '/superstar.webp',
     image_url: '/superstar.webp',
     video_url: 'https://hglink.to/8mw720m2poay',
-    download_url:'https://www.mediafire.com/file/j90as08e8deiuhc/The_Secret_Superstar.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/j90as08e8deiuhc/The_Secret_Superstar.mp4/file',
     youtube_trailer_url: 'https://hglink.to/8mw720m2poay',
   },
 
-   {
+  {
     id: 'RRR1',
     title: 'RRR A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -396,11 +406,12 @@ const staticMovies = [
     poster_url: '/rrr1.webp',
     image_url: '/rrr1.webp',
     video_url: 'https://hglink.to/atyjg72uxyx5',
-    download_url: 'https://www.mediafire.com/file/coif4tojeqfvsrd/RRR+A.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/coif4tojeqfvsrd/RRR+A.mp4/file',
     youtube_trailer_url: 'https://hglink.to/atyjg72uxyx5',
   },
 
-     {
+  {
     id: 'RRR1',
     title: 'RRR B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -410,13 +421,12 @@ const staticMovies = [
     poster_url: '/rrr1.webp',
     image_url: '/rrr1.webp',
     video_url: 'https://hglink.to/7fn5dtlc6cvo',
-    download_url: 'https://www.mediafire.com/file/gaa0f7qth2sn0tk/RRR+B.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/gaa0f7qth2sn0tk/RRR+B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/7fn5dtlc6cvo',
   },
 
-
-
-    {
+  {
     id: 'MAHARSHI',
     title: 'MAHARSHI',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -426,13 +436,12 @@ const staticMovies = [
     poster_url: '/MAHARSHI.webp',
     image_url: '/MAHARSHI.webp',
     video_url: 'https://hglink.to/9h3a3y108u3v',
-    download_url:'https://www.mediafire.com/file/2w0iraho9vd9591/MAHARSHI.mp4.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/2w0iraho9vd9591/MAHARSHI.mp4.mp4/file',
     youtube_trailer_url: 'https://hglink.to/9h3a3y108u3v',
   },
 
-
-
-     {
+  {
     id: 'thosewhowishmedead',
     title: 'THOSE WHO WISH  ME DEAD',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -442,11 +451,12 @@ const staticMovies = [
     poster_url: '/thosewhomedead.webp',
     image_url: '/thosewhomedead.webp',
     video_url: 'https://hglink.to/952e83snm8gk',
-    download_url:'https://www.mediafire.com/file/1mqnl4u47b88s1o/THOSE+WHO+WISH+ME+DEAD.mp4/file ',
+    download_url:
+      'https://www.mediafire.com/file/1mqnl4u47b88s1o/THOSE+WHO+WISH+ME+DEAD.mp4/file ',
     youtube_trailer_url: 'https://hglink.to/952e83snm8gk',
   },
 
-   {
+  {
     id: 'Baywatchii',
     title: 'BAYWATCH',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -457,10 +467,11 @@ const staticMovies = [
     poster_url: '/baywatch.webp',
     image_url: '/baywatch.webp',
     video_url: 'https://hglink.to/1f8d4rj3oe01',
-    download_url:'https://www.mediafire.com/file/dz8bm3x18qpz3wj/BAYWATCH_2.mp4/file',
+    download_url:
+      'https://www.mediafire.com/file/dz8bm3x18qpz3wj/BAYWATCH_2.mp4/file',
     youtube_trailer_url: 'https://hglink.to/1f8d4rj3oe01',
   },
-{
+  {
     id: 'ADVITAMA',
     title: 'AD VITAM A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -524,7 +535,8 @@ const staticMovies = [
   {
     id: 'Olastmen',
     title: 'OUR LAST MEN IN PHILIPINE',
-    description:'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
+    description:
+      'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 🔥😁',
     interpreter_name: 'ROCKY',
     created_at: '2025-02-12T00:00:00.000Z',
     thumbnail_url: '/our-last-men-in-the-philippines.webp',
@@ -600,7 +612,6 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/6oexv9u81a9e',
   },
 
- 
   {
     id: '1013CC',
     title: 'THUGS OF HINDUSRAN A',
@@ -830,7 +841,7 @@ const staticMovies = [
       'https://www.mediafire.com/file/9hb4qxa7q0lol4b/NOBODY_PART_1_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/wZti8QKBWPo?si=xVoUf46r5rH2QViB',
   },
-   {
+  {
     id: 's2',
     title: 'A WORKING MAN A',
     description: 'Best movie ever.',
@@ -1050,7 +1061,6 @@ const staticMovies = [
       'https://www.mediafire.com/file/d5lq25ffmv8f2e6/NOBODY_PART_2_B.mp4/file',
     youtube_trailer_url: 'https://youtu.be/-5X2pt95cIo?si=th6aaMtfv1kHhdLL',
   },
-
 
   {
     id: 's3',
