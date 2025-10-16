@@ -1,21 +1,13 @@
- 
+# robots.txt for https://hashye.online
+# Optimized for Google Ads and SEO
+
 User-agent: *
+# Allow all public pages
 Allow: /
 
-# Sitemap location
-Sitemap: https://hashye.online/sitemap.xml
-
-# Disallow admin routes
+# Block sensitive or backend routes
 Disallow: /admin/
 Disallow: /api/
 
-# Allow public routes
-Allow: /
-Allow: /movie/
-Allow: /watchlist
-Allow: /profile
-Allow: /terms
-Allow: /privacy
-
-# Crawl delay (optional)
-Crawl-delay: 1
+# Provide sitemap for faster indexing
+Sitemap: https://hashye.online/sitemap.xml
