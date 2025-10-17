@@ -183,8 +183,6 @@ const staticSeries = [
     title: 'PARIS HAS FALLEN',
     type: 'series',
     description: '08 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-    is_featured: true,
-    is_popular: true,
     poster_url: '/parishasfallen.webp',
     seasons: [
       {
@@ -513,7 +511,6 @@ const staticSeries = [
     id: 'LOVEVOYE',
     title: 'LADY VOYEUR',
     type: 'series',
-    is_popular: true,
     description: '',
     poster_url: '/ladyvoye.webp',
     seasons: [
@@ -833,7 +830,6 @@ const staticSeries = [
     id: 'ASTHECLOWFLIES',
     title: 'AS THE CLOW FLIES',
     type: 'series',
-    is_popular: true,
     description: '',
     poster_url: '/ASTHECLOW.webp',
     seasons: [
@@ -1394,8 +1390,6 @@ const staticSeries = [
     title: 'BLOOD SISTERS',
     type: 'series',
     description: '4 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-    is_featured: true,
-    is_popular: true,
     poster_url: '/Blood-Sisters (4).webp',
     seasons: [
       {
@@ -1598,7 +1592,6 @@ const staticSeries = [
     id: 'NIGHTHASCOME',
     title: 'NIGHT HAS COME',
     type: 'series',
-    is_popular: true,
     description: 'Watch amazing korean horro movie!❤️‍🔥',
     poster_url: '/nighthascome.webp',
     seasons: [
@@ -1706,71 +1699,70 @@ const staticSeries = [
     ],
   },
 
-  // {
-  //   id: 'SQUID-GAMES3',
-  //   title: 'SQUID GAME SEASON 3',
-  //   type: 'series',
-  //   // is_popular: true,
-  //   description: 'Amazing movie ever!',
-  //   poster_url: '/squidgame03.jpeg',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'SQUID1',
-  //           title: 'SQUID GAME S03 EP01',
-  //           video_url: 'https://hglink.to/mm2lv502gmxj',
-  //           download_url:
-  //             'https://www.mediafire.com/file/ibac29rrkje9aul/Squid.Game.S03E01.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/squidgame03.jpeg',
-  //         },
-  //         {
-  //           id: 'SQUID2',
-  //           title: 'SQUID GAME SO3 EP02',
-  //           video_url: 'https://hglink.to/pmwcdnarwirc',
-  //           download_url:
-  //             'https://www.mediafire.com/file/pqscoohm776djar/Squid.Game.S03E02.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/Squidgame01.jpg',
-  //         },
-  //         {
-  //           id: 'SQUID3',
-  //           title: 'SQUID S03 EP03',
-  //           video_url: 'https://hglink.to/bs75b4td70nj',
-  //           download_url:
-  //             'https://www.mediafire.com/file/4xiap3o0kbjl8nm/Squid.Game.S03E03.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/Squidgame01.jpg',
-  //         },
-  //         {
-  //           id: 'SQUID04',
-  //           title: 'SQUID GAME S03 EP04',
-  //           video_url: 'https://hglink.to/gsfwcnp7i29q',
-  //           download_url:
-  //             'https://www.mediafire.com/file/846zjzksddhpf6c/Squid.Game.S03E04.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/squidgame.jpg',
-  //         },
+  {
+    id: 'SQUID-GAMES3',
+    title: 'SQUID GAME SEASON 3',
+    type: 'series',
+    is_popular: true,
+    description: 'Amazing movie ever!',
+    poster_url: '/squidgame03.jpeg',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'SQUID1',
+            title: 'SQUID GAME S03 EP01',
+            video_url: 'https://hglink.to/6z0koi41wr5j',
+            download_url:'',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
+          {
+            id: 'SQUID2',
+            title: 'SQUID GAME SO3 EP02',
+            video_url: 'https://hglink.to/m4d1he8m2ipm',
+            download_url:
+              '',
+            thumbnail_url: '/Squidgame01.jpg',
+          },
+          {
+            id: 'SQUID3',
+            title: 'SQUID S03 EP03',
+            video_url: 'https://hglink.to/2mcoyt2pefmz',
+            download_url:
+              '',
+            thumbnail_url: '/Squidgame01.jpg',
+          },
+          {
+            id: 'SQUID04',
+            title: 'SQUID GAME S03 EP04',
+            video_url: 'https://hglink.to/wejf7tg8uxf5',
+            download_url:
+              '',
+            thumbnail_url: '/squidgame.jpg',
+          },
 
-  //         {
-  //           id: 'SQUID05',
-  //           title: 'SQUID GAME S03 EP05',
-  //           video_url: 'https://hglink.to/fssfzbv8enj1',
-  //           download_url:
-  //             'https://www.mediafire.com/file/qmr2vhdrnh986da/Squid.Game.S03E05.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/squidgame03.jpeg',
-  //         },
+          {
+            id: 'SQUID05',
+            title: 'SQUID GAME S03 EP05',
+            video_url: 'https://hglink.to/qfq6gldmj7hf',
+            download_url:
+              '',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
 
-  //         {
-  //           id: 'SQUID06',
-  //           title: 'SQUID GAME S03 EP06',
-  //           video_url: 'https://hglink.to/g7eeun1f1mgh',
-  //           download_url:
-  //             'https://www.mediafire.com/file/iy2f6j3w3rbyrzb/Squid.Game.S03E06.%2528NKIRI.COM%2529.mkv/file',
-  //           thumbnail_url: '/squidgame03.jpeg',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+          {
+            id: 'SQUID06',
+            title: 'SQUID GAME S03 EP06',
+            video_url: 'https://hglink.to/1gy67zllndbl',
+            download_url:
+              '',
+            thumbnail_url: '/squidgame03.jpeg',
+          },
+        ],
+      },
+    ],
+  },
 
   {
     id: 'beautys2',
