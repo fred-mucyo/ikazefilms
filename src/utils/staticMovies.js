@@ -4,6 +4,56 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+  {
+    id: 'BAAGHI4',
+    title: 'BAAGHI 4',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: ' B THE GREAT',
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/BAAGHI4PIC.webp',
+    poster_url: '/BAAGHI4PIC.webp',
+    image_url: '/BAAGHI4PIC.webp',
+    video_url: 'https://hglink.to/j7de4ztmgdnb',
+    download_url:
+      'https://www.mediafire.com/file/peb45fo21ux829j/BAAGHI_4.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/j7de4ztmgdnb',
+  },
+
+
+  {
+    id: 'BAAGHI1A',
+    title: 'BAAGHI 1',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/baaghi1.webp',
+    poster_url: '/baaghi1.webp',
+    image_url: '/baaghi1.webp',
+    video_url: 'https://hglink.to/h69jt60cjjn4',
+    download_url:
+      'https://www.mediafire.com/file/y2gjyst4cnyswyn/BAAGHI_1_A.mp4/file',
+    youtube_trailer_url: '',
+  },
+
+
+
+
+  {
+    id: 'BAAGHI1b',
+    title: 'BAAGHI 1 B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/baaghi1.webp',
+    poster_url: '/baaghi1.webp',
+    image_url: '/baaghi1.webp',
+    video_url: 'https://hglink.to/1athlhhbpbsb',
+    download_url:
+      'https://www.mediafire.com/file/nbti1ue7f1x3xos/BAAGHI_1_B.mp4/file',
+    youtube_trailer_url:'https://hglink.to/1athlhhbpbsb',
+  },
+
  {
     id: 'NOESCAPE',
     title: 'NO ESCAPE ',
@@ -61,7 +111,21 @@ const staticMovies = [
       'https://www.mediafire.com/file/xo5j6o6gpa26rzf/Kyon+Ki.mp4/file',
     youtube_trailer_url: 'https://hglink.to/eddxrwu7n7cy',
   },
-
+  {
+    id: 'BAAGHI3',
+    title: 'BAAGHI 3',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/BAAGHI4PIC.webp',
+    poster_url: '/BAAGHI4PIC.webp',
+    image_url: '/BAAGHI4PIC.webp',
+    video_url: 'https://hglink.to/8zptiatbciht',
+    download_url:
+      'https://www.mediafire.com/file/ezfieru93dszw98/Baaghi+3.mp4.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/8zptiatbciht',
+  },
 {
     id: 'EXTRACTION1',
     title: 'EXTRACTION 1',
@@ -105,20 +169,7 @@ const staticMovies = [
     youtube_trailer_url: 'https://youtu.be/-4jEGBLSI1g?si=FITDXtkTktUkR0hu',
   },
 
-  {
-    id: 'BAAGHI3',
-    title: 'BAAGHI 3',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    created_at: '2025-10-04',
-    thumbnail_url: '/baaghi1.webp',
-    poster_url: '/baaghi1.webp',
-    image_url: '/baaghi1.webp',
-    video_url: 'https://hglink.to/8zptiatbciht',
-    download_url:
-      'https://www.mediafire.com/file/ezfieru93dszw98/Baaghi+3.mp4.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/8zptiatbciht',
-  },
+
 
 
   {
@@ -943,7 +994,6 @@ const staticMovies = [
     description: 'Best movie ever.',
     interpreter_name: 'Rocky',
     created_at: '2024-02-12T00:00:00.000Z',
-    is_popular: true,
     thumbnail_url: '/workingma.webp',
     poster_url: '/workingma.webp',
     image_url: '/workingma.webp',
