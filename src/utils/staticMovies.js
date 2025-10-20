@@ -4,8 +4,27 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+{
+    id: 'BAAGHI4b',
+    title: 'BAAGHI 4 B (ROCKY)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/BAAGHI4PIC.webp',
+    poster_url: '/BAAGHI4PIC.webp',
+    image_url: '/BAAGHI4PIC.webp',
+    video_url: 'https://hglink.to/39l83g0968jd',
+    download_url:
+      'https://www.mediafire.com/file/tp3nxduevmow29n/BHAGI+4+B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/e/39l83g0968jd',
+  },
+
+
+
  {
-    id: 'BAAGHI4',
+    id: 'BAAGHI4rock',
     title: 'BAAGHI 4 A (ROCKY)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
@@ -21,7 +40,7 @@ const staticMovies = [
   },
 
   {
-    id: 'BAAGHI4',
+    id: 'BAAGHI4x',
     title: 'BAAGHI 4',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: ' B THE GREAT',
