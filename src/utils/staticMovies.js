@@ -25,7 +25,7 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_featured:true,
-    created_at: '2025-10-04',
+    created_at: '2025-10-04', 
     thumbnail_url: '/BAAGHI4PIC.webp',
     poster_url: '/BAAGHI4PIC.webp',
     image_url: '/BAAGHI4PIC.webp',
