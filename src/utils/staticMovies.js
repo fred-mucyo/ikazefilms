@@ -4,12 +4,13 @@
 import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+
  {
-    id: 'BAAGHI4',
+    id: 'BAAGHI4rock',
     title: 'BAAGHI 4 A (ROCKY)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
-    is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url: '/BAAGHI4PIC.webp',
     poster_url: '/BAAGHI4PIC.webp',
@@ -35,7 +36,7 @@ const staticMovies = [
   },
 
   {
-    id: 'BAAGHI4',
+    id: 'BAAGHI4x',
     title: 'BAAGHI 4',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: ' B THE GREAT',
