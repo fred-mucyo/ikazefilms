@@ -1,78 +1,70 @@
-
 // import React, { useEffect, useMemo, useState } from "react";
 // import { motion } from "framer-motion";
-// // import TrailerEmbed from "./TrailerEmbed"; // We'll keep this if you want the actual embed, but the Figma implies the image is primary.
 // import "./FeaturedHero.css";
 
 // const FeaturedHero = ({ movies = [] }) => {
 //   const featuredList = useMemo(() => {
 //     if (!Array.isArray(movies) || movies.length === 0) return [];
 //     const flagged = movies.filter((m) => m.is_featured);
+//     // Ensure we default to all movies if none are explicitly featured
 //     return flagged.length ? flagged : movies;
 //   }, [movies]);
 
 //   const [index, setIndex] = useState(0);
 //   const featured = featuredList[index] ?? null;
 
-//   // Auto-rotation every 10 seconds
+//   // Auto-rotation every 10 seconds (as requested)
 //   useEffect(() => {
 //     if (featuredList.length <= 1) return;
 //     const interval = setInterval(() => {
 //       setIndex((prev) => (prev + 1) % featuredList.length);
-//     }, 10000); // Auto-slide every 10 seconds as per your requirement
+//     }, 10000); 
 //     return () => clearInterval(interval);
 //   }, [featuredList]);
 
-//   // Removed Parallax effect as per new Figma style
-//   // useEffect(() => {
-//   //   const handleScroll = () => {
-//   //     const hero = document.querySelector(".featured-hero");
-//   //     if (hero) {
-//   //       const offset = window.scrollY * 0.3;
-//   //       hero.style.backgroundPositionY = `${offset}px`;
-//   //     }
-//   //   };
-//   //   window.addEventListener("scroll", handleScroll);
-//   //   return () => window.removeEventListener("scroll", handleScroll);
-//   // }, []);
+//   // Progress Bar / Timer Logic
+//   const [progress, setProgress] = useState(0);
+//   useEffect(() => {
+//     if (featuredList.length <= 1) {
+//       setProgress(100); 
+//       return;
+//     }
+
+//     // Reset progress when index changes
+//     setProgress(0); 
+
+//     const timer = setInterval(() => {
+//       setProgress((prev) => {
+//         const newProgress = prev + (1000 / 10000) * 100;
+//         if (newProgress >= 100) {
+//           clearInterval(timer); // Stop timer just before reset
+//           return 100;
+//         }
+//         return newProgress;
+//       });
+//     }, 1000); 
+
+//     return () => clearInterval(timer);
+//   }, [index, featuredList.length]); // Dependencies include index to reset progress
 
 //   if (!featured) return null;
+  
 //   const createdYear = featured.created_at
 //     ? new Date(featured.created_at).getFullYear()
 //     : "";
 
-//   const bgImage =
-//     featured.poster_url ||
-//     featured.image_url ||
-//     featured.thumbnail_url ||
-//     "/hashye-preview.png";
-
-//   // Calculate current time for the progress bar (simplistic)
-//   const [progress, setProgress] = useState(0);
-//   useEffect(() => {
-//     if (featuredList.length <= 1) {
-//       setProgress(100); // If only one item, show full progress or hide bar
-//       return;
-//     }
-
-//     const timer = setInterval(() => {
-//       setProgress((prev) => {
-//         const newProgress = prev + (1000 / 10000) * 100; // 1000ms increment / 10000ms total * 100%
-//         if (newProgress >= 100) {
-//           return 0; // Reset for next slide
-//         }
-//         return newProgress;
-//       });
-//     }, 1000); // Update progress every second
-
-//     return () => clearInterval(timer);
-//   }, [index, featuredList.length]); // Reset progress when index changes
+//   const backdropImage =
+//     featured.backdrop_url || featured.image_url || "/hashye-preview.png";
+  
+//   const posterImage =
+//     featured.poster_url || featured.thumbnail_url || "/hashye-preview.png";
 
 //   return (
 //     <motion.section
 //       className="featured-hero"
+//       key={featured.id || featured.title} // Key ensures re-render on slide change
 //       style={{
-//         backgroundImage: `url(${bgImage})`,
+//         backgroundImage: `url(${backdropImage})`,
 //       }}
 //       initial={{ opacity: 0 }}
 //       animate={{ opacity: 1 }}
@@ -80,9 +72,8 @@
 //     >
 //       <div className="featured-overlay" />
 
-//       {/* Top Navigation - This would typically be a separate <Header/> component */}
-//       {/* For demo purposes, we'll put placeholders here to match Figma's visual */}
-//       {/* <div className="top-nav-placeholder">
+//       {/* Top Navigation Placeholder (Kept for visual context)
+//       <div className="top-nav-placeholder">
 //         <div className="nav-links">
 //           <span>HOME</span>
 //           <span>MOVIES</span>
@@ -94,6 +85,22 @@
 //       </div> */}
 
 //       <div className="featured-inner">
+//         {/* 1. VERTICAL POSTER CARD (New Element) */}
+//         <motion.div
+//           className="featured-poster-card"
+//           initial={{ x: -50, opacity: 0 }}
+//           animate={{ x: 0, opacity: 1 }}
+//           transition={{ duration: 0.6 }}
+//         >
+//           <img
+//             src={posterImage}
+//             alt={`${featured.title} Poster`}
+//             loading="eager"
+//             className="poster-image"
+//           />
+//         </motion.div>
+
+//         {/* 2. TEXT CONTENT & BUTTONS */}
 //         <motion.div
 //           className="featured-text-content"
 //           initial={{ y: 30, opacity: 0 }}
@@ -107,6 +114,7 @@
 //           </p>
 
 //           <div className="featured-actions">
+//             {/* WATCH TRAILER button - uses youtube_trailer_url */}
 //             {featured.youtube_trailer_url && (
 //               <a
 //                 href={featured.youtube_trailer_url}
@@ -117,11 +125,13 @@
 //                 WATCH TRAILER
 //               </a>
 //             )}
+            
+//             {/* DOWNLOAD button - uses download_url */}
 //             {featured.download_url && (
 //               <a
 //                 href={featured.download_url}
 //                 download
-//                 className="btn-secondary-cta" // Using secondary CTA for download
+//                 className="btn-secondary-cta"
 //               >
 //                 DOWNLOAD
 //               </a>
@@ -136,8 +146,8 @@
 //               ></div>
 //             </div>
 //             <span className="current-time">
-//               0:{String(Math.floor(progress / 10)).padStart(2, "0")} / 0:30
-//               {/* Simplified time display based on progress for visual */}
+//               0:{String(Math.floor(progress / 10)).padStart(2, "0")} / 0:10
+//               {/* Note: This is a placeholder time for the 10-second slide duration */}
 //             </span>
 //           </div>
 //         </motion.div>
@@ -151,7 +161,7 @@
 //             onClick={() => setIndex(i)}
 //           ></span>
 //         ))}
-//         <span className="arrow">›</span> {/* Placeholder for next arrow */}
+//         <span className="arrow" onClick={() => setIndex((index + 1) % featuredList.length)}>›</span>
 //       </div>
 //     </motion.section>
 //   );
@@ -162,20 +172,19 @@
 
 
 
-
-
-
-
-
 import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import "./FeaturedHero.css";
+
+// Helper to generate the URL for the series detail page
+const generateSeriesDetailPageUrl = (seriesId) => {
+  return `/series/${seriesId}`; // Adjust this if your route is different
+};
 
 const FeaturedHero = ({ movies = [] }) => {
   const featuredList = useMemo(() => {
     if (!Array.isArray(movies) || movies.length === 0) return [];
     const flagged = movies.filter((m) => m.is_featured);
-    // Ensure we default to all movies if none are explicitly featured
     return flagged.length ? flagged : movies;
   }, [movies]);
 
@@ -198,15 +207,13 @@ const FeaturedHero = ({ movies = [] }) => {
       setProgress(100); 
       return;
     }
-
-    // Reset progress when index changes
     setProgress(0); 
 
     const timer = setInterval(() => {
       setProgress((prev) => {
         const newProgress = prev + (1000 / 10000) * 100;
         if (newProgress >= 100) {
-          clearInterval(timer); // Stop timer just before reset
+          clearInterval(timer);
           return 100;
         }
         return newProgress;
@@ -214,24 +221,42 @@ const FeaturedHero = ({ movies = [] }) => {
     }, 1000); 
 
     return () => clearInterval(timer);
-  }, [index, featuredList.length]); // Dependencies include index to reset progress
+  }, [index, featuredList.length]);
 
   if (!featured) return null;
   
   const createdYear = featured.created_at
     ? new Date(featured.created_at).getFullYear()
     : "";
-
-  const backdropImage =
-    featured.backdrop_url || featured.image_url || "/hashye-preview.png";
   
-  const posterImage =
-    featured.poster_url || featured.thumbnail_url || "/hashye-preview.png";
+  const isSeries = featured.type === 'series';
+
+  // --- REVISED IMAGE LOGIC ---
+  // Background Image (wide, landscape)
+  const backdropImage = 
+    featured.backdrop_url || // Preferred wide image
+    featured.image_url ||    // General image
+    featured.poster_url ||   // Fallback to poster if no wide image, though it might get cropped/stretched if not truly wide
+    "/hashye-preview.png";   // Ultimate fallback
+  
+  // Poster Image (vertical)
+  const posterImage = 
+    featured.poster_url ||   // Preferred vertical image
+    featured.thumbnail_url ||// Fallback thumbnail
+    "/hashye-preview.png";   // Ultimate fallback
+  
+  // Determine the primary link for the watch button
+  const primaryWatchUrl = isSeries
+    ? generateSeriesDetailPageUrl(featured.id) // Link to series detail page
+    : featured.youtube_trailer_url; // Link to movie trailer
+  
+  const primaryButtonLabel = isSeries ? "VIEW SERIES" : "WATCH TRAILER";
+
 
   return (
     <motion.section
       className="featured-hero"
-      key={featured.id || featured.title} // Key ensures re-render on slide change
+      key={featured.id || featured.title}
       style={{
         backgroundImage: `url(${backdropImage})`,
       }}
@@ -241,20 +266,8 @@ const FeaturedHero = ({ movies = [] }) => {
     >
       <div className="featured-overlay" />
 
-      {/* Top Navigation Placeholder (Kept for visual context)
-      <div className="top-nav-placeholder">
-        <div className="nav-links">
-          <span>HOME</span>
-          <span>MOVIES</span>
-          <span>SERIES</span>
-          <span>GENRES</span>
-          <span>RCNRES</span>
-        </div>
-        <div className="search-icon">🔍</div>
-      </div> */}
-
       <div className="featured-inner">
-        {/* 1. VERTICAL POSTER CARD (New Element) */}
+        {/* 1. VERTICAL POSTER CARD */}
         <motion.div
           className="featured-poster-card"
           initial={{ x: -50, opacity: 0 }}
@@ -276,27 +289,29 @@ const FeaturedHero = ({ movies = [] }) => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <p className="featured-tagline">FEATURED MOVIE</p>
+          <p className="featured-tagline">
+            FEATURED {isSeries ? "SERIES" : "MOVIE"}
+          </p>
           <h1 className="featured-title">{featured.title}</h1>
           <p className="featured-subtitle">
-            {createdYear} • {featured.tagline || "The only way out is through"}
+            {createdYear} • {isSeries ? `Season ${featured.seasons?.[0]?.seasonNumber}` : featured.tagline || "Exclusive Trailer"}
           </p>
 
           <div className="featured-actions">
-            {/* WATCH TRAILER button - uses youtube_trailer_url */}
-            {featured.youtube_trailer_url && (
+            {/* PRIMARY BUTTON (View Series/Watch Trailer) */}
+            {primaryWatchUrl && (
               <a
-                href={featured.youtube_trailer_url}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={primaryWatchUrl}
+                target={isSeries ? "_self" : "_blank"} 
+                rel={isSeries ? "" : "noopener noreferrer"}
                 className="btn-cta"
               >
-                WATCH TRAILER
+                {primaryButtonLabel}
               </a>
             )}
             
-            {/* DOWNLOAD button - uses download_url */}
-            {featured.download_url && (
+            {/* SECONDARY BUTTON (Download) - Only visible for Movies */}
+            {!isSeries && featured.download_url && (
               <a
                 href={featured.download_url}
                 download
@@ -316,7 +331,6 @@ const FeaturedHero = ({ movies = [] }) => {
             </div>
             <span className="current-time">
               0:{String(Math.floor(progress / 10)).padStart(2, "0")} / 0:10
-              {/* Note: This is a placeholder time for the 10-second slide duration */}
             </span>
           </div>
         </motion.div>
