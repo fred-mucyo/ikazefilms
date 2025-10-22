@@ -1845,7 +1845,7 @@ const staticSeries = [
         episodes: [
           {
             id: 'BINBAEP1',
-            title: 'EPO1',
+            title: 'BEAUTY IN BLACK EPO1',
             video_url: 'https://hglink.to/e7g5sebheri6',
             download_url:
               'https://www.mediafire.com/file/ttlml3f51vf6x7j/BEAUTY_IN_BLACK_S2_EP_01_.mp4/file',
@@ -1853,7 +1853,7 @@ const staticSeries = [
           },
           {
             id: 'BIBP2',
-            title: 'EP2',
+            title: 'BEAUTY IN BLACK EP2',
             video_url: 'https://hglink.to/lgi504dtpc6u',
             download_url:
               'https://www.mediafire.com/file/7srmjxjvqsj440y/BEAUTY_IN_BLACK_S02E02.mp4/file',
@@ -1861,7 +1861,7 @@ const staticSeries = [
           },
           {
             id: 'BINB3',
-            title: 'EP3',
+            title: 'BEAUTY IN BLACK EP3',
             video_url: 'https://hglink.to/jbsr96p13i2b',
             download_url:
               'https://www.mediafire.com/file/7t0kty7vgz95q6c/BEAUTY_IN_BLACK_S2_EP_3.mp4/file',
@@ -1869,7 +1869,7 @@ const staticSeries = [
           },
           {
             id: 'BIN4',
-            title: 'EP4',
+            title: 'BEAUTY IN BLACK EP4',
             video_url: 'https://hglink.to/2ftij108kdqo',
             download_url:
               'https://www.mediafire.com/file/l0u7qrsrydos9n0/BEAUTY_IN_BLACK_S2_EP_04.mp4/file',
@@ -1878,7 +1878,7 @@ const staticSeries = [
 
           {
             id: 'BINP5',
-            title: 'EP5',
+            title: 'BEAUTY IN BLACK EP5',
             video_url: 'https://hglink.to/65abzn89ffax',
             download_url:
               'https://www.mediafire.com/file/xouaakwiv39ah2l/BEAUTY_IN_BLACK_S2_EP_05__.mp4/file/file',
@@ -1887,7 +1887,7 @@ const staticSeries = [
 
           {
             id: 'BINP6',
-            title: 'EP6',
+            title: 'BEAUTY IN BLACK EP6',
             video_url: 'https://hglink.to/97bkofiodzt9',
             download_url:
               'https://www.mediafire.com/file/455dxl1cjnmva9z/BEAUTY+IN+BLACK+S2+EP+06.mp4/file',
@@ -1895,7 +1895,7 @@ const staticSeries = [
           },
           {
             id: 'BINP7',
-            title: 'EP7',
+            title: 'BEAUTY IN BLACK EP7',
             video_url: 'https://hglink.to/9hwk46cqb3qh',
             download_url:
               'https://www.mediafire.com/file/51iuaf7i7japipr/BEAUTY+IN+BLACK+E07.mp4/file ',
@@ -1903,10 +1903,73 @@ const staticSeries = [
           },
           {
             id: 'BINP8',
-            title: 'EP8',
+            title: 'BEAUTY IN BLACK EP8',
             video_url: 'https://hglink.to/shl709ajftc7',
             download_url:
               'https://www.mediafire.com/file/nyqzzka1wp0v0fq/BEAUTY+IN+BLACK+E08.mp4/file ',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP9',
+            video_url: 'https://hglink.to/erfh7sudckws',
+            download_url:
+              'https://www.mediafire.com/file/vwa0kdosqyabuvc/BEAUTY_IN_THE_BLACK_E09.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP10',
+            video_url: 'https://hglink.to/3awc2defd0v7',
+            download_url:
+              'https://www.mediafire.com/file/kod1lqh2k8f84ks/BEAUTY_IN_BLACK_E10.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP11',
+            video_url: 'https://hglink.to/9bm6go4vmz41',
+            download_url:
+              'https://www.mediafire.com/file/sv0hk1fmdo4tvsj/BEAUTY_IN_BLACK_E011.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP12',
+            video_url: 'https://hglink.to/5b6grv31h0mz',
+            download_url:
+              'https://www.mediafire.com/file/cl6vmp52j491t1p/BEAUTY_IN_BLACK_E12.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP13',
+            video_url: 'https://hglink.to/xjhqp4nolnn2',
+            download_url:
+              'https://www.mediafire.com/file/gwh1fq8lhrxv04b/BEAUTY_IN_BLACK_E13.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP14',
+            video_url: 'https://hglink.to/zjvyjvfjja0g',
+            download_url:
+              'https://www.mediafire.com/file/uzcbvy1suup1p1p/BEAUTY_IN_BLACK_S01E14.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },
+          {
+            id: 'BINP15',
+            title: 'BEAUTY IN BLACK EP15',
+            video_url: 'https://hglink.to/1vcam6p4mni3',
+            download_url:
+              'https://www.mediafire.com/file/1r6ouxhf859qfwz/BEAUTY_IN_BLACK_EP15.mp4/file',
+            thumbnail_url: '/beautyinblack.jpeg',
+          },{
+            id: 'BINP8',
+            title: 'BEAUTY IN BLACK EP16',
+            video_url: 'https://hglink.to/pr2eusn0tryv',
+            download_url:
+              'https://www.mediafire.com/file/0dkag86cimcdw8r/BEAUTY_IN_BLACK_E016.mp4/file',
             thumbnail_url: '/beautyinblack.jpeg',
           },
         ],
