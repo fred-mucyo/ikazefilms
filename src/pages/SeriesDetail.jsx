@@ -52,18 +52,19 @@ const SeriesDetail = () => {
           <button
             key={season.seasonNumber}
             className={
-              selectedSeason.seasonNumber === season.seasonNumber ? 'active' : ''
+              selectedSeason.seasonNumber === season.seasonNumber
+                ? 'active'
+                : ''
             }
             onClick={() => setSelectedSeason(season)}
           >
             Season {season.seasonNumber}
           </button>
-          
         ))}
-         {/* ✅ Share Button */}
-          <button className="share-btn" onClick={handleShare}>
-            Share
-          </button>
+        {/* ✅ Share Button */}
+        <button className="share-btn" onClick={handleShare}>
+          Share
+        </button>
       </div>
 
       {/* Keyed container ensures old episodes are removed */}

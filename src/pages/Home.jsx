@@ -236,13 +236,13 @@ const Home = () => {
               </InfiniteScroll>
             </div>
           )}
-          {/* Popular Now */}
+
           <div className="movies-section" id="popular">
             <div className="section-header">
               <h2 className="section-title">Popular Now</h2>
               <div className="section-subtitle">Hand-picked highlights</div>
             </div>
-            <div className="movies-grid compact-grid">
+            <div className="horizontal-scroll">
               {popularNow.map((movie) => (
                 <MovieCard
                   key={`popular-${movie.id}`}
@@ -260,7 +260,7 @@ const Home = () => {
                 Fresh additions across genres
               </div>
             </div>
-            <div className="movies-grid compact-grid">
+            <div className="horizontal-scroll">
               {recentReleases.map((movie) => (
                 <MovieCard
                   key={`recent-${movie.id}`}

@@ -1,8 +1,7 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-
-     {
+  {
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
     type: 'series',
@@ -29,38 +28,38 @@ const staticSeries = [
               'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
             thumbnail_url: '/bonne.webp',
           },
-      //     {
-      //       id: 'ingano3',
-      //       title: 'INGANNO EP3',
-      //       video_url: 'https://hglink.to/rpnfvdqzj0p6',
-      //       download_url:
-      //         'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
-      //     {
-      //       id: 'ingano4',
-      //       title: 'INGANNO EP4',
-      //       video_url: 'https://hglink.to/08cr10ew4q8p',
-      //       download_url:
-      //         'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
-      //     {
-      //       id: 'ingano5',
-      //       title: 'INGANNO EP5',
-      //       video_url: 'https://hglink.to/any6j5vrhmor',
-      //       download_url:
-      //         'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
-      //     {
-      //       id: 'ingano6',
-      //       title: 'INGANNO EP6 FINAL',
-      //       video_url: 'https://hglink.to/zqcdpnonplbi',
-      //       download_url:
-      //         'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
+          //     {
+          //       id: 'ingano3',
+          //       title: 'INGANNO EP3',
+          //       video_url: 'https://hglink.to/rpnfvdqzj0p6',
+          //       download_url:
+          //         'https://www.mediafire.com/file/dwofb41iyszxtgl/INGANNO+EP+03.mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
+          //     {
+          //       id: 'ingano4',
+          //       title: 'INGANNO EP4',
+          //       video_url: 'https://hglink.to/08cr10ew4q8p',
+          //       download_url:
+          //         'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
+          //     {
+          //       id: 'ingano5',
+          //       title: 'INGANNO EP5',
+          //       video_url: 'https://hglink.to/any6j5vrhmor',
+          //       download_url:
+          //         'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
+          //     {
+          //       id: 'ingano6',
+          //       title: 'INGANNO EP6 FINAL',
+          //       video_url: 'https://hglink.to/zqcdpnonplbi',
+          //       download_url:
+          //         'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
         ],
       },
     ],
@@ -73,8 +72,6 @@ const staticSeries = [
     is_popular: true,
     poster_url: '/fakeprofile2.webp',
     seasons: [
-
-      
       {
         seasonNumber: 1,
         episodes: [
@@ -748,12 +745,12 @@ const staticSeries = [
     ],
   },
 
-   {
+  {
     id: 'sexlife',
     title: 'SEX LIFE',
     type: 'series',
     is_popular: true,
-    description:'',
+    description: '',
     poster_url: '/sex.webp',
     seasons: [
       {
@@ -763,56 +760,64 @@ const staticSeries = [
             id: 'SX1',
             title: 'SEX LIFE EP 1',
             video_url: 'https://hglink.to/ptihm3ymgjp9',
-            download_url: 'https://www.mediafire.com/file/zmrc5hou0h4cu9z/SEXLIFE+S01E01.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/zmrc5hou0h4cu9z/SEXLIFE+S01E01.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX2',
             title: 'SEX LIFE EP 2',
             video_url: 'https://hglink.to/wdm6te67zg0h',
-            download_url: 'https://www.mediafire.com/file/o7g5qgguz0jo3rm/SEX+LIFE+S01E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/o7g5qgguz0jo3rm/SEX+LIFE+S01E02.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX3',
             title: 'SEX LIFE EP 3',
             video_url: 'https://hglink.to/otlc5yoiehez',
-            download_url: 'https://www.mediafire.com/file/hgxzlyu407emeeb/SEX+LIFE+S01E03.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/hgxzlyu407emeeb/SEX+LIFE+S01E03.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX4',
             title: 'SEX LIFE EP 4',
             video_url: 'https://hglink.to/lw5u15qwoiki',
-            download_url: 'https://www.mediafire.com/file/ix1r0ys8q8yxp1y/SEX+LIFE+S01E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/ix1r0ys8q8yxp1y/SEX+LIFE+S01E04.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX5',
             title: 'SEX LIFE EP 5',
             video_url: 'https://hglink.to/9f8tizdi4snn',
-            download_url:'https://www.mediafire.com/file/gqfrkpb77na4zpa/SEX+LIFE+S01E05.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/gqfrkpb77na4zpa/SEX+LIFE+S01E05.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX6',
             title: 'SEX LIFE EP 6',
             video_url: 'https://hglink.to/exx8udailoxr',
-            download_url:'https://www.mediafire.com/file/pelj5l35q4dadoi/SEX+LIFE+S01E06.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/pelj5l35q4dadoi/SEX+LIFE+S01E06.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX7',
             title: 'SEX LIFE EP7',
-            video_url:  'https://hglink.to/8u72t7d7d6lc',
-            download_url:'https://www.mediafire.com/file/dgj1g67gdwpaymb/SEXLIFE+S01E07.mp4/file',
+            video_url: 'https://hglink.to/8u72t7d7d6lc',
+            download_url:
+              'https://www.mediafire.com/file/dgj1g67gdwpaymb/SEXLIFE+S01E07.mp4/file',
             thumbnail_url: '/sex.webp',
           },
           {
             id: 'SX8',
             title: 'SEX LIFE EP8 FINAL',
             video_url: 'https://hglink.to/93yp9ledjgw4',
-            download_url:'https://www.mediafire.com/file/rug58i6rojue533/SEXLIFE+S01E8+Final.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/rug58i6rojue533/SEXLIFE+S01E8+Final.mp4/file',
             thumbnail_url: '/sex.webp',
           },
         ],
@@ -820,12 +825,12 @@ const staticSeries = [
     ],
   },
 
-   {
+  {
     id: 'alex',
     title: 'ALEX RIDER',
     type: 'series',
     is_popular: true,
-    description:'',
+    description: '',
     poster_url: '/alex.webp',
     seasons: [
       {
@@ -835,56 +840,63 @@ const staticSeries = [
             id: 'AR1',
             title: 'ALEX RIDER EP 1',
             video_url: 'https://hglink.to/fvepba5sg0qv',
-            download_url: 'https://www.mediafire.com/file/8aanra38x8bsjhd/ALEX+RIDER+EP1..mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/8aanra38x8bsjhd/ALEX+RIDER+EP1..mp4/file',
             thumbnail_url: '/alex.webp',
           },
           {
             id: 'AR2',
             title: 'ALEX RIDER EP 2',
             video_url: 'https://hglink.to/ir3kp735ylu8',
-            download_url: 'https://www.mediafire.com/file/swxge4t6mwswee6/Alex+Rider+E02.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/swxge4t6mwswee6/Alex+Rider+E02.mp4/file',
             thumbnail_url: '/alex.webp',
           },
           {
             id: 'AR3',
             title: 'ALEX RIDER EP 3',
             video_url: 'https://hglink.to/6faob7klnxod',
-            download_url: 'https://www.mediafire.com/file/wxhikjzgpiquub9/Alex+Rider+E3.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/wxhikjzgpiquub9/Alex+Rider+E3.mp4/file',
             thumbnail_url: '/alex.webp',
           },
           {
             id: 'AR4',
             title: 'ALEX RIDER EP 4',
             video_url: 'https://hglink.to/3u5u1ek8fri1',
-            download_url: 'https://www.mediafire.com/file/fje26x5fjtshm61/ALEX+RIDER+E04.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/fje26x5fjtshm61/ALEX+RIDER+E04.mp4/file',
             thumbnail_url: '/alex.webp',
           },
           {
             id: 'AR5',
             title: 'ALEX RIDER EP 5',
             video_url: 'https://hglink.to/grl6mwh2lakf',
-            download_url:'https://www.mediafire.com/file/1pq6ggmj2aqyhgt/Alex+Rider+E5.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/1pq6ggmj2aqyhgt/Alex+Rider+E5.mp4/file',
             thumbnail_url: '/alex.webp',
           },
-  //         {
-  //           id: 'AR7',
-  //           title: 'ALEX RIDER EP 6',
-  //           video_url: 'https://hglink.to/pueou9th5hgp',
-  //           download_url:' ',
-  //           thumbnail_url: '/alex.webp',
-  //         },
+          //         {
+          //           id: 'AR7',
+          //           title: 'ALEX RIDER EP 6',
+          //           video_url: 'https://hglink.to/pueou9th5hgp',
+          //           download_url:' ',
+          //           thumbnail_url: '/alex.webp',
+          //         },
           {
             id: 'AR7',
             title: 'ALEX RIDER EP7',
-            video_url:  'https://hglink.to/42otgvmnvs07',
-            download_url:'https://www.mediafire.com/file/r13q284flf0zq3v/Alex+Rider+E07.mp4/file',
+            video_url: 'https://hglink.to/42otgvmnvs07',
+            download_url:
+              'https://www.mediafire.com/file/r13q284flf0zq3v/Alex+Rider+E07.mp4/file',
             thumbnail_url: '/alex.webp',
           },
           {
             id: 'AR8',
             title: 'ALEX RIDER EP8 FINAL',
             video_url: 'https://hglink.to/kte54we33c97',
-            download_url:'https://www.mediafire.com/file/bqmvv0v76ut1ma7/Alex+Rider+Ep+8+FINAL.mp4/file',
+            download_url:
+              'https://www.mediafire.com/file/bqmvv0v76ut1ma7/Alex+Rider+Ep+8+FINAL.mp4/file',
             thumbnail_url: '/alex.webp',
           },
         ],
@@ -1099,7 +1111,6 @@ const staticSeries = [
     ],
   },
 
- 
   {
     id: 'INGANNO',
     title: 'INGANNO',
@@ -1782,31 +1793,28 @@ const staticSeries = [
             id: 'SQUID1',
             title: 'SQUID GAME S03 EP01',
             video_url: 'https://hglink.to/6z0koi41wr5j',
-            download_url:'',
+            download_url: '',
             thumbnail_url: '/squidgame03.jpeg',
           },
           {
             id: 'SQUID2',
             title: 'SQUID GAME SO3 EP02',
             video_url: 'https://hglink.to/m4d1he8m2ipm',
-            download_url:
-              '',
+            download_url: '',
             thumbnail_url: '/Squidgame01.jpg',
           },
           {
             id: 'SQUID3',
             title: 'SQUID S03 EP03',
             video_url: 'https://hglink.to/2mcoyt2pefmz',
-            download_url:
-              '',
+            download_url: '',
             thumbnail_url: '/Squidgame01.jpg',
           },
           {
             id: 'SQUID04',
             title: 'SQUID GAME S03 EP04',
             video_url: 'https://hglink.to/wejf7tg8uxf5',
-            download_url:
-              '',
+            download_url: '',
             thumbnail_url: '/squidgame.jpg',
           },
 
@@ -1814,8 +1822,7 @@ const staticSeries = [
             id: 'SQUID05',
             title: 'SQUID GAME S03 EP05',
             video_url: 'https://hglink.to/qfq6gldmj7hf',
-            download_url:
-              '',
+            download_url: '',
             thumbnail_url: '/squidgame03.jpeg',
           },
 
@@ -1823,8 +1830,7 @@ const staticSeries = [
             id: 'SQUID06',
             title: 'SQUID GAME S03 EP06',
             video_url: 'https://hglink.to/1gy67zllndbl',
-            download_url:
-              '',
+            download_url: '',
             thumbnail_url: '/squidgame03.jpeg',
           },
         ],
@@ -1964,7 +1970,8 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/1r6ouxhf859qfwz/BEAUTY_IN_BLACK_EP15.mp4/file',
             thumbnail_url: '/beautyinblack.jpeg',
-          },{
+          },
+          {
             id: 'BINP8',
             title: 'BEAUTY IN BLACK EP16',
             video_url: 'https://hglink.to/pr2eusn0tryv',

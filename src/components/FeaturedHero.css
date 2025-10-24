@@ -1,9 +1,8 @@
 .featured-hero {
   position: relative;
   width: 100%;
-  /* Base height for larger screens */
   min-height: 60vh;
-  height: clamp(400px, 60vh, 700px); 
+  height: clamp(400px, 60vh, 700px);
   border-radius: 24px;
   background-size: cover;
   background-position: center;
@@ -12,20 +11,20 @@
   margin-bottom: 48px;
   background-color: #000;
   transition: background-position 0.3s ease-out;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Background Overlay / Gradient */
 .featured-overlay {
   position: absolute;
   inset: 0;
-  backdrop-filter: blur(8px); 
+  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   background: linear-gradient(
-    90deg, 
-    rgba(5, 7, 12, 0.95) 0%, 
+    90deg,
+    rgba(5, 7, 12, 0.95) 0%,
     rgba(5, 7, 12, 0.75) 40%,
     rgba(5, 7, 12, 0.5) 70%,
     rgba(5, 7, 12, 0.3) 100%
@@ -33,99 +32,66 @@
   z-index: 1;
 }
 
-/* --- TOP NAVIGATION BAR PLACEHOLDER (No Change) --- */
-.top-nav-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 15px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.4); 
-  color: #fff;
-  z-index: 3;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-}
-
-.top-nav-placeholder .nav-links span {
-  margin-right: 30px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-.top-nav-placeholder .nav-links span:hover {
-  opacity: 1;
-}
-
-.top-nav-placeholder .search-icon {
-  font-size: 1.2rem;
-  cursor: pointer;
-  opacity: 0.8;
-  transition: opacity 0.2s ease;
-}
-
-/* --- MAIN FEATURED CONTENT --- */
+/* Featured Inner Layout */
 .featured-inner {
   position: relative;
   z-index: 2;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
-  gap: 50px; 
+  gap: 50px;
   padding: 40px;
   max-width: 1200px;
   width: 100%;
   text-align: left;
 }
 
-/* --- VERTICAL POSTER CARD --- */
+/* Movie Poster */
 .featured-poster-card {
   width: 100%;
-  max-width: 250px; 
-  aspect-ratio: 2 / 3; 
-  border-radius: 12px;
+  max-width: 250px;
+  aspect-ratio: 2 / 3;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 0 2px rgba(255, 255, 255, 0.1);
-  flex-shrink: 0; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.featured-poster-card:hover {
+  transform: translateY(-4px);
 }
 
 .poster-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
-/* --- TEXT CONTENT & BUTTONS --- */
+/* Text Content */
 .featured-text-content {
-  max-width: 600px; 
+  max-width: 600px;
 }
 
 .featured-tagline {
-  color: #ff00cc; 
+  color: #ff00cc;
   font-weight: 700;
   font-size: 0.9rem;
   margin-bottom: 10px;
-  letter-spacing: 1px;
   text-transform: uppercase;
+  display: none;
 }
 
 .featured-title {
-  font-family: "Poppins", "Montserrat", sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 800;
-  font-size: clamp(2.5rem, 6vw, 4.5rem); 
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
   color: #fff;
   margin: 0 0 16px 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   line-height: 1.1;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .featured-subtitle {
@@ -136,6 +102,7 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Buttons */
 .featured-actions {
   display: flex;
   gap: 20px;
@@ -145,7 +112,7 @@
 
 .btn-cta,
 .btn-secondary-cta {
-  border-radius: 12px;
+  border-radius: 14px;
   text-decoration: none;
   font-weight: 700;
   font-size: 0.95rem;
@@ -161,35 +128,31 @@
 .btn-cta {
   background: linear-gradient(135deg, #ff00cc 0%, #3333ff 100%);
   color: #fff;
-  box-shadow: 0 8px 20px rgba(255, 0, 204, 0.4),
-    0 4px 12px rgba(51, 51, 255, 0.3); 
+  box-shadow: 0 8px 20px rgba(255, 0, 204, 0.4);
 }
+
 .btn-cta:hover {
-  transform: translateY(-3px); 
-  box-shadow: 0 10px 25px rgba(255, 0, 204, 0.5),
-    0 5px 15px rgba(51, 51, 255, 0.4);
+  transform: translateY(-3px);
 }
 
 .btn-secondary-cta {
-  background: #333; 
+  background: #333;
   color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4), 0 3px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.25);
 }
+
 .btn-secondary-cta:hover {
   transform: translateY(-3px);
   background: #555;
-  border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* --- PLAYBACK CONTROLS --- */
+/* Timer / Playback Area */
 .playback-controls {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-top: 20px; 
-  width: 100%;
   max-width: 400px;
+  width: 100%;
 }
 
 .progress-bar-container {
@@ -197,7 +160,6 @@
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 2px;
-  overflow: hidden;
 }
 
 .progress-bar {
@@ -210,18 +172,15 @@
 .current-time {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.9rem;
-  min-width: 80px;
-  text-align: right;
 }
 
-/* --- CAROUSEL NAVIGATION DOTS --- */
+/* Feature Navigation Dots */
 .featured-carousel-nav {
   position: absolute;
   bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  align-items: center;
   gap: 10px;
   z-index: 2;
 }
@@ -232,217 +191,108 @@
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: transform 0.3s;
 }
 
 .featured-carousel-nav .dot.active {
   background-color: #ff00cc;
-  transform: scale(1.2);
+  transform: scale(1.25);
 }
 
+/* Navigation Arrow */
 .featured-carousel-nav .arrow {
   color: #fff;
   font-size: 1.5rem;
-  margin-left: 10px;
   cursor: pointer;
   opacity: 0.7;
-  transition: opacity 0.2s ease;
 }
+
 .featured-carousel-nav .arrow:hover {
   opacity: 1;
 }
 
+/* ------------------- RESPONSIVE ------------------- */
 
-/* --- RESPONSIVE ADJUSTMENTS --- */
+/* Medium Screens */
 @media (max-width: 1024px) {
-  .top-nav-placeholder {
-    padding: 15px 20px;
-  }
-  .top-nav-placeholder .nav-links span {
-    margin-right: 20px;
-  }
   .featured-inner {
     padding: 30px 20px;
-    gap: 30px; 
-  }
-  .featured-title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    gap: 30px;
   }
   .featured-poster-card {
-    max-width: 200px; 
+    max-width: 200px;
   }
 }
 
+/* Mobile Layout */
 @media (max-width: 768px) {
   .featured-hero {
     border-radius: 0;
     margin-top: 0;
-    /* Significantly reduce height on medium screens */
-    min-height: 450px; /* Fixed height for consistency */
-    height: auto; /* Let content dictate height if it gets smaller */
-    padding-bottom: 60px; /* Add some space at the bottom when stacking */
-  }
-  .featured-overlay {
-    background: linear-gradient(
-      180deg, 
-      rgba(5, 7, 12, 0.9) 0%,
-      rgba(5, 7, 12, 0.5) 40%,
-      rgba(5, 7, 12, 0.9) 100%
-    );
-  }
-  .top-nav-placeholder {
-    display: none;
+    min-height: 350px;
+    height: auto;
   }
 
   .featured-inner {
-    flex-direction: column; 
-    text-align: center;
-    align-items: center;
-    padding: 20px; /* Reduce padding */
-    gap: 20px; /* Reduce gap */
-  }
-  .featured-poster-card {
-    max-width: 150px; 
-    margin-top: 20px; /* Adjust top margin for better spacing */
-    order: -1; 
-  }
-  .featured-text-content {
-    max-width: 100%;
-  }
-  .featured-actions {
-    justify-content: center;
-  }
-  .btn-cta,
-  .btn-secondary-cta {
-    min-width: unset;
-    width: 100%;
-    max-width: 250px;
-  }
-  .playback-controls {
-    max-width: 250px;
-    flex-direction: column; /* Stack progress bar and time */
-    gap: 5px;
-  }
-  /* ... [Previous CSS from lines 1-325 remains unchanged] ... */
-
-/* --- RESPONSIVE ADJUSTMENTS --- */
-@media (max-width: 1024px) {
-  /* ... [No change] ... */
-}
-
-@media (max-width: 768px) {
-  .featured-hero {
-    border-radius: 0;
-    margin-top: 0;
-    /* Reduced height for all mobile views */
-    min-height: 250px; 
-    height: 35vh; /* Use vh to keep it somewhat proportional */
-    padding-bottom: 0; 
-  }
-  .featured-overlay {
-    /* Horizontal gradient for row layout */
-    background: linear-gradient(
-      90deg, 
-      rgba(5, 7, 12, 0.95) 0%, 
-      rgba(5, 7, 12, 0.75) 40%,
-      rgba(5, 7, 12, 0.5) 70%,
-      rgba(5, 7, 12, 0.3) 100%
-    );
-  }
-  .top-nav-placeholder {
-    display: none;
-  }
-
-  .featured-inner {
-    /* KEY CHANGE: FORCING ROW LAYOUT */
-    flex-direction: row; 
+    flex-direction: row;
     text-align: left;
-    align-items: center; /* Vertically center content */
-    padding: 15px; /* Minimal padding */
-    gap: 15px; /* Minimal gap */
+    gap: 15px;
+    padding: 15px;
   }
-  
+
   .featured-poster-card {
-    /* Drastically shrink the poster card to make space */
-    max-width: 100px; 
-    flex-shrink: 0;
-    /* Removed margin-top and order: -1 */
-  }
-
-  .featured-text-content {
-    /* Allow text content to take remaining space */
-    max-width: 100%;
-  }
-
-  .featured-tagline {
-    font-size: 0.7rem;
-    margin-bottom: 5px;
+    max-width: 130px;
+    border-radius: 18px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
   }
 
   .featured-title {
-    /* Significantly shrink title size */
-    font-size: clamp(1.2rem, 5vw, 2rem); 
-    margin: 0 0 5px 0;
-    line-height: 1.2;
-  }
-  .featured-subtitle {
-    /* Significantly shrink subtitle size */
-    font-size: 0.8rem;
-    margin-bottom: 10px; 
+    font-size: clamp(1.4rem, 6vw, 2.2rem);
+    margin-bottom: 8px;
   }
 
-  .featured-actions {
-    /* Stack buttons horizontally but allow wrap if needed */
-    justify-content: flex-start;
-    gap: 10px;
-    margin-bottom: 10px;
-    flex-wrap: wrap; 
+  .featured-subtitle {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
   }
-  
+
   .btn-cta,
   .btn-secondary-cta {
-    /* Shrink buttons */
-    min-width: unset;
-    width: auto;
-    padding: 6px 14px;
-    font-size: 0.75rem;
+    min-width: auto;
+    padding: 8px 16px;
+    font-size: 0.72rem;
   }
 
   .playback-controls {
-    /* Hide or significantly shrink progress bar if horizontal space is tight */
-    display: none; /* Hiding is often necessary here */
+    display: none;
   }
 
-  /* Hide carousel dots/arrows or adjust positioning */
   .featured-carousel-nav {
-      bottom: 5px;
+    bottom: 10px;
   }
 }
 
+/* Smaller Devices */
 @media (max-width: 480px) {
   .featured-hero {
-    min-height: 200px; /* Bare minimum height */
-    height: 30vh;
+    min-height: 270px;
   }
+
   .featured-inner {
-    padding: 10px;
+    padding: 12px;
   }
+
   .featured-poster-card {
-    max-width: 80px; /* Extremely small poster */
+    max-width: 110px;
   }
-  .featured-title {
-    font-size: clamp(1rem, 6vw, 1.5rem);
-  }
+
   .featured-subtitle {
-    font-size: 0.7rem;
-    display: none; /* Hide subtitle to save space */
+    display: none;
   }
-  .featured-actions {
-      gap: 5px;
-  }
+
   .btn-cta,
   .btn-secondary-cta {
-    padding: 5px 10px;
+    padding: 6px 12px;
     font-size: 0.65rem;
   }
-}}
+}
