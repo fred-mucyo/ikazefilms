@@ -89,8 +89,8 @@ const SeriesDetail = () => {
                 </a>
                 {ep.download_url && (
                   <a href={ep.download_url} className="download-btn">
-                    ⬇ Download
-                  </a>
+                    ⬇ Download 
+                    </a>
                 )}
               </div>
             </div>
