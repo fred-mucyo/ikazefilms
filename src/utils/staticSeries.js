@@ -70,7 +70,7 @@ const staticSeries = [
 
    {
     id: 's1',
-    title: 'SEASON: LOST IN LOVE',
+    title: 'LOST IN LOVE',
     type: 'series',
     description: 'Ntucikwee iyi season...',
     is_popular: true,
@@ -598,6 +598,7 @@ const staticSeries = [
     type: 'series',
     description: '10 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
     is_popular: true,
+    is_featured:true,
     poster_url: '/fakeprofile2.webp',
     seasons: [
       {
@@ -1277,6 +1278,7 @@ const staticSeries = [
     title: 'SEX LIFE',
     type: 'series',
     is_popular: true,
+    is_featured:true,
     description: '',
     poster_url: '/sex.webp',
     seasons: [
@@ -2731,7 +2733,6 @@ const staticSeries = [
     type: 'series',
     description: 'Ntucikwee iyi season...',
     is_popular: true,
-    is_featured: true,
     poster_url: '/ovol.webp',
     seasons: [
       {

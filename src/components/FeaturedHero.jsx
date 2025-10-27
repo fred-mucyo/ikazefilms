@@ -22,7 +22,7 @@ const FeaturedHero = ({ movies = [] }) => {
     if (featuredList.length <= 1) return;
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % featuredList.length);
-    }, 10000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [featuredList]);
 
@@ -150,7 +150,7 @@ const FeaturedHero = ({ movies = [] }) => {
             )}
           </div>
 
-          <div className="playback-controls">
+          {/* <div className="playback-controls">
             <div className="progress-bar-container">
               <div
                 className="progress-bar"
@@ -160,7 +160,7 @@ const FeaturedHero = ({ movies = [] }) => {
             <span className="current-time">
               0:{String(Math.floor(progress / 10)).padStart(2, '0')} / 0:10
             </span>
-          </div>
+          </div> */}
         </motion.div>
       </div>
 
@@ -176,7 +176,7 @@ const FeaturedHero = ({ movies = [] }) => {
           className="arrow"
           onClick={() => setIndex((index + 1) % featuredList.length)}
         >
-          ›
+          {/* › */}
         </span>
       </div>
     </motion.section>
