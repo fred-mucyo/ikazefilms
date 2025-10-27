@@ -39,14 +39,14 @@ const staticSeries = [
               'https://www.mediafire.com/file/w4mi0rfnjzti0uf/bonne+appetit.mp4/file',
             thumbnail_url: '/bonne.webp',
           },
-      //     {
-      //       id: 'ingano4',
-      //       title: 'INGANNO EP4',
-      //       video_url: 'https://hglink.to/08cr10ew4q8p',
-      //       download_url:
-      //         'https://www.mediafire.com/file/gz2r5co9bvti59j/INGANNO+E04.mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
+          {
+            id: 'bonne_appetit4',
+            title: 'BONNE APPETIT EP4',
+            video_url: 'https://hglink.to/y8odnl4nshg3',
+            download_url:
+              'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
       //     {
       //       id: 'ingano5',
       //       title: 'INGANNO EP5',
