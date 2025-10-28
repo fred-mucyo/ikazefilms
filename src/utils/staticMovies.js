@@ -4,37 +4,7 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
-
-  {
-    id: 'jackyreacherA',
-    title:"JACK REACHER A",
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    is_popular:true,
-    created_at: '2025-10-04',
-    thumbnail_url: '/Jackreacher.webp',
-    poster_url: '/Jackreacher.webp',
-    image_url: '/Jackreacher.webp',
-    video_url:'https://hglink.to/c07rczntv94t',
-    download_url:
-      'https://www.mediafire.com/file/yd6mervstxk04sm/JACK_REACHER_A.mp4/file',
-    youtube_trailer_url:'https://hglink.to/c07rczntv94t',
-  },  {
-    id: 'jackreacherB',
-    title: 'JACK REACHER B',
-    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-    interpreter_name: 'ROCKY',
-    created_at: '2025-10-04',
-    thumbnail_url: '/Jackreacher.webp',
-    poster_url: '/Jackreacher.webp',
-    image_url: '/Jackreacher.webp',
-    video_url:'https://hglink.to/2pmekykf04j8',
-    download_url:'https://www.mediafire.com/file/97ewmphf7y6b2az/JACK_REACHER_B..mp4/file',
-    youtube_trailer_url:
-      'https://hglink.to/2pmekykf04j8',
-  },
-
-  {
+{
     id: 'BLACKFOXCOMMANDO',
     title: 'BLACK FOX COMMANDO',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -85,6 +55,37 @@ const staticMovies = [
     download_url:
       'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
     youtube_trailer_url:'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
+  },
+
+
+  {
+    id: 'jackyreacherA',
+    title:"JACK REACHER A",
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/Jackreacher.webp',
+    poster_url: '/Jackreacher.webp',
+    image_url: '/Jackreacher.webp',
+    video_url:'https://hglink.to/c07rczntv94t',
+    download_url:
+      'https://www.mediafire.com/file/yd6mervstxk04sm/JACK_REACHER_A.mp4/file',
+    youtube_trailer_url:'https://hglink.to/c07rczntv94t',
+  }, 
+  
+  {
+    id: 'jackreacherB',
+    title: 'JACK REACHER B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/Jackreacher.webp',
+    poster_url: '/Jackreacher.webp',
+    image_url: '/Jackreacher.webp',
+    video_url:'https://hglink.to/2pmekykf04j8',
+    download_url:'https://www.mediafire.com/file/97ewmphf7y6b2az/JACK_REACHER_B..mp4/file',
+    youtube_trailer_url:
+      'https://hglink.to/2pmekykf04j8',
   },
  {
     id: 'BAAGHI4',
