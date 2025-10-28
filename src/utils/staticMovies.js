@@ -1,91 +1,91 @@
 // Lightweight, on-site fallback movies rendered instantly while the backend loads
 // Keep this list small to ensure fast initial paint
 
-import { Download } from 'lucide-react';
+// import { Download } from 'lucide-react';
 
 const staticMovies = [
 
-//   {
-//     id: 'jackyreacherA',
-//     title:"JACK REACHER A",
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'ROCKY',
-//     is_popular:true,
-//     created_at: '2025-10-04',
-//     thumbnail_url: '/Jack reacher.webp',
-//     poster_url: '/Jack reacher.webp',
-//     image_url: '/Jack reacher.webp',
-//     video_url:'https://hglink.to/c07rczntv94t',
-//     download_url:
-//       'https://www.mediafire.com/file/yd6mervstxk04sm/JACK_REACHER_A.mp4/file',
-//     youtube_trailer_url:'https://hglink.to/c07rczntv94t',
-//   },  {
-//     id: 'jackreacherB',
-//     title: 'JACK REACHER B',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'ROCKY',
-//     created_at: '2025-10-04',
-//     thumbnail_url: '/Jack reacher.webp',
-//     poster_url: '/Jack reacher.webp',
-//     image_url: '/Jack reacher.webp',
-//     video_url:'https://hglink.to/2pmekykf04j8',
-//     download_url:'https://www.mediafire.com/file/97ewmphf7y6b2az/JACK_REACHER_B..mp4/file',
-//     youtube_trailer_url:
-//       'https://hglink.to/2pmekykf04j8',
-//   },
+  {
+    id: 'jackyreacherA',
+    title:"JACK REACHER A",
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/Jackreacher.webp',
+    poster_url: '/Jackreacher.webp',
+    image_url: '/Jackreacher.webp',
+    video_url:'https://hglink.to/c07rczntv94t',
+    download_url:
+      'https://www.mediafire.com/file/yd6mervstxk04sm/JACK_REACHER_A.mp4/file',
+    youtube_trailer_url:'https://hglink.to/c07rczntv94t',
+  },  {
+    id: 'jackreacherB',
+    title: 'JACK REACHER B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    created_at: '2025-10-04',
+    thumbnail_url: '/Jackreacher.webp',
+    poster_url: '/Jackreacher.webp',
+    image_url: '/Jackreacher.webp',
+    video_url:'https://hglink.to/2pmekykf04j8',
+    download_url:'https://www.mediafire.com/file/97ewmphf7y6b2az/JACK_REACHER_B..mp4/file',
+    youtube_trailer_url:
+      'https://hglink.to/2pmekykf04j8',
+  },
 
-//   {
-//     id: 'BLACKFOXCOMMANDO',
-//     title: 'BLACK FOX COMMANDO',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'B THE GREAT',
-//     created_at: '2025-10-04',
-//     thumbnail_url: '/blackfox.webp',
-//     poster_url: '/blackfox.webp',
-//     image_url: '/blackfox.webp',
-//     video_url:'https://hglink.to/apttni6puj45',
-//     download_url:
-//       'https://www.mediafire.com/file/syk5mwdfpjyl1ck/BLACK_FOX_COMANDO.mp4/file',
-//     youtube_trailer_url:
-//       'https://hglink.to/apttni6puj45',
-//   },
-
-
-//   {
-//     id: 'BhimmaA',
-//     title: 'BHIMAA A',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'B THE GREAT',
-//     is_featured:true,
-//     is_popular:true,
-//     created_at: '2025-10-04',
-//     thumbnail_url: '/BHIMAA.webp',
-//     poster_url: '/BHIMAA.webp',
-//     image_url: '/BHIMAA.webp',
-//     video_url:
-//       'https://hglink.to/lhw81nforu54',
-//     download_url:
-//       'https://www.mediafire.com/file/lmlxub7xn529obe/BHIMAA_A.mp4/file',
-//     youtube_trailer_url:
-//       'https://hglink.to/lhw81nforu54',
-//   },
+  {
+    id: 'BLACKFOXCOMMANDO',
+    title: 'BLACK FOX COMMANDO',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/blackfox.webp',
+    poster_url: '/blackfox.webp',
+    image_url: '/blackfox.webp',
+    video_url:'https://hglink.to/apttni6puj45',
+    download_url:
+      'https://www.mediafire.com/file/syk5mwdfpjyl1ck/BLACK_FOX_COMANDO.mp4/file',
+    youtube_trailer_url:
+      'https://hglink.to/apttni6puj45',
+  },
 
 
+  {
+    id: 'BhimmaA',
+    title: 'BHIMAA A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    is_featured:true,
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url: '/BHIMAA.webp',
+    poster_url: '/BHIMAA.webp',
+    image_url: '/BHIMAA.webp',
+    video_url:
+      'https://hglink.to/lhw81nforu54',
+    download_url:
+      'https://www.mediafire.com/file/lmlxub7xn529obe/BHIMAA_A.mp4/file',
+    youtube_trailer_url:
+      'https://hglink.to/lhw81nforu54',
+  },
 
-//   {
-//     id: 'BhimmaB',
-//     title: 'BHIMAA B',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'B THE GREAT',
-//     created_at: '2025-10-04',
-//     thumbnail_url: 'BHIMAA.webp',
-//     poster_url: '/BHIMAA.webp',
-//     image_url: '/BHIMAA.webp',
-//     video_url:'https://hglink.to/i7vht5g0unwu',
-//     download_url:
-//       'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
-//     youtube_trailer_url:'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
-//   },
+
+
+  {
+    id: 'BhimmaB',
+    title: 'BHIMAA B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'B THE GREAT',
+    created_at: '2025-10-04',
+    thumbnail_url: '/BHIMAA.webp',
+    poster_url: '/BHIMAA.webp',
+    image_url: '/BHIMAA.webp',
+    video_url:'https://hglink.to/i7vht5g0unwu',
+    download_url:
+      'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
+    youtube_trailer_url:'https://www.mediafire.com/file/b3zm9448s09rj7t/BHIMAA_B.mp4/file',
+  },
  {
     id: 'BAAGHI4',
     title: 'BAAGHI 4 B (ROCKY)',
@@ -551,7 +551,7 @@ const staticMovies = [
   },
 
   {
-    id: 'salaar',
+    id: 'salaarA',
     title: 'SALAAR A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
@@ -565,7 +565,7 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/u0cs9wj5xggn',
   },
   {
-    id: 'salaar',
+    id: 'salaarB',
     title: 'SALAAR B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
@@ -579,7 +579,7 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/e79mqvg4uz7s',
   },
   {
-    id: 'salaar',
+    id: 'salaarC',
     title: 'SALAAR C',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
