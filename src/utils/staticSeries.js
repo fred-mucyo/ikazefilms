@@ -1,5 +1,4 @@
 // src/data/staticSeries.js
-//https://hglink.to/c0lvzudvyt82
 
 const staticSeries = [
   {
