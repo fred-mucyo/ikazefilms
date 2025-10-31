@@ -56,13 +56,13 @@ const SeriesPage = () => {
         <Toaster position="top-center" reverseOrder={false} />
 
         {/* Popular Series Section */}
-        {popularSeries.length > 0 && (
+        {/* {popularSeries.length > 0 && (
           <div className="movies-section">
             <div className="section-header">
               <h2 className="section-title">Popular Series</h2>
               <div className="section-subtitle">
                 Trending shows on the platform
-              </div>
+               </div> 
             </div>
             <div className="movies-grid compact-grid">
               {popularSeries.map((s) => (
@@ -70,7 +70,7 @@ const SeriesPage = () => {
               ))}
             </div>
           </div>
-        )}
+        )} */}
 
         {/* All Series Section */}
         <div className="movies-section">

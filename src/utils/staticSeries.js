@@ -8,7 +8,7 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured:true,
+    is_featured: true,
     poster_url: '/bonne.webp',
     seasons: [
       {
@@ -30,7 +30,7 @@ const staticSeries = [
               'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
             thumbnail_url: '/bonne.webp',
           },
-          
+
           {
             id: 'bonne_appetit3',
             title: 'BONNE APPETIT EP3',
@@ -47,28 +47,28 @@ const staticSeries = [
               'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
             thumbnail_url: '/bonne.webp',
           },
-      //     {
-      //       id: 'ingano5',
-      //       title: 'INGANNO EP5',
-      //       video_url: 'https://hglink.to/any6j5vrhmor',
-      //       download_url:
-      //         'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
-      //     {
-      //       id: 'ingano6',
-      //       title: 'INGANNO EP6 FINAL',
-      //       video_url: 'https://hglink.to/zqcdpnonplbi',
-      //       download_url:
-      //         'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
-      //       thumbnail_url: '/ingano.webp',
-      //     },
+          //     {
+          //       id: 'ingano5',
+          //       title: 'INGANNO EP5',
+          //       video_url: 'https://hglink.to/any6j5vrhmor',
+          //       download_url:
+          //         'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
+          //     {
+          //       id: 'ingano6',
+          //       title: 'INGANNO EP6 FINAL',
+          //       video_url: 'https://hglink.to/zqcdpnonplbi',
+          //       download_url:
+          //         'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
+          //       thumbnail_url: '/ingano.webp',
+          //     },
         ],
       },
     ],
   },
 
-   {
+  {
     id: 's1',
     title: 'LOST IN LOVE',
     type: 'series',
@@ -379,7 +379,7 @@ const staticSeries = [
             thumbnail_url: '/lostin.jpg',
           },
 
-  {
+          {
             id: 'lost35',
             title: 'LOST IN LOVE E35',
             video_url: 'https://haxloppd.com/uhvlyuvcm84t',
@@ -485,8 +485,7 @@ const staticSeries = [
             thumbnail_url: '/lostin.jpg',
           },
 
-
-{
+          {
             id: 'lost45',
 
             title: 'LOST IN LOVE EP45',
@@ -504,7 +503,8 @@ const staticSeries = [
 
             title: 'LOST IN LOVE EP46',
 
-            video_url: 'https://www.mediafire.com/file/oyv6bj6d5ufm7tx/Lost_in_Love_46_Hd.mp4/file',
+            video_url:
+              'https://www.mediafire.com/file/oyv6bj6d5ufm7tx/Lost_in_Love_46_Hd.mp4/file',
 
             download_url:
               'https://www.mediafire.com/file/oyv6bj6d5ufm7tx/Lost_in_Love_46_Hd.mp4/file',
@@ -517,7 +517,8 @@ const staticSeries = [
 
             title: 'LOST IN LOVE EP47',
 
-            video_url: 'https://www.mediafire.com/file/oi1b088c6hhdi79/Lost+in+Love+47Hd+.mp4/file',
+            video_url:
+              'https://www.mediafire.com/file/oi1b088c6hhdi79/Lost+in+Love+47Hd+.mp4/file',
 
             download_url:
               'https://www.mediafire.com/file/oi1b088c6hhdi79/Lost+in+Love+47Hd+.mp4/file',
@@ -530,7 +531,8 @@ const staticSeries = [
 
             title: 'LOST IN LOVE EP48',
 
-            video_url: 'https://www.mediafire.com/file/46bnuj8k2j64j4i/Lost+in+Love+48+Hd.mp4/file',
+            video_url:
+              'https://www.mediafire.com/file/46bnuj8k2j64j4i/Lost+in+Love+48+Hd.mp4/file',
 
             download_url:
               'https://www.mediafire.com/file/46bnuj8k2j64j4i/Lost+in+Love+48+Hd.mp4/file',
@@ -538,13 +540,13 @@ const staticSeries = [
             thumbnail_url: '/lostin.jpg',
           },
 
-
-             {
+          {
             id: 'lost49',
 
             title: 'LOST IN LOVE EP49',
 
-            video_url: 'https://www.mediafire.com/file/4fqqielayfi665k/Lost+in+Love+49+Hd.mp4/file',
+            video_url:
+              'https://www.mediafire.com/file/4fqqielayfi665k/Lost+in+Love+49+Hd.mp4/file',
 
             download_url:
               'https://www.mediafire.com/file/4fqqielayfi665k/Lost+in+Love+49+Hd.mp4/file',
@@ -552,13 +554,13 @@ const staticSeries = [
             thumbnail_url: '/lostin.jpg',
           },
 
-         
           {
             id: 'lost50',
 
             title: 'LOST IN LOVE EP50',
 
-            video_url: 'https://www.mediafire.com/file/7z3655qzbai9ktc/Lost+In+Love+50.mp4/file',
+            video_url:
+              'https://www.mediafire.com/file/7z3655qzbai9ktc/Lost+In+Love+50.mp4/file',
 
             download_url:
               'https://www.mediafire.com/file/7z3655qzbai9ktc/Lost+In+Love+50.mp4/file',
@@ -597,8 +599,6 @@ const staticSeries = [
     title: 'FAKE PROFILE S02',
     type: 'series',
     description: '10 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-    is_popular: true,
-    is_featured:true,
     poster_url: '/fakeprofile2.webp',
     seasons: [
       {
@@ -698,7 +698,6 @@ const staticSeries = [
     title: 'MASTER OF THE HOUSE',
     type: 'series',
     description: '07 EPISODES , Aka ga serie ntikabacike 🔥🔥🔥',
-    is_popular: true,
     poster_url: '/master1.webp',
     seasons: [
       {
@@ -855,7 +854,6 @@ const staticSeries = [
     title: 'GRANDE SECRET',
     type: 'series',
     description: 'Ntucikwee iyi season...',
-    is_popular: true,
     poster_url: '/grandee.webp',
     seasons: [
       {
@@ -1197,8 +1195,6 @@ const staticSeries = [
     id: 'HOUSEOFDAVID',
     title: 'THE HOUSE OF DAVID',
     type: 'series',
-    is_popular: true,
-    description: '',
     poster_url: '/houseofdavid.webp',
     seasons: [
       {
@@ -1278,7 +1274,6 @@ const staticSeries = [
     title: 'SEX LIFE',
     type: 'series',
     is_popular: true,
-    is_featured:true,
     description: '',
     poster_url: '/sex.webp',
     seasons: [
@@ -1358,7 +1353,6 @@ const staticSeries = [
     id: 'alex',
     title: 'ALEX RIDER',
     type: 'series',
-    is_popular: true,
     description: '',
     poster_url: '/alex.webp',
     seasons: [
@@ -1645,7 +1639,6 @@ const staticSeries = [
     title: 'INGANNO',
     type: 'series',
     description: '',
-    is_popular: true,
     poster_url: '/ingano.webp',
     seasons: [
       {
@@ -1709,7 +1702,6 @@ const staticSeries = [
     type: 'series',
     description:
       'Fatal Seduction is an amazing serie that cebrate the black culture!!',
-    is_popular: true,
     poster_url: '/fatalseductionD.webp',
     seasons: [
       {
@@ -1897,7 +1889,6 @@ const staticSeries = [
     type: 'series',
     description:
       '10 EPISODES , MESSIAH (umukiza) yaje mu murwa Aka ga serie ntikabacike 🔥🔥🔥',
-    is_featured: true,
     is_popular: true,
     poster_url: '/messiah.jpg',
     seasons: [
@@ -2047,7 +2038,6 @@ const staticSeries = [
     id: 'ISLAND',
     title: 'THE I-LAND',
     type: 'series',
-    is_popular: true,
     description:
       'Wiped clean of memories and thrown together, a group of strangers fight to survive harsh realities — and the island that traps them.',
     poster_url: '/island.webp',
@@ -2120,7 +2110,6 @@ const staticSeries = [
     id: 'HIGHSCHOOL',
     title: 'HIGHSCHOOL',
     type: 'series',
-    is_popular: true,
     description: 'Aga serie keza cyane, Ntikagucike!!❤️‍🔥❤️‍🔥❤️‍🔥',
     poster_url: '/highschool.webp',
     seasons: [
@@ -2311,7 +2300,6 @@ const staticSeries = [
     id: 'SQUID-GAMES3',
     title: 'SQUID GAME SEASON 3',
     type: 'series',
-    is_popular: true,
     description: 'Amazing movie ever!',
     poster_url: '/squidgame03.jpeg',
     seasons: [
@@ -2372,7 +2360,6 @@ const staticSeries = [
     title: 'BEAUTY IN BLACK S02',
     type: 'series',
     description: 'Beauty in black season  Ntigucike ....🔥🔥',
-    is_popular: true,
     poster_url: '/beautyinblack.jpeg',
     seasons: [
       {
@@ -2588,14 +2575,12 @@ const staticSeries = [
     ],
   },
 
- 
   {
     id: 'kings',
     title: 'OF KINGS AND PROPHETS S1 ALL EPISODES',
     type: 'series',
     description:
       'A biblical drama centered around a battle-weary king, a powerful and resentful prophet, and a resourceful young shepherd.',
-    is_popular: true,
     poster_url: '/kings.jpg',
     seasons: [
       {
@@ -2732,7 +2717,6 @@ const staticSeries = [
     title: 'THE OVAL',
     type: 'series',
     description: 'Ntucikwee iyi season...',
-    is_popular: true,
     poster_url: '/ovol.webp',
     seasons: [
       {

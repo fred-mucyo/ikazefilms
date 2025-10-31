@@ -156,20 +156,6 @@ const MovieCard = ({ movie }) => {
 
 export default MovieCard;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import React, { useState } from 'react';
 // import { useNavigate } from 'react-router-dom';
 // import { useWatchlist } from '../context/WatchlistContext';
@@ -306,4 +292,3 @@ export default MovieCard;
 // };
 
 // export default MovieCard;
-
