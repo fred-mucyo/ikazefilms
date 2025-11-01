@@ -129,7 +129,6 @@ const staticMovies = [
     title: 'BHIMAA A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'B THE GREAT',
-    is_featured: true,
     is_popular: true,
     created_at: '2025-10-04',
     thumbnail_url: '/BHIMaAA.webp',

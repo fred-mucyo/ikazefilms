@@ -67,6 +67,180 @@ const staticSeries = [
     ],
   },
 
+{
+    id: 'bloodriver',
+    title: 'BLOOD RIVER',
+    type: 'series',
+    description: 'Aga filime gashya ka B THE GREAT, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/bloodriver2.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'bloodriver1',
+            title: 'BLOOD RIVER EP1',
+            video_url: 'https://hglink.to/n3o12y40svkq',
+            download_url:
+              'https://www.mediafire.com/file/xts8yeq1u4hgj51/Blood_River_01.mp4/file',
+            thumbnail_url: '/bloodriver3.webp',
+          },
+          {
+            id: 'bloodriver02',
+            title: 'BLOOD RIVER EP2',
+            video_url: 'https://hglink.to/fgwdj2d93v7s',
+            download_url:
+              'https://www.mediafire.com/file/g5h7xtydyo5mw4y/Blood_River_02.mp4/file',
+            thumbnail_url: '/bloodriver2.webp',
+          },
+
+          {
+            id: 'bloodriver03',
+            title: 'BLOOD RIVER EP3',
+            video_url: 'https://hglink.to/auymcxgzd5a3',
+            download_url:
+              'https://www.mediafire.com/file/cxxfno86s3cdbdi/Blood_River_03.mp4/file',
+            thumbnail_url: '/bloodriver2.webp',
+          },
+          {
+            id: 'bloodriver04',
+            title: 'BLOOD RIVER EP4',
+            video_url: 'https://hglink.to/wkw8svhjs2cb',
+            download_url:
+              'https://www.mediafire.com/file/4dmqwa8bwj0vdod/Blood_River_04.mp4/file',
+            thumbnail_url: '/bloodriver3.webp',
+          },
+              {
+                id: 'bloodriver5',
+                title: 'BLOOD RIVER EP5',
+                video_url: 'https://hglink.to/cvruhu3zzyzi',
+                download_url:
+                  'https://www.mediafire.com/file/11yff4iw88g9xqy/Blood_River_05.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+              {
+                id: 'bloodriver6',
+                title: 'BLOOD RIVER EP6 ',
+                video_url: 'https://hglink.to/6lwisca85rjl',
+                download_url:
+                  'https://www.mediafire.com/file/ap8yrzt78izppg9/Blood_River_06.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+
+
+              {
+                id: 'bloodriver7',
+                title: 'BLOOD RIVER EP7',
+                video_url: 'https://hglink.to/jb8a14c766mg',
+                download_url:
+                  'https://www.mediafire.com/file/b9brzpiie1ctayx/Blood_River_07.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+              {
+                id: 'bloodriver8',
+                title: 'BLOOD RIVER EP8 ',
+                video_url: 'https://hglink.to/1uebu0ulun0d',
+                download_url:
+                  'https://www.mediafire.com/file/etky6qbcr2gw2n5/Blood_River_08.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+
+             {
+                id: 'bloodriver9',
+                title: 'BLOOD RIVER EP9 ',
+                video_url: 'https://hglink.to/oq8flifdtvw8',
+                download_url:
+                  'https://www.mediafire.com/file/ewam882wc7ufgqi/Blood_River_09.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+
+               {
+                id: 'bloodriver10',
+                title: 'BLOOD RIVER EP10 ',
+                video_url: 'https://hglink.to/y3kh5684m2nq',
+                download_url:
+                  'https://www.mediafire.com/file/7efwwh4uk4h5n23/Blood_River_10.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, {
+                id: 'bloodriver11',
+                title: 'BLOOD RIVER EP11 ',
+                video_url: 'https://hglink.to/hag22rffrqy5',
+                download_url:
+                  'https://www.mediafire.com/file/ffso6rm7fue7ax9/Blood_River_11.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, {
+                id: 'bloodriver12',
+                title: 'BLOOD RIVER EP12 ',
+                video_url: 'https://hglink.to/jxpayaecb1rj',
+                download_url:
+                  'https://www.mediafire.com/file/i2undlwn28g1qs8/Blood_River_12.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver13',
+                title: 'BLOOD RIVER EP13 ',
+                video_url: 'https://hglink.to/ubau0cen4vvn',
+                download_url:
+                  'https://www.mediafire.com/file/j9q189e07807167/Blood_River_13.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              }, {
+                id: 'bloodriver14',
+                title: 'BLOOD RIVER EP14 ',
+                video_url: 'https://hglink.to/z0vpnu18sjza',
+                download_url:
+                  'https://www.mediafire.com/file/6oiahsbb5dbvifw/Blood_River_14.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, {
+                id: 'bloodriver15',
+                title: 'BLOOD RIVER EP15 ',
+                video_url: 'https://hglink.to/a114pjtuzgub',
+                download_url:
+                  'https://www.mediafire.com/file/eizi9uz0rfhvmvf/Blood+River+15.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              }, {
+                id: 'bloodriver16',
+                title: 'BLOOD RIVER EP16',
+                video_url: 'https://hglink.to/g0cfuaay7128',
+                download_url:
+                  'https://www.mediafire.com/file/7fgopkym2e0e69n/Blood_River_16.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver17',
+                title: 'BLOOD RIVER EP17',
+                video_url: 'https://hglink.to/1tm8906au26j',
+                download_url:
+                  'https://www.mediafire.com/file/tqhof0sd32qdue5/Blood_River_17.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver18',
+                title: 'BLOOD RIVER EP18 ',
+                video_url: 'https://hglink.to/57homq3ncabr',
+                download_url:
+                  'https://www.mediafire.com/file/ef5fi2ms3q67jpm/Blood_River_18.mp4/file',
+                thumbnail_url: '/bloodriver2.webp'
+              },
+              //{
+              //   id: 'bloodriver19',
+              //   title: 'BLOOD RIVER EP19',
+              //   video_url: 'https://hglink.to/',
+              //   download_url:
+              //     '',
+              //   thumbnail_url: '/',
+              // }, {
+              //   id: 'bloodriver20',
+              //   title: 'BLOOD RIVER EP20',
+              //   video_url: 'https://hglink.to/',
+              //   download_url:
+              //     '',
+              //   thumbnail_url: '/',
+              // }, 
+              
+        ],
+      },
+    ],
+  },
+
   {
     id: 's1',
     title: 'LOST IN LOVE',
@@ -566,6 +740,38 @@ const staticSeries = [
 
             thumbnail_url: '/lostin.jpg',
           },
+
+
+  {
+            id: 'lost51',
+
+            title: 'LOST IN LOVE EP51',
+
+            video_url:
+              'https://hglink.to/hj0uzdkv3rgr',
+
+            download_url:
+              'https://www.mediafire.com/file/4h18erejkksy0om/LOST+IN+LOVE+E51.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
+            {
+            id: 'lost52',
+
+            title: 'LOST IN LOVE EP50',
+
+            video_url:
+              'https://hglink.to/mq1u7rnzynuk',
+
+            download_url:
+              'https://www.mediafire.com/file/qxlq2pjrbyob59c/LOST+IN+LOVE+E52.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
         ],
       },
       {
