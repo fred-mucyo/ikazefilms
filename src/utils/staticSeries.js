@@ -122,7 +122,133 @@ const staticSeries = [
   //     },
   //   ],
   // },
-  
+   //  {
+  //   id: 'Aaa ya paar',
+  //   title: 'Aaa ya paar',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'paar1',
+  //           title: 'Aaa ya paar EP1',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'paar2',
+  //           title: 'Aaa ya paar EP2',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'paar3',
+  //           title: 'Aaa ya paar EP3',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'paar4',
+  //           title: 'Aaa ya paar EP4',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'paar5',
+  //           title: 'Aaa ya paar EP5',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'paar6',
+  //           title: 'Aaa ya paar EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
+   //  {
+  //   id: 'billionaire-bunker',
+  //   title: 'BILLIONAIRES BUNKER',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'bunkers1',
+  //           title: 'BILLIONAIRES BUNKER EP1',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'bunkers2',
+  //           title: 'BILLIONAIRES BUNKER EP2',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'bunkers3',
+  //           title: 'BILLIONAIRES BUNKER EP3',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'bunkers4',
+  //           title: 'BILLIONAIRES BUNKER EP4',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'bunkers5',
+  //           title: 'BILLIONAIRES BUNKER EP5',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'bunkers6',
+  //           title: 'BILLIONAIRES BUNKER EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+    //         {
+  //           id: 'bunkers7',
+  //           title: 'BILLIONAIRES BUNKER EP7',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+    //         {
+  //           id: 'bunkers7',
+  //           title: 'BILLIONAIRES BUNKER EP8  FINAL',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
 {
     id: 'bloodriver',
