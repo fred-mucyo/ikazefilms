@@ -66,6 +66,8 @@ const staticSeries = [
       },
     ],
   },
+
+                //DON'T DELETE THOSE SKELTON'S 👇
   //  {
   //   id: 'shadow-love',
   //   title: 'SHADOW LOVE',
@@ -250,6 +252,77 @@ const staticSeries = [
   //   ],
   // },
 
+ //  {
+  //   id: 'prison-cell',
+  //   title: 'PRISON CELL 211',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'prison1',
+  //           title: 'PRISON CELL 211 EP1',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'prison2',
+  //           title: 'PRISON CELL 211 EP2',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'prison3',
+  //           title: 'PRISON CELL 211 EP3',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'prison4',
+  //           title: 'PRISON CELL 211 EP4',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'prison5',
+  //           title: 'PRISON CELL 211 EP5',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'prison6',
+  //           title: 'PRISON CELL 211 EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+    //         {
+  //           id: 'prison7',
+  //           title: 'PRISON CELL 211 EP7',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+    //         {
+  //           id: 'prison8',
+  //           title: 'PRISON CELL 211 EP8',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+                      //TO THIS ONE 👍
 {
     id: 'bloodriver',
     title: 'BLOOD RIVER',
