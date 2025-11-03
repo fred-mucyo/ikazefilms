@@ -66,6 +66,63 @@ const staticSeries = [
       },
     ],
   },
+  //  {
+  //   id: 'shadow-love',
+  //   title: 'SHADOW LOVE',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'shadow1',
+  //           title: 'SHADOW LOVE EP1',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'shadow2',
+  //           title: 'SHADOW LOVE EP2',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'shadow3',
+  //           title: 'SHADOW LOVE EP3',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'shadow4',
+  //           title: 'SHADOW LOVE EP4',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'shadow5',
+  //           title: 'SHADOW LOVE EP5',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //         {
+  //           id: 'shadow6',
+  //           title: 'SHADOW LOVE EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+  
 
 {
     id: 'bloodriver',
