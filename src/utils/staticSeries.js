@@ -1,7 +1,171 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+
   {
+    id: 'billionairebunker',
+    title: 'BILLIONAIRE BUNKER',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/billionairebunker1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'billionairebunker1',
+            title: 'BILLIONAIRE BANKER EP1',
+            video_url: 'https://hglink.to/g03xcei1lmoi',
+            download_url:
+              'https://www.mediafire.com/file/0g5f29t6c221zqk/Billionaires_Bunker_S1E1.mp4/file',
+            thumbnail_url: '/billionairebunker2.webp',
+          },
+
+          {
+            id: 'billionairebanker2',
+            title: 'BILLIONAIRE BUNKER EP2',
+            video_url: 'https://hglink.to/fyu4pp5jjeuk',
+            download_url:
+              'https://www.mediafire.com/file/ffwbrvmfwlw057j/Billionaires_Bunker_S1E2.mp4/file',
+            thumbnail_url: '/billionairebunker2.webp',
+          },
+
+          {
+            id: 'billionairebunker3',
+            title: 'BILLIONAIRE BUNKER EP3',
+            video_url: 'https://hglink.to/9hoiit5laf68',
+            download_url:
+              'https://www.mediafire.com/file/2iglsnhq0uhok8d/Billionaires_Bunker_S1E3.mp4/file',
+            thumbnail_url: '/billionairebunker2.webp',
+          },
+          {
+            id: 'billionairebunker4',
+            title: 'BILLIONAIRE BUNKER EP4',
+            video_url: 'https://hglink.to/kq3rzduekoki',
+            download_url:
+              'https://www.mediafire.com/file/qajhep4crwtywdj/Billionaires_Bunker_S1E4.mp4/file',
+            thumbnail_url: '/billionairebunker1.webp',
+          },
+              {
+                id: 'billionairebunker5',
+                title: 'BILLIONAIRE BUNKER EP5',
+                video_url: 'https://hglink.to/jt4igdfra3xs',
+                download_url:
+                  'https://www.mediafire.com/file/43r81ou7bdsh7zy/Billionaires_Bunker_S1E5.mp4/file',
+                thumbnail_url: '/billionairebunker1.webp',
+              },
+              {
+                id: 'billionairebunker6',
+                title: 'BILLIONAIRE BUNKER EP6',
+                video_url: 'https://hglink.to/vt0x96bptzxm',
+                download_url:
+                  'https://www.mediafire.com/file/m13mh1vbx2a876c/Billionaires_Bunker_S1E6.mp4/file',
+                thumbnail_url: '/billionairebunker03.webp',
+              },
+              {
+                id: 'billionairebunker7',
+                title: 'BILLIONAIRE BUNKER EP7',
+                video_url: 'https://hglink.to/g24vml7d8j27',
+                download_url:
+                  'https://www.mediafire.com/file/pwxewyupwu9pur4/Billionaires_Bunker_S1E7.mp4/file',
+                thumbnail_url: '/billionairebunker04.webp',
+              },
+              {
+                id: 'billionairebunker8',
+                title: 'BILLIONAIRE BUNKER EP8',
+                video_url: 'https://hglink.to/2ti54xcf9o8b',
+                download_url:
+                  'https://www.mediafire.com/file/kpj93ak6xxvbo9l/Billionaires_Bunker_S1E8_Final.mp4/file',
+                thumbnail_url: '/billionairebunker05.webp',
+              },
+        ],
+      },
+    ],
+  },
+{
+    id:'aayaparseason',
+    title: 'AA YAA PAAR',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/aayapaar3.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'aayapaar1',
+            title: 'AA YA PAAR EP1',
+            video_url: 'https://hglink.to/g4luy0yylngh',
+            download_url:
+              'https://www.mediafire.com/file/1qyj80giqm776rd/Aaar_ya_paar_Ep1.mp4/file',
+            thumbnail_url: '/aayapaar4.webp',
+          },
+          {
+            id: 'aayapaar2',
+            title: 'AA YA PAAR EP2',
+            video_url: 'https://hglink.to/orgppfzactbg',
+            download_url:
+              'https://www.mediafire.com/file/likzdrcimt8g41r/Aaar_ya_paar_Ep2.mp4/file',
+            thumbnail_url: '/aayapaar3.webp',
+          },
+
+          {
+            id: 'aayapaar3',
+            title: 'AA YA PAAR EP03',
+            video_url: 'https://hglink.to/mlp2iqpcsz5c',
+            download_url:
+              'https://www.mediafire.com/file/2fer3xuye7fnj1y/Aaa_ya_paar_Ep3.mp4/file',
+            thumbnail_url: '/aayapaar3.webp',
+          },
+          {
+            id: 'aayapar4',
+            title: 'AA YA PAAR EP4',
+            video_url: 'https://hglink.to/yzkiawqmdhzt',
+            download_url:
+              'https://www.mediafire.com/file/9edhs2zch2v3n7a/Aaa_ya_paar_Ep4.mp4/file',
+            thumbnail_url: '/aayapaar4.webp',
+          },
+              {
+                id: 'aayapaar5',
+                title: 'AA YA PAAR EP5',
+                video_url: 'https://hglink.to/h7le8hl6ac9z',
+                download_url:
+                  'https://www.mediafire.com/file/yq3no3u6rkbwjdg/Aaa_ya_paar_Ep5.mp4/file',
+                thumbnail_url: '/aayapaar3.webp',
+              },
+              {
+                id: 'aayapaar6',
+                title: 'AA YA PAAR EP6',
+                video_url: 'https://hglink.to/wi2kwhvlb6tb',
+                download_url:
+                  'https://www.mediafire.com/file/26p2rarcdi26u59/Aaar_ya_paar_Ep6.mp4/file',
+                thumbnail_url: '/aayapaar3.webp',
+              },
+              {
+                id: 'aayapaar7',
+                title: 'AA YA PAAR EP7',
+                video_url: 'https://hglink.to/x2is1t6ab9s4',
+                download_url:
+                  'https://www.mediafire.com/file/46qzmpk7f7etf7l/Aaar_ya_paar_Ep7.mp4/file',
+                thumbnail_url: '/aayapaar1.webp',
+              },
+              {
+                id: 'aayapaar8',
+                title: 'AAA YA PAAR EP8',
+                video_url: 'https://hglink.to/hnk6f0p0gceq',
+                download_url:
+                  'https://www.mediafire.com/file/vawe1n49do8e3gv/Aaar_ya_paar_Ep8.mp4/file',
+                thumbnail_url: '/aayapaar1.webp',
+              },
+        ],
+      },
+    ],
+  },
+ {
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
     type: 'series',
