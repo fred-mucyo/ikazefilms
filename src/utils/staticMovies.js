@@ -23,7 +23,7 @@ const staticMovies = [
   //   id: 'playdirty',
   //   title: 'PLAY DIRTY',
   //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-  //   interpreter_name: 'B THE GREAT',
+  //   interpreter_name: 'GAHEZA',
   //   created_at: '2025-10-04',
   //   thumbnail_url:'/ipmaankungfu.webp',
   //   poster_url: '/ipmaankungfu.webp',
