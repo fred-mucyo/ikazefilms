@@ -21,7 +21,7 @@ const staticMovies = [
 
   // {
   //   id: 'playdirty',
-  //   title: 'PLAY DIRTY',
+  //   title: 'PLAY DIRTY A',
   //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
   //   interpreter_name: 'GAHEZA',
   //   created_at: '2025-10-04',
@@ -29,7 +29,21 @@ const staticMovies = [
   //   poster_url: '/ipmaankungfu.webp',
   //   image_url: '/ipmaankungfu.webp',
   //   video_url: '',
-  //   download_url: '',
+  //   download_url: 'https://www.mediafire.com/file/dgp7vycdkrza1w6/PLAY_DIRTY_A_BY_GAHEZA.mp4/file',
+  //   youtube_trailer_url: '',
+  // },
+
+    // {
+  //   id: 'playdirty',
+  //   title: 'PLAY DIRTY B',
+  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+  //   interpreter_name: 'GAHEZA',
+  //   created_at: '2025-10-04',
+  //   thumbnail_url:'/ipmaankungfu.webp',
+  //   poster_url: '/ipmaankungfu.webp',
+  //   image_url: '/ipmaankungfu.webp',
+  //   video_url: '',
+  //   download_url: 'https://www.mediafire.com/file/mz14fhtavnnp01z/PLAY_DIRTY_BY_B_GAHEZA.mp4/file',
   //   youtube_trailer_url: '',
   // },
 
