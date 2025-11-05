@@ -1,6 +1,71 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+  {
+    id: 'bonne_appetit',
+    title: 'BONNE APPETIT',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/bonne.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'bonne_appetit',
+            title: 'BONNE APPETIT EP1',
+            video_url: 'https://hglink.to/2gb1q3242ao7',
+            download_url:
+              'https://www.mediafire.com/file/6pdwyw64ztt8vlh/BONNE+APPETIT+EP+01.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
+          {
+            id: 'bonne_appetit',
+            title: 'BONNE APPETIT EP2',
+            video_url: 'https://hglink.to/rigjhhi3qko4',
+            download_url:
+              'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
+
+          {
+            id: 'bonne_appetit3',
+            title: 'BONNE APPETIT EP3',
+            video_url: 'https://hglink.to/1m2kto1ers3f',
+            download_url:
+              'https://www.mediafire.com/file/w4mi0rfnjzti0uf/bonne+appetit.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
+          {
+            id: 'bonne_appetit4',
+            title: 'BONNE APPETIT EP4',
+            video_url: 'https://hglink.to/y8odnl4nshg3',
+            download_url:
+              'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
+              {
+                id: 'bonne_appetit',
+                title:'BONNE APPETIT EP5',
+                video_url: 'https://hglink.to/3dqovqq1i6ol',
+                download_url:
+                  'https://www.mediafire.com/file/5v64kyiv06iqy2u/BONNE20APETIT20S01E05.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+              {
+                id: 'bonne_appetit6',
+                title: 'BONNE APPETIT EP6',
+                video_url: 'https://hglink.to/b6mdkdii28y4',
+                download_url:
+                  'https://www.mediafire.com/file/c9enflgr2hbl74a/BONNE+APETIT+S01E06.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+        ],
+      },
+    ],
+  },
 
   {
     id: 'billionairebunker',
@@ -165,73 +230,7 @@ const staticSeries = [
       },
     ],
   },
- {
-    id: 'bonne_appetit',
-    title: 'BONNE APPETIT',
-    type: 'series',
-    description: 'Aga filime gashya ka rocky, ntucikwe.',
-    is_popular: true,
-    is_featured: true,
-    poster_url: '/bonne.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'bonne_appetit',
-            title: 'BONNE APPETIT EP1',
-            video_url: 'https://hglink.to/2gb1q3242ao7',
-            download_url:
-              'https://www.mediafire.com/file/6pdwyw64ztt8vlh/BONNE+APPETIT+EP+01.mp4/file',
-            thumbnail_url: '/bonne.webp',
-          },
-          {
-            id: 'bonne_appetit',
-            title: 'BONNE APPETIT EP2',
-            video_url: 'https://hglink.to/rigjhhi3qko4',
-            download_url:
-              'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
-            thumbnail_url: '/bonne.webp',
-          },
-
-          {
-            id: 'bonne_appetit3',
-            title: 'BONNE APPETIT EP3',
-            video_url: 'https://hglink.to/1m2kto1ers3f',
-            download_url:
-              'https://www.mediafire.com/file/w4mi0rfnjzti0uf/bonne+appetit.mp4/file',
-            thumbnail_url: '/bonne.webp',
-          },
-          {
-            id: 'bonne_appetit4',
-            title: 'BONNE APPETIT EP4',
-            video_url: 'https://hglink.to/y8odnl4nshg3',
-            download_url:
-              'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
-            thumbnail_url: '/bonne.webp',
-          },
-          //     {
-          //       id: 'ingano5',
-          //       title: 'INGANNO EP5',
-          //       video_url: 'https://hglink.to/any6j5vrhmor',
-          //       download_url:
-          //         'https://www.mediafire.com/file/2utlckybkyj5g1y/INGANNO+EP+05..mp4/file',
-          //       thumbnail_url: '/ingano.webp',
-          //     },
-          //     {
-          //       id: 'ingano6',
-          //       title: 'INGANNO EP6 FINAL',
-          //       video_url: 'https://hglink.to/zqcdpnonplbi',
-          //       download_url:
-          //         'https://www.mediafire.com/file/hjf1x2arsghq2th/INGANNO+EP+06+FINAL.mp4/file',
-          //       thumbnail_url: '/ingano.webp',
-          //     },
-        ],
-      },
-    ],
-  },
-
-                           //DON'T DELETE THOSE SKELTON'S 👇
+                        //DON'T DELETE THOSE SKELTON'S 👇
    {
     id: 'shadow-love',
     title: 'SHADOW LOVE',
