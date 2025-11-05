@@ -34,7 +34,7 @@ const staticMovies = [
   },
 
     {
-    id: 'playdirty',
+    id: 'playdirtyB',
     title: 'PLAY DIRTY B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'GAHEZA',
