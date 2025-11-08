@@ -404,76 +404,7 @@ const staticSeries = [
     ],
   },
 
-   //  {
-  //   id: 'Aaa ya paar',
-  //   title: 'Aaa ya paar',
-  //   type: 'series',
-  //   description: '',
-  //   poster_url: '/aar-ya.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'paar1',
-  //           title: 'Aaa ya paar EP1',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //         {
-  //           id: 'paar2',
-  //           title: 'Aaa ya paar EP2',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //         {
-  //           id: 'paar3',
-  //           title: 'Aaa ya paar EP3',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //         {
-  //           id: 'paar4',
-  //           title: 'Aaa ya paar EP4',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //         {
-  //           id: 'paar5',
-  //           title: 'Aaa ya paar EP5',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //         {
-  //           id: 'paar6',
-  //           title: 'Aaa ya paar EP6',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-   //         {
-  //           id: 'paar6',
-  //           title: 'Aaa ya paar EP7',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-   //         {
-  //           id: 'paar6',
-  //           title: 'Aaa ya paar EP8 FINAL',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/aar-ya.webp',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+
 
     {
     id: 'enemy-within',
@@ -770,22 +701,111 @@ const staticSeries = [
                   'https://www.mediafire.com/file/ef5fi2ms3q67jpm/Blood_River_18.mp4/file',
                 thumbnail_url: '/bloodriver2.webp'
               },
-              //{
-              //   id: 'bloodriver19',
-              //   title: 'BLOOD RIVER EP19',
-              //   video_url: 'https://hglink.to/',
-              //   download_url:
-              //     '',
-              //   thumbnail_url: '/',
-              // }, {
-              //   id: 'bloodriver20',
-              //   title: 'BLOOD RIVER EP20',
-              //   video_url: 'https://hglink.to/',
-              //   download_url:
-              //     '',
-              //   thumbnail_url: '/',
-              // }, 
+              //to start here 
+              {
+                id: 'bloodriver19',
+                title: 'BLOOD RIVER EP19',
+                video_url: 'https://hglink.to/f78jhvaeqd0x',
+                download_url:
+                  'https://www.mediafire.com/file/ookyorrc5unjy8q/Blood_River_19.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              }, {
+                id: 'bloodriver20',
+                title: 'BLOOD RIVER EP20',
+                video_url: 'https://hglink.to/5hztmc13tnrr',
+                download_url:
+                  'https://www.mediafire.com/file/939qvs0xlhc3k3r/Blood_River_20.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              }, 
+
+              {
+                id: 'bloodriver21',
+                title: 'BLOOD RIVER EP22',
+                video_url: 'https://hglink.to/tvk24hmyg08d',
+                download_url:
+                  'https://www.mediafire.com/file/78jzhnxxsrqr31d/Blood_River_21.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              },
+
+              {
+                id: 'bloodriver22',
+                title: 'BLOOD RIVER EP22',
+                video_url: 'https://hglink.to/462eyq71gxo9',
+                download_url:
+                  'https://www.mediafire.com/file/sqknmnm9h9ftuj1/Blood_River_22.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, 
               
+              {
+                id: 'bloodriver23',
+                title: 'BLOOD RIVER EP23',
+                video_url: 'https://hglink.to/2kym7tqgffan',
+                download_url:
+                  'https://www.mediafire.com/file/v5knjjw5k8nk4vh/Blood_River_23.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, 
+
+             {
+                id: 'bloodriver24',
+                title: 'BLOOD RIVER EP24',
+                video_url: 'https://hglink.to/n5fxhjyc2rq8',
+                download_url:
+                  'https://www.mediafire.com/file/4vjxvwnhajq0d1p/Blood_River_24.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, {
+                id: 'bloodriver25',
+                title: 'BLOOD RIVER EP25',
+                video_url: 'https://hglink.to/9dnaxdh0p29d',
+                download_url:
+                  'https://www.mediafire.com/file/hxhooawu8bibe9v/Blood_River_25.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              },
+               {
+                id: 'bloodriver26',
+                title: 'BLOOD RIVER EP26',
+                video_url: 'https://hglink.to/6lrsgrw7vkb5',
+                download_url:
+                  'https://www.mediafire.com/file/2t1khyfph8qnfsx/Blood_River_26.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver27',
+                title: 'BLOOD RIVER EP27',
+                video_url: 'https://hglink.to/wsp1hpn44hmp',
+                download_url:
+                  'https://www.mediafire.com/file/da51nb00g85dq3b/Blood_River_27.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },   
+               {
+                id: 'bloodriver28',
+                title: 'BLOOD RIVER EP28',
+                video_url: 'https://hglink.to/gw2fggz6nhkl',
+                download_url:
+                  'https://www.mediafire.com/file/cgaxaagvln2osbx/Blood_River_28.mp4/file',
+                thumbnail_url: '/bloodriver1.webp',
+              }, {
+                id: 'bloodriver29',
+                title: 'BLOOD RIVER EP29',
+                video_url: 'https://hglink.to/j9bwtw9g2q2p',
+                download_url:
+                  'https://www.mediafire.com/file/jkfo5hedzwqqvm2/Blood_River_29.mp4/file',
+                thumbnail_url: '/bloodriver3.webp',
+              }, 
+
+               {
+                id: 'bloodriver30',
+                title: 'BLOOD RIVER EP30',
+                video_url: 'https://hglink.to/4bfsvivhjj0u',
+                download_url:
+                  'https://www.mediafire.com/file/099v3qk3uuhlhyg/Blood_River_30.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver31',
+                title: 'BLOOD RIVER EP31',
+                video_url: 'https://hglink.to/ct3cjmfknxrc',
+                download_url:
+                  'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },              
         ],
       },
     ],
