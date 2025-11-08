@@ -53,13 +53,31 @@ const staticSeries = [
                 download_url:
                   'https://www.mediafire.com/file/5v64kyiv06iqy2u/BONNE20APETIT20S01E05.mp4/file',
                 thumbnail_url: '/bonne.webp',
-              },
+              }, 
               {
                 id: 'bonne_appetit6',
                 title: 'BONNE APPETIT EP6',
                 video_url: 'https://hglink.to/b6mdkdii28y4',
                 download_url:
                   'https://www.mediafire.com/file/c9enflgr2hbl74a/BONNE+APETIT+S01E06.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+               {
+                id: 'bonne_appetit7',
+                title: 'BONNE APPETIT EP7',
+                video_url: 'https://hglink.to/3x8fs2xdah02',
+                download_url:
+                  'https://www.mediafire.com/file/ggd1adyzaxclxgl/BONNE+APETIT+S01E07.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+              {
+                id: 'bonne_appetit8',
+                title: 'BONNE APPETIT EP8',
+                video_url: 'https://hglink.to/zvodapu3ehe4',
+                download_url:
+                  'https://www.mediafire.com/file/xmikdyv6wb4zvs9/BONE+APETIT+S01E08.mp4/file',
                 thumbnail_url: '/bonne.webp',
               },
         ],
