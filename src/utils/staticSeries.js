@@ -1,6 +1,49 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+
+ {
+    id:'tempest',
+    title: 'TEMPEST',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/tempest1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'tempest1',
+            title: 'TEMPEST EP1',
+            video_url: 'https://hglink.to/5npz6z2g9uay',
+            download_url:
+              'https://www.mediafire.com/file/xugs6b8b1rhc5vr/Tempest_ep1.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
+          {
+            id: 'tempest2',
+            title: 'TEMPEST EP2',
+            video_url: 'https://hglink.to/iv9lgkv9pthl',
+            download_url:
+              'https://www.mediafire.com/file/y4ejhfyqwepg4fo/Tempest_ep2.mp4/file',
+            thumbnail_url: '/tempest1.webp',
+          },
+ {
+            id: 'tempest3',
+            title: 'TEMPEST EP3',
+            video_url: 'https://hglink.to/omzedn4mhupz',
+            download_url:
+              'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
+        ],
+      },
+    ],
+  },
+
+
   {
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
@@ -78,6 +121,15 @@ const staticSeries = [
                 video_url: 'https://hglink.to/zvodapu3ehe4',
                 download_url:
                   'https://www.mediafire.com/file/xmikdyv6wb4zvs9/BONE+APETIT+S01E08.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+              {
+                id: 'bonne_appetit9',
+                title: 'BONNE APPETIT EP9',
+                video_url: 'https://hglink.to/bpww1mvpjl4c',
+                download_url:
+                  'https://www.mediafire.com/file/xh8xenkzxkxw9va/BONNE_APETIT_S01E09.mp4/file',
                 thumbnail_url: '/bonne.webp',
               },
         ],
@@ -1330,7 +1382,7 @@ const staticSeries = [
             {
             id: 'lost52',
 
-            title: 'LOST IN LOVE EP50',
+            title: 'LOST IN LOVE EP52',
 
             video_url:
               'https://hglink.to/mq1u7rnzynuk',
@@ -1340,8 +1392,153 @@ const staticSeries = [
 
             thumbnail_url: '/lostin.jpg',
           },
+//new parts 
+
+ {
+            id: 'lost53',
+
+            title: 'LOST IN LOVE EP53',
+
+            video_url:
+              'https://hglink.to/6t8wmvw4k68n',
+
+            download_url:
+              'https://www.mediafire.com/file/blu1gzrp7v3a89s/LOST_IN_LOVE_E53.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+          {
+            id: 'lost54',
+
+            title: 'LOST IN LOVE EP54',
+
+            video_url:
+              'https://hglink.to/znu5wiy9zben',
+
+            download_url:
+              'https://www.mediafire.com/file/7zqnpfybavijqrs/LOST_IN_LOVE_E54.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+          {
+            id: 'lost55',
+
+            title: 'LOST IN LOVE EP55',
+
+            video_url:
+              'https://hglink.to/x6k1lnk9n5qy',
+
+            download_url:
+              'https://www.mediafire.com/file/wxrrnfar503rp1h/LOST_IN_LOVE_E55.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+          {
+            id: 'lost56',
+
+            title: 'LOST IN LOVE EP56',
+
+            video_url:
+              'https://hglink.to/2616nof8wv84',
+
+            download_url:
+              'https://www.mediafire.com/file/qqphz8fv76szaqx/LOST_IN_LOVE_EP56.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
 
 
+  {
+            id: 'lost57',
+
+            title: 'LOST IN LOVE EP57',
+
+            video_url:
+              'https://hglink.to/jlfp9zykv8l6',
+
+            download_url:
+              'https://www.mediafire.com/file/yuvll9ni66a8kmd/LOST_IN_LOVE_E57.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
+            {
+            id: 'lost58',
+
+            title: 'LOST IN LOVE EP58',
+
+            video_url:
+              'https://hglink.to/51zjq1n3b07m',
+
+            download_url:
+              'https://www.mediafire.com/file/tebfcef0fx4u4b0/Lost_in_Love_58.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
+
+  {
+            id: 'lost59',
+
+            title: 'LOST IN LOVE EP59',
+
+            video_url:
+              'https://hglink.to/g20bc59hsnxu',
+
+            download_url:
+              'https://www.mediafire.com/file/s2lnxxdt0wvamaq/LOST_IN_LOVE_E59.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
+            {
+            id: 'lost60',
+
+            title: 'LOST IN LOVE Ep60',
+
+            video_url:
+              'https://hglink.to/ljwrkddl1j1y',
+
+            download_url:
+              'https://www.mediafire.com/file/inb33af1k190sdz/LOST_IN_LOVE_E60.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+{
+  
+            id: 'lost61',
+
+            title: 'LOST IN LOVE EP61',
+
+            video_url:
+              'https://hglink.to/ub8bh2uqcmlg',
+
+            download_url:
+              'https://www.mediafire.com/file/utz5n8dl46qrndk/LOST_IN_LOVE_E61.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
+
+
+            {
+            id: 'lost62',
+
+            title: 'LOST IN LOVE EP62',
+
+            video_url:
+              'https://hglink.to/ld1vc8zc90az',
+
+            download_url:
+              'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
+
+            thumbnail_url: '/lostin.jpg',
+          },
         ],
       },
       {

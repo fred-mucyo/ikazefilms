@@ -4,7 +4,22 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
-  {
+ {
+    id: 'thebrink',
+    title: 'THE BRINK',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'SANKARA',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/the-brink.webp',
+    poster_url: '/the-brink.webp',
+    image_url: '/the-brink.webp',
+    video_url: 'https://hglink.to/wo3n4t6kddfm',
+    download_url:
+      'https://www.mediafire.com/file/yoaizo3eq3ycvtd/The_Brink_by_Sankar.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/wo3n4t6kddfm',
+  },
+{
     id: 'ipkungufumaster',
     title: 'IP MAN KUNGFU  MASTER ',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
