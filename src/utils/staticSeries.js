@@ -43,6 +43,144 @@ const staticSeries = [
     ],
   },
 
+//    {
+//     id:'hierachy',
+//     title: 'HIERARCHY',
+//     type: 'series',
+//     description: 'Aga filime gashya ka rocky, ntucikwe.',
+//     is_popular: true,
+//     is_featured: true,
+//     poster_url: '/.webp',
+//     seasons: [
+//       {
+//         seasonNumber: 1,
+//         episodes: [
+//           {
+//             id: 'hierarchy1',
+//             title: 'HIERARCHY EP1',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'hierarchy2',
+//             title: 'HIERARCHY EP2',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest1.webp',
+//           },
+//           {
+//             id: 'hierarchy3',
+//             title: 'HIERARCHY EP3',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'hierarchy4',
+//             title: 'HIERARCHY EP4',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'hierarchy5',
+//             title: 'HIERARCHY EP5',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'hierarchy6',
+//             title: 'HIERARCHY EP6',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'hierarchy7',
+//             title: 'HIERARCHY EP7 FINAL',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//         ],
+//       },
+//     ],
+//   },
+
+//    {
+//     id:'money-heist',
+//     title: 'MONEY HEIST KOREA',
+//     type: 'series',
+//     description: 'Aga filime gashya ka rocky, ntucikwe.',
+//     is_popular: true,
+//     is_featured: true,
+//     poster_url: '/.webp',
+//     seasons: [
+//       {
+//         seasonNumber: 1,
+//         episodes: [
+//           {
+//             id: 'moneyheist1',
+//             title: 'MONEY HEIST KOREA EP1',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'moneyheist2',
+//             title: 'MONEY HEIST KOREA EP2',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest1.webp',
+//           },
+//           {
+//             id: 'moneyheist3',
+//             title: 'MONEY HEIST KOREA EP3',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'moneyheist4',
+//             title: 'MONEY HEIST KOREA EP4',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'moneyheist5',
+//             title: 'MONEY HEIST KOREA EP5',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//           {
+//             id: 'moneyheist6',
+//             title: 'MONEY HEIST KOREA EP6 FINAL',
+//             video_url: '',
+//             download_url:
+//               '',
+//             thumbnail_url: '/tempest.webp',
+//           },
+//         ],
+//       },
+//     ],
+//   },
+
 
   {
     id: 'bonne_appetit',
