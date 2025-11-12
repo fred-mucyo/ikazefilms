@@ -43,78 +43,78 @@ const staticSeries = [
     ],
   },
 
-  //  {
-  //   id:'hierachy',
-  //   title: 'HIERARCHY',
-  //   type: 'series',
-  //   description: 'Aga filime gashya ka rocky, ntucikwe.',
-  //   is_popular: true,
-  //   is_featured: true,
-  //   poster_url: '/hierarchy.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'hierarchy1',
-  //           title: 'HIERARCHY EP1',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/9hvrrytckkfgg1o/HIERARCHY+EP1.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy2',
-  //           title: 'HIERARCHY EP2',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy3',
-  //           title: 'HIERARCHY EP3',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy4',
-  //           title: 'HIERARCHY EP4',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy5',
-  //           title: 'HIERARCHY EP5',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/lkblaks2l94glwy/HIERARCHY+EP5.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy6',
-  //           title: 'HIERARCHY EP6',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/0vzm6y00n86ufid/HIERARCHY+EP6.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //         {
-  //           id: 'hierarchy7',
-  //           title: 'HIERARCHY EP7 FINAL',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/w2rld5ihdr5l0zh/HIERARCHY+EP7+FINAL.mp4/file',
-  //           thumbnail_url: '/hierarchy.webp',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+   {
+    id:'hierachy',
+    title: 'HIERARCHY',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/hierarchy.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'hierarchy1',
+            title: 'HIERARCHY EP1',
+            video_url: 'https://hglink.to/5xb4m0ukih07',
+            download_url:
+              'https://www.mediafire.com/file/9hvrrytckkfgg1o/HIERARCHY+EP1.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          // {
+          //   id: 'hierarchy2',
+          //   title: 'HIERARCHY EP2',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+          // {
+          //   id: 'hierarchy3',
+          //   title: 'HIERARCHY EP3',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+          // {
+          //   id: 'hierarchy4',
+          //   title: 'HIERARCHY EP4',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+          // {
+          //   id: 'hierarchy5',
+          //   title: 'HIERARCHY EP5',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/lkblaks2l94glwy/HIERARCHY+EP5.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+          // {
+          //   id: 'hierarchy6',
+          //   title: 'HIERARCHY EP6',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/0vzm6y00n86ufid/HIERARCHY+EP6.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+          // {
+          //   id: 'hierarchy7',
+          //   title: 'HIERARCHY EP7 FINAL',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/w2rld5ihdr5l0zh/HIERARCHY+EP7+FINAL.mp4/file',
+          //   thumbnail_url: '/hierarchy.webp',
+          // },
+        ],
+      },
+    ],
+  },
 
   //  {
   //   id:'money-heist',
