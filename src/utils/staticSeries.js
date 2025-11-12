@@ -71,22 +71,22 @@ const staticSeries = [
               'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
             thumbnail_url: '/hierarchy.webp',
           },
-          // {
-          //   id: 'hierarchy3',
-          //   title: 'HIERARCHY EP3',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
-          //   thumbnail_url: '/hierarchy.webp',
-          // },
-          // {
-          //   id: 'hierarchy4',
-          //   title: 'HIERARCHY EP4',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
-          //   thumbnail_url: '/hierarchy.webp',
-          // },
+          {
+            id: 'hierarchy3',
+            title: 'HIERARCHY EP3',
+            video_url: 'https://hglink.to/r6ulho0d4w1l',
+            download_url:
+              'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy4',
+            title: 'HIERARCHY EP4',
+            video_url: 'https://hglink.to/or9xz7v9193v',
+            download_url:
+              'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
           // {
           //   id: 'hierarchy5',
           //   title: 'HIERARCHY EP5',
