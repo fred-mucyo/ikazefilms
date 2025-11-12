@@ -60,7 +60,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP1',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/9hvrrytckkfgg1o/HIERARCHY+EP1.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -68,7 +68,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP2',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -76,7 +76,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP3',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -84,7 +84,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP4',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -92,7 +92,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP5',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/lkblaks2l94glwy/HIERARCHY+EP5.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -100,7 +100,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP6',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/0vzm6y00n86ufid/HIERARCHY+EP6.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //         {
@@ -108,7 +108,7 @@ const staticSeries = [
   //           title: 'HIERARCHY EP7 FINAL',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/w2rld5ihdr5l0zh/HIERARCHY+EP7+FINAL.mp4/file',
   //           thumbnail_url: '/hierarchy.webp',
   //         },
   //       ],
@@ -133,7 +133,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP1',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //         {
@@ -141,7 +141,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP2',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //         {
@@ -149,7 +149,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP3',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //         {
@@ -157,7 +157,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP4',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //         {
@@ -165,7 +165,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP5',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //         {
@@ -173,7 +173,7 @@ const staticSeries = [
   //           title: 'MONEY HEIST KOREA EP6 FINAL',
   //           video_url: '',
   //           download_url:
-  //             '',
+  //             'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
   //         },
   //       ],
