@@ -131,7 +131,7 @@ const staticSeries = [
   //         {
   //           id: 'moneyheist1',
   //           title: 'MONEY HEIST KOREA EP1',
-  //           video_url: '',
+  //           video_url: 'https://hglink.to/glsfdgckvcqm',
   //           download_url:
   //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
@@ -139,7 +139,7 @@ const staticSeries = [
   //         {
   //           id: 'moneyheist2',
   //           title: 'MONEY HEIST KOREA EP2',
-  //           video_url: '',
+  //           video_url: 'https://hglink.to/8lv2bub7phi3',
   //           download_url:
   //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
   //           thumbnail_url: '/moneykorea.webp',
