@@ -168,14 +168,14 @@ const staticSeries = [
               'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
             thumbnail_url: '/moneykorea.webp',
           },
-          // {
-          //   id: 'moneyheist6',
-          //   title: 'MONEY HEIST KOREA EP6 FINAL',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
+          {
+            id: 'moneyheist6',
+            title: 'MONEY HEIST KOREA EP6 FINAL',
+            video_url: 'https://hglink.to/9bd9gaqfb69n',
+            download_url:
+              'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
+            thumbnail_url: '/moneykorea.webp',
+          },
         ],
       },
     ],
