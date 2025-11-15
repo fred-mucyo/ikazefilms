@@ -270,6 +270,15 @@ const staticSeries = [
                   'https://www.mediafire.com/file/xh8xenkzxkxw9va/BONNE_APETIT_S01E09.mp4/file',
                 thumbnail_url: '/bonne.webp',
               },
+              
+              {
+                id: 'bonne_appetit10',
+                title: 'BONNE APPETIT EP 10',
+                video_url: 'https://hglink.to/3w3g1shwb3mc',
+                download_url:
+                  'https://www.mediafire.com/file/p43sa2x8ljxrxy8/BONNE_APETIT_S01E10.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
         ],
       },
     ],
