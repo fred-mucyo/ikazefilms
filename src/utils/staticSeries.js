@@ -285,6 +285,28 @@ const staticSeries = [
               'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
             thumbnail_url: '/tempest.webp',
           },
+ {
+            id: 'tempest4',
+            title: 'TEMPEST EP4',
+            video_url: 'https://hglink.to/cb4oydx53m5z',
+            download_url:
+              'https://www.mediafire.com/file/z9qblf91a7tr47t/TEMPEST+EP4.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          }, {
+            id: 'tempest5',
+            title: 'TEMPEST EP5',
+            video_url: 'https://hglink.to/y2r3wdhgljr7',
+            download_url:
+              'https://www.mediafire.com/file/0420a04eijcdq9d/TEMPEST+EP5.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          }, {
+            id: 'tempest6',
+            title: 'TEMPEST EP6',
+            video_url: 'https://hglink.to/omzedn4mhupz',
+            download_url:
+              'https://www.mediafire.com/file/xvpbyl51n0sypl0/TEMPEST+EP6+-.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
         ],
       },
     ],
