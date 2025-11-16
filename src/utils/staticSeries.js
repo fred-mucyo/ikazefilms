@@ -2,48 +2,117 @@
 
 const staticSeries = [
 
- {
-    id:'tempest',
-    title: 'TEMPEST',
+    {
+    id: 'bonne_appetit',
+    title: 'BONNE APPETIT',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    poster_url: '/tempest1.webp',
+    poster_url: '/bonne.webp',
     seasons: [
       {
         seasonNumber: 1,
         episodes: [
           {
-            id: 'tempest1',
-            title: 'TEMPEST EP1',
-            video_url: 'https://hglink.to/5npz6z2g9uay',
+            id: 'bonne_appetit',
+            title: 'BONNE APPETIT EP1',
+            video_url: 'https://hglink.to/2gb1q3242ao7',
             download_url:
-              'https://www.mediafire.com/file/xugs6b8b1rhc5vr/Tempest_ep1.mp4/file',
-            thumbnail_url: '/tempest.webp',
+              'https://www.mediafire.com/file/6pdwyw64ztt8vlh/BONNE+APPETIT+EP+01.mp4/file',
+            thumbnail_url: '/bonne.webp',
           },
           {
-            id: 'tempest2',
-            title: 'TEMPEST EP2',
-            video_url: 'https://hglink.to/iv9lgkv9pthl',
+            id: 'bonne_appetit',
+            title: 'BONNE APPETIT EP2',
+            video_url: 'https://hglink.to/rigjhhi3qko4',
             download_url:
-              'https://www.mediafire.com/file/y4ejhfyqwepg4fo/Tempest_ep2.mp4/file',
-            thumbnail_url: '/tempest1.webp',
+              'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
+            thumbnail_url: '/bonne.webp',
           },
- {
-            id: 'tempest3',
-            title: 'TEMPEST EP3',
-            video_url: 'https://hglink.to/omzedn4mhupz',
+
+          {
+            id: 'bonne_appetit3',
+            title: 'BONNE APPETIT EP3',
+            video_url: 'https://hglink.to/1m2kto1ers3f',
             download_url:
-              'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
-            thumbnail_url: '/tempest.webp',
+              'https://www.mediafire.com/file/w4mi0rfnjzti0uf/bonne+appetit.mp4/file',
+            thumbnail_url: '/bonne.webp',
           },
+          {
+            id: 'bonne_appetit4',
+            title: 'BONNE APPETIT EP4',
+            video_url: 'https://hglink.to/y8odnl4nshg3',
+            download_url:
+              'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
+            thumbnail_url: '/bonne.webp',
+          },
+              {
+                id: 'bonne_appetit',
+                title:'BONNE APPETIT EP5',
+                video_url: 'https://hglink.to/3dqovqq1i6ol',
+                download_url:
+                  'https://www.mediafire.com/file/5v64kyiv06iqy2u/BONNE20APETIT20S01E05.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              }, 
+              {
+                id: 'bonne_appetit6',
+                title: 'BONNE APPETIT EP6',
+                video_url: 'https://hglink.to/b6mdkdii28y4',
+                download_url:
+                  'https://www.mediafire.com/file/c9enflgr2hbl74a/BONNE+APETIT+S01E06.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+               {
+                id: 'bonne_appetit7',
+                title: 'BONNE APPETIT EP7',
+                video_url: 'https://hglink.to/3x8fs2xdah02',
+                download_url:
+                  'https://www.mediafire.com/file/ggd1adyzaxclxgl/BONNE+APETIT+S01E07.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+              {
+                id: 'bonne_appetit8',
+                title: 'BONNE APPETIT EP8',
+                video_url: 'https://hglink.to/zvodapu3ehe4',
+                download_url:
+                  'https://www.mediafire.com/file/xmikdyv6wb4zvs9/BONE+APETIT+S01E08.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+              {
+                id: 'bonne_appetit9',
+                title: 'BONNE APPETIT EP9',
+                video_url: 'https://hglink.to/bpww1mvpjl4c',
+                download_url:
+                  'https://www.mediafire.com/file/xh8xenkzxkxw9va/BONNE_APETIT_S01E09.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+              
+              {
+                id: 'bonne_appetit10',
+                title: 'BONNE APPETIT EP 10',
+                video_url: 'https://hglink.to/3w3g1shwb3mc',
+                download_url:
+                  'https://www.mediafire.com/file/p43sa2x8ljxrxy8/BONNE_APETIT_S01E10.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+
+               {
+                id: 'bonne_appetit11',
+                title: 'BONNE APPETIT EP 11',
+                video_url:'https://hglink.to/8h5afqsv42cc',
+                download_url:
+                  'https://www.mediafire.com/file/qvsjvjk13f5zgi6/BONNE_APPETIT_S01E11.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
         ],
       },
     ],
   },
-
-   {
+{
     id:'hierachy',
     title: 'HIERARCHY',
     type: 'series',
@@ -180,109 +249,113 @@ const staticSeries = [
       },
     ],
   },
-
-
-  {
-    id: 'bonne_appetit',
-    title: 'BONNE APPETIT',
+ {
+    id:'tempest',
+    title: 'TEMPEST',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    poster_url: '/bonne.webp',
+    poster_url: '/tempest1.webp',
     seasons: [
       {
         seasonNumber: 1,
         episodes: [
           {
-            id: 'bonne_appetit',
-            title: 'BONNE APPETIT EP1',
-            video_url: 'https://hglink.to/2gb1q3242ao7',
+            id: 'tempest1',
+            title: 'TEMPEST EP1',
+            video_url: 'https://hglink.to/5npz6z2g9uay',
             download_url:
-              'https://www.mediafire.com/file/6pdwyw64ztt8vlh/BONNE+APPETIT+EP+01.mp4/file',
-            thumbnail_url: '/bonne.webp',
+              'https://www.mediafire.com/file/xugs6b8b1rhc5vr/Tempest_ep1.mp4/file',
+            thumbnail_url: '/tempest.webp',
           },
           {
-            id: 'bonne_appetit',
-            title: 'BONNE APPETIT EP2',
-            video_url: 'https://hglink.to/rigjhhi3qko4',
+            id: 'tempest2',
+            title: 'TEMPEST EP2',
+            video_url: 'https://hglink.to/iv9lgkv9pthl',
             download_url:
-              'https://www.mediafire.com/file/gs3vltj01302csd/BONNE+APPETIT+EP+02.mp4/file',
-            thumbnail_url: '/bonne.webp',
+              'https://www.mediafire.com/file/y4ejhfyqwepg4fo/Tempest_ep2.mp4/file',
+            thumbnail_url: '/tempest1.webp',
           },
-
-          {
-            id: 'bonne_appetit3',
-            title: 'BONNE APPETIT EP3',
-            video_url: 'https://hglink.to/1m2kto1ers3f',
+ {
+            id: 'tempest3',
+            title: 'TEMPEST EP3',
+            video_url: 'https://hglink.to/omzedn4mhupz',
             download_url:
-              'https://www.mediafire.com/file/w4mi0rfnjzti0uf/bonne+appetit.mp4/file',
-            thumbnail_url: '/bonne.webp',
+              'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
+            thumbnail_url: '/tempest.webp',
           },
-          {
-            id: 'bonne_appetit4',
-            title: 'BONNE APPETIT EP4',
-            video_url: 'https://hglink.to/y8odnl4nshg3',
-            download_url:
-              'https://www.mediafire.com/file/2otyrkde1g3e254/bonne_appetit_04.mp4/file',
-            thumbnail_url: '/bonne.webp',
-          },
-              {
-                id: 'bonne_appetit',
-                title:'BONNE APPETIT EP5',
-                video_url: 'https://hglink.to/3dqovqq1i6ol',
-                download_url:
-                  'https://www.mediafire.com/file/5v64kyiv06iqy2u/BONNE20APETIT20S01E05.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              }, 
-              {
-                id: 'bonne_appetit6',
-                title: 'BONNE APPETIT EP6',
-                video_url: 'https://hglink.to/b6mdkdii28y4',
-                download_url:
-                  'https://www.mediafire.com/file/c9enflgr2hbl74a/BONNE+APETIT+S01E06.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              },
-
-               {
-                id: 'bonne_appetit7',
-                title: 'BONNE APPETIT EP7',
-                video_url: 'https://hglink.to/3x8fs2xdah02',
-                download_url:
-                  'https://www.mediafire.com/file/ggd1adyzaxclxgl/BONNE+APETIT+S01E07.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              },
-
-              {
-                id: 'bonne_appetit8',
-                title: 'BONNE APPETIT EP8',
-                video_url: 'https://hglink.to/zvodapu3ehe4',
-                download_url:
-                  'https://www.mediafire.com/file/xmikdyv6wb4zvs9/BONE+APETIT+S01E08.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              },
-
-              {
-                id: 'bonne_appetit9',
-                title: 'BONNE APPETIT EP9',
-                video_url: 'https://hglink.to/bpww1mvpjl4c',
-                download_url:
-                  'https://www.mediafire.com/file/xh8xenkzxkxw9va/BONNE_APETIT_S01E09.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              },
-              
-              {
-                id: 'bonne_appetit10',
-                title: 'BONNE APPETIT EP 10',
-                video_url: 'https://hglink.to/3w3g1shwb3mc',
-                download_url:
-                  'https://www.mediafire.com/file/p43sa2x8ljxrxy8/BONNE_APETIT_S01E10.mp4/file',
-                thumbnail_url: '/bonne.webp',
-              },
         ],
       },
     ],
   },
+
+
+
+  //  {
+  //   id:'money-heist',
+  //   title: 'MONEY HEIST KOREA',
+  //   type: 'series',
+  //   description: 'Aga filime gashya ka rocky, ntucikwe.',
+  //   is_popular: true,
+  //   is_featured: true,
+  //   poster_url: '/moneykorea.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'moneyheist1',
+  //           title: 'MONEY HEIST KOREA EP1',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist2',
+  //           title: 'MONEY HEIST KOREA EP2',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist3',
+  //           title: 'MONEY HEIST KOREA EP3',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist4',
+  //           title: 'MONEY HEIST KOREA EP4',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist5',
+  //           title: 'MONEY HEIST KOREA EP5',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist6',
+  //           title: 'MONEY HEIST KOREA EP6 FINAL',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   {
     id: 'billionairebunker',
