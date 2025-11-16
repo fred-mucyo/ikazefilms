@@ -302,7 +302,7 @@ const staticSeries = [
           }, {
             id: 'tempest6',
             title: 'TEMPEST EP6',
-            video_url: 'https://hglink.to/omzedn4mhupz',
+            video_url: 'https://hglink.to/a3k51j6578in',
             download_url:
               'https://www.mediafire.com/file/xvpbyl51n0sypl0/TEMPEST+EP6+-.mp4/file',
             thumbnail_url: '/tempest.webp',
@@ -312,7 +312,7 @@ const staticSeries = [
     ],
   },
 
-
+                  ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
 
   //  {
   //   id:'money-heist',
