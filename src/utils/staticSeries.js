@@ -1,187 +1,7 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-
- {
-    id:'tempest',
-    title: 'TEMPEST',
-    type: 'series',
-    description: 'Aga filime gashya ka rocky, ntucikwe.',
-    is_popular: true,
-    is_featured: true,
-    poster_url: '/tempest1.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'tempest1',
-            title: 'TEMPEST EP1',
-            video_url: 'https://hglink.to/5npz6z2g9uay',
-            download_url:
-              'https://www.mediafire.com/file/xugs6b8b1rhc5vr/Tempest_ep1.mp4/file',
-            thumbnail_url: '/tempest.webp',
-          },
-          {
-            id: 'tempest2',
-            title: 'TEMPEST EP2',
-            video_url: 'https://hglink.to/iv9lgkv9pthl',
-            download_url:
-              'https://www.mediafire.com/file/y4ejhfyqwepg4fo/Tempest_ep2.mp4/file',
-            thumbnail_url: '/tempest1.webp',
-          },
- {
-            id: 'tempest3',
-            title: 'TEMPEST EP3',
-            video_url: 'https://hglink.to/omzedn4mhupz',
-            download_url:
-              'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
-            thumbnail_url: '/tempest.webp',
-          },
-        ],
-      },
-    ],
-  },
-
-   {
-    id:'hierachy',
-    title: 'HIERARCHY',
-    type: 'series',
-    description: 'Aga filime gashya ka rocky, ntucikwe.',
-    is_popular: true,
-    is_featured: true,
-    poster_url: '/hierarchy.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'hierarchy1',
-            title: 'HIERARCHY EP1',
-            video_url: 'https://hglink.to/5xb4m0ukih07',
-            download_url:
-              'https://www.mediafire.com/file/9hvrrytckkfgg1o/HIERARCHY+EP1.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy2',
-            title: 'HIERARCHY EP2',
-            video_url: 'https://hglink.to/jfizzmbooaee',
-            download_url:
-              'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy3',
-            title: 'HIERARCHY EP3',
-            video_url: 'https://hglink.to/r6ulho0d4w1l',
-            download_url:
-              'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy4',
-            title: 'HIERARCHY EP4',
-            video_url: 'https://hglink.to/or9xz7v9193v',
-            download_url:
-              'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy5',
-            title: 'HIERARCHY EP5',
-            video_url: 'https://hglink.to/klo2tuffxsl3',
-            download_url:
-              'https://www.mediafire.com/file/lkblaks2l94glwy/HIERARCHY+EP5.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy6',
-            title: 'HIERARCHY EP6',
-            video_url: 'https://hglink.to/z13nl17je1m9',
-            download_url:
-              'https://www.mediafire.com/file/0vzm6y00n86ufid/HIERARCHY+EP6.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-          {
-            id: 'hierarchy7',
-            title: 'HIERARCHY EP7 FINAL',
-            video_url: 'https://hglink.to/e3oy94365osn',
-            download_url:
-              'https://www.mediafire.com/file/w2rld5ihdr5l0zh/HIERARCHY+EP7+FINAL.mp4/file',
-            thumbnail_url: '/hierarchy.webp',
-          },
-        ],
-      },
-    ],
-  },
-
-  //  {
-  //   id:'money-heist',
-  //   title: 'MONEY HEIST KOREA',
-  //   type: 'series',
-  //   description: 'Aga filime gashya ka rocky, ntucikwe.',
-  //   is_popular: true,
-  //   is_featured: true,
-  //   poster_url: '/moneykorea.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'moneyheist1',
-  //           title: 'MONEY HEIST KOREA EP1',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist2',
-  //           title: 'MONEY HEIST KOREA EP2',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist3',
-  //           title: 'MONEY HEIST KOREA EP3',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist4',
-  //           title: 'MONEY HEIST KOREA EP4',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist5',
-  //           title: 'MONEY HEIST KOREA EP5',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist6',
-  //           title: 'MONEY HEIST KOREA EP6 FINAL',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
-
-
+  
   {
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
@@ -279,10 +99,199 @@ const staticSeries = [
                   'https://www.mediafire.com/file/p43sa2x8ljxrxy8/BONNE_APETIT_S01E10.mp4/file',
                 thumbnail_url: '/bonne.webp',
               },
+
+               {
+                id: 'bonne_appetit11',
+                title: 'BONNE APPETIT EP 11',
+                video_url:'https://hglink.to/8h5afqsv42cc',
+                download_url:
+                  'https://www.mediafire.com/file/qvsjvjk13f5zgi6/BONNE_APPETIT_S01E11.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
         ],
       },
     ],
   },
+     {
+    id:'hierachy',
+    title: 'HIERARCHY',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/hierarchy.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'hierarchy1',
+            title: 'HIERARCHY EP1',
+            video_url: 'https://hglink.to/5xb4m0ukih07',
+            download_url:
+              'https://www.mediafire.com/file/9hvrrytckkfgg1o/HIERARCHY+EP1.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy2',
+            title: 'HIERARCHY EP2',
+            video_url: 'https://hglink.to/jfizzmbooaee',
+            download_url:
+              'https://www.mediafire.com/file/26rkiaobxvv6gd5/HIERARCHY+EP2.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy3',
+            title: 'HIERARCHY EP3',
+            video_url: 'https://hglink.to/r6ulho0d4w1l',
+            download_url:
+              'https://www.mediafire.com/file/szxkzncpz6rfm2n/HIERARCHY+EP3.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy4',
+            title: 'HIERARCHY EP4',
+            video_url: 'https://hglink.to/or9xz7v9193v',
+            download_url:
+              'https://www.mediafire.com/file/4yx3oogwkahw29o/HIERARCHY+EP4.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy5',
+            title: 'HIERARCHY EP5',
+            video_url: 'https://hglink.to/klo2tuffxsl3',
+            download_url:
+              'https://www.mediafire.com/file/lkblaks2l94glwy/HIERARCHY+EP5.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy6',
+            title: 'HIERARCHY EP6',
+            video_url: 'https://hglink.to/z13nl17je1m9',
+            download_url:
+              'https://www.mediafire.com/file/0vzm6y00n86ufid/HIERARCHY+EP6.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+          {
+            id: 'hierarchy7',
+            title: 'HIERARCHY EP7 FINAL',
+            video_url: 'https://hglink.to/e3oy94365osn',
+            download_url:
+              'https://www.mediafire.com/file/w2rld5ihdr5l0zh/HIERARCHY+EP7+FINAL.mp4/file',
+            thumbnail_url: '/hierarchy.webp',
+          },
+        ],
+      },
+    ],
+  },
+
+ {
+    id:'tempest',
+    title: 'TEMPEST',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/tempest1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'tempest1',
+            title: 'TEMPEST EP1',
+            video_url: 'https://hglink.to/5npz6z2g9uay',
+            download_url:
+              'https://www.mediafire.com/file/xugs6b8b1rhc5vr/Tempest_ep1.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
+          {
+            id: 'tempest2',
+            title: 'TEMPEST EP2',
+            video_url: 'https://hglink.to/iv9lgkv9pthl',
+            download_url:
+              'https://www.mediafire.com/file/y4ejhfyqwepg4fo/Tempest_ep2.mp4/file',
+            thumbnail_url: '/tempest1.webp',
+          },
+ {
+            id: 'tempest3',
+            title: 'TEMPEST EP3',
+            video_url: 'https://hglink.to/omzedn4mhupz',
+            download_url:
+              'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
+        ],
+      },
+    ],
+  },
+
+
+
+  //  {
+  //   id:'money-heist',
+  //   title: 'MONEY HEIST KOREA',
+  //   type: 'series',
+  //   description: 'Aga filime gashya ka rocky, ntucikwe.',
+  //   is_popular: true,
+  //   is_featured: true,
+  //   poster_url: '/moneykorea.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'moneyheist1',
+  //           title: 'MONEY HEIST KOREA EP1',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist2',
+  //           title: 'MONEY HEIST KOREA EP2',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist3',
+  //           title: 'MONEY HEIST KOREA EP3',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist4',
+  //           title: 'MONEY HEIST KOREA EP4',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist5',
+  //           title: 'MONEY HEIST KOREA EP5',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //         {
+  //           id: 'moneyheist6',
+  //           title: 'MONEY HEIST KOREA EP6 FINAL',
+  //           video_url: '',
+  //           download_url:
+  //             'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
+  //           thumbnail_url: '/moneykorea.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 
   {
     id: 'billionairebunker',
