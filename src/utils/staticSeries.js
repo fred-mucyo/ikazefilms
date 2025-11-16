@@ -1827,13 +1827,13 @@ const staticSeries = [
           },{
             id: 'lost66',
             title: 'LOST IN LOVE EP66',
-            video_url:'https://hglink.to/ld1vc8zc90az',
+            video_url:'https://hglink.to/h8axd4tvegj6',
             download_url:  'https://www.mediafire.com/file/65sbxengoq00gj9/LOST+IN+LOVE+EP66+-+Lost+in+Love.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },{
             id: 'lost67',
             title: 'LOST IN LOVE EP67',
-            video_url:'https://hglink.to/ld1vc8zc90az',
+            video_url:'https://hglink.to/elhdmnsm9q34',
             download_url:  'https://www.mediafire.com/file/6wxrf6898exk948/LOST+IN+LOVE+EP67+-+Lost+in+Love.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },
