@@ -1100,43 +1100,36 @@ const staticSeries = [
                   'https://www.mediafire.com/file/jymqih0l0gruo95/MonaFlix+-+BLOOD+RIVER+EP34+-+Blood+River.mp4/file',
                 thumbnail_url: '/bloodriver2.webp',
               }, 
-              // {
-              //   id: 'bloodriver35',
-              //   title: 'BLOOD RIVER EP35',
-              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
-              //   download_url:
-              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
-              //   thumbnail_url: '/bloodriver2.webp',
-              // }, {
-              //   id: 'bloodriver36',
-              //   title: 'BLOOD RIVER EP36',
-              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
-              //   download_url:
-              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
-              //   thumbnail_url: '/bloodriver2.webp',
-              // }, {
-              //   id: 'bloodriver37',
-              //   title: 'BLOOD RIVER EP37',
-              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
-              //   download_url:
-              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
-              //   thumbnail_url: '/bloodriver2.webp',
-              // },
-              // {
-              //   id: 'bloodriver37',
-              //   title: 'BLOOD RIVER EP37',
-              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
-              //   download_url:
-              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
-              //   thumbnail_url: '/bloodriver2.webp',
-              // },{
-              //   id: 'bloodriver37',
-              //   title: 'BLOOD RIVER EP37',
-              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
-              //   download_url:
-              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
-              //   thumbnail_url: '/bloodriver2.webp',
-              // },
+              {
+                id: 'bloodriver35',
+                title: 'BLOOD RIVER EP35',
+                video_url: 'https://hglink.to/xiflibao3cna',
+                download_url:
+                  'https://www.mediafire.com/file/fkvi7csqtyitwqe/BLOOD+RIVER+EP35.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver36',
+                title: 'BLOOD RIVER EP36',
+                video_url: 'https://hglink.to/ouo1b6ic4tz1',
+                download_url:
+                  'https://www.mediafire.com/file/4mm4g5m3dhjbs12/BLOOD+RIVER+EP36.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver37',
+                title: 'BLOOD RIVER EP37',
+                video_url: 'https://hglink.to/3ofgklb6iy8e',
+                download_url:
+                  'https://www.mediafire.com/file/oheryc7r4cil923/BLOOD+RIVER+EP37.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },
+              {
+                id: 'bloodriver38',
+                title: 'BLOOD RIVER EP38 FINAL',
+                video_url: 'https://hglink.to/kkm5wwxvets6',
+                download_url:
+                  'https://www.mediafire.com/file/9k5lnyg6y71j1gs/BLOOD+RIVER+EP38+FINAL.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },
                       
         ],
       },
@@ -1808,15 +1801,9 @@ const staticSeries = [
 
             {
             id: 'lost62',
-
             title: 'LOST IN LOVE EP62',
-
-            video_url:
-              'https://hglink.to/ld1vc8zc90az',
-
-            download_url:
-              'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
-
+            video_url:'https://hglink.to/ld1vc8zc90az',
+            download_url:  'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },
         ],
@@ -1846,6 +1833,8 @@ const staticSeries = [
       },
     ],
   },
+
+
   {
     id: 'fakeprofile',
     title: 'FAKE PROFILE S02',
