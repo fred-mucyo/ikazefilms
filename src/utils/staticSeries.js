@@ -1806,6 +1806,37 @@ const staticSeries = [
             download_url:  'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },
+          {
+            id: 'lost63',
+            title: 'LOST IN LOVE EP63',
+            video_url:'https://hglink.to/9c72vyvfhhie',
+            download_url:  'https://www.mediafire.com/file/6865a4qy1vggwr2/LOST+IN+LOVE+EP63+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost64',
+            title: 'LOST IN LOVE EP64',
+            video_url:'https://hglink.to/9c72vyvfhhie',
+            download_url:  'https://www.mediafire.com/file/wlajaevidrua7kq/LOST+IN+LOVE+EP64+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost65',
+            title: 'LOST IN LOVE EP65',
+            video_url:'https://hglink.to/xul5bmxgugp4',
+            download_url:  'https://www.mediafire.com/file/3d9aabl70mr08lh/LOST+IN+LOVE+EP65+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost66',
+            title: 'LOST IN LOVE EP66',
+            video_url:'https://hglink.to/ld1vc8zc90az',
+            download_url:  'https://www.mediafire.com/file/65sbxengoq00gj9/LOST+IN+LOVE+EP66+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost67',
+            title: 'LOST IN LOVE EP67',
+            video_url:'https://hglink.to/ld1vc8zc90az',
+            download_url:  'https://www.mediafire.com/file/6wxrf6898exk948/LOST+IN+LOVE+EP67+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },
         ],
       },
       {
