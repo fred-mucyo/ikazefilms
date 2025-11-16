@@ -1004,7 +1004,67 @@ const staticSeries = [
                 download_url:
                   'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
                 thumbnail_url: '/bloodriver2.webp',
-              },              
+              },  
+              {
+                id: 'bloodriver32',
+                title: 'BLOOD RIVER EP32',
+                video_url: 'https://hglink.to/wll8zsuyly4f',
+                download_url:
+                  'https://www.mediafire.com/file/63i1t2vlu1lil13/MonaFlix+-+BLOOD+RIVER+EP32+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver33',
+                title: 'BLOOD RIVER EP33',
+                video_url: 'https://hglink.to/e40qzgyn2c23',
+                download_url:
+                  'https://www.mediafire.com/file/sq2ew5y0na4629g/MonaFlix+-+BLOOD+RIVER+EP33+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver34',
+                title: 'BLOOD RIVER EP34',
+                video_url: 'https://hglink.to/mvi86cq45orq',
+                download_url:
+                  'https://www.mediafire.com/file/jymqih0l0gruo95/MonaFlix+-+BLOOD+RIVER+EP34+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, 
+              // {
+              //   id: 'bloodriver35',
+              //   title: 'BLOOD RIVER EP35',
+              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
+              //   download_url:
+              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+              //   thumbnail_url: '/bloodriver2.webp',
+              // }, {
+              //   id: 'bloodriver36',
+              //   title: 'BLOOD RIVER EP36',
+              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
+              //   download_url:
+              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+              //   thumbnail_url: '/bloodriver2.webp',
+              // }, {
+              //   id: 'bloodriver37',
+              //   title: 'BLOOD RIVER EP37',
+              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
+              //   download_url:
+              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+              //   thumbnail_url: '/bloodriver2.webp',
+              // },
+              // {
+              //   id: 'bloodriver37',
+              //   title: 'BLOOD RIVER EP37',
+              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
+              //   download_url:
+              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+              //   thumbnail_url: '/bloodriver2.webp',
+              // },{
+              //   id: 'bloodriver37',
+              //   title: 'BLOOD RIVER EP37',
+              //   video_url: 'https://hglink.to/ct3cjmfknxrc',
+              //   download_url:
+              //     'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
+              //   thumbnail_url: '/bloodriver2.webp',
+              // },
+                      
         ],
       },
     ],
