@@ -110,7 +110,7 @@ const staticSeries = [
               },
             {
                 id: 'bonne_appetit12',
-                title: 'BONNE APPETIT EP 12',
+                title: 'BONNE APPETIT EP 12 FINAL',
                 video_url:'https://hglink.to/lyaqrza8e3t0',
                 download_url:
                   'https://www.mediafire.com/file/bt89iq40q82m8oa/BONNE_APPETIT_S01E12_FINAL.mp4/file',
@@ -293,12 +293,34 @@ const staticSeries = [
               'https://www.mediafire.com/file/92135bllsbt7zsi/Tempest_ep3.mp4/file',
             thumbnail_url: '/tempest.webp',
           },
+ {
+            id: 'tempest4',
+            title: 'TEMPEST EP4',
+            video_url: 'https://hglink.to/cb4oydx53m5z',
+            download_url:
+              'https://www.mediafire.com/file/z9qblf91a7tr47t/TEMPEST+EP4.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          }, {
+            id: 'tempest5',
+            title: 'TEMPEST EP5',
+            video_url: 'https://hglink.to/y2r3wdhgljr7',
+            download_url:
+              'https://www.mediafire.com/file/0420a04eijcdq9d/TEMPEST+EP5.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          }, {
+            id: 'tempest6',
+            title: 'TEMPEST EP6',
+            video_url: 'https://hglink.to/a3k51j6578in',
+            download_url:
+              'https://www.mediafire.com/file/xvpbyl51n0sypl0/TEMPEST+EP6+-.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
         ],
       },
     ],
   },
 
-
+                  ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
 
   //  {
   //   id:'money-heist',
@@ -1085,7 +1107,60 @@ const staticSeries = [
                 download_url:
                   'https://www.mediafire.com/file/mtybcqnmiqnq324/Blood_River_31.mp4/file',
                 thumbnail_url: '/bloodriver2.webp',
-              },              
+              },  
+              {
+                id: 'bloodriver32',
+                title: 'BLOOD RIVER EP32',
+                video_url: 'https://hglink.to/wll8zsuyly4f',
+                download_url:
+                  'https://www.mediafire.com/file/63i1t2vlu1lil13/MonaFlix+-+BLOOD+RIVER+EP32+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver33',
+                title: 'BLOOD RIVER EP33',
+                video_url: 'https://hglink.to/e40qzgyn2c23',
+                download_url:
+                  'https://www.mediafire.com/file/sq2ew5y0na4629g/MonaFlix+-+BLOOD+RIVER+EP33+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver34',
+                title: 'BLOOD RIVER EP34',
+                video_url: 'https://hglink.to/mvi86cq45orq',
+                download_url:
+                  'https://www.mediafire.com/file/jymqih0l0gruo95/MonaFlix+-+BLOOD+RIVER+EP34+-+Blood+River.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, 
+              {
+                id: 'bloodriver35',
+                title: 'BLOOD RIVER EP35',
+                video_url: 'https://hglink.to/xiflibao3cna',
+                download_url:
+                  'https://www.mediafire.com/file/fkvi7csqtyitwqe/BLOOD+RIVER+EP35.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver36',
+                title: 'BLOOD RIVER EP36',
+                video_url: 'https://hglink.to/ouo1b6ic4tz1',
+                download_url:
+                  'https://www.mediafire.com/file/4mm4g5m3dhjbs12/BLOOD+RIVER+EP36.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              }, {
+                id: 'bloodriver37',
+                title: 'BLOOD RIVER EP37',
+                video_url: 'https://hglink.to/3ofgklb6iy8e',
+                download_url:
+                  'https://www.mediafire.com/file/oheryc7r4cil923/BLOOD+RIVER+EP37.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },
+              {
+                id: 'bloodriver38',
+                title: 'BLOOD RIVER EP38 FINAL',
+                video_url: 'https://hglink.to/kkm5wwxvets6',
+                download_url:
+                  'https://www.mediafire.com/file/9k5lnyg6y71j1gs/BLOOD+RIVER+EP38+FINAL.mp4/file',
+                thumbnail_url: '/bloodriver2.webp',
+              },
+                      
         ],
       },
     ],
@@ -1756,15 +1831,40 @@ const staticSeries = [
 
             {
             id: 'lost62',
-
             title: 'LOST IN LOVE EP62',
-
-            video_url:
-              'https://hglink.to/ld1vc8zc90az',
-
-            download_url:
-              'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
-
+            video_url:'https://hglink.to/ld1vc8zc90az',
+            download_url:  'https://www.mediafire.com/file/pgui6a7yazp4rvq/LOST_IN_LOVE_E62.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },
+          {
+            id: 'lost63',
+            title: 'LOST IN LOVE EP63',
+            video_url:'https://hglink.to/9c72vyvfhhie',
+            download_url:  'https://www.mediafire.com/file/6865a4qy1vggwr2/LOST+IN+LOVE+EP63+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost64',
+            title: 'LOST IN LOVE EP64',
+            video_url:'https://hglink.to/9c72vyvfhhie',
+            download_url:  'https://www.mediafire.com/file/wlajaevidrua7kq/LOST+IN+LOVE+EP64+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost65',
+            title: 'LOST IN LOVE EP65',
+            video_url:'https://hglink.to/xul5bmxgugp4',
+            download_url:  'https://www.mediafire.com/file/3d9aabl70mr08lh/LOST+IN+LOVE+EP65+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost66',
+            title: 'LOST IN LOVE EP66',
+            video_url:'https://hglink.to/h8axd4tvegj6',
+            download_url:  'https://www.mediafire.com/file/65sbxengoq00gj9/LOST+IN+LOVE+EP66+-+Lost+in+Love.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },{
+            id: 'lost67',
+            title: 'LOST IN LOVE EP67',
+            video_url:'https://hglink.to/elhdmnsm9q34',
+            download_url:  'https://www.mediafire.com/file/6wxrf6898exk948/LOST+IN+LOVE+EP67+-+Lost+in+Love.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },
         ],
@@ -1794,6 +1894,8 @@ const staticSeries = [
       },
     ],
   },
+
+
   {
     id: 'fakeprofile',
     title: 'FAKE PROFILE S02',
