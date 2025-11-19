@@ -1,50 +1,70 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-{
-    id:'johnwick',
-    title: 'JOHN WICK',
+
+
+
+    ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
+  {
+    id:'bad-influencer',
+    title: 'BAD INFLUENCER',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    poster_url: '/johnwick1.webp',
+    poster_url: '/badinfluencer.webp',
     seasons: [
       {
         seasonNumber: 1,
         episodes: [
           {
-            id: 'johnwick1',
-            title: 'JOHN WICK EP1',
-            video_url: 'https://hglink.to/ejnx06fb4703',
+            id: 'badinfluencer1',
+            title: 'BAD INFLUENCER EP1',
+            video_url: 'https://hglink.to/5afjx0lpw0f2',
             download_url:
-              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
-            thumbnail_url: '/johnwick1.webp',
+              'https://www.mediafire.com/file/4418res6w9fgkja/BAD+INFLUENCER+EP1.mp4/file',
+            thumbnail_url: '/badinfluencer.webp',
           },
           {
-            id: 'johnwick2',
-            title: 'JOHN WICK EP2',
-            video_url: 'https://hglink.to/lnapjlqugwnt',
+            id: 'badinfluence2',
+            title: 'BAD INFLUENCER EP2',
+            video_url: 'https://hglink.to/mf13mj7wqygw',
             download_url:
-              'https://www.mediafire.com/file/eytf559crg044qi/JOHN_WICK_2.mp4/file',
-            thumbnail_url: '/johnwick1.webp',
+              'https://www.mediafire.com/file/fq80hh1q7q43a02/BAD+INFLUENCER+S01E2+(1).mp4/file',
+            thumbnail_url: '/badinfluencer.webp',
           },
- {
-            id: 'johnwick3',
-            title: 'JOHN WICK EP3',
-            video_url: 'https://hglink.to/52gfp8hkig0f',
-            download_url:
-              'https://www.mediafire.com/file/tje1iq45h4ovgkm/JOHN_WICK_3..mp4/file',
-            thumbnail_url: '/johnwick1.webp',
-          },
- {
-            id: 'johnwick4',
-            title: 'JOHN WICK EP4',
-            video_url: 'https://hglink.to/zcryqoz1m7rc',
-            download_url:
-              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
-            thumbnail_url: '/johnwick1.webp',
-          }, 
+          // {
+          //   id: 'moneyheist3',
+          //   title: 'MONEY HEIST KOREA EP3',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist4',
+          //   title: 'MONEY HEIST KOREA EP4',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist5',
+          //   title: 'MONEY HEIST KOREA EP5',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist6',
+          //   title: 'MONEY HEIST KOREA EP6 FINAL',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
         ],
       },
     ],
@@ -313,13 +333,60 @@ const staticSeries = [
       },
     ],
   },
+  {
+    id:'johnwick',
+    title: 'JOHN WICK',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/johnwick1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'johnwick1',
+            title: 'JOHN WICK EP1',
+            video_url: 'https://hglink.to/ejnx06fb4703',
+            download_url:
+              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+          {
+            id: 'johnwick2',
+            title: 'JOHN WICK EP2',
+            video_url: 'https://hglink.to/lnapjlqugwnt',
+            download_url:
+              'https://www.mediafire.com/file/eytf559crg044qi/JOHN_WICK_2.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+ {
+            id: 'johnwick3',
+            title: 'JOHN WICK EP3',
+            video_url: 'https://hglink.to/52gfp8hkig0f',
+            download_url:
+              'https://www.mediafire.com/file/tje1iq45h4ovgkm/JOHN_WICK_3..mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+ {
+            id: 'johnwick4',
+            title: 'JOHN WICK EP4',
+            video_url: 'https://hglink.to/zcryqoz1m7rc',
+            download_url:
+              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          }, 
+        ],
+      },
+    ],
+  },
 {
     id:'hierachy',
     title: 'HIERARCHY',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/hierarchy.webp',
     seasons: [
       {
@@ -392,7 +459,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/moneykorea.webp',
     seasons: [
       {
@@ -456,7 +522,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/tempest1.webp',
     seasons: [
       {
@@ -529,72 +594,9 @@ const staticSeries = [
     ],
   },
 
-                  ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
+              
 
-   {
-    id:'bad-influence',
-    title: 'BAD INFLUENCE',
-    type: 'series',
-    description: 'Aga filime gashya ka rocky, ntucikwe.',
-    is_popular: true,
-    is_featured: true,
-    poster_url: '/badinfluencer.webp',
-    seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            id: 'badinfluence1',
-            title: 'BAD INFLUENCER EP1',
-            video_url: 'https://hglink.to/5afjx0lpw0f2',
-            download_url:
-              'https://www.mediafire.com/file/4418res6w9fgkja/BAD+INFLUENCER+EP1.mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
-          },
-          {
-            id: 'badinfluence2',
-            title: 'BAD INFLUENCER EP2',
-            video_url: 'https://hglink.to/mf13mj7wqygw',
-            download_url:
-              'https://www.mediafire.com/file/fq80hh1q7q43a02/BAD+INFLUENCER+S01E2+(1).mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
-          },
-          // {
-          //   id: 'moneyheist3',
-          //   title: 'MONEY HEIST KOREA EP3',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist4',
-          //   title: 'MONEY HEIST KOREA EP4',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist5',
-          //   title: 'MONEY HEIST KOREA EP5',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist6',
-          //   title: 'MONEY HEIST KOREA EP6 FINAL',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-        ],
-      },
-    ],
-  },
+  
 
   {
     id: 'billionairebunker',
@@ -602,7 +604,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/billionairebunker1.webp',
     seasons: [
       {
@@ -684,7 +685,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/aayapaar3.webp',
     seasons: [
       {
@@ -1065,7 +1065,7 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka B THE GREAT, ntucikwe.',
     is_popular: true,
-    is_featured: true,
+    is_featured:true,
     poster_url: '/bloodriver2.webp',
     seasons: [
       {
@@ -1381,7 +1381,6 @@ const staticSeries = [
     type: 'series',
     description: 'Ntucikwee iyi season...',
     is_popular: true,
-    is_featured: true,
     poster_url: '/lostin.jpg',
     seasons: [
       {
