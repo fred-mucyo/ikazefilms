@@ -373,7 +373,7 @@ const staticSeries = [
           },{
             id: 'tempest8',
             title: 'TEMPEST EP8',
-            video_url: '',
+            video_url: 'https://hglink.to/1zp49mghyk11',
             download_url:
               'https://www.mediafire.com/file/tfj2eidf4tuks3l/TEMPEST+EP8.mp4/file',
             thumbnail_url: '/tempest.webp',
