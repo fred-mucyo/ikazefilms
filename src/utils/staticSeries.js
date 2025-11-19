@@ -375,7 +375,7 @@ const staticSeries = [
             title: 'TEMPEST EP8',
             video_url: '',
             download_url:
-              '',
+              'https://www.mediafire.com/file/tfj2eidf4tuks3l/TEMPEST+EP8.mp4/file',
             thumbnail_url: '/tempest.webp',
           },
           
