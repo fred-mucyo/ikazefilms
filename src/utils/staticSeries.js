@@ -409,7 +409,7 @@ const staticSeries = [
           {
             id: 'badinfluence2',
             title: 'BAD INFLUENCER EP2',
-            video_url: '',
+            video_url: 'https://hglink.to/mf13mj7wqygw',
             download_url:
               'https://www.mediafire.com/file/fq80hh1q7q43a02/BAD+INFLUENCER+S01E2+(1).mp4/file',
             thumbnail_url: '/badinfluencer.webp',
