@@ -366,7 +366,7 @@ const staticSeries = [
           {
             id: 'tempest7',
             title: 'TEMPEST EP7',
-            video_url: '',
+            video_url: 'https://hglink.to/rf2se939xale',
             download_url:
               'https://www.mediafire.com/file/uguw3ribkjl6tgx/TEMPEST+EP7.mp4/file',
             thumbnail_url: '/tempest.webp',
