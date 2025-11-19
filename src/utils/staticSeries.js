@@ -1,8 +1,56 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
+{
+    id:'johnwick',
+    title: 'JOHN WICK',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/johnwick1.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'johnwick1',
+            title: 'JOHN WICK EP1',
+            video_url: 'https://hglink.to/ejnx06fb4703',
+            download_url:
+              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+          {
+            id: 'johnwick2',
+            title: 'JOHN WICK EP2',
+            video_url: 'https://hglink.to/lnapjlqugwnt',
+            download_url:
+              'https://www.mediafire.com/file/eytf559crg044qi/JOHN_WICK_2.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+ {
+            id: 'johnwick3',
+            title: 'JOHN WICK EP3',
+            video_url: 'https://hglink.to/52gfp8hkig0f',
+            download_url:
+              'https://www.mediafire.com/file/tje1iq45h4ovgkm/JOHN_WICK_3..mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          },
+ {
+            id: 'johnwick4',
+            title: 'JOHN WICK EP4',
+            video_url: 'https://hglink.to/zcryqoz1m7rc',
+            download_url:
+              'https://www.mediafire.com/file/rlura3k4m5bqt1d/John_wick.mp4/file',
+            thumbnail_url: '/johnwick1.webp',
+          }, 
+        ],
+      },
+    ],
+  },
 
-    {
+{
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
     type: 'series',
@@ -106,6 +154,14 @@ const staticSeries = [
                 video_url:'https://hglink.to/8h5afqsv42cc',
                 download_url:
                   'https://www.mediafire.com/file/qvsjvjk13f5zgi6/BONNE_APPETIT_S01E11.mp4/file',
+                thumbnail_url: '/bonne.webp',
+              },
+            {
+                id: 'bonne_appetit12',
+                title: 'BONNE APPETIT EP 12 FINAL',
+                video_url:'https://hglink.to/lyaqrza8e3t0',
+                download_url:
+                  'https://www.mediafire.com/file/bt89iq40q82m8oa/BONNE_APPETIT_S01E12_FINAL.mp4/file',
                 thumbnail_url: '/bonne.webp',
               },
         ],
@@ -969,9 +1025,9 @@ const staticSeries = [
               }, {
                 id: 'bloodriver15',
                 title: 'BLOOD RIVER EP15 ',
-                video_url: 'https://hglink.to/a114pjtuzgub',
+                video_url: 'https://hglink.to/0sy046nisi84',
                 download_url:
-                  'https://www.mediafire.com/file/eizi9uz0rfhvmvf/Blood+River+15.mp4/file',
+                  'https://www.mediafire.com/file/jn6n7rmow1rs1lf/Blood+River+15+(1).mp4/file',
                 thumbnail_url: '/bloodriver1.webp',
               }, {
                 id: 'bloodriver16',
