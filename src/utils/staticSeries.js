@@ -377,26 +377,26 @@ const staticSeries = [
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    poster_url: '/moneykorea.webp',
+    poster_url: '/badinfluencer.webp',
     seasons: [
       {
         seasonNumber: 1,
         episodes: [
           {
             id: 'badinfluence1',
-            title: 'BAD INFLUENCE EP1',
-            video_url: '',
+            title: 'BAD INFLUENCER EP1',
+            video_url: 'https://hglink.to/5afjx0lpw0f2',
             download_url:
-              'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
-            thumbnail_url: '/moneykorea.webp',
+              'https://www.mediafire.com/file/4418res6w9fgkja/BAD+INFLUENCER+EP1.mp4/file',
+            thumbnail_url: '/badinfluencer.webp',
           },
           {
             id: 'badinfluence2',
-            title: 'BAD INFLUENCE EP2',
+            title: 'BAD INFLUENCER EP2',
             video_url: '',
             download_url:
               'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
-            thumbnail_url: '/moneykorea.webp',
+            thumbnail_url: '/badinfluencer.webp',
           },
           // {
           //   id: 'moneyheist3',
