@@ -50,6 +50,151 @@ const staticSeries = [
     ],
   },
 
+  // {
+  //   id: 'longroadhome',
+  //   title: 'THE LONG ROAD HOME',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/thelongroadhome.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'enemy1',
+  //           title: 'THE LONG ROAD HOME EP1',
+  //           video_url: 'https://hglink.to/sckobidfem77',
+  //           download_url: 'https://www.mediafire.com/file/cawan6a3woxsyvv/THE+LONG+ROAD+HOME+EP1.mp4/file',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //         {
+  //           id: 'enemy2',
+  //           title: 'THE LONG ROAD HOME EP2',
+  //           video_url: 'https://hglink.to/094ugx3es7y0',
+  //           download_url:'https://www.mediafire.com/file/jxmewvsk2zeankv/THE+LONG+ROAD+HOME++EP2.mp4/file',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //         {
+  //           id: 'enemy3',
+  //           title: 'THE LONG ROAD HOME EP3',
+  //           video_url: 'https://hglink.to/kffub9iupfvu',
+  //           download_url: 'https://www.mediafire.com/file/oj10conifw3c6yv/THE+LONG+ROAD+HOME++EP3.mp4/file',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //         {
+  //           id: 'enemy4',
+  //           title: 'THE LONG ROAD HOME EP4',
+  //           video_url: 'https://hglink.to/hsgcerxwgvr6',
+  //           download_url: 'https://www.mediafire.com/file/2h2zk5zipf26wiv/THE+LONG+ROAD+HOME+EP4.mp4/file',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //         {
+  //           id: 'enemy5',
+  //           title: 'THE LONG ROAD HOME EP5',
+  //           video_url: 'https://hglink.to/hvflsecwspsl',
+  //           download_url: 'https://www.mediafire.com/file/w2q74bcu2fnsqe5/THE+LONG+ROAD+HOME+EP5.mp4/file',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //         {
+  //           id: 'enemy6',
+  //           title: 'THE LONG ROAD HOME EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //           {
+  //           id: 'enemy7',
+  //           title: 'THE LONG ROAD HOME EP7',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //           {
+  //           id: 'enemy8',
+  //           title: 'THE LONG ROAD HOME EP8',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/thelongroadhome.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
+                    // FREE SKELETON
+
+
+ // {
+  //   id: 'longroadhome',
+  //   title: 'THE LONG ROAD HOME',
+  //   type: 'series',
+  //   description: '',
+  //   poster_url: '/enemywithin.webp',
+  //   seasons: [
+  //     {
+  //       seasonNumber: 1,
+  //       episodes: [
+  //         {
+  //           id: 'enemy1',
+  //           title: 'THE LONG ROAD HOME EP1',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //         {
+  //           id: 'enemy2',
+  //           title: 'THE LONG ROAD HOME EP2',
+  //           video_url: '',
+  //           download_url:'',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //         {
+  //           id: 'enemy3',
+  //           title: 'THE LONG ROAD HOME EP3',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //         {
+  //           id: 'enemy4',
+  //           title: 'THE LONG ROAD HOME EP4',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //         {
+  //           id: 'enemy5',
+  //           title: 'THE LONG ROAD HOME EP5',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //         {
+  //           id: 'enemy6',
+  //           title: 'THE LONG ROAD HOME EP6',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //           {
+  //           id: 'enemy7',
+  //           title: 'THE LONG ROAD HOME EP7',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //           {
+  //           id: 'enemy8',
+  //           title: 'THE LONG ROAD HOME EP8',
+  //           video_url: '',
+  //           download_url: '',
+  //           thumbnail_url: '/enemywithin.webp',
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
 {
     id: 'bonne_appetit',
     title: 'BONNE APPETIT',
