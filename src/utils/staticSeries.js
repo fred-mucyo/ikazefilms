@@ -314,70 +314,70 @@ const staticSeries = [
 
                   ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
 
-  //  {
-  //   id:'money-heist',
-  //   title: 'MONEY HEIST KOREA',
-  //   type: 'series',
-  //   description: 'Aga filime gashya ka rocky, ntucikwe.',
-  //   is_popular: true,
-  //   is_featured: true,
-  //   poster_url: '/moneykorea.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'moneyheist1',
-  //           title: 'MONEY HEIST KOREA EP1',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist2',
-  //           title: 'MONEY HEIST KOREA EP2',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist3',
-  //           title: 'MONEY HEIST KOREA EP3',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist4',
-  //           title: 'MONEY HEIST KOREA EP4',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist5',
-  //           title: 'MONEY HEIST KOREA EP5',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //         {
-  //           id: 'moneyheist6',
-  //           title: 'MONEY HEIST KOREA EP6 FINAL',
-  //           video_url: '',
-  //           download_url:
-  //             'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
-  //           thumbnail_url: '/moneykorea.webp',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+   {
+    id:'bad-influence',
+    title: 'BAD INFLUENCE',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/moneykorea.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'badinfluence1',
+            title: 'BAD INFLUENCE EP1',
+            video_url: '',
+            download_url:
+              'https://www.mediafire.com/file/owdzre2p06efy1e/MONEY+HEIST+EP1.mp4/file',
+            thumbnail_url: '/moneykorea.webp',
+          },
+          {
+            id: 'badinfluence2',
+            title: 'BAD INFLUENCE EP2',
+            video_url: '',
+            download_url:
+              'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
+            thumbnail_url: '/moneykorea.webp',
+          },
+          // {
+          //   id: 'moneyheist3',
+          //   title: 'MONEY HEIST KOREA EP3',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist4',
+          //   title: 'MONEY HEIST KOREA EP4',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist5',
+          //   title: 'MONEY HEIST KOREA EP5',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+          // {
+          //   id: 'moneyheist6',
+          //   title: 'MONEY HEIST KOREA EP6 FINAL',
+          //   video_url: '',
+          //   download_url:
+          //     'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
+          //   thumbnail_url: '/moneykorea.webp',
+          // },
+        ],
+      },
+    ],
+  },
 
   {
     id: 'billionairebunker',
