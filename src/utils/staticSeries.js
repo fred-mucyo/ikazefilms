@@ -363,6 +363,22 @@ const staticSeries = [
               'https://www.mediafire.com/file/xvpbyl51n0sypl0/TEMPEST+EP6+-.mp4/file',
             thumbnail_url: '/tempest.webp',
           },
+          {
+            id: 'tempest7',
+            title: 'TEMPEST EP7',
+            video_url: '',
+            download_url:
+              '',
+            thumbnail_url: '/tempest.webp',
+          },{
+            id: 'tempest8',
+            title: 'TEMPEST EP8',
+            video_url: '',
+            download_url:
+              '',
+            thumbnail_url: '/tempest.webp',
+          },
+          
         ],
       },
     ],
@@ -395,7 +411,7 @@ const staticSeries = [
             title: 'BAD INFLUENCER EP2',
             video_url: '',
             download_url:
-              'https://www.mediafire.com/file/70rafr450hi0s3c/MONEY+HEIST+EP2.mp4/file',
+              '',
             thumbnail_url: '/badinfluencer.webp',
           },
           // {
