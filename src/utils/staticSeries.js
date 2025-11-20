@@ -23,7 +23,7 @@ const staticSeries = [
             video_url: 'https://hglink.to/5afjx0lpw0f2',
             download_url:
               'https://www.mediafire.com/file/4418res6w9fgkja/BAD+INFLUENCER+EP1.mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
+            thumbnail_url: '/badInfluencereee.webp',
           },
           {
             id: 'badinfluence2',
@@ -31,8 +31,16 @@ const staticSeries = [
             video_url: 'https://hglink.to/mf13mj7wqygw',
             download_url:
               'https://www.mediafire.com/file/fq80hh1q7q43a02/BAD+INFLUENCER+S01E2+(1).mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
+            thumbnail_url: '/badInfluencereee.webp',
           },
+           {
+            id: 'badinfluence3',
+            title: 'BAD INFLUENCER EP3',
+            video_url: 'https://hglink.to/r7k5kkx3h4tt',
+            download_url:
+              'https://www.mediafire.com/file/lxfinavfqqnrluo/BAD+INFLUENCER+S01E3.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
+          }
           // {
           //   id: 'moneyheist3',
           //   title: 'MONEY HEIST KOREA EP3',
