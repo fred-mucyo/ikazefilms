@@ -156,7 +156,7 @@ const staticSeries = [
     id: 'fatedhearts',
     title: 'FATED HEARTS',
     type: 'series',
-    description: '',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
     poster_url: '/fatedheart.webp',
     seasons: [
       {
@@ -267,7 +267,7 @@ const staticSeries = [
 //             id: 'bloodAndTreasure1',
 //             title: 'BLOOD AND TREASURE EP1 & EP2',
 //             video_url: '',
-//             download_url: '',
+//             download_url: 'https://www.mediafire.com/file/qinvkgt78bmlei4/BLOOD+&+TREASURE+EP1&EP2.mp4/file',
 //             thumbnail_url: '/johnwick1.webp',
 //           },
 //           {
