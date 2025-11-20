@@ -218,13 +218,13 @@ const staticSeries = [
             download_url: 'https://www.mediafire.com/file/8gyr4ocec49uq4q/FATED+HEART+EP8.mp4/file',
             thumbnail_url: '/fatedheart.webp',
           },
-          //  {
-          //   id: 'fatedhearts9',
-          //   title: 'FATED HEARTS EP9',
-          //   video_url: '',
-          //   download_url: 'https://www.mediafire.com/file/ajek2u6445dhzbm/FATED+HEART+EP9.mp4/file',
-          //   thumbnail_url: '/fatedheart.webp',
-          // },
+           {
+            id: 'fatedhearts9',
+            title: 'FATED HEARTS EP9',
+            video_url: 'https://hglink.to/0c2brpufcx57',
+            download_url: 'https://www.mediafire.com/file/ajek2u6445dhzbm/FATED+HEART+EP9.mp4/file',
+            thumbnail_url: '/fatedheart.webp',
+          },
           //  {
           //   id: 'fatedhearts10',
           //   title: 'FATED HEARTS EP10',
