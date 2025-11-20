@@ -23,7 +23,7 @@ const staticSeries = [
             video_url: 'https://hglink.to/5afjx0lpw0f2',
             download_url:
               'https://www.mediafire.com/file/4418res6w9fgkja/BAD+INFLUENCER+EP1.mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
+            thumbnail_url: '/badInfluencereee.webp',
           },
           {
             id: 'badinfluence2',
@@ -31,8 +31,16 @@ const staticSeries = [
             video_url: 'https://hglink.to/mf13mj7wqygw',
             download_url:
               'https://www.mediafire.com/file/fq80hh1q7q43a02/BAD+INFLUENCER+S01E2+(1).mp4/file',
-            thumbnail_url: '/badinfluencer.webp',
+            thumbnail_url: '/badInfluencereee.webp',
           },
+           {
+            id: 'badinfluence3',
+            title: 'BAD INFLUENCER EP3',
+            video_url: 'https://hglink.to/r7k5kkx3h4tt',
+            download_url:
+              'https://www.mediafire.com/file/lxfinavfqqnrluo/BAD+INFLUENCER+S01E3.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
+          }
           // {
           //   id: 'moneyheist3',
           //   title: 'MONEY HEIST KOREA EP3',
@@ -144,76 +152,76 @@ const staticSeries = [
                     // FREE SKELETON
 
 
- // {
-  //   id: 'fatedhearts',
-  //   title: 'FATED HEARTS',
-  //   type: 'series',
-  //   description: '',
-  //   poster_url: '/fatedheart.webp',
-  //   seasons: [
-  //     {
-  //       seasonNumber: 1,
-  //       episodes: [
-  //         {
-  //           id: 'fatedhearts1',
-  //           title: 'FATED HEARTS EP1',
-  //           video_url: 'https://hglink.to/9632p9vfue6z',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //         {
-  //           id: 'fatedhearts2',
-  //           title: 'FATED HEARTS EP2',
-  //           video_url: '',
-  //           download_url:'',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //         {
-  //           id: 'fatedhearts3',
-  //           title: 'FATED HEARTS EP3',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //         {
-  //           id: 'fatedhearts4',
-  //           title: 'FATED HEARTS EP4',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //         {
-  //           id: 'fatedhearts5',
-  //           title: 'FATED HEARTS EP5',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //         {
-  //           id: 'fatedhearts6',
-  //           title: 'FATED HEARTS EP6',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //           {
-  //           id: 'fatedhearts7',
-  //           title: 'FATED HEARTS EP7',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //           {
-  //           id: 'fatedhearts8',
-  //           title: 'FATED HEARTS EP8',
-  //           video_url: '',
-  //           download_url: '',
-  //           thumbnail_url: '/fatedheart.webp',
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+ {
+    id: 'fatedhearts',
+    title: 'FATED HEARTS',
+    type: 'series',
+    description: '',
+    poster_url: '/fatedheart.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'fatedhearts1',
+            title: 'FATED HEARTS EP1',
+            video_url: 'https://hglink.to/9632p9vfue6z',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+          {
+            id: 'fatedhearts2',
+            title: 'FATED HEARTS EP2',
+            video_url: 'https://hglink.to/29fkw6txw9t0',
+            download_url:'',
+            thumbnail_url: '/fatedheart.webp',
+          },
+          {
+            id: 'fatedhearts3',
+            title: 'FATED HEARTS EP3',
+            video_url: 'https://hglink.to/ploathxob7hd',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+          {
+            id: 'fatedhearts4',
+            title: 'FATED HEARTS EP4',
+            video_url: 'https://hglink.to/jy0yr2ftyuz8',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+          {
+            id: 'fatedhearts5',
+            title: 'FATED HEARTS EP5',
+            video_url: 'https://hglink.to/4azzy5xjuth9',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+          {
+            id: 'fatedhearts6',
+            title: 'FATED HEARTS EP6',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+            {
+            id: 'fatedhearts7',
+            title: 'FATED HEARTS EP7',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+            {
+            id: 'fatedhearts8',
+            title: 'FATED HEARTS EP8',
+            video_url: '',
+            download_url: '',
+            thumbnail_url: '/fatedheart.webp',
+          },
+        ],
+      },
+    ],
+  },
 
 {
     id: 'bonne_appetit',
