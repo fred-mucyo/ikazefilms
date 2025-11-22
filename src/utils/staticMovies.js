@@ -4,6 +4,23 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+    
+   {
+    id:'Razreboot2',
+    title: 'RAZ REBOOT B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/razreboot.webp',
+    poster_url: '/razreboot.webp',
+    image_url: '/razreboot.webp',
+    video_url: 'https://hglink.to/8pvnf9sbln4u',
+    download_url:
+      'https://www.mediafire.com/file/1xe996uncmxgsvh/Raaz_Reboot_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/8pvnf9sbln4u',
+  },
 
   
    {
@@ -12,7 +29,6 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_popular:true,
-    is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url:'/razreboot.webp',
     poster_url: '/razreboot.webp',
