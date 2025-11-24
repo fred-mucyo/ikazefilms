@@ -310,7 +310,7 @@ const staticSeries = [
 //            {
 //             id: 'bloodAndTreasure7',
 //             title: 'BLOOD AND TREASURE EP7',
-//             video_url: '',
+//             video_url: 'https://hglink.to/404x5pivws8e',
 //             download_url:   'https://www.mediafire.com/file/wgg3cbju3q0211l/BLOOD+AND+TREASURE+EP7.mp4/file',
 //             thumbnail_url: '/johnwick1.webp',
 //           }, 
