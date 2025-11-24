@@ -4,6 +4,243 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+   
+   {
+    id:'satyamevajayate1',
+    title: 'SATYAMEVA JAYATE A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/satyameva.webp',
+    poster_url: '/satyameva.webp',
+    image_url: '/satyameva.webp',
+    video_url: 'https://hglink.to/mjkwr18wn6i6',
+    download_url:
+      'https://www.mediafire.com/file/wk1p5n5ql4yeje9/Satayameva+Jayate.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/mjkwr18wn6i6',
+  },
+
+
+
+ {
+    id:'satyamevajayate2',
+    title: 'SATYAMEVA JAYATE B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/satyameva.webp',
+    poster_url: '/satyameva.webp',
+    image_url: '/satyameva.webp',
+    video_url: 'https://hglink.to/gelqqezwuu88',
+    download_url:
+      'https://www.mediafire.com/file/oei6f1foj748ff9/Satyameva_Jayate_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/gelqqezwuu88',
+  },
+
+
+
+
+ {
+    id:'bajrangibaijanA',
+    title: 'BAJRANGI BHAIJANI A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/bajrangi.webp',
+    poster_url: '/bajrangi.webp',
+    image_url: '/bajrangi.webp',
+    video_url: 'https://hglink.to/59p2ohrf9wf6',
+    download_url:
+      'https://www.mediafire.com/file/6bzt6fddtinoeye/Bajrangi_Bhaijaan.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/59p2ohrf9wf6',
+  },
+
+
+
+ {
+    id:'bajrangibaijanB',
+    title: 'BAJRANGI BHAIJANI B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/bajrangi.webp',
+    poster_url: '/bajrangi.webp',
+    image_url: '/bajrangi.webp',
+    video_url: 'https://hglink.to/pkk0sud36mfd',
+    download_url:
+      'https://www.mediafire.com/file/buno0ihadhps3fo/Bajrangi_Bhaijaan_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/pkk0sud36mfd',
+  },
+
+
+   {
+    id:'Attack_O_Finland',
+    title: 'ATTACK ON FINLAND',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/act on finland.webp',
+    poster_url: '/act on finland.webp',
+    image_url: '/act on finland.webp',
+    video_url: 'https://hglink.to/l4qnjrap9t8s',
+    download_url:
+      'https://www.mediafire.com/file/bumpbs9ic1rt7gl/Attack_O_Finland_By_Mr_Fire.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/l4qnjrap9t8s',
+  },
+
+
+
+
+
+  {
+    id:'JAAZMANSBLUESB',
+    title: 'JAAZMAN S BLUES B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/jazzman blues.webp',
+    poster_url: '/jazzman blues.webp',
+    image_url: '/jazzman blues.webp',
+    video_url: 'https://hglink.to/m4fv1df6qkzr',
+    download_url:
+      'https://www.mediafire.com/file/d8bt3juv503wsrj/JAZZMAN_S_BLUES_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/m4fv1df6qkzr',
+  },
+
+
+   {
+    id:'jism1',
+    title: 'JISM EP1',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/jism (2).webp',
+    poster_url: '/jism (2).webp',
+    image_url: '/jism (2).webp',
+    video_url: 'https://hglink.to/biukt47dlneu',
+    download_url:
+      'https://www.mediafire.com/file/jklwi4g41pasx28/JISM_Part_1.mp4/file',
+    youtube_trailer_url:'https://hglink.to/biukt47dlneu',
+  }, 
+
+
+
+ {
+    id:'JOJEETAWOHISCANDAR',
+    title: 'JO JEETA WOHI SCANDAR',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/Jo_Jeeta_Wohi_Sikandar_poster (3).webp',
+    poster_url: '/Jo_Jeeta_Wohi_Sikandar_poster (3).webp',
+    image_url: '/Jo_Jeeta_Wohi_Sikandar_poster (3).webp',
+    video_url: 'https://hglink.to/exag1xs9jk39',
+    download_url:
+      'https://www.mediafire.com/file/uuqg83l6sryfsw8/JO_JEETA_WOHI_SCANDAR.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/exag1xs9jk39',
+  }, 
+
+
+
+ {
+    id:'safehouse',
+    title: 'SAFE HOUSE',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/safe_house-11-2 (1).webp',
+    poster_url: '/safe_house-11-2 (1).webp',
+    image_url: '/safe_house-11-2 (1).webp',
+    video_url: 'https://hglink.to/3aj4jhd5q64s',
+    download_url:
+      'https://www.mediafire.com/file/cgr3nnxfh2n480h/SAFE_HOUSE.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/3aj4jhd5q64s',
+  }, 
+
+
+
+//  {
+//     id:'THEHIDENFACE',
+//     title: 'THE HIDDEN FACE',
+//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+//     interpreter_name: 'SANKARA',
+//     is_popular:true,
+//     is_featured:true,
+//     created_at: '2025-10-04',
+//     thumbnail_url:'/the hidden face (2).webp',
+//     poster_url: '/the hidden face (2).webp',
+//     image_url: '/the hidden face (2).webp',
+//     video_url: 'https://hglink.to/',
+//     download_url:
+//       'https://www.mediafire.com/file/ijgqymmeu7gs2te/THE_HIDEN_FACE_SANKARA.mp4/file',
+//     youtube_trailer_url: '',
+//   }, 
+
+
+
+ {
+    id:'killerA',
+    title: 'KILLER A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/thekiller (2).webp',
+    poster_url: '/thekiller (2).webp',
+    image_url: '/thekiller (2).webp',
+    video_url: 'https://hglink.to/h73wmdllo6iz',
+    download_url:
+      'https://www.mediafire.com/file/8g6cwr61t2g0pal/THE_KILLER_A.mp4/file',
+    youtube_trailer_url:'https://hglink.to/h73wmdllo6iz',
+  }, 
+
+
+
+
+ {
+    id:'killerB',
+    title: 'KILLER B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/thekiller (2).webp',
+    poster_url: '/thekiller (2).webp',
+    image_url: '/thekiller (2).webp',
+    video_url: 'https://hglink.to/7oi30q40puy8',
+    download_url:
+      'https://www.mediafire.com/file/blbunlvzgjlifr3/THE_KILLER_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/7oi30q40puy8',
+
+ },
+
+
+
+
+
+
+
+
+//sdfghjhgfdsdfghjhgfds
+
+
+  
+
     
    {
     id:'Razreboot2',
@@ -11,7 +248,6 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_popular:true,
-    is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url:'/razreboot.webp',
     poster_url: '/razreboot.webp',

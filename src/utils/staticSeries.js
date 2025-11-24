@@ -353,7 +353,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/bonne.webp',
     seasons: [
       {
@@ -653,7 +652,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured:true,
     poster_url: '/tempest1.webp',
     seasons: [
       {
@@ -1204,7 +1202,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka B THE GREAT, ntucikwe.',
     is_popular: true,
-    is_featured:true,
     poster_url: '/bloodriver2.webp',
     seasons: [
       {
