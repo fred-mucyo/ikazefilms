@@ -239,8 +239,8 @@ const Home = () => {
 
           <div className="movies-section" id="popular">
             <div className="section-header">
-              <h2 className="section-title">Popular Now</h2>
-              <div className="section-subtitle">Hand-picked highlights</div>
+              <h2 className="section-title">Popular</h2>
+              <div className="section-subtitle">Movie zigezweho</div>
             </div>
             <div className="horizontal-scroll">
               {popularNow.map((movie) => (
@@ -257,7 +257,7 @@ const Home = () => {
             <div className="section-header">
               <h2 className="section-title">Recent Releases</h2>
               <div className="section-subtitle">
-                Fresh additions across genres
+                Movie nshya
               </div>
             </div>
             <div className="horizontal-scroll">
@@ -270,6 +270,7 @@ const Home = () => {
               ))}
             </div>
           </div>
+
           {/* Search Results */}
           {searchTerm.trim() && filteredMovies.length > 0 && (
             <div className="movies-section" id="search-results">
