@@ -338,7 +338,7 @@ const staticSeries = [
 //            {
 //             id: 'bloodAndTreasure11',
 //             title: 'BLOOD AND TREASURE EP11 FINAL',
-//             video_url: '',
+//             video_url: 'https://hglink.to/bsq0ek1pgcwt',
 //             download_url:   'https://www.mediafire.com/file/k6aqmn8vd0e6l7n/BLOOD+AND+TREASURE+EP11+FINAL.mp4/file',
 //             thumbnail_url: '/bloodandTreasure.webp',
 //           }, 
