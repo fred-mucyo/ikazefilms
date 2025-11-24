@@ -317,14 +317,14 @@ const staticSeries = [
 //            {
 //             id: 'bloodAndTreasure8',
 //             title: 'BLOOD AND TREASURE EP8',
-//             video_url: '',
+//             video_url: 'https://hglink.to/tk6c5vyh40p0',
 //             download_url:   'https://www.mediafire.com/file/rm01yd5nfphak6v/BLOOD+AND+TREASURE+EP8.mp4/file',
 //             thumbnail_url: '/johnwick1.webp',
 //           }, 
 //            {
 //             id: 'bloodAndTreasure9',
 //             title: 'BLOOD AND TREASURE EP9',
-//             video_url: '',
+//             video_url: 'https://hglink.to/qv4y9j6c3ql2',
 //             download_url:   'https://www.mediafire.com/file/o40u40il98mreqo/BLOOD+AND+TREASURE+EP9.mp4/file',
 //             thumbnail_url: '/johnwick1.webp',
 //           }, 
