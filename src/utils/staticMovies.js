@@ -102,7 +102,7 @@ const staticMovies = [
 
   {
     id:'JAAZMANSBLUESB',
-    title: 'JAAZMAN S BLUES B',
+    title:`JAAZMAN'S BLUES B`,
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_popular:true,
@@ -120,7 +120,7 @@ const staticMovies = [
 
    {
     id:'jism1',
-    title: 'JISM EP1',
+    title: 'JISM A',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: '',
     is_popular:true,
@@ -173,22 +173,22 @@ const staticMovies = [
 
 
 
-//  {
-//     id:'THEHIDENFACE',
-//     title: 'THE HIDDEN FACE',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: 'SANKARA',
-//     is_popular:true,
-//     is_featured:true,
-//     created_at: '2025-10-04',
-//     thumbnail_url:'/the hidden face (2).webp',
-//     poster_url: '/the hidden face (2).webp',
-//     image_url: '/the hidden face (2).webp',
-//     video_url: 'https://hglink.to/',
-//     download_url:
-//       'https://www.mediafire.com/file/ijgqymmeu7gs2te/THE_HIDEN_FACE_SANKARA.mp4/file',
-//     youtube_trailer_url: '',
-//   }, 
+ {
+    id:'THEHIDENFACE',
+    title: 'THE HIDDEN FACE',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'SANKARA',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/the hidden face (2).webp',
+    poster_url: '/the hidden face (2).webp',
+    image_url: '/the hidden face (2).webp',
+    video_url: 'https://hglink.to/qtpv6uhsd7by',
+    download_url:
+      'https://www.mediafire.com/file/ijgqymmeu7gs2te/THE_HIDEN_FACE_SANKARA.mp4/file',
+    youtube_trailer_url: '',
+  }, 
 
 
 
