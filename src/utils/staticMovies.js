@@ -4,6 +4,40 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+    
+   {
+    id:'Razreboot2',
+    title: 'RAZ REBOOT B',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/razreboot.webp',
+    poster_url: '/razreboot.webp',
+    image_url: '/razreboot.webp',
+    video_url: 'https://hglink.to/8pvnf9sbln4u',
+    download_url:
+      'https://www.mediafire.com/file/1xe996uncmxgsvh/Raaz_Reboot_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/8pvnf9sbln4u',
+  },
+
+  
+   {
+    id:'Razreboot1',
+    title: 'RAZ REBOOT A',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'ROCKY',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/razreboot.webp',
+    poster_url: '/razreboot.webp',
+    image_url: '/razreboot.webp',
+    video_url: 'https://hglink.to/a70ti4iwiim6',
+    download_url:
+      'https://www.mediafire.com/file/76xljnqq3bbxa57/Raaz+Reboot+A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/a70ti4iwiim6',
+  },
  {
     id: 'thebrink',
     title: 'THE BRINK',
@@ -20,21 +54,6 @@ const staticMovies = [
     youtube_trailer_url: 'https://hglink.to/wo3n4t6kddfm',
   },
 
-  //  {
-  //   id: '',
-  //   title: '',
-  //   description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-  //   interpreter_name: 'SANKARA',
-  //   is_popular:true,
-  //   created_at: '2025-10-04',
-  //   thumbnail_url:'/the.webp',
-  //   poster_url: '/the.webp',
-  //   image_url: '/the.webp',
-  //   video_url: '',
-  //   download_url:
-  //     '',
-  //   youtube_trailer_url: '',
-  // },
   
 {
     id: 'ipkungufumaster',

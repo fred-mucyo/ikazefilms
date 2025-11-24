@@ -40,6 +40,15 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/lxfinavfqqnrluo/BAD+INFLUENCER+S01E3.mp4/file',
             thumbnail_url: '/badInfluencereee.webp',
+          },
+
+          {
+            id: 'badinfluence4',
+            title: 'BAD INFLUENCER EP4',
+            video_url: 'https://hglink.to/gl3d60hydo3a',
+            download_url:
+              'https://www.mediafire.com/file/bc8oyp9r6zj789m/BAD_INLUENCER_S01E4.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
           }
           // {
           //   id: 'moneyheist3',
@@ -462,7 +471,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/johnwick1.webp',
     seasons: [
       {
@@ -645,6 +653,7 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
+    is_featured:true,
     poster_url: '/tempest1.webp',
     seasons: [
       {
@@ -711,7 +720,14 @@ const staticSeries = [
               'https://www.mediafire.com/file/tfj2eidf4tuks3l/TEMPEST+EP8.mp4/file',
             thumbnail_url: '/tempest.webp',
           },
-          
+          {
+            id: 'tempest9',
+            title: 'TEMPEST EP9 FINAL',
+            video_url: 'https://hglink.to/wlwdy9e1v0le',
+            download_url:
+              'https://www.mediafire.com/file/pwkm3gn9f4ub0k0/TEMPEST_EP9_FINAL.mp4/file',
+            thumbnail_url: '/tempest.webp',
+          },
         ],
       },
     ],
