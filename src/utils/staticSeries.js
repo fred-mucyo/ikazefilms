@@ -243,7 +243,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/bloodandTreasure.webp',
     seasons: [
       {
