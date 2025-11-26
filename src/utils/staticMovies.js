@@ -4,6 +4,23 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+//      {
+//     id:'chain-saw-masscre',
+//     title: '',
+//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+//     interpreter_name: '',
+//     is_popular:true,
+//     is_featured:true,
+//     created_at: '2025-10-04',
+//     thumbnail_url:'/.webp',
+//     poster_url: '/.webp',
+//     image_url: '/.webp',
+//     video_url: '',
+//     download_url:
+//       '',
+//     youtube_trailer_url: '',
+//   },
    
    {
     id:'satyamevajayate1',
