@@ -142,6 +142,77 @@ const staticSeries = [
     ],
   },
 
+  {
+    id: 'houseOfKillers',
+    title: 'A HOUSE FOR KILLERS',
+    type: 'series',
+    description: '',
+    poster_url: '/houseOfkillers.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'houseOfKillers1',
+            title: 'A HOUSE FOR KILLERS EP1',
+            video_url: 'https://hglink.to/44dfspty3j96',
+            download_url: 'https://www.mediafire.com/file/wdzxjkb7zemfvii/A+SHOP+FOR+KILLERS+EP1.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+          {
+            id: 'houseOfKillers2',
+            title: 'A HOUSE FOR KILLERS EP2',
+            video_url: 'https://hglink.to/enakbvqdsma1',
+            download_url:'https://www.mediafire.com/file/2h5tcgud8nbo4g7/A+SHOP+FOR+KILLERS+EP2.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+          {
+            id: 'houseOfKillers3',
+            title: 'A HOUSE FOR KILLERS EP3',
+            video_url: 'https://hglink.to/2afck2mb2gym',
+            download_url: 'https://www.mediafire.com/file/q1waa2zb1q5djd7/A+SHOP+FOR+KILLERS+EP3.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+          {
+            id: 'houseOfKillers4',
+            title: 'A HOUSE FOR KILLERS EP4',
+            video_url: 'https://hglink.to/gr0623k778pv',
+            download_url: 'https://www.mediafire.com/file/3i0mkeyuggwp1pa/A+SHOP+FOR+KILLERS+EP4.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+          {
+            id: 'houseOfKillers5',
+            title: 'A HOUSE FOR KILLERS EP5',
+            video_url: 'https://hglink.to/n6wtlciszhli',
+            download_url: 'https://www.mediafire.com/file/ekqrr8obtniwrqv/A+SHOP+FOR+KILLERS+EP5.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+          {
+            id: 'houseOfKillers6',
+            title: 'A HOUSE FOR KILLERS EP6',
+            video_url: 'https://hglink.to/9blh0zg1am92',
+            download_url: 'https://www.mediafire.com/file/xqc64tfm1o1y1xc/A+SHOP+FOR+KILLERS+EP6.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+            {
+            id: 'houseOfKillers7',
+            title: 'A HOUSE FOR KILLERS EP7',
+            video_url: 'https://hglink.to/bzlhij8f6wcj',
+            download_url: 'https://www.mediafire.com/file/6ax85k06ruqfp8l/A+SHOP+FOR+KILLERS+EP7.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+            {
+            id: 'houseOfKillers8',
+            title: 'A HOUSE FOR KILLERS EP8',
+            video_url: 'https://hglink.to/a4gd3y9b2qsv',
+            download_url: 'https://www.mediafire.com/file/ktveg569b4o6qo3/A+SHOP+FOR+KILLERS+EP8+FINAL.mp4/file',
+            thumbnail_url: '/houseOfkillers.webp',
+          },
+        ],
+      },
+    ],
+  },
+
                     // FREE SKELETON
 
 
