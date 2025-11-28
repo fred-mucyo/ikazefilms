@@ -4,9 +4,7 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
-
-
-    {
+ {
     id:'wanted-girl-friendA',
     title: 'WANTED GIRL FRIEND A (18+)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -14,17 +12,17 @@ const staticMovies = [
     is_popular:true,
     is_featured:true,
     created_at: '2025-10-04',
-    thumbnail_url:'wanted-girlfriend.webp',
-    poster_url: 'wanted-girlfriend.webp',
-    image_url: 'wanted-girlfriend.webp',
-    video_url: 'https://hglink.to/cng18d5qd8kl',
+    thumbnail_url:'/wanted-girlfriend.webp',
+    poster_url: '/wanted-girlfriend.webp',
+    image_url: '/wanted-girlfriend.webp',
+    video_url: 'https://hglink.to/hs4ojl6unr3q',
     download_url:
       'https://www.mediafire.com/file/dkswgtflhukhgpe/GIRLFRIEND_2025_A.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/cng18d5qd8kl',
+    youtube_trailer_url: 'https://hglink.to/hs4ojl6unr3q',
   },
 
 
-    {
+      {
     id:'wanted-girl-friendB',
     title: 'WANTED GIRL FRIEND B (18+)',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
@@ -39,9 +37,6 @@ const staticMovies = [
       'https://www.mediafire.com/file/jvzav6wgcts44rk/GIRLFRIEND_2025_B.mp4/file',
     youtube_trailer_url: 'https://hglink.to/bsxyyn6btvd6',
   },
-
-
-
 
     {
     id:'wanted-girl-friendc',
@@ -58,6 +53,24 @@ const staticMovies = [
       'https://www.mediafire.com/file/nja27y65yckpbfh/GIRLFRIEND_2025_C.mp4/file',
     youtube_trailer_url: 'https://hglink.to/cng18d5qd8kl',
   },
+
+   {
+    id:'rednotice',
+    title: 'RED NOTICE',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/rednotice.webp',
+    poster_url: '/rednotice.webp',
+    image_url: '/rednotice.webp',
+    video_url: 'https://hglink.to/o71k5uzdyxtu',
+    download_url:
+      'https://www.mediafire.com/file/1z797um4adr3zg7/Red+Notice.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/o71k5uzdyxtu',
+  },
+
 
 {
     id:'chain-saw-masscre',
