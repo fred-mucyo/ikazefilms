@@ -5,22 +5,75 @@
 
 const staticMovies = [
 
-//      {
-//     id:'chain-saw-masscre',
-//     title: '',
-//     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
-//     interpreter_name: '',
-//     is_popular:true,
-//     is_featured:true,
-//     created_at: '2025-10-04',
-//     thumbnail_url:'/.webp',
-//     poster_url: '/.webp',
-//     image_url: '/.webp',
-//     video_url: '',
-//     download_url:
-//       '',
-//     youtube_trailer_url: '',
-//   },
+
+    {
+    id:'wanted-girl-friendA',
+    title: 'WANTED GIRL FRIEND A (18+)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'senior',
+    is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'wanted-girlfriend.webp',
+    poster_url: 'wanted-girlfriend.webp',
+    image_url: 'wanted-girlfriend.webp',
+    video_url: 'https://hglink.to/cng18d5qd8kl',
+    download_url:
+      'https://www.mediafire.com/file/dkswgtflhukhgpe/GIRLFRIEND_2025_A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/cng18d5qd8kl',
+  },
+
+
+    {
+    id:'wanted-girl-friendB',
+    title: 'WANTED GIRL FRIEND B (18+)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'Senior',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/wanted-girlfriend.webp',
+    poster_url: '/wanted-girlfriend.webp',
+    image_url: '/wanted-girlfriend.webp',
+    video_url: 'https://hglink.to/bsxyyn6btvd6',
+    download_url:
+      'https://www.mediafire.com/file/jvzav6wgcts44rk/GIRLFRIEND_2025_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/bsxyyn6btvd6',
+  },
+
+
+
+
+    {
+    id:'wanted-girl-friendc',
+    title: 'WANTED GIRL FRIEND C (18+)',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: 'Senior',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/wanted-girlfriend.webp',
+    poster_url: '/wanted-girlfriend.webp',
+    image_url: '/wanted-girlfriend.webp',
+    video_url: 'https://hglink.to/cng18d5qd8kl',
+    download_url:
+      'https://www.mediafire.com/file/nja27y65yckpbfh/GIRLFRIEND_2025_C.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/cng18d5qd8kl',
+  },
+
+{
+    id:'chain-saw-masscre',
+    title: 'CHAIN SAW MASSCRE',
+    description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
+    interpreter_name: '',
+    is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/chain-saw-masscre.webp',
+    poster_url: '/chain-saw-masscre.webp',
+    image_url: '/chain-saw-masscre.webp',
+    video_url: 'https://hglink.to/rxqjebc2lsz6',
+    download_url:
+      'https://www.mediafire.com/file/a9rg12ffyrvcdhb/TEXAS_CHAINSAW_MASSACR.MP4/file',
+    youtube_trailer_url: 'https://www.mediafire.com/file/a9rg12ffyrvcdhb/TEXAS_CHAINSAW_MASSACR.MP4/file',
+  },
    
    {
     id:'satyamevajayate1',
@@ -28,7 +81,6 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
     is_popular:true,
-    is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url:'/satyameva.webp',
     poster_url: '/satyameva.webp',
@@ -46,7 +98,6 @@ const staticMovies = [
     title: 'SATYAMEVA JAYATE B',
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: 'ROCKY',
-    is_popular:true,
     created_at: '2025-10-04',
     thumbnail_url:'/satyameva.webp',
     poster_url: '/satyameva.webp',

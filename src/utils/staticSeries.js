@@ -57,8 +57,15 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/b6cr7z30azueyir/BAD_INFLUENCER_S01_EP_5.mp4/file',
             thumbnail_url: '/badInfluencereee.webp',
+          },
+             {
+            id: 'badinfluence6',
+            title: 'BAD INFLUENCER EP6',
+            video_url: 'https://hglink.to/vofnac903nd4',
+            download_url:
+              'https://www.mediafire.com/file/abur5tg3p9wbmw8/BAD_INFLUENCER_S01_EP_6.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
           }
-         
         ],
       },
     ],
