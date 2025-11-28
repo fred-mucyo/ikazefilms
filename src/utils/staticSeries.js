@@ -49,39 +49,23 @@ const staticSeries = [
             download_url:
               'https://www.mediafire.com/file/bc8oyp9r6zj789m/BAD_INLUENCER_S01E4.mp4/file',
             thumbnail_url: '/badInfluencereee.webp',
+          },
+         {
+            id: 'badinfluence5',
+            title: 'BAD INFLUENCER EP5',
+            video_url: 'https://hglink.to/bxqcu4i1fvqg',
+            download_url:
+              'https://www.mediafire.com/file/b6cr7z30azueyir/BAD_INFLUENCER_S01_EP_5.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
+          },
+             {
+            id: 'badinfluence6',
+            title: 'BAD INFLUENCER EP6',
+            video_url: 'https://hglink.to/vofnac903nd4',
+            download_url:
+              'https://www.mediafire.com/file/abur5tg3p9wbmw8/BAD_INFLUENCER_S01_EP_6.mp4/file',
+            thumbnail_url: '/badInfluencereee.webp',
           }
-          // {
-          //   id: 'moneyheist3',
-          //   title: 'MONEY HEIST KOREA EP3',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/3nmnuidqbjln7q9/MONEY+HEIST+EP3.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist4',
-          //   title: 'MONEY HEIST KOREA EP4',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/n4fxqnthl0xs7q6/MONEY+HEIST+EP4.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist5',
-          //   title: 'MONEY HEIST KOREA EP5',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/ijafzdf9ed89bzg/MONEY+HEIST+EP5.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
-          // {
-          //   id: 'moneyheist6',
-          //   title: 'MONEY HEIST KOREA EP6 FINAL',
-          //   video_url: '',
-          //   download_url:
-          //     'https://www.mediafire.com/file/4bezvub4x8x5asw/MONEY+HEIST+EP6+FINAL.mp4/file',
-          //   thumbnail_url: '/moneykorea.webp',
-          // },
         ],
       },
     ],
@@ -266,7 +250,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/bloodandTreasure.webp',
     seasons: [
       {
@@ -353,7 +336,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
     poster_url: '/bonne.webp',
     seasons: [
       {
@@ -653,7 +635,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured:true,
     poster_url: '/tempest1.webp',
     seasons: [
       {
@@ -1204,7 +1185,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka B THE GREAT, ntucikwe.',
     is_popular: true,
-    is_featured:true,
     poster_url: '/bloodriver2.webp',
     seasons: [
       {
