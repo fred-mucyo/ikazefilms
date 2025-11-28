@@ -1,13 +1,7 @@
 // src/data/staticSeries.js
 
 const staticSeries = [
-
-
-
-    ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
-
-
-    
+///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
   {
     id:'bad-influencer',
     title: 'BAD INFLUENCER',
@@ -75,13 +69,12 @@ const staticSeries = [
   },
 
 
-
-
   {
     id: 'continental',
     title: 'Continental',
     type: 'series',
     description: '',
+    is_popular:'true',
     poster_url: '/continental.webp',
     seasons: [
       {
@@ -128,55 +121,6 @@ const staticSeries = [
       },
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: 'longroadhome',
