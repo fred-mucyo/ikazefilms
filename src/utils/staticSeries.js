@@ -5,6 +5,9 @@ const staticSeries = [
 
 
     ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
+
+
+    
   {
     id:'bad-influencer',
     title: 'BAD INFLUENCER',
@@ -70,6 +73,110 @@ const staticSeries = [
       },
     ],
   },
+
+
+
+
+  {
+    id: 'continental',
+    title: 'Continental',
+    type: 'series',
+    description: '',
+    poster_url: '/continental.webp',
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            id: 'Continental1',
+            title: 'Continental EP1',
+            video_url: 'https://hglink.to/9d0pjgg4zdeq',
+            download_url: 'https://www.mediafire.com/file/95lvnxm7wqg2i6t/THE_continental_1.mp4/file',
+            thumbnail_url: '/continental.webp',
+          },
+          {
+            id: 'Continental2A',
+            title: 'Continental EP2',
+            video_url: 'https://hglink.to/5d43i83ut74s',
+            download_url:'https://www.mediafire.com/file/0ypv62d23kng6k7/the_continental_2A.mp4/file',
+            thumbnail_url: '/continental.webp',
+          },
+
+          {
+            id: 'Continental2B',
+            title: 'Continental EP2 B',
+            video_url: 'https://hglink.to/slzwm9yhj6as',
+            download_url:'https://www.mediafire.com/file/rcki36of6vpzfae/the_continental_2B.mp4/file',
+            thumbnail_url: '/continental.webp',
+          },
+          {
+            id: 'Continental3A',
+            title: ' Continental EP3 A',
+            video_url: 'https://hglink.to/qjfqpty9a1hf',
+            download_url: 'https://www.mediafire.com/file/yejvfg88ox9ad1o/the_continentaL_3A.mp4/file',
+            thumbnail_url: '/continental.webp',
+          },
+          // {
+          //   id: 'Continental3B',
+          //   title: 'Continental EP3 B',
+          //   video_url: 'https://hglink.to/fzpc1oirb8eb',
+          //   download_url: '',
+          //   thumbnail_url: '/continental.webp',
+          // },
+          
+        ],
+      },
+    ],
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   {
     id: 'longroadhome',

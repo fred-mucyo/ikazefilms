@@ -237,7 +237,28 @@ const Home = () => {
             </div>
           )}
 
-          <div className="movies-section" id="popular">
+        
+
+          <div className="movies-section" id="recent">
+            <div className="section-header">
+              <h2 className="section-title">Recent Releases</h2>
+              <div className="section-subtitle">
+                Movie nshya kuri hashye.online
+              </div>
+            </div>
+            <div className="horizontal-scroll">
+              {recentReleases.map((movie) => (
+                <MovieCard
+                  key={`recent-${movie.id}`}
+                  movie={movie}
+                  loading="lazy"
+                />
+              ))}
+            </div>
+          </div>
+
+
+            <div className="movies-section" id="popular">
             <div className="section-header">
               <h2 className="section-title">Popular</h2>
               <div className="section-subtitle">Movie zigezweho</div>
@@ -253,23 +274,6 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="movies-section" id="recent">
-            <div className="section-header">
-              <h2 className="section-title">Recent Releases</h2>
-              <div className="section-subtitle">
-                Movie nshya
-              </div>
-            </div>
-            <div className="horizontal-scroll">
-              {recentReleases.map((movie) => (
-                <MovieCard
-                  key={`recent-${movie.id}`}
-                  movie={movie}
-                  loading="lazy"
-                />
-              ))}
-            </div>
-          </div>
 
           {/* Search Results */}
           {searchTerm.trim() && filteredMovies.length > 0 && (
