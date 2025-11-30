@@ -2386,6 +2386,14 @@ const staticSeries = [
             download_url:  'https://www.mediafire.com/file/976ft3yldh0aco1/LOST+IN+LOVE+EP76.mp4/file',
             thumbnail_url: '/lostin.jpg',
           },
+
+          {
+            id: 'lost77',
+            title: 'LOST IN LOVE FINAL EP 77 ',
+            video_url:'https://hglink.to/dbazf1y50orc',
+            download_url:  'https://www.mediafire.com/file/vxsexrh8vck2etw/Lost+In+Love+Ep+77+Final.mp4/file',
+            thumbnail_url: '/lostin.jpg',
+          },
         ],
       },
       {
@@ -2409,6 +2417,7 @@ const staticSeries = [
             video_url: 'https://hglink.to/episode1s2',
             thumbnail_url: '/lostin.jpg',
           },
+          
         ],
       },
     ],
