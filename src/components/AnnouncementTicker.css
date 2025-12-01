@@ -27,7 +27,7 @@
   display: inline-flex;
   align-items: center;
   padding: 0 0 0 80%; /* start closer to the right edge so text is visible sooner */
-  animation: ticker-scroll 40s linear infinite; /* slower scroll for readability */
+  animation: ticker-scroll 70s linear infinite; /* slower scroll for readability */
 }
 
 .ticker-content span {
