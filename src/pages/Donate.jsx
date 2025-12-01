@@ -10,26 +10,24 @@ const Donate = () => {
           Hashye.online is free to use and maintained with love. If you enjoy the
           platform and want to support future improvements, you can donate using
           the details below:
+
         </p>
 
         <div className="donate-page-methods">
           <div className="donate-page-method">
-            <h2>Mobile Money</h2>
+            <h2>Mobile Money, World remit </h2>
             <p>
-              <strong>Number:</strong> 07XX XXX XXX
+              <strong>Number:</strong>+250 786 054 441
             </p>
             <p>
-              <strong>Name:</strong> Your Name Here
+              <strong>Name:</strong> Mucyo Fred
             </p>
           </div>
 
           <div className="donate-page-method">
-            <h2>Bank Transfer</h2>
+            <h2>MOMO PAY</h2>
             <p>
-              <strong>Account Name:</strong> Hashye Online
-            </p>
-            <p>
-              <strong>IBAN / Account No:</strong> 0000 0000 0000
+              <strong> CODE:</strong> 135776
             </p>
           </div>
         </div>
@@ -44,3 +42,4 @@ const Donate = () => {
 };
 
 export default Donate;
+

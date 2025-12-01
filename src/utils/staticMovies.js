@@ -4,6 +4,25 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+
+   {
+    id:'Frankestein',
+    title: 'Frankestein',
+    description: 'This movie is not interpreted 😊',
+    interpreter_name: '',
+    is_not_interpreted:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/frankestein.webp',
+    poster_url: '/frankestein.webp',
+    image_url: '/frankestein.webp',
+    video_url: 'https://hglink.to/b0vm4z81qq89',
+    download_url:
+      'https://www.mediafire.com/file/49i62pny77xjniw/Watch+Frankenstein+2025.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/b0vm4z81qq89',
+  },
+
+
  {
     id:'wanted-girl-friendA',
     title: 'WANTED GIRL FRIEND A (18+)',
