@@ -40,13 +40,15 @@ const NotInterpretedPage = () => {
         <div className="container">
           <div className="movies-section">
             <div className="section-header">
-              <h2 className="section-title">Not Interpreted</h2>
+              {/* <h2 className="section-title">Not Interpreted</h2>
               <div className="section-subtitle">
                 Switch between seasons and movies that are marked as not interpreted
-              </div>
+              </div> */}
             </div>
 
-            <div style={{ marginBottom: 16 }}>
+            {/* FILTER COMMENTED OUT FOR THIS MOMENT */}
+
+            {/* <div style={{ marginBottom: 16 }}>
               <label htmlFor="not-interpreted-filter" style={{ marginRight: 8 }}>
                 Filter:
               </label>
@@ -60,26 +62,13 @@ const NotInterpretedPage = () => {
                 <option value="series">Seasons</option>
                 <option value="movies">Movies</option>
               </select>
-            </div>
+            </div> */}
           </div>
 
-          {showSeries.length > 0 && (
+             {showMovies.length > 0 && (
             <div className="movies-section">
               <div className="section-header">
-                <h2 className="section-title">Not Interpreted Seasons</h2>
-              </div>
-              <div className="movies-grid compact-grid">
-                {showSeries.map((s) => (
-                  <MovieCard key={s.id} movie={s} />
-                ))}
-              </div>
-            </div>
-          )}
-
-          {showMovies.length > 0 && (
-            <div className="movies-section">
-              <div className="section-header">
-                <h2 className="section-title">Not Interpreted Movies</h2>
+                <h2 className="section-title">Movies</h2>
               </div>
 
               <div className="movies-grid compact-grid">
@@ -90,10 +79,25 @@ const NotInterpretedPage = () => {
             </div>
           )}
 
+          {showSeries.length > 0 && (
+            <div className="movies-section">
+              <div className="section-header">
+                <h2 className="section-title">Seasons</h2>
+              </div>
+              <div className="movies-grid compact-grid">
+                {showSeries.map((s) => (
+                  <MovieCard key={s.id} movie={s} />
+                ))}
+              </div>
+            </div>
+          )}
+
+       
+
           {hasAnyContent === false && (
             <div className="movies-section">
               <div className="no-results" aria-live="polite">
-                <h3>No not interpreted movies or seasons yet</h3>
+                <h3> No movies or seasons here yet</h3>
               </div>
             </div>
           )}

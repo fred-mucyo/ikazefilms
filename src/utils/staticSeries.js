@@ -9,7 +9,7 @@ const staticSeries = [
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    is_not_interpreted: true,
+    // is_not_interpreted: true,
     poster_url: '/badinfluencer.webp',
     seasons: [
       {

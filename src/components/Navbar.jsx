@@ -108,27 +108,29 @@ const Navbar = () => {
           </button>
 
           <button
+            className={`nav-link as-button ${
+              activeMenu === 'NOT_INTERPRETED' ? 'active' : ''
+            }`}
+            onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
+          >
+            <span className="nav-text">MOVIE ZIDASOBANUYE</span>
+          </button>
+
+          <button
             className={`nav-link as-button ${activeMenu === 'SERIES' ? 'active' : ''}`}
             onClick={() => handleNavClick('SERIES', '/series', null)}
           >
             <span className="nav-text">SEASONS</span>
           </button>
 
-          <button
-            className={`nav-link as-button ${
-              activeMenu === 'NOT_INTERPRETED' ? 'active' : ''
-            }`}
-            onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
-          >
-            <span className="nav-text">NOT INTERPRETED</span>
-          </button>
+          
 
-          <button
+          {/* <button
             className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`}
             onClick={() => handleNavClick('FEATURED', null, 'featured')}
           >
             <span className="nav-text">FEATURED</span>
-          </button>
+          </button> */}
 
           <button
             className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`}
