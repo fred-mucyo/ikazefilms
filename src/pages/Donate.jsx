@@ -9,7 +9,16 @@ const Donate = () => {
         <p className="donate-page-intro">
           Hashye.online is free to use and maintained with love. If you enjoy the
           platform and want to support future improvements, you can donate using
-          the details below:
+          the details below: <br/>
+          <br/>
+
+          <strong>kinyarwanda version</strong>
+          
+<br/>
+<br/>
+        Hashye.online ni ubuntu kandi ikora neza kubera urukundo Mutwereka. Niba ukunda uru rubuga kandi ushaka gutanga inkunga kugira ngo rukomeze rukomeze gukora neza, ushobora gutanga umusanzu wawe ukoresheje amakuru ari hano hasi:
+
+
 
         </p>
 
@@ -38,6 +47,8 @@ const Donate = () => {
         <p className="donate-page-note">
           Any amount is appreciated and helps keep the service online and
           improving. Thank you for your support!
+          <br/>
+          <strong>MURAKOZE</strong>
         </p>
       </div>
     </div>

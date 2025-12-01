@@ -114,7 +114,7 @@ const Navbar = () => {
             }`}
             onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
           >
-            <span className="nav-text">MOVIE ZIDASOBANUYE</span>
+            <span className="nav-text">ENGLISH MOVIES</span>
           </button>
 
           <button
@@ -139,12 +139,12 @@ const Navbar = () => {
             <span className="nav-text">FEATURED</span>
           </button> */}
 
-          <button
+          {/* <button
             className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`}
             onClick={() => handleNavClick('POPULAR', null, 'popular')}
           >
             <span className="nav-text">POPULAR</span>
-          </button>
+          </button> */}
         </div>
 
         {/* Search + Install PWA Button */}
