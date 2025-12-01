@@ -17,7 +17,7 @@ const Donate = () => {
           <div className="donate-page-method">
             <h2>Mobile Money, World remit </h2>
             <p>
-              <strong>Number:</strong>+250 786 054 441
+              <strong>Number:</strong> +250 786 054 441
             </p>
             <p>
               <strong>Name:</strong> Mucyo Fred
@@ -28,6 +28,9 @@ const Donate = () => {
             <h2>MOMO PAY</h2>
             <p>
               <strong> CODE:</strong> 135776
+              <p>
+              <strong>Name:</strong> Mucyo
+            </p>
             </p>
           </div>
         </div>
