@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react';
 import staticSeries from '../utils/staticSeries';
 import staticMovies from '../utils/staticMovies';
 import MovieCard from '../components/MovieCard';
-import TrailerEmbed from '../components/TrailerEmbed';
 import useSEO from '../hooks/useSeo.jsx';
 import './Home.css';
 import './SeriesPage.css';
@@ -98,42 +97,7 @@ const NotInterpretedPage = () => {
 
               <div className="movies-grid compact-grid">
                 {showMovies.map((movie) => (
-                  <div key={movie.id} className="movie-card">
-                    <div className="movie-card-image">
-                      <TrailerEmbed
-                        youtubeUrl={movie.youtube_trailer_url}
-                        thumbnailUrl={
-                          movie.thumbnail_url ||
-                          movie.poster_url ||
-                          movie.image_url
-                        }
-                        title={movie.title}
-                      />
-                    </div>
-                    <div className="movie-card-content">
-                      <h3 className="movie-card-title">{movie.title}</h3>
-                      {movie.description && (
-                        <p className="movie-card-description">
-                          {movie.description}
-                        </p>
-                      )}
-                      {movie.video_url && (
-                        <div
-                          className="movie-card-actions"
-                          style={{ marginTop: 8 }}
-                        >
-                          <a
-                            href={movie.video_url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="btn btn-primary"
-                          >
-                            REBA FILM YOSE
-                          </a>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+                  <MovieCard key={movie.id} movie={movie} />
                 ))}
               </div>
             </div>

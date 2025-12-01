@@ -13,14 +13,18 @@ import staticSeries from '../utils/staticSeries';
 
 const MOVIES_PER_LOAD = 12;
 
+// Exclude not-interpreted items from Home; they are shown only on /not-interpreted
+const homeStaticMovies = staticMovies.filter((m) => !m.is_not_interpreted);
+const homeStaticSeries = staticSeries.filter((s) => !s.is_not_interpreted);
+
 const Home = () => {
   const location = useLocation();
-  const [movies, setMovies] = useState([...staticMovies, ...staticSeries]);
+  const [movies, setMovies] = useState([...homeStaticMovies, ...homeStaticSeries]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([
-    ...staticMovies,
-    ...staticSeries,
+    ...homeStaticMovies,
+    ...homeStaticSeries,
   ]);
   const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
 
@@ -34,8 +38,9 @@ const Home = () => {
       setLoading(true);
       setError(null);
       const data = await api.getMovies();
-      setMovies([...data, ...staticSeries]);
-      setFilteredMovies([...data, ...staticSeries]);
+      const backendMoviesForHome = data.filter((m) => !m.is_not_interpreted);
+      setMovies([...backendMoviesForHome, ...homeStaticSeries]);
+      setFilteredMovies([...backendMoviesForHome, ...homeStaticSeries]);
     } catch (err) {
       console.error(err);
       const errorMessage = err.message || 'Failed to load movies.';
