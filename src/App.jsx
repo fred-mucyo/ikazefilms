@@ -16,6 +16,7 @@ import ChangePassword from './pages/ChangePassword';
 import AnalyticsTracker from './components/AnalyticsTracker';
 import SeriesDetail from './pages/SeriesDetail';
 import SeriesPage from './pages/SeriesPage';
+import NotInterpretedPage from './pages/NotInterpretedPage';
 
 import TermsOfService from './LegalPages/TermsOfServices';
 import PrivacyPolicy from './LegalPages/PrivacyPolicy';
@@ -47,6 +48,11 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/change-password" element={<ChangePassword />} />
                 <Route path="/series" element={<SeriesPage />} />
+
+                <Route
+                  path="/not-interpreted"
+                  element={<NotInterpretedPage />}
+                />
 
                 <Route path="/terms" element={<TermsOfService />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
