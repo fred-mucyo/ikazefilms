@@ -7,7 +7,7 @@
 
 .main-content {
   flex: 1;
-  padding-top: 100px; /* Account for fixed navbar with extra spacing */
+  padding-top: 150px; /* Account for fixed navbar + announcement ticker */
   padding-bottom: 40px; /* Space for footer */
 }
 
@@ -41,14 +41,14 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .main-content {
-    padding-top: 90px; /* Extra spacing for mobile navbar */
+    padding-top: 140px; /* Navbar + ticker on mobile */
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .main-content {
-    padding-top: 80px; /* Extra spacing for small mobile navbar */
+    padding-top: 130px; /* Navbar + ticker on small mobile */
     padding-bottom: 24px;
   }
 }

@@ -4,6 +4,7 @@ import { AuthProvider } from './context/AuthContext';
 import { WatchlistProvider } from './context/WatchlistContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AnnouncementTicker from './components/AnnouncementTicker';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -30,6 +31,7 @@ function App() {
           <AnalyticsTracker />
           <div className="App">
             <Navbar />
+            <AnnouncementTicker />
             <main className="main-content">
               <Routes>
                 <Route path="/" element={<Home />} />

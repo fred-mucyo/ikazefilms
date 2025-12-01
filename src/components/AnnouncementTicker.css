@@ -1,0 +1,44 @@
+.announcement-ticker {
+  position: fixed;
+  top: 80px; /* sits a bit below the fixed navbar */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #111827, #020617); /* dark modern gradient */
+  color: #e5e7eb; /* light gray text */
+  border-bottom: 1px solid rgba(148, 163, 184, 0.4);
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 999; /* below navbar (1000) but above page content */
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.8);
+}
+
+.ticker-inner {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ticker-content {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0 0 80%; /* start closer to the right edge so text is visible sooner */
+  animation: ticker-scroll 40s linear infinite; /* slower scroll for readability */
+}
+
+.ticker-content span {
+  padding-right: 64px;
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

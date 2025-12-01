@@ -16,6 +16,10 @@ const MOVIES_PER_LOAD = 12;
 // Exclude not-interpreted items from Home; they are shown only on /not-interpreted
 const homeStaticMovies = staticMovies.filter((m) => !m.is_not_interpreted);
 const homeStaticSeries = staticSeries.filter((s) => !s.is_not_interpreted);
+const searchExtraStatic = [
+  ...staticMovies.filter((m) => m.is_not_interpreted),
+  ...staticSeries.filter((s) => s.is_not_interpreted),
+];
 
 const Home = () => {
   const location = useLocation();
@@ -27,6 +31,14 @@ const Home = () => {
     ...homeStaticSeries,
   ]);
   const [visibleCount, setVisibleCount] = useState(MOVIES_PER_LOAD);
+
+  const searchPool = useMemo(() => {
+    const byId = new Map();
+    [...movies, ...searchExtraStatic].forEach((m) => {
+      if (m && m.id) byId.set(m.id, m);
+    });
+    return Array.from(byId.values());
+  }, [movies]);
 
   const searchTerm = useMemo(() => {
     const params = new URLSearchParams(location.search);
@@ -59,9 +71,9 @@ const Home = () => {
     () =>
       debounce((term) => {
         if (!term.trim()) {
-          setFilteredMovies(movies);
+          setFilteredMovies(searchPool);
         } else {
-          const filtered = movies.filter(
+          const filtered = searchPool.filter(
             (movie) =>
               movie?.title?.toLowerCase().includes(term.toLowerCase()) ||
               movie?.interpreter_name
@@ -72,7 +84,7 @@ const Home = () => {
         }
         setVisibleCount(MOVIES_PER_LOAD);
       }, 300),
-    [movies],
+    [searchPool],
   );
 
   useEffect(() => {

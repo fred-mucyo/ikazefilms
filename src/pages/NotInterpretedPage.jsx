@@ -46,33 +46,20 @@ const NotInterpretedPage = () => {
               </div>
             </div>
 
-            <div className="filter-tabs" style={{ marginBottom: 16 }}>
-              <button
-                className={`btn ${
-                  filter === 'all' ? 'btn-primary' : 'btn-outline'
-                }`}
-                onClick={() => setFilter('all')}
+            <div style={{ marginBottom: 16 }}>
+              <label htmlFor="not-interpreted-filter" style={{ marginRight: 8 }}>
+                Filter:
+              </label>
+              <select
+                id="not-interpreted-filter"
+                value={filter}
+                onChange={(e) => setFilter(e.target.value)}
+                className="select-input"
               >
-                All
-              </button>
-              <button
-                className={`btn ${
-                  filter === 'series' ? 'btn-primary' : 'btn-outline'
-                }`}
-                onClick={() => setFilter('series')}
-                style={{ marginLeft: 8 }}
-              >
-                Seasons
-              </button>
-              <button
-                className={`btn ${
-                  filter === 'movies' ? 'btn-primary' : 'btn-outline'
-                }`}
-                onClick={() => setFilter('movies')}
-                style={{ marginLeft: 8 }}
-              >
-                Movies
-              </button>
+                <option value="all">All</option>
+                <option value="series">Seasons</option>
+                <option value="movies">Movies</option>
+              </select>
             </div>
           </div>
 

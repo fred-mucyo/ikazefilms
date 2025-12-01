@@ -138,9 +138,13 @@ const MovieCard = ({ movie }) => {
           </button>
         </div>
 
-        {(movie.is_popular || movie.is_featured) && (
+        {(movie.is_popular || movie.is_featured || movie.is_not_interpreted) && (
           <div className="movie-badge">
-            {movie.is_popular ? '🔥 Popular' : '⭐ Featured'}
+            {movie.is_not_interpreted
+              ? '📝 Not Interpreted'
+              : movie.is_popular
+                ? '🔥 Popular'
+                : '⭐ Featured'}
           </div>
         )}
       </div>
