@@ -123,6 +123,30 @@
   margin: 0 15px;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.install-pwa-button {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(135deg, #00d4ff, #0099cc);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.install-pwa-button:hover {
+  background: linear-gradient(135deg, #00b8e6, #0088bb);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 212, 255, 0.4);
+}
+
 .search-form {
   width: 100%;
   position: relative;
@@ -255,6 +279,10 @@
 
   .nav-search {
     max-width: 280px;
+  }
+
+  .nav-right {
+    gap: 8px;
   }
 }
 
@@ -406,4 +434,83 @@
     font-size: 1.3rem;
     font-weight: 700;
   }
+}
+
+/* Donate Modal */
+.donate-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 1200;
+}
+
+.donate-modal {
+  width: 100%;
+  max-width: 480px;
+  background: radial-gradient(circle at top, #111 0%, #050505 60%, #000 100%);
+  border-radius: 16px;
+  padding: 20px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(0, 212, 255, 0.15);
+  color: #fff;
+}
+
+.donate-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.donate-modal-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.donate-modal-close {
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.donate-modal-body {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.donate-methods {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.donate-method {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.donate-method h3 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.donate-note {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.donate-heart-icon {
+  margin-right: 6px;
+  color: #ff4b75;
 }

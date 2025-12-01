@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { Search, Menu, X } from 'lucide-react';
+import { Search, Menu, X, Heart } from 'lucide-react';
+import InstallPWAButton from './InstallPWAButton';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -122,8 +123,14 @@ const Navbar = () => {
           >
             <span className="nav-text">SEASONS</span>
           </button>
-
-          
+          <button
+            className="nav-link as-button"
+            type="button"
+            onClick={() => handleNavClick('DONATE', '/donate', null)}
+          >
+            <Heart size={16} className="donate-heart-icon" />
+            <span className="nav-text">DONATE</span>
+          </button>
 
           {/* <button
             className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`}
@@ -140,29 +147,32 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Search */}
-        <div className="nav-search">
-          <form onSubmit={handleSearchSubmit} className="search-form">
-            <div className="search-input-container">
-              <input
-                ref={searchInputRef}
-                type="text"
-                placeholder="Search movies..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                onFocus={() => setIsSearchFocused(true)}
-                onBlur={() => setIsSearchFocused(false)}
-                className={`search-input ${isSearchFocused ? 'focused' : ''}`}
-              />
-              <button
-                type="submit"
-                className="search-submit-btn"
-                aria-label="Search"
-              >
-                <Search size={16} />
-              </button>
-            </div>
-          </form>
+        {/* Search + Install PWA Button */}
+        <div className="nav-right">
+          <div className="nav-search">
+            <form onSubmit={handleSearchSubmit} className="search-form">
+              <div className="search-input-container">
+                <input
+                  ref={searchInputRef}
+                  type="text"
+                  placeholder="Search movies..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onFocus={() => setIsSearchFocused(true)}
+                  onBlur={() => setIsSearchFocused(false)}
+                  className={`search-input ${isSearchFocused ? 'focused' : ''}`}
+                />
+                <button
+                  type="submit"
+                  className="search-submit-btn"
+                  aria-label="Search"
+                >
+                  <Search size={16} />
+                </button>
+              </div>
+            </form>
+          </div>
+          <InstallPWAButton />
         </div>
       </div>
     </nav>

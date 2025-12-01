@@ -1,0 +1,53 @@
+.donate-page {
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.donate-page-card {
+  max-width: 640px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.15),
+    0 0 20px rgba(0, 0, 0, 0.08);
+  color: #111111;
+}
+
+.donate-page-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.donate-page-intro {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.donate-page-methods {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.donate-page-method {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f7f7f7;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.donate-page-method h2 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.donate-page-note {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.7);
+}
