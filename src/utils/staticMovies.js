@@ -5,6 +5,24 @@
 
 const staticMovies = [
 
+  
+   {
+    id:'Loft',
+    title: 'LOFT',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/loft.webp',
+    poster_url: '/loft.webp',
+    image_url: '/loft.webp',
+    video_url: 'https://hglink.to/oic1tfa4c8b4',
+    download_url:
+      'https://www.mediafire.com/file/sny8mkbjoyrrsjp/The_Loft.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/oic1tfa4c8b4',
+  },
+
 
    {
     id:'Frankestein',
