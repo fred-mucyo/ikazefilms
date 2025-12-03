@@ -5,6 +5,23 @@
 
 const staticMovies = [
 
+    {
+    id:'cHips',
+    title: 'CHIPS',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/chips.webp',
+    poster_url: '/chips.webp',
+    image_url: '/chips.webp',
+    video_url: 'https://hglink.to/n2d9ald04940',
+    download_url:
+      'https://www.mediafire.com/file/c1mf6g0jabedky2/CHIPS.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/n2d9ald04940',
+  },
+
 {
     id:'collateral1',
     title: 'COLLATERAL',
@@ -23,22 +40,7 @@ const staticMovies = [
   },
 
 
-  {
-    id:'cHips',
-    title: 'CHIPS',
-    description: 'Ntucikwe...😊',
-    interpreter_name: 'ROCKY',
-     is_popular:true,
-    is_featured:true,
-    created_at: '2025-10-04',
-    thumbnail_url:'/chips.webp',
-    poster_url: '/chips.webp',
-    image_url: '/chips.webp',
-    video_url: 'https://hglink.to/n2d9ald04940',
-    download_url:
-      'https://www.mediafire.com/file/c1mf6g0jabedky2/CHIPS.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/n2d9ald04940',
-  },
+
 
   
    {
