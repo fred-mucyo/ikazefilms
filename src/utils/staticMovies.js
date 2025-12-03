@@ -5,6 +5,41 @@
 
 const staticMovies = [
 
+{
+    id:'collateral1',
+    title: 'COLLATERAL',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/Collateral.webp',
+    poster_url: '/Collateral.webp',
+    image_url: '/Collateral.webp',
+    video_url: 'https://hglink.to/2fj55k8i5fe2',
+    download_url:
+      'https://www.mediafire.com/file/iy3wuyzskixfy4e/COLLATERAL.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/2fj55k8i5fe2',
+  },
+
+
+  {
+    id:'cHips',
+    title: 'CHIPS',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/chips.webp',
+    poster_url: '/chips.webp',
+    image_url: '/chips.webp',
+    video_url: 'https://hglink.to/n2d9ald04940',
+    download_url:
+      'https://www.mediafire.com/file/c1mf6g0jabedky2/CHIPS.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/n2d9ald04940',
+  },
+
   
    {
     id:'Loft',
@@ -97,7 +132,6 @@ const staticMovies = [
     description: 'aga filime karangira!!! Aka kararenze ni Ntikagucike.... 😊',
     interpreter_name: '',
     is_popular:true,
-    is_featured:true,
     // is_not_interpreted: true,
     created_at: '2025-10-04',
     thumbnail_url:'/rednotice.webp',
