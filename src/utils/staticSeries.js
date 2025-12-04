@@ -4343,6 +4343,8 @@ const staticSeries = [
     id: 'young-famous-african',
     title: 'YOUNG FAMOUS & AFRICAN',
     type: 'series',
+    is_popular:true,
+    is_not_interpreted:true,
     description:
       'Diamond Platnumz – Tanzanian music superstar 🎶\n\nZari Hassan (The Boss Lady) and more.. ',
     poster_url: '/xxxxYfa.jpg',
