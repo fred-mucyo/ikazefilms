@@ -77,8 +77,8 @@ const MovieDetail = () => {
   const handleShare = async () => {
     const shareData = {
       title: movie.title,
-      text: `🎬 Watch "${movie.title}" now on Hashye.online!`,
-      url: `https://hashye.online/movie/${movie.id}`,
+      text: `🎬 Watch "${movie.title}" now on IkazeFilms!`,
+      url: `https://ikazefilms.online/movie/${movie.id}`,
     };
 
     if (navigator.share) {
@@ -114,10 +114,10 @@ const MovieDetail = () => {
     return (
       <>
         {useSEO({
-          title: 'Hashye - Loading Movie...',
-          description: 'Fetching movie details on Hashye...',
-          image: '/hashye-preview.png',
-          url: `https://hashye.online/movie/${id}`,
+          title: 'IkazeFilms - Loading Movie...',
+          description: 'Fetching movie details on IkazeFilms...',
+          image: '/ikazefilms-preview.png',
+          url: `https://ikazefilms.online/movie/${id}`,
         })}
         <div className="movie-detail-page">
           <div className="container">
@@ -135,10 +135,10 @@ const MovieDetail = () => {
     return (
       <>
         {useSEO({
-          title: ' Hashye - Movie Not Found',
-          description: 'The movie could not be found on Hashye.',
-          image: '/hashye-preview.png',
-          url: 'https://hashye.online/',
+          title: 'IkazeFilms - Movie Not Found',
+          description: 'The movie could not be found on IkazeFilms.',
+          image: '/ikazefilms-preview.png',
+          url: 'https://ikazefilms.online/',
         })}
         <div className="movie-detail-page">
           <div className="container">
@@ -161,10 +161,10 @@ const MovieDetail = () => {
   return (
     <>
       {useSEO({
-        title: `${movie.title} - Watch on Hashye.online`,
-        description: movie.description || 'Stream movies on Hashye in HD.',
-        image: movie.thumbnail_url || '/hashye-preview.png',
-        url: `https://hashye.online/movie/${movie.id}`,
+        title: `${movie.title} - Watch on IkazeFilms`,
+        description: movie.description || 'Stream movies on IkazeFilms in HD.',
+        image: movie.thumbnail_url || '/ikazefilms-preview.png',
+        url: `https://ikazefilms.online/movie/${movie.id}`,
       })}
       <div className="movie-detail-page">
         <div className="container">

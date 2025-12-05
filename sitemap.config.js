@@ -6,7 +6,7 @@
 export const SITEMAP_CONFIG = {
   // Base URL for your website
   baseUrl: process.env.NODE_ENV === 'production' 
-    ? 'https://yourdomain.com' // Replace with your actual domain
+    ? 'https://ikazefilms.online' // IkazeFilms production domain
     : 'http://localhost:5173',
   
   // Output directory for generated files

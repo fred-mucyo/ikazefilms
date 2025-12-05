@@ -4,7 +4,7 @@
 // Base URL - should be updated for production
 const BASE_URL =
   process.env.NODE_ENV === 'production'
-    ? 'https://hashye.online/' // Replace with your actual domain
+    ? 'https://ikazefilms.online/' // Updated to new production domain
     : 'http://localhost:5173';
 
 // Static routes that are always available

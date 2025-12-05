@@ -5,13 +5,12 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.95) 0%,
-    rgba(0, 0, 0, 0.85) 100%
-  );
-  backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(249, 115, 22, 0.22), transparent 55%),
+    radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.14), transparent 55%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.98) 0%, rgba(15, 23, 42, 0.9) 100%);
+  backdrop-filter: blur(22px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.4);
   padding: 15px 0;
   transition: all 0.3s ease;
 }
@@ -47,13 +46,13 @@
 
 .logo-icon {
   font-size: 1.8rem;
-  filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5));
+  filter: drop-shadow(0 0 12px rgba(249, 115, 22, 0.65));
 }
 
 .logo-text {
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #00d4ff, #ffffff);
+  background: linear-gradient(135deg, #f97316, #facc15, #e5e7eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -74,10 +73,16 @@
   align-items: center;
   gap: 30px;
   margin-top: -5px;
+  margin-left: 16px; /* add space between logo and HOME */
+}
+
+/* Mobile quick links hidden by default (desktop/tablet) */
+.nav-quick-links-mobile {
+  display: none;
 }
 
 .nav-link {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(226, 232, 240, 0.9);
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
@@ -93,14 +98,14 @@
 }
 
 .nav-link:hover {
-  color: #00d4ff;
-  background: rgba(0, 212, 255, 0.1);
+  color: #f97316;
+  background: rgba(15, 23, 42, 0.9);
   transform: translateY(-2px);
 }
 
 .nav-link.active {
-  color: #00d4ff;
-  background: rgba(0, 212, 255, 0.15);
+  color: #f97316;
+  background: rgba(15, 23, 42, 0.95);
 }
 
 .nav-text {
@@ -132,9 +137,10 @@
 .install-pwa-button {
   padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(135deg, #00d4ff, #0099cc);
-  color: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  background: radial-gradient(circle at 0% 0%, rgba(249, 115, 22, 0.4), transparent 55%),
+    linear-gradient(135deg, #f97316, #ea580c, #7c3aed);
+  color: #0b1120;
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
@@ -142,9 +148,10 @@
 }
 
 .install-pwa-button:hover {
-  background: linear-gradient(135deg, #00b8e6, #0088bb);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 10px rgba(0, 212, 255, 0.4);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow:
+    0 10px 26px rgba(15, 23, 42, 0.9),
+    0 0 22px rgba(249, 115, 22, 0.5);
 }
 
 .search-form {
@@ -161,23 +168,23 @@
 .search-input {
   width: 100%;
   padding: 10px 50px 10px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 25px;
-  background: rgba(255, 255, 255, 0.08);
-  color: white;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  border-radius: 999px;
+  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.9));
+  color: #e5e7eb;
   font-size: 14px;
   transition: all 0.3s ease;
   backdrop-filter: blur(15px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.85);
 }
 
 .search-input:focus {
   outline: none;
-  border-color: #00d4ff;
-  background: rgba(255, 255, 255, 0.12);
+  border-color: #38bdf8;
+  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 1), rgba(15, 23, 42, 0.95));
   box-shadow:
-    0 0 0 2px rgba(0, 212, 255, 0.2),
-    0 4px 20px rgba(0, 212, 255, 0.1);
+    0 0 0 1px rgba(56, 189, 248, 0.85),
+    0 0 24px rgba(56, 189, 248, 0.4);
   transform: translateY(-1px);
 }
 
@@ -187,11 +194,11 @@
 }
 
 .search-input.focused {
-  border-color: #00d4ff;
-  background: rgba(255, 255, 255, 0.12);
+  border-color: #38bdf8;
+  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 1), rgba(15, 23, 42, 0.95));
   box-shadow:
-    0 0 0 2px rgba(0, 212, 255, 0.2),
-    0 4px 20px rgba(0, 212, 255, 0.1);
+    0 0 0 1px rgba(56, 189, 248, 0.85),
+    0 0 24px rgba(56, 189, 248, 0.4);
   transform: translateY(-1px);
 }
 
@@ -200,9 +207,9 @@
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
-  background: linear-gradient(135deg, #00d4ff, #0099cc);
+  background: linear-gradient(135deg, #f97316, #ea580c);
   border: none;
-  color: white;
+  color: #0b1120;
   cursor: pointer;
   padding: 6px;
   border-radius: 50%;
@@ -212,14 +219,16 @@
   justify-content: center;
   width: 28px;
   height: 28px;
-  box-shadow: 0 2px 8px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.9);
   z-index: 10;
 }
 
 .search-submit-btn:hover {
-  background: linear-gradient(135deg, #00b8e6, #0088bb);
+  background: linear-gradient(135deg, #fb923c, #f97316);
   transform: translateY(-50%) scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
+  box-shadow:
+    0 10px 24px rgba(15, 23, 42, 0.95),
+    0 0 20px rgba(249, 115, 22, 0.6);
 }
 
 /* Responsive Design */
@@ -300,33 +309,109 @@
   .nav-container {
     padding: 0 15px;
     justify-content: space-between;
+    gap: 8px;
   }
 
-  /* Hide navigation menu on mobile */
+  /* Full nav menu is hidden by default on mobile; shown inside hamburger dropdown */
   .nav-menu {
     display: none;
+  }
+
+  .nav-menu.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(15px);
+    padding: 15px 0;
+    gap: 10px;
+    z-index: 1001;
+  }
+
+  .nav-menu.open .nav-link {
+    justify-content: center;
+    font-size: 0.95rem;
+    padding: 10px 0;
+  }
+
+  /* Quick links row beside logo: ENGLISH MOVIES + DONATE only */
+  .nav-quick-links-mobile {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* slightly tighter so search icon sits closer */
+    margin-left: 6px;
+  }
+
+  .nav-quick-links-mobile .nav-link {
+    font-size: 0.75rem;
+    padding: 6px 8px;
+    white-space: nowrap; /* keep ENGLISH MOVIES on one horizontal line */
+  }
+
+  /* Keep a small space between DONATE and the search icon */
+  .nav-right {
+    gap: 6px;
   }
 
   .nav-search {
     max-width: 100%;
     margin: 0;
-    flex: 1;
-    min-width: 200px;
+    flex: 0 0 auto;
   }
 
-  .search-input {
-    font-size: 14px;
-    padding: 10px 50px 10px 16px;
+  /* Icon-only search state on mobile */
+  .navbar:not(.mobile-search-open) .search-input {
+    width: 0;
+    padding: 0;
+    opacity: 0;
+    border-width: 0;
   }
 
-  .search-submit-btn {
+  .navbar:not(.mobile-search-open) .search-input:focus {
+    box-shadow: none;
+    transform: none;
+  }
+
+  .navbar:not(.mobile-search-open) .search-input-container {
+    width: auto;
+  }
+
+  .navbar:not(.mobile-search-open) .search-submit-btn {
+    position: static;
+    transform: none;
     width: 28px;
     height: 28px;
-    right: 8px;
   }
 
-  .search-submit-btn:hover {
-    transform: translateY(-50%) scale(1.05);
+  /* Expanded search mode: hide nav items so input can fill */
+  .navbar.mobile-search-open .nav-menu,
+  .navbar.mobile-search-open .install-pwa-button,
+  .navbar.mobile-search-open .nav-quick-links-mobile {
+    display: none;
+  }
+
+  .navbar.mobile-search-open .nav-search {
+    flex: 1 1 auto;
+  }
+
+  .navbar.mobile-search-open .search-input {
+    width: 100%;
+    padding: 10px 50px 10px 16px;
+    opacity: 1;
+    border-width: 1px;
+    font-size: 14px;
+  }
+
+  .navbar.mobile-search-open .search-submit-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -435,6 +520,8 @@
     font-weight: 700;
   }
 }
+
+/* Keep IkazeFilms horizontal on all screen sizes, so no extra media rule here */
 
 /* Donate Modal */
 .donate-modal-backdrop {

@@ -63,13 +63,13 @@ const FeaturedHero = ({ movies = [] }) => {
     featured.backdrop_url || // Preferred wide image
     featured.image_url || // General image
     featured.poster_url || // Fallback to poster if no wide image, though it might get cropped/stretched if not truly wide
-    '/hashye-preview.png'; // Ultimate fallback
+    '/ikazefilms-preview.png'; // Ultimate fallback
 
   // Poster Image (vertical)
   const posterImage =
     featured.poster_url || // Preferred vertical image
     featured.thumbnail_url || // Fallback thumbnail
-    '/hashye-preview.png'; // Ultimate fallback
+    '/ikazefilms-preview.png'; // Ultimate fallback
 
   // Determine the primary link for the watch button
   const primaryWatchUrl = isSeries

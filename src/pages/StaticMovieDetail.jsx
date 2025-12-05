@@ -51,13 +51,13 @@ const StaticMovieDetail = () => {
   return (
     <>
       {useSEO({
-        title: `${movie.title} - Hashye`,
+        title: `${movie.title} - IkazeFilms`,
         description: truncateText(
-          movie.description || 'Watch now on Hashye',
+          movie.description || 'Watch now on IkazeFilms',
           150,
         ),
-        image: poster || '/hashye-preview.png',
-        url: `https://hashye.online/static-movie/${movie.id}`,
+        image: poster || '/ikazefilms-preview.png',
+        url: `https://ikazefilms.online/static-movie/${movie.id}`,
       })}
       <div className="movie-detail-page">
         <div className="container">
@@ -78,7 +78,7 @@ const StaticMovieDetail = () => {
                     <h3>🎬 Watch Trailer</h3>
                     <TrailerEmbed
                       youtubeUrl={movie.youtube_trailer_url}
-                      thumbnailUrl={poster || '/hashye-preview.png'}
+                      thumbnailUrl={poster || '/ikazefilms-preview.png'}
                       title={movie.title}
                     />
                   </div>
@@ -149,12 +149,12 @@ const StaticMovieDetail = () => {
                           p.thumbnail_url ||
                           p.poster_url ||
                           p.image_url ||
-                          '/hashye-preview.png'
+                          '/ikazefilms-preview.png'
                         }
                         alt={p.title}
                         loading="lazy"
                         onError={(e) => {
-                          e.currentTarget.src = '/hashye-preview.png';
+                          e.currentTarget.src = '/ikazefilms-preview.png';
                         }}
                       />
                       <div className="thumb-info">

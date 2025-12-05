@@ -1,28 +1,3 @@
-// import React from 'react';
-// import { Shield, Mail, Globe, Building2 } from 'lucide-react';
-
-// import './LegalPages.css';
-
-// const CONFIG = {
-//   appName: 'Hashye.online',
-//   contactEmail: 'hashyeonline@gmail.com',
-//   effectiveDate: 'August 20, 2025',
-//   companyAddress: 'Kigali, Rwanda',
-//   websiteUrl: 'https://hashye.online',
-// };
-
-// function Card({ children }) {
-//   return <div className="card">{children}</div>;
-// }
-// function CardContent({ children }) {
-//   return <div className="card-content">{children}</div>;
-// }
-
-// export default function PrivacyPolicy() {
-//   const C = CONFIG;
-//   return (
-//     <main className="legal-main">
-//       <header className="legal-header">
 //         <div className="icon-box green">
 //           <Shield size={22} />
 //         </div>
@@ -91,11 +66,11 @@ import { Shield, Mail, Globe, Building2 } from 'lucide-react';
 import './LegalPages.css';
 
 const CONFIG = {
-  appName: 'Hashye.online',
-  contactEmail: 'hashyeonline@gmail.com',
+  appName: 'IkazeFilms',
+  contactEmail: 'support@ikazefilms.online',
   effectiveDate: 'August 20, 2025',
   companyAddress: 'Kigali, Rwanda',
-  websiteUrl: 'https://hashye.online',
+  websiteUrl: 'https://ikazefilms.online',
 };
 
 function Card({ children }) {

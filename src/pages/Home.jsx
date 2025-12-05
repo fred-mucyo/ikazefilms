@@ -124,11 +124,11 @@ const Home = () => {
     return (
       <>
         {useSEO({
-          title: 'Hashye - Stream Movies & Shows in HD',
+          title: 'IkazeFilms - Stream Movies & Shows in HD',
           description:
-            'Discover and stream the latest movies and shows in HD on Hashye.',
-          image: '/hashye-preview.png',
-          url: 'https://hashye.online/',
+            'Discover and stream the latest movies and shows in HD on IkazeFilms.',
+          image: '/ikazefilms-preview.png',
+          url: 'https://ikazefilms.online/',
         })}
         <div className="home-page">
           <div className="container">
@@ -164,11 +164,11 @@ const Home = () => {
     return (
       <>
         {useSEO({
-          title: 'Hashye - Error Loading Movies',
+          title: 'IkazeFilms - Error Loading Movies',
           description:
-            'Oops! Something went wrong while loading movies on Hashye.',
-          image: '/hashye-preview.png',
-          url: 'https://hashye.online/',
+            'Oops! Something went wrong while loading movies on IkazeFilms.',
+          image: '/ikazefilms-preview.png',
+          url: 'https://ikazefilms.online/',
         })}
         <div className="home-page">
           <div className="container">
@@ -214,11 +214,11 @@ const Home = () => {
   return (
     <>
       {useSEO({
-        title: 'Hashye - Stream Movies & Shows in HD',
+        title: 'IkazeFilms - Stream Movies & Shows in HD',
         description:
-          'Discover and stream the latest movies and shows in HD on Hashye.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/',
+          'Discover and stream the latest movies and shows in HD on IkazeFilms.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/',
       })}
       <div className="home-page">
         <Toaster position="top-center" reverseOrder={false} />
@@ -260,7 +260,7 @@ const Home = () => {
             <div className="section-header">
               <h2 className="section-title">Recent Releases</h2>
               <div className="section-subtitle">
-                Movie nshya kuri hashye.online
+                Movie nshya kuri IkazeFilms
               </div>
             </div>
             <div className="horizontal-scroll">

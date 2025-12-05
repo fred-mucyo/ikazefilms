@@ -17,7 +17,7 @@ const SeriesDetail = () => {
   const handleShare = async () => {
     const shareData = {
       title: series.title,
-      text: `Check out "${series.title}" on Hashye!`,
+      text: `Check out "${series.title}" on IkazeFilms!`,
       url: window.location.href, // current series page URL
     };
 

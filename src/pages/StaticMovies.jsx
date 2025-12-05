@@ -9,11 +9,11 @@ const StaticMovies = () => {
   return (
     <>
       {useSEO({
-        title: 'Static Movies - Hashye',
+        title: 'Static Movies - IkazeFilms',
         description:
-          'Watch trailers instantly from our on-site static collection while the server wakes up.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/static-movie',
+          'Watch trailers instantly from our on-site static collection while the server wakes up on IkazeFilms.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/static-movie',
       })}
       <div className="home-page">
         <div className="container">

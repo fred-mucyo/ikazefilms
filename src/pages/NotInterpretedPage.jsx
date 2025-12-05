@@ -30,11 +30,11 @@ const NotInterpretedPage = () => {
   return (
     <>
       {useSEO({
-        title: 'Not Interpreted - Hashye',
+        title: 'Not Interpreted - IkazeFilms',
         description:
-          'Browse movies and seasons that are marked as not interpreted on Hashye.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/not-interpreted',
+          'Browse movies and seasons that are marked as not interpreted on IkazeFilms.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/not-interpreted',
       })}
       <div className="home-page">
         <div className="container">

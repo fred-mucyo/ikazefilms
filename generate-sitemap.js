@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const CONFIG = {
-  baseUrl: 'https://hashye.online', // Updated for production
+  baseUrl: 'https://ikazefilms.online', // Updated for new production domain
   outputDir: 'dist',
   includeRobotsTxt: true,
   includeMovieRoutes: true,

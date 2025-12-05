@@ -3,10 +3,10 @@ import { FileText, Mail } from 'lucide-react';
 import './LegalPages.css';
 
 const CONFIG = {
-  appName: 'Hashye.online',
-  contactEmail: 'hashyeonline@gmail.com',
+  appName: 'IkazeFilms',
+  contactEmail: 'support@ikazefilms.online',
   effectiveDate: 'August 20, 2025',
-  companyName: 'Hashye.online',
+  companyName: 'IkazeFilms',
   jurisdiction: 'Rwanda',
   arbitrationVenue: 'Kigali, Rwanda',
 };

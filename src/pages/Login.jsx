@@ -58,18 +58,18 @@ const Login = () => {
   return (
     <>
       {useSEO({
-        title: 'Hashye.online - Login to Your Account',
+        title: 'IkazeFilms - Login to Your Account',
         description:
-          'Sign in to your Hashye.online account to access your watchlist, continue streaming movies, and manage your preferences.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/login',
+          'Sign in to your IkazeFilms account to access your watchlist, continue streaming movies, and manage your preferences.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/login',
       })}
       <div className="auth-page">
         <div className="container">
           <div className="auth-container">
             <div className="auth-header">
               <h1>Welcome Back</h1>
-              <p>Sign in to your Hashye.online account</p>
+              <p>Sign in to your IkazeFilms account</p>
             </div>
 
             <form onSubmit={handleSubmit} className="auth-form">

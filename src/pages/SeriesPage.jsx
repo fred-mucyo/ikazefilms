@@ -46,11 +46,11 @@ const SeriesPage = () => {
   return (
     <>
       {useSEO({
-        title: 'Hashye - All Series',
+        title: 'IkazeFilms - All Series',
         description:
-          'Browse all series available on Hashye. Watch popular shows or explore new releases.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/series',
+          'Browse all series available on IkazeFilms. Watch popular shows or explore new releases.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/series',
       })}
       <div className="series-page">
         <Toaster position="top-center" reverseOrder={false} />

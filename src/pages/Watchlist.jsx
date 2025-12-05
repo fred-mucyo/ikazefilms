@@ -42,11 +42,11 @@ const Watchlist = () => {
   return (
     <>
       {useSEO({
-        title: `${user.name}'s Watchlist - Hashye.online`,
+        title: `${user.name}'s Watchlist - IkazeFilms`,
         description:
-          'Keep track of movies you want to watch on Hashye. Browse, search, and manage your personal watchlist.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/watchlist',
+          'Keep track of movies you want to watch on IkazeFilms. Browse, search, and manage your personal watchlist.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/watchlist',
       })}
       <div className="watchlist-page">
         <div className="container">

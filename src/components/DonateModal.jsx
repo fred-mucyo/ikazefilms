@@ -12,14 +12,14 @@ const DonateModal = ({ isOpen, onClose }) => {
         }}
       >
         <div className="donate-modal-header">
-          <h2 className="donate-modal-title">Support Hashye.online</h2>
+          <h2 className="donate-modal-title">Support IkazeFilms</h2>
           <button type="button" className="donate-modal-close" onClick={onClose}>
             ×
           </button>
         </div>
         <div className="donate-modal-body">
           <p>
-            Hashye.online is free to use and maintained with love. If you enjoy the
+            IkazeFilms is free to use and maintained with love. If you enjoy the
             platform and want to support future improvements, you can donate using
             the details below:
           </p>
@@ -36,7 +36,7 @@ const DonateModal = ({ isOpen, onClose }) => {
             <div className="donate-method">
               <h3>Bank Transfer</h3>
               <p>
-                <strong>Account Name:</strong> Hashye Online
+                <strong>Account Name:</strong> IkazeFilms
               </p>
               <p>
                 <strong>IBAN / Account No:</strong> 0000 0000 0000

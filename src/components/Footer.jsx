@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-brand">
           <div className="brand-logo">
             <span className="logo-icon">🎬</span>
-            <span className="logo-text">Hashye.online</span>
+            <span className="logo-text">IkazeFilms</span>
           </div>
           <p className="brand-tagline">Unlimited Movies & TV Shows</p>
         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
             Privacy Policy
           </Link>
           <a
-            href="https://www.instagram.com/hashye.online/"
+            href="https://www.instagram.com/ikazefilms/"
             target="_blank"
             rel="noreferrer"
             className="footer-link"
@@ -33,7 +33,7 @@ const Footer = () => {
             IG
           </a>
           <a
-            href="https://www.tiktok.com/@hashye.online?_t=ZM-8z7Yvtk9IJh&_r=1"
+            href="https://www.tiktok.com/@ikazefilms"
             target="_blank"
             rel="noreferrer"
             className="footer-link"
@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="footer-copy">
           <span>
-            © {new Date().getFullYear()} Hashye.online All rights reserved.
+            © {new Date().getFullYear()} IkazeFilms. All rights reserved.
           </span>
         </div>
       </div>

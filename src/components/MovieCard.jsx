@@ -45,7 +45,7 @@ const MovieCard = ({ movie }) => {
     handleNavigationWithSearchClear(`/movie/${movie.id}`);
   };
 
-  const defaultThumbnail = '/hashye-preview.png';
+  const defaultThumbnail = '/ikazefilms-preview.png';
 
   const getThumbnailUrl = () => {
     const thumbnail =

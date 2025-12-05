@@ -7,7 +7,8 @@ import './Navbar.css';
 const Navbar = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // mobile menu state
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // kept for compatibility but not used for hamburger
+  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const [activeMenu, setActiveMenu] = useState('HOME');
@@ -70,6 +71,21 @@ const Navbar = () => {
 
   const handleMobileMenuToggle = () => setMobileMenuOpen((prev) => !prev);
 
+  const handleSearchButtonClick = (e) => {
+    // On small screens, clicking the search icon should expand the search bar instead of submitting immediately
+    if (typeof window !== 'undefined' && window.innerWidth <= 768) {
+      e.preventDefault();
+      if (!isMobileSearchOpen) {
+        setIsMobileSearchOpen(true);
+        setTimeout(() => {
+          if (searchInputRef.current) {
+            searchInputRef.current.focus();
+          }
+        }, 0);
+      }
+    }
+  };
+
   const handleNavClick = (menu, path, sectionId) => {
     setActiveMenu(menu);
     setMobileMenuOpen(false); // close mobile menu
@@ -82,24 +98,21 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isMobileSearchOpen ? 'mobile-search-open' : ''}`}>
       <div className="nav-container">
         <div className="mobile-logo-wrapper">
-          {/* Hamburger toggle */}
-          <button
-            className="mobile-menu-toggle"
-            onClick={() => setMobileMenuOpen((prev) => !prev)}
-          >
+          {/* Hamburger toggle (mobile) */}
+          <button className="mobile-menu-toggle" onClick={handleMobileMenuToggle}>
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
           {/* Logo/Brand */}
           <Link to="/" className="nav-brand">
-            <span className="logo-text">HASHYE</span>
+            <span className="logo-text">IkazeFilms</span>
           </Link>
         </div>
 
-        {/* Navigation Links */}
+        {/* Full Navigation Menu (desktop + mobile hamburger) */}
         <div className={`nav-menu ${mobileMenuOpen ? 'open' : ''}`}>
           <button
             className={`nav-link as-button ${activeMenu === 'HOME' ? 'active' : ''}`}
@@ -128,23 +141,22 @@ const Navbar = () => {
             type="button"
             onClick={() => handleNavClick('DONATE', '/donate', null)}
           >
-            <Heart size={16} className="donate-heart-icon" />
+            {/* <Heart size={16} className="donate-heart-icon" /> */}
             <span className="nav-text">DONATE</span>
           </button>
 
-          {/* <button
-            className={`nav-link as-button ${activeMenu === 'FEATURED' ? 'active' : ''}`}
-            onClick={() => handleNavClick('FEATURED', null, 'featured')}
-          >
-            <span className="nav-text">FEATURED</span>
-          </button> */}
+        </div>
 
-          {/* <button
-            className={`nav-link as-button ${activeMenu === 'POPULAR' ? 'active' : ''}`}
-            onClick={() => handleNavClick('POPULAR', null, 'popular')}
+        {/* Mobile quick links: only show ENGLISH MOVIES beside logo on small screens */}
+        <div className="nav-quick-links-mobile">
+          <button
+            className={`nav-link as-button ${
+              activeMenu === 'NOT_INTERPRETED' ? 'active' : ''
+            }`}
+            onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
           >
-            <span className="nav-text">POPULAR</span>
-          </button> */}
+            <span className="nav-text">ENGLISH MOVIES</span>
+          </button>
         </div>
 
         {/* Search + Install PWA Button */}
@@ -159,13 +171,23 @@ const Navbar = () => {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   onFocus={() => setIsSearchFocused(true)}
-                  onBlur={() => setIsSearchFocused(false)}
+                  onBlur={() => {
+                    setIsSearchFocused(false);
+                    if (
+                      typeof window !== 'undefined' &&
+                      window.innerWidth <= 768 &&
+                      !searchTerm.trim()
+                    ) {
+                      setIsMobileSearchOpen(false);
+                    }
+                  }}
                   className={`search-input ${isSearchFocused ? 'focused' : ''}`}
                 />
                 <button
                   type="submit"
                   className="search-submit-btn"
                   aria-label="Search"
+                  onClick={handleSearchButtonClick}
                 >
                   <Search size={16} />
                 </button>

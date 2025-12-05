@@ -83,17 +83,17 @@ const Register = () => {
   return (
     <>
       {useSEO({
-        title: 'Hashye - Create Your Account',
+        title: 'IkazeFilms - Create Your Account',
         description:
-          'Register a new account on Hashye to start streaming movies, saving favorites to your watchlist, and enjoying the latest releases.',
-        image: '/hashye-preview.png',
-        url: 'https://hashye.online/register',
+          'Register a new account on IkazeFilms to start streaming movies, saving favorites to your watchlist, and enjoying the latest releases.',
+        image: '/ikazefilms-preview.png',
+        url: 'https://ikazefilms.online/register',
       })}
       <div className="auth-page">
         <div className="container">
           <div className="auth-container">
             <div className="auth-header">
-              <h1>Join Hashye.online</h1>
+              <h1>Join IkazeFilms</h1>
               <p>Create your account to start watching amazing movies</p>
             </div>
 

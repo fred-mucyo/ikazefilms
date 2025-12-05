@@ -1,21 +1,21 @@
 import { Helmet } from 'react-helmet-async';
 
 // default SEO values (used when nothing is passed)
-const defaultSEO = {
-  title: '🎬 Hashye.online - Stream Movies & Shows in HD',
+const DEFAULT_SEO = {
+  title: '🎬 IkazeFilms - Stream Movies & Shows in HD',
   description:
-    'Discover, watch, and enjoy the latest movies and shows in HD with Hashye.online',
-  image: '/hashye-preview.png', // should exist in /public
-  url: 'https://hashye.online/',
+    'Discover, watch, and enjoy the latest movies and shows in HD with IkazeFilms.',
+  image: '/ikazefilms-preview.png', // should exist in /public
+  url: 'https://ikazefilms.online/',
   type: 'website',
 };
 
 export default function useSEO({
-  title = defaultSEO.title,
-  description = defaultSEO.description,
-  image = defaultSEO.image,
-  url = defaultSEO.url,
-  type = defaultSEO.type,
+  title = DEFAULT_SEO.title,
+  description = DEFAULT_SEO.description,
+  image = DEFAULT_SEO.image,
+  url = DEFAULT_SEO.url,
+  type = DEFAULT_SEO.type,
 }) {
   return (
     <Helmet>
@@ -29,7 +29,7 @@ export default function useSEO({
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
       <meta property="og:url" content={url} />
-      <meta property="og:site_name" content="Hashye" />
+      <meta property="og:site_name" content="IkazeFilms" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />

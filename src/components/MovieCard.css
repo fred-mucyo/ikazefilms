@@ -5,10 +5,12 @@
   width: 100%; /* full width of grid column */
   max-width: 220px; /* limit max width */
   height: 330px; /* fixed height (2:3 ratio) */
-  background: #1c1c1c;
-  border-radius: 12px;
+  background: #141414;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 16px 32px rgba(0, 0, 0, 0.9),
+    0 0 20px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
   transition:
@@ -17,8 +19,10 @@
 }
 
 .movie-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.6);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow:
+    0 22px 50px rgba(0, 0, 0, 0.95),
+    0 0 24px rgba(0, 0, 0, 0.8);
 }
 
 /* ------------------------- */
@@ -42,9 +46,9 @@
 /* ------------------------- */
 .movie-card-content {
   height: 20%;
-  padding: 6px 8px;
-  background: #111;
-  color: #fff;
+  padding: 10px 10px;
+  background: #141414;
+  color: var(--text-normal);
   font-size: 0.8rem;
   display: flex;
   flex-direction: column;
@@ -53,7 +57,7 @@
 }
 
 .movie-card-title {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
   margin: 0;
   white-space: nowrap;
@@ -64,7 +68,7 @@
 .movie-card-date,
 .movie-card-interpreter {
   font-size: 0.7rem;
-  color: #bbb;
+  color: var(--text-muted);
   margin: 2px 0;
   white-space: nowrap;
   overflow: hidden;
@@ -78,8 +82,8 @@
   position: absolute;
   top: 8px;
   left: 8px;
-  background: crimson;
-  color: white;
+  background: #f2c94c;
+  color: #141414;
   font-size: 0.65rem;
   padding: 3px 6px;
   border-radius: 6px;
@@ -108,13 +112,13 @@
 .movie-card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45); /* subtle dark overlay */
+  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 0.1), rgba(15, 23, 42, 0.85)); /* subtle dark overlay */
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s ease;
-  border-radius: 12px; /* match movie card */
+  border-radius: 16px; /* match movie card */
 }
 
 .movie-card:hover .movie-card-overlay {
@@ -126,20 +130,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: darkblue;
+  background: radial-gradient(circle at 0% 0%, #f97316, #7c3aed);
   border: none;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 10px 25px rgba(15, 23, 42, 0.95),
+    0 0 18px rgba(249, 115, 22, 0.55);
 }
 
 .play-btn:hover {
-  background: red;
-  transform: scale(1.2);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2) translateY(-2px);
+  box-shadow:
+    0 14px 30px rgba(15, 23, 42, 1),
+    0 0 22px rgba(249, 115, 22, 0.75);
 }
 
 /* Lucide Icon Styling */

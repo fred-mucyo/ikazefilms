@@ -1,4 +1,4 @@
-# robots.txt for https://hashye.online
+# robots.txt for https://ikazefilms.online
 # Optimized for Google Ads and SEO
 
 User-agent: *
@@ -10,4 +10,4 @@ Disallow: /admin/
 Disallow: /api/
 
 # Provide sitemap for faster indexing
-Sitemap: https://hashye.online/sitemap.xml
+Sitemap: https://ikazefilms.online/sitemap.xml

@@ -2,13 +2,18 @@
 
 .series-detail {
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 1rem auto 2rem;
   padding: 0 1rem;
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
-  background: linear-gradient(135deg, #0f0f23, #1a1a2e, #16213e);
-  border-radius: 20px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  background:
+    radial-gradient(circle at 0% 0%, rgba(249, 115, 22, 0.22), transparent 55%),
+    radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.16), transparent 55%),
+    linear-gradient(145deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.98));
+  border-radius: 22px;
+  box-shadow:
+    0 22px 55px rgba(15, 23, 42, 0.98),
+    0 0 30px rgba(15, 23, 42, 0.95);
 }
 
 /* Error message */
@@ -99,7 +104,7 @@
 }
 
 .episode-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(15, 23, 42, 0.9);
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
