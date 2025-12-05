@@ -2,6 +2,47 @@
 
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!!!!!!!!!!!!!!!
+
+
+// {
+//     id: 'badgeniusA',
+//     title: 'BAD GENIUS',
+//     type: 'series',
+//     description: 'Junior giti',
+//     is_popular:true,
+//     is_featured: true,
+//     poster_url: '/badgenius(2).webp',
+//     seasons: [
+//       {
+//         seasonNumber: 1,
+//         episodes: [
+//           {
+//             id: 'Badgenius1',
+//             title: 'BAD GENIUS EP1',
+//             video_url: 'https://hglink.to/s6rieamopbvn',
+//             download_url: 'https://www.mediafire.com/file/pi0n6o1lu9iijb1/Genius_A_Junior_Giti.mkv/file',
+//             thumbnail_url: '/badgenius(2).webp',
+//           },
+//           {
+//             id: 'Badgenius2',
+//             title: 'BAD GENIUS EP2',
+//             video_url: 'https://hglink.to/bg8zg9w0d3nv',
+//             download_url:'https://www.mediafire.com/file/ruu39kcmkja9ori/Genius_B_Junior_Giti.mkv/file',
+//             thumbnail_url: '/badgenius(2).webp',
+//           },
+
+//           {
+//             id: 'badgenius3',
+//             title: 'BAD GENIUS EP3',
+//             video_url: 'https://hglink.to/lz7c2t9m2qui',
+//             download_url:'https://www.mediafire.com/file/orrolkw1dmvn0ze/Genius_C_Junior_Giti.mkv/file',
+//             thumbnail_url: '/badgenius(2).webp',
+//           },
+//         ],
+//       },
+//     ],
+//   },
+
   {
     id:'bad-influencer',
     title: 'BAD INFLUENCER',

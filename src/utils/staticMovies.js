@@ -5,6 +5,57 @@
 
 const staticMovies = [
 
+ {
+            id: 'Badgenius1',
+            title: 'BAD GENIUS EP1',
+            description: 'Ntucikwe...😊',
+            interpreter_name: 'Junior giti',
+             is_popular:true,
+             is_featured:true,
+            created_at: '2025-10-04',
+            thumbnail_url:'/badgenius(2).webp',
+            poster_url: '/badgenius(2).webp',
+            image_url: '/badgenius(2).webp',
+            video_url: 'https://hglink.to/s6rieamopbvn',
+            download_url: 'https://www.mediafire.com/file/pi0n6o1lu9iijb1/Genius_A_Junior_Giti.mkv/file',
+            youtube_trailer_url:'https://hglink.to/s6rieamopbvn',
+  },
+
+
+
+   {
+            id: 'Badgenius2',
+            title: 'BAD GENIUS B',
+            description: 'Ntucikwe...😊',
+            interpreter_name: 'Junior giti',
+             is_popular:true,
+            created_at: '2025-10-04',
+            thumbnail_url:'/badgenius(2).webp',
+            poster_url: '/badgenius(2).webp',
+            image_url: '/badgenius(2).webp',
+            video_url: 'https://hglink.to/bg8zg9w0d3nv',
+            download_url:'https://www.mediafire.com/file/ruu39kcmkja9ori/Genius_B_Junior_Giti.mkv/file',
+            youtube_trailer_url: 'https://hglink.to/bg8zg9w0d3nv',
+   },
+
+
+
+      {
+            id: 'Badgenius2',
+            title: 'BAD GENIUS C',
+            description: 'Ntucikwe...😊',
+            interpreter_name: 'Junior giti',
+            is_popular:true,
+            created_at: '2025-10-04',
+            thumbnail_url:'/badgenius(2).webp',
+            poster_url: '/badgenius(2).webp',
+            image_url: '/badgenius(2).webp',
+            video_url: 'https://hglink.to/lz7c2t9m2qui',
+            download_url:'https://www.mediafire.com/file/orrolkw1dmvn0ze/Genius_C_Junior_Giti.mkv/file',
+            youtube_trailer_url: 'https://hglink.to/lz7c2t9m2qui',
+   },
+
+
     {
     id:'cHips',
     title: 'CHIPS',
