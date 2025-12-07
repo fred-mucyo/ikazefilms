@@ -71,14 +71,11 @@ const MovieCard = ({ movie }) => {
     return url.replace(/\.(jpg|jpeg|png)$/i, '.webp');
   };
 
-
-
   // const getWebpThumbnail = () => {
   // const url = getThumbnailUrl();
   // if (url === defaultThumbnail) return '';
   // // Only use a webp source if the URL already points to a .webp
   // return /\.webp(\?|$)/i.test(url) ? url : '';
-
 
   return (
     <div className="movie-card">
@@ -89,7 +86,7 @@ const MovieCard = ({ movie }) => {
       >
         <picture>
           {/* <source srcSet={getWebpThumbnail()} type="image/webp" /> */}
-           <source srcSet={`${getWebpThumbnail()} 1x`} type="image/webp" /> 
+          <source srcSet={`${getWebpThumbnail()} 1x`} type="image/webp" />
 
           <img
             src={getThumbnailUrl()}
@@ -98,12 +95,11 @@ const MovieCard = ({ movie }) => {
             loading="lazy"
             onError={(e) => {
               e.target.src = defaultThumbnail;
-            }} 
+            }}
           />
+        </picture>
 
-</picture>
-
-          {/* <picture>
+        {/* <picture>
   {getWebpThumbnail() && (
     <source srcSet={`${getWebpThumbnail()} 1x`} type="image/webp" />
   )}
@@ -116,8 +112,6 @@ const MovieCard = ({ movie }) => {
   />
 </picture>
         </picture> */}
-
-        
 
         <div className="movie-card-overlay">
           <button
@@ -138,7 +132,9 @@ const MovieCard = ({ movie }) => {
           </button>
         </div>
 
-        {(movie.is_popular || movie.is_featured || movie.is_not_interpreted) && (
+        {(movie.is_popular ||
+          movie.is_featured ||
+          movie.is_not_interpreted) && (
           <div className="movie-badge">
             {movie.is_not_interpreted
               ? '📝 Not Interpreted'
@@ -185,21 +181,3 @@ const MovieCard = ({ movie }) => {
 };
 
 export default MovieCard;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

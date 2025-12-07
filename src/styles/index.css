@@ -44,9 +44,7 @@ body {
   --text-primary: #ffffff;
   --text-normal: #e5e5e5;
   --text-muted: #bfbfbf;
-  --shadow-strong:
-    0 18px 45px rgba(0, 0, 0, 0.9),
-    0 0 40px rgba(0, 0, 0, 0.7);
+  --shadow-strong: 0 18px 45px rgba(0, 0, 0, 0.9), 0 0 40px rgba(0, 0, 0, 0.7);
 }
 
 #root {
@@ -154,8 +152,14 @@ body {
 }
 
 .btn-primary {
-  background: radial-gradient(circle at 0% 0%, #fed7aa 0%, transparent 45%),
-    linear-gradient(135deg, var(--color-primary-1) 0%, #dc2626 45%, #7c3aed 100%);
+  background:
+    radial-gradient(circle at 0% 0%, #fed7aa 0%, transparent 45%),
+    linear-gradient(
+      135deg,
+      var(--color-primary-1) 0%,
+      #dc2626 45%,
+      #7c3aed 100%
+    );
   color: #0b1120;
   border-color: rgba(248, 250, 252, 0.1);
 }
@@ -168,19 +172,29 @@ body {
 }
 
 .btn-secondary {
-  background: radial-gradient(circle at 0% 0%, rgba(148, 163, 184, 0.15), transparent 45%),
+  background:
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(148, 163, 184, 0.15),
+      transparent 45%
+    ),
     linear-gradient(135deg, rgba(30, 64, 175, 0.9), rgba(15, 23, 42, 0.9));
   color: #e5e7eb;
   border-color: rgba(148, 163, 184, 0.5);
 }
 
 .btn-secondary:hover {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(15, 23, 42, 1));
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.95),
+    rgba(15, 23, 42, 1)
+  );
   border-color: rgba(191, 219, 254, 0.7);
 }
 
 .btn-danger {
-  background: radial-gradient(circle at 0% 0%, #fecaca 0%, transparent 45%),
+  background:
+    radial-gradient(circle at 0% 0%, #fecaca 0%, transparent 45%),
     linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
   color: #f9fafb;
   border-color: rgba(248, 113, 113, 0.6);
@@ -218,7 +232,11 @@ body {
   padding: 12px 16px;
   border: 1px solid rgba(148, 163, 184, 0.45);
   border-radius: 12px;
-  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.8));
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(15, 23, 42, 0.9),
+    rgba(15, 23, 42, 0.8)
+  );
   color: #e5e7eb;
   font-size: 15px;
   transition: all 0.25s ease;
@@ -230,7 +248,11 @@ body {
 .form-input:focus {
   outline: none;
   border-color: #38bdf8;
-  background: radial-gradient(circle at 0% 0%, rgba(15, 23, 42, 1), rgba(15, 23, 42, 0.9));
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(15, 23, 42, 1),
+    rgba(15, 23, 42, 0.9)
+  );
   box-shadow:
     0 0 0 1px rgba(56, 189, 248, 0.9),
     0 0 25px rgba(56, 189, 248, 0.35);

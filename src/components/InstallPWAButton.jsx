@@ -20,7 +20,10 @@ const InstallPWAButton = () => {
     window.addEventListener('appinstalled', handleAppInstalled);
 
     return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+      window.removeEventListener(
+        'beforeinstallprompt',
+        handleBeforeInstallPrompt,
+      );
       window.removeEventListener('appinstalled', handleAppInstalled);
     };
   }, []);
@@ -41,7 +44,11 @@ const InstallPWAButton = () => {
   if (!isVisible) return null;
 
   return (
-    <button type="button" className="install-pwa-button" onClick={handleInstallClick}>
+    <button
+      type="button"
+      className="install-pwa-button"
+      onClick={handleInstallClick}
+    >
       Install App
     </button>
   );

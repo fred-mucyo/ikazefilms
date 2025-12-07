@@ -13,15 +13,19 @@ const DonateModal = ({ isOpen, onClose }) => {
       >
         <div className="donate-modal-header">
           <h2 className="donate-modal-title">Support IkazeFilms</h2>
-          <button type="button" className="donate-modal-close" onClick={onClose}>
+          <button
+            type="button"
+            className="donate-modal-close"
+            onClick={onClose}
+          >
             ×
           </button>
         </div>
         <div className="donate-modal-body">
           <p>
             IkazeFilms is free to use and maintained with love. If you enjoy the
-            platform and want to support future improvements, you can donate using
-            the details below:
+            platform and want to support future improvements, you can donate
+            using the details below:
           </p>
           <div className="donate-methods">
             <div className="donate-method">

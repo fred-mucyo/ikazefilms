@@ -23,7 +23,10 @@ const searchExtraStatic = [
 
 const Home = () => {
   const location = useLocation();
-  const [movies, setMovies] = useState([...homeStaticMovies, ...homeStaticSeries]);
+  const [movies, setMovies] = useState([
+    ...homeStaticMovies,
+    ...homeStaticSeries,
+  ]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [filteredMovies, setFilteredMovies] = useState([
@@ -254,8 +257,6 @@ const Home = () => {
             </div>
           )}
 
-        
-
           <div className="movies-section" id="recent">
             <div className="section-header">
               <h2 className="section-title">Recent Releases</h2>
@@ -274,8 +275,7 @@ const Home = () => {
             </div>
           </div>
 
-
-            <div className="movies-section" id="popular">
+          <div className="movies-section" id="popular">
             <div className="section-header">
               <h2 className="section-title">Popular</h2>
               <div className="section-subtitle">Movie zigezweho</div>
@@ -290,7 +290,6 @@ const Home = () => {
               ))}
             </div>
           </div>
-
 
           {/* Search Results */}
           {searchTerm.trim() && filteredMovies.length > 0 && (

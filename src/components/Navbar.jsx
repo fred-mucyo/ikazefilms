@@ -102,7 +102,10 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="mobile-logo-wrapper">
           {/* Hamburger toggle (mobile) */}
-          <button className="mobile-menu-toggle" onClick={handleMobileMenuToggle}>
+          <button
+            className="mobile-menu-toggle"
+            onClick={handleMobileMenuToggle}
+          >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
@@ -125,7 +128,9 @@ const Navbar = () => {
             className={`nav-link as-button ${
               activeMenu === 'NOT_INTERPRETED' ? 'active' : ''
             }`}
-            onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
+            onClick={() =>
+              handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)
+            }
           >
             <span className="nav-text">ENGLISH MOVIES</span>
           </button>
@@ -144,7 +149,6 @@ const Navbar = () => {
             {/* <Heart size={16} className="donate-heart-icon" /> */}
             <span className="nav-text">DONATE</span>
           </button>
-
         </div>
 
         {/* Mobile quick links: only show ENGLISH MOVIES beside logo on small screens */}
@@ -153,7 +157,9 @@ const Navbar = () => {
             className={`nav-link as-button ${
               activeMenu === 'NOT_INTERPRETED' ? 'active' : ''
             }`}
-            onClick={() => handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)}
+            onClick={() =>
+              handleNavClick('NOT_INTERPRETED', '/not-interpreted', null)
+            }
           >
             <span className="nav-text">ENGLISH MOVIES</span>
           </button>

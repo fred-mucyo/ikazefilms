@@ -5,6 +5,121 @@
 
 const staticMovies = [
 
+   {
+    id:'cHips',
+    title: 'CHIPS',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/chips.webp',
+    poster_url: '/chips.webp',
+    image_url: '/chips.webp',
+    video_url: 'https://hglink.to/n2d9ald04940',
+    download_url:
+      'https://www.mediafire.com/file/c1mf6g0jabedky2/CHIPS.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/n2d9ald04940',
+  },
+{
+  id:'MISSIONCROSSB',
+    title: 'MISSION CROSS B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    // is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/mission.webp',
+    poster_url: '/mission.webp',
+    image_url: '/mission.webp',
+    video_url: 'https://hglink.to/vjsepdirt2pp',
+    download_url:
+      'https://www.mediafire.com/file/xqsad4zm8kesby6/MISSION_CROSS_B.mp4/file',
+    youtube_trailer_url: 'vjsepdirt2pp',
+},
+
+
+{
+  id:'MISSIONCROSSA',
+    title: 'MISSION CROSS A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/mission.webp', 
+    poster_url: '/mission.webp',
+    image_url: '/mission.webp',
+    video_url: 'https://hglink.to/efpzp0fbuvtb',
+    download_url:
+      'https://www.mediafire.com/file/y57vr1lrr78m0du/MISSION_CROSS_A.mp4/file',
+    youtube_trailer_url: 'efpzp0fbuvtb',
+},
+
+
+
+{
+  id:'assalamualaikumbaitullahfeyb',
+    title: 'ASSALAMUALAIKUMBAITULLAH FEY B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+    is_popular:true,
+    // is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/assalamualekho.webp',
+    poster_url: '/assalamualekho.webp',
+    image_url: '/assalamualekho.webp',
+    video_url: 'https://hglink.to/93wq5d87n9v',
+    download_url:
+      'https://www.mediafire.com/file/8c9be09btzhjrhk/AssalamualaikumBaitullah_FEY_B.mp4/file',
+    youtube_trailer_url: '93wq5d87n9v',
+}
+
+
+,
+
+
+
+
+{
+  id:'assalamualaikumbaitullahfeya',
+    title: 'ASSALAMUALAIKUMBAITULLAH FEY A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/assalamualekho.webp',
+    poster_url: '/assalamualekho.webp',
+    image_url: '/assalamualekho.webp',
+    video_url: 'https://hglink.to/wmd6x10agjmm',
+    download_url:
+      'https://www.mediafire.com/file/1ck54jyb5wkjh7y/AssalamualaikumBaitullah_FEY_A.mp4/file',
+    youtube_trailer_url: 'wmd6x10agjmm',
+}
+
+
+,
+
+  
+{
+    id:'DONTHANGUP1',
+    title: 'DONT HANG UP 1',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'SANKARA',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/donthangup.webp',
+    poster_url: '/donthangup.webp',
+    image_url: '/donthangup.webp',
+    video_url: 'https://hglink.to/zpq5e8zmcyky',
+    download_url:
+      'https://www.mediafire.com/file/74rlhwsxshhcmyu/DONT_HANG_UP_SANKARA_%25281%2529.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/zpq5e8zmcyky',
+  },
+  
+
  {
             id: 'Badgenius1',
             title: 'BAD GENIUS EP1',
@@ -41,7 +156,7 @@ const staticMovies = [
 
 
       {
-            id: 'Badgenius2',
+            id: 'Badgenius111',
             title: 'BAD GENIUS C',
             description: 'Ntucikwe...😊',
             interpreter_name: 'Junior giti',
@@ -56,22 +171,7 @@ const staticMovies = [
    },
 
 
-    {
-    id:'cHips',
-    title: 'CHIPS',
-    description: 'Ntucikwe...😊',
-    interpreter_name: 'ROCKY',
-     is_popular:true,
-    is_featured:true,
-    created_at: '2025-10-04',
-    thumbnail_url:'/chips.webp',
-    poster_url: '/chips.webp',
-    image_url: '/chips.webp',
-    video_url: 'https://hglink.to/n2d9ald04940',
-    download_url:
-      'https://www.mediafire.com/file/c1mf6g0jabedky2/CHIPS.mp4/file',
-    youtube_trailer_url: 'https://hglink.to/n2d9ald04940',
-  },
+   
 
 {
     id:'collateral1',

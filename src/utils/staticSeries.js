@@ -3,6 +3,133 @@
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!
   {
+    id:'THELASTSHIP',
+    title: 'THE LAST SHIP',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/thelastship.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+          {
+            id: 'THELASTSHIPEP1',
+            title: 'THE LAST SHIP EP1',
+            video_url: 'https://hglink.to/dy28bkoihhp2',
+            download_url:
+              'https://www.mediafire.com/file/3u6c6uwrilizgm0/THE_LAST_SHIP_S1_Ep1_.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+          {
+            id: 'THELASTSHIPEP2',
+            title: 'THE LAST SHIP EP2',
+            video_url: 'https://hglink.to/c8ane30ehxln',
+            download_url:
+              'https://www.mediafire.com/file/j7b7e57sqhhllbn/THE_LAST_SHIP_S2_Ep2.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+           {
+            id: 'THELASTSHIPEP3',
+            title: 'THE LAST SHIP EP3',
+            video_url: 'https://hglink.to/9s91vhobtf89',
+            download_url:
+      'https://www.mediafire.com/file/5gjbibmnvw5ul5g/THE_LAST_SHIP_S2_Ep3.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+
+          {
+            id: 'HELASTSHIPEp4',
+            title: 'THE LAST SHIP EP4',
+            video_url: 'https://hglink.to/irqdl3n1yd1c',
+            download_url:
+              'https://www.mediafire.com/file/tiogzg85pc5v1jc/THE_LAST_SHIP_S2_Ep4.mp4/file',
+            thumbnail_url: '/.thelastship.webp',
+          },
+         {
+            id: 'THELASTSHIP EP5',
+            title: 'THE LAST SHIP EP5',
+            video_url: 'https://hglink.to/75yyv2hr8we6',
+            download_url:
+              'https://www.mediafire.com/file/w97bso1mldp06tu/THE_LAST_SHIP_S2_Ep5_%25281%2529.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+             {
+            id: 'THELASTSHIPEP6',
+            title: 'THE LAST SHIP EP6',
+            video_url: 'https://hglink.to/866og7e9c7ja',
+            download_url:
+              'https://www.mediafire.com/file/2m7vfcmzt5sidh8/THE_LAST_SHIP_S1Ep6.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+           {
+            id: 'THELASTSHIPEP7',
+            title: 'THE LAST SHIP EP7',
+            video_url: 'https://hglink.to/rndlysp8fywt',
+            download_url:
+              'https://www.mediafire.com/file/gmrlpaet0izycoc/THE_LAST_SHIP_S2_Ep7.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          }
+,
+           {
+            id: 'THELASTSHIPEP8',
+            title: 'THE LAST SHIP EP8',
+            video_url: 'https://hglink.to/xhagty7ueydl',
+            download_url:
+              'https://www.mediafire.com/file/ow8jh1hzbtlo2r4/THE_LAST_SHIP_S1Ep8_%25281%2529.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+          ,
+           {
+            id: 'THELASTSHIPEP9',
+            title: 'THE LAST SHIP EP9',
+            video_url: 'https://hglink.to/wejlqjm2ojfk',
+            download_url:
+              'https://www.mediafire.com/file/w8k01q9awwb2kg3/THE_LAST_SHIP_S2_Ep9.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+            ,
+           {
+            id: 'THELASTSHIPEP10',
+            title: 'THE LAST SHIP EP10',
+            video_url: 'https://hglink.to/67a1cg07wao2',
+            download_url:
+              'https://www.mediafire.com/file/sca2zhpzxkpo1ih/THE_LAST_SHIP_S2_Ep10.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+           ,
+           {
+            id: 'THELASTSHIPEP11',
+            title: 'THE LAST SHIP EP11',
+            video_url: 'https://hglink.to/aw88z3wpetit',
+            download_url:
+              'https://www.mediafire.com/file/00gv4qb0zi02u3o/THE_LAST_SHIP_S2_Ep11.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+           ,
+           {
+            id: 'THELASTSHIPEP12',
+            title: 'THE LAST SHIP EP12',
+            video_url: 'https://hglink.to/9kuqoj6ncsiq',
+            download_url:
+              'https://www.mediafire.com/file/oyjnm54go255l8h/THE_LAST_SHIP_S2_Ep12_%25281%2529.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+          ,
+           {
+            id: 'THELASTSHIPEP13',
+            title: 'THE LAST SHIP EP13',
+            video_url: 'https://hglink.to/rivejsdoebe3',
+            download_url:
+              'https://www.mediafire.com/file/s2m1i5jcc4jcb2v/THE_LAST_SHIP_S2_Ep13FINAL.mp4/file',
+            thumbnail_url: '/thelastship.webp',
+          },
+        ],
+      },
+    ],
+  },
+  {
     id:'bad-influencer',
     title: 'BAD INFLUENCER',
     type: 'series',

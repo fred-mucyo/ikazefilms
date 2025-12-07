@@ -65,7 +65,7 @@ const NotInterpretedPage = () => {
             </div> */}
           </div>
 
-             {showMovies.length > 0 && (
+          {showMovies.length > 0 && (
             <div className="movies-section">
               <div className="section-header">
                 <h2 className="section-title">Movies</h2>
@@ -91,8 +91,6 @@ const NotInterpretedPage = () => {
               </div>
             </div>
           )}
-
-       
 
           {hasAnyContent === false && (
             <div className="movies-section">

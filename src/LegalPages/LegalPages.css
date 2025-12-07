@@ -6,7 +6,11 @@
   font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
   background:
     radial-gradient(circle at 0% 0%, rgba(249, 115, 22, 0.22), transparent 55%),
-    radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.16), transparent 55%),
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(56, 189, 248, 0.16),
+      transparent 55%
+    ),
     linear-gradient(145deg, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.98));
   border-radius: 20px;
   box-shadow:
