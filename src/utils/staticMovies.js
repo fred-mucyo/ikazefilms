@@ -4,6 +4,23 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+  
+ {
+    id:'ICEROAD2VEGEANCE',
+    title: 'ICE ROAD 2 VEGEANCE',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/ICEROAD2VEGEANCE.webp',
+    poster_url: '/ICEROAD2VEGEANCE.webp',
+    image_url: '/ICEROAD2VEGEANCE.webp',
+    video_url: 'https://hglink.to/58rrlk6bikka',
+    download_url:
+      'https//www.mediafire.com/file/3a7pdl18hwrli6o/ICE_ROAD_2_VEGEANCE.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/58rrlk6bikka',
+  },
 
    {
     id:'cHips',
@@ -11,7 +28,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/chips.webp',
     poster_url: '/chips.webp',
@@ -45,7 +62,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/mission.webp', 
     poster_url: '/mission.webp',
@@ -87,7 +104,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/assalamualekho.webp',
     poster_url: '/assalamualekho.webp',
@@ -108,7 +125,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'SANKARA',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/donthangup.webp',
     poster_url: '/donthangup.webp',

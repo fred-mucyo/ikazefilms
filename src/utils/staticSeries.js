@@ -2,13 +2,94 @@
 
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!
-  {
+
+
+
+
+{
+    id:'whispersoffate',
+    title: 'WHISPERS OF FATE',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/whisperoffate.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+          {
+            id: 'whispersoffateep1',
+            title: 'WHISPERS OF FATE EP1',
+            video_url: 'https://hglink.to/lcgu5ebdr5uj',
+            download_url:
+              'https://www.mediafire.com/file/x27g14ok1iihgr7/WHISPERS_OF_FATE_01.mp4/file',
+            thumbnail_url: '/whisperoffate.webp',
+          },
+          ,
+           {
+            id: 'whispersoffateep2',
+            title: 'WHISPERS OF FATE EP2',
+            video_url: 'https://hglink.to/q68w4ehfb547',
+            download_url:
+              'https://www.mediafire.com/file/4vruxcl3bwqq0eo/THE_FIRST_LADY_EP2.mp4/file',
+            thumbnail_url: '/whisperoffate.webp',
+          },
+          {
+            id: 'whispersoffateep3',
+            title: 'WHISPERS OF FATE EP3',
+            video_url: 'https://hglink.to/6rxh6m9b8b0z',
+            download_url:
+              'https://www.mediafire.com/file/u4a8dnaotm48fvk/WHISPERS_OF_FATE_03.mp4/file',
+            thumbnail_url: '/whisperoffate.webp',
+          },
+            
+            {
+            id: 'whispersoffateep4',
+            title: 'WHISPERS OF FATE EP4',
+            video_url: 'https://hglink.to/',
+            download_url:
+              'https://www.mediafire.com/file/kwod95k7kibsd3b/WHISPERS_OF_FATE_04_%25282%2529.mp4/file',
+            thumbnail_url: '/whisperoffate.webp',
+          },
+            {
+            id: 'whispersoffateep5',
+            title: 'WHISPERS OF FATE EP5',
+            video_url: 'https://hglink.to/uiuz4j2seesh',
+            download_url:
+              'https://www.mediafire.com/file/kwlqezo8pq05mgq/WHISPERS_OF_FATE_05.mp4/file',
+            thumbnail_url: '/whisperoffate.webp',
+          },
+          
+
+        ],
+      },
+    ],
+  },
+          
+
+  
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
     id:'THELASTSHIP',
     title: 'THE LAST SHIP',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
+    
     poster_url: '/thelastship.webp',
     seasons: [
       {
@@ -135,7 +216,7 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
+    
     poster_url: '/badinfluencer.webp',
     seasons: [
       {
