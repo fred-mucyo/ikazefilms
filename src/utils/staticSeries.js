@@ -2,9 +2,99 @@
 
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!
+ {
+    id:'sexeducation4',
+    title: 'SEX EDUCATION',
+    type: 'series',
+    is_not_interpreted:true,
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/sexeducation.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+          {
+            id: 'sexeducationA',
+            title: 'SEX EDUCATION EP1',
+            video_url: 'https://hglink.to/gtwxcvwcs9a6',
+            download_url:
+              'https://www.mediafire.com/file/9jlkthd9hmbo508/Sex+Education-S1E1-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
 
 
+          ,
+           {
+            id: 'sexeducationB',
+            title: 'SEX EDUCATION EP2',
+            video_url: 'https://hglink.to/059u0mrby84n',
+            download_url:
+              'https://www.mediafire.com/file/vxbav9rmox4diiu/Sex+Education-S1E2-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
 
+
+          {
+            id: 'sexeducationC',
+            title: 'SEX EDUCATION EP3',
+            video_url: 'https://hglink.to/hu5pmcpq8rbt',
+            download_url:
+              'https://www.mediafire.com/file/x196360cmazhh1c/Sex+Education-S1E3-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
+          
+          {
+            id: 'sexeducationD',
+            title: 'SEX EDUCATION EP4',
+            video_url: 'https://hglink.to/f7gn40x14ltw',
+            download_url:
+              'https://www.mediafire.com/file/pnetrjp7eygik72/Sex+Education-S1E4-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          }, 
+          
+          {
+            id: 'sexeducationE',
+            title: 'SEX EDUCATION EP5',
+            video_url: 'https://hglink.to/',
+            download_url:
+              'https://www.mediafire.com/file/3tpmmqhd204rhnd/Sex+Education-S1E5-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
+          
+          {
+            id: 'sexeducationF',
+            title: 'SEX EDUCATION EP6',
+            video_url: 'https://hglink.to/wu7rqd5swpxc',
+            download_url:
+              'https://www.mediafire.com/file/pwv7an0bzmspi43/Sex+Education-S1E6-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
+
+           {
+            id: 'sexeducationG',
+            title: 'SEX EDUCATION EP7',
+            video_url: 'https://hglink.to/pnj3w1v1bdqf',
+            download_url:
+              'https://www.mediafire.com/file/hjlljo4212xeoql/Sex+Education-S1E7-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
+
+           {
+            id: 'sexeducationG',
+            title: 'SEX EDUCATION EP8',
+            video_url: 'https://hglink.to/br826l86kzyc',
+            download_url:
+              'https://www.mediafire.com/file/9q9fepef5ze0nza/Sex+Education-S1E8-360P.mp4/file',
+            thumbnail_url: '/sexeducation.webp',
+          },
+          
+
+        ],
+      },
+    ],
+  },
 
 {
     id:'whispersoffate',
@@ -66,20 +156,7 @@ const staticSeries = [
       },
     ],
   },
-          
-
-  
-
-
-
-
-
-
-
-
-
-
-
+        
 {
 
 
@@ -216,7 +293,6 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    
     poster_url: '/badinfluencer.webp',
     seasons: [
       {

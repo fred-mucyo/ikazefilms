@@ -4,6 +4,106 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+
+  {
+    id:'seancombsreckoning',
+    title: 'SEAN COMBS RECKONINIG',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/combsreckoning.webp',
+    poster_url: '/combsreckoning.webp',
+    image_url: '/combsreckoning.webp',
+    video_url: 'https://hglink.to/41ilrx685h5u',
+    download_url:
+      'https://www.mediafire.com/file/5rlzxbbd6wkfn3x/SEAN20FCOMBS_EP1.mp4/file',
+    youtube_trailer_url:'https://hglink.to/41ilrx685h5u',
+  },
+
+
+{
+    id:'seancombsreckoning2',
+    title: 'SEAN COMBS RECKONINIG B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/combsreckoning.webp',
+    poster_url: '/combsreckoning.webp',
+    image_url: '/combsreckoning.webp',
+    video_url: 'hthttps://hglink.to/avfno6bj7ons',
+    download_url:
+      'https://www.mediafire.com/file/lpkxhl1hxglg48u/Sean+Combs+The+Reckoning.mp4/file',
+    youtube_trailer_url:'https://hglink.to/avfno6bj7ons',
+  },
+
+
+  {
+    id:'lordofrings',
+    title: 'LORD OF RINGS A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/lordofrings-Copy(2).webp',
+    poster_url: '/lordofrings-Copy(2).webp',
+    image_url: '/lordofrings-Copy(2).webp',
+    video_url: 'https://hglink.to/v2rhj4qcup34',
+    download_ur:'https://www.mediafire.com/file/vhsmq533lgcaehy/THE20LORD20OF_THE_RINGS_1_FULL_.mp4/file',
+    youtube_trailer_url:'https://hglink.to/v2rhj4qcup34',
+  },
+
+  {
+    id:'KesariA',
+    title: 'KESARI A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/kesarii.webp',
+    poster_url: '/kesarii.webp',
+    image_url: '/kesarii.webp',
+    video_url: 'https://hglink.to/06r0pblobgu2',
+    download_ur:'https://www.mediafire.com/file/jt9f12hlnjh81uu/KESARI20A.mp4/file',
+    youtube_trailer_url:'https://hglink.to/kykhpsuwze6q',
+  },
+
+
+
+{
+    id:'KesariB',
+    title: 'KESARI B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/kesarii.webp',
+    poster_url: '/kesarii.webp',
+    image_url: '/kesarii.webp',
+    video_url: 'https://hglink.to/kykhpsuwze6q',
+    download_ur:'https://www.mediafire.com/file/gc2x2va011puq9b/KESARI+B.mp4/file',
+    youtube_trailer_url:'https://hglink.to/kykhpsuwze6q',
+  },
+  
+{
+    id:'purpleheartA',
+    title: 'PURPLE HEART A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/purpleheart.webp',
+    poster_url: '/purpleheart.webp',
+    image_url: '/purpleheart.webp',
+    video_url: 'https://hglink.to/d6q2b7zsxatg',
+    download_url:
+      'https://www.mediafire.com/file/s20pyspwoi57d8p/Purple20Hearts.mp4/file',
+    youtube_trailer_url:'https://hglink.to/d6q2b7zsxatg',
+  },
   
  {
     id:'ICEROAD2VEGEANCE',
@@ -11,11 +111,10 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
      is_popular:true,
-    is_featured:true,
     created_at: '2025-10-04',
-    thumbnail_url:'/ICEROAD2VEGEANCE.webp',
-    poster_url: '/ICEROAD2VEGEANCE.webp',
-    image_url: '/ICEROAD2VEGEANCE.webp',
+    thumbnail_url:'/ice.webp',
+    poster_url: '/ice.webp',
+    image_url: '/ice.webp',
     video_url: 'https://hglink.to/58rrlk6bikka',
     download_url:
       'https//www.mediafire.com/file/3a7pdl18hwrli6o/ICE_ROAD_2_VEGEANCE.mp4/file',
@@ -27,8 +126,7 @@ const staticMovies = [
     title: 'CHIPS',
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
-     is_popular:true,
-    
+    is_popular:true,
     created_at: '2025-10-04',
     thumbnail_url:'/chips.webp',
     poster_url: '/chips.webp',
@@ -44,7 +142,6 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
-    // is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url:'/mission.webp',
     poster_url: '/mission.webp',
@@ -57,12 +154,11 @@ const staticMovies = [
 
 
 {
-  id:'MISSIONCROSSA',
+    id:'MISSIONCROSSA',
     title: 'MISSION CROSS A',
     description: 'Ntucikwe...😊',
     interpreter_name: '',
-     is_popular:true,
-    
+    is_popular:true,
     created_at: '2025-10-04',
     thumbnail_url:'/mission.webp', 
     poster_url: '/mission.webp',
@@ -81,7 +177,6 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
     is_popular:true,
-    // is_featured:true,
     created_at: '2025-10-04',
     thumbnail_url:'/assalamualekho.webp',
     poster_url: '/assalamualekho.webp',
@@ -90,21 +185,13 @@ const staticMovies = [
     download_url:
       'https://www.mediafire.com/file/8c9be09btzhjrhk/AssalamualaikumBaitullah_FEY_B.mp4/file',
     youtube_trailer_url: '93wq5d87n9v',
-}
-
-
-,
-
-
-
-
+},
 {
   id:'assalamualaikumbaitullahfeya',
     title: 'ASSALAMUALAIKUMBAITULLAH FEY A',
     description: 'Ntucikwe...😊',
     interpreter_name: '',
-     is_popular:true,
-    
+    is_popular:true,
     created_at: '2025-10-04',
     thumbnail_url:'/assalamualekho.webp',
     poster_url: '/assalamualekho.webp',
@@ -113,19 +200,14 @@ const staticMovies = [
     download_url:
       'https://www.mediafire.com/file/1ck54jyb5wkjh7y/AssalamualaikumBaitullah_FEY_A.mp4/file',
     youtube_trailer_url: 'wmd6x10agjmm',
-}
+},
 
-
-,
-
-  
 {
     id:'DONTHANGUP1',
     title: 'DONT HANG UP 1',
     description: 'Ntucikwe...😊',
     interpreter_name: 'SANKARA',
-     is_popular:true,
-    
+    is_popular:true,
     created_at: '2025-10-04',
     thumbnail_url:'/donthangup.webp',
     poster_url: '/donthangup.webp',
@@ -142,8 +224,7 @@ const staticMovies = [
             title: 'BAD GENIUS EP1',
             description: 'Ntucikwe...😊',
             interpreter_name: 'Junior giti',
-             is_popular:true,
-             is_featured:true,
+            is_popular:true,
             created_at: '2025-10-04',
             thumbnail_url:'/badgenius(2).webp',
             poster_url: '/badgenius(2).webp',
