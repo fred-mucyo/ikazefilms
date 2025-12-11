@@ -148,7 +148,7 @@ const Home = () => {
 
         {/* ✅ Floating WhatsApp Button */}
         <a
-          href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v"
+          href="https://whatsapp.com/channel/0029Vb7VZbdBPzjQMgOCrt3L"
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
@@ -199,7 +199,7 @@ const Home = () => {
 
         {/* ✅ Floating WhatsApp Button */}
         <a
-          href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v"
+          href="https://whatsapp.com/channel/0029Vb7VZbdBPzjQMgOCrt3L"
           className="whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"
@@ -332,7 +332,7 @@ const Home = () => {
                 {' '}
                 Reba niba wanditse neza izina cg{' '}
                 <a
-                  href="https://chat.whatsapp.com/JEJeboBdJ0c4D6vD6Qz1oA?mode=ems_copy_t"
+                  href="https://chat.whatsapp.com/GdePjy1Ga3CEWactKFI9pJ"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -387,7 +387,7 @@ const Home = () => {
 
       {/* ✅ Floating WhatsApp Button */}
       <a
-        href="https://whatsapp.com/channel/0029Vb62TIr7tkj7u17XUa3v"
+        href="https://whatsapp.com/channel/0029Vb7VZbdBPzjQMgOCrt3L"
         className="whatsapp-float"
         target="_blank"
         rel="noopener noreferrer"

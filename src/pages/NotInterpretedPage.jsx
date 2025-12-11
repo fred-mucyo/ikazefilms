@@ -65,6 +65,20 @@ const NotInterpretedPage = () => {
             </div> */}
           </div>
 
+              {showSeries.length > 0 && (
+            <div className="movies-section">
+              <div className="section-header">
+                <h2 className="section-title">Seasons</h2>
+              </div>
+              <div className="movies-grid compact-grid">
+                {showSeries.map((s) => (
+                  <MovieCard key={s.id} movie={s} />
+                ))}
+              </div>
+            </div>
+          )}
+          
+
           {showMovies.length > 0 && (
             <div className="movies-section">
               <div className="section-header">
@@ -79,18 +93,7 @@ const NotInterpretedPage = () => {
             </div>
           )}
 
-          {showSeries.length > 0 && (
-            <div className="movies-section">
-              <div className="section-header">
-                <h2 className="section-title">Seasons</h2>
-              </div>
-              <div className="movies-grid compact-grid">
-                {showSeries.map((s) => (
-                  <MovieCard key={s.id} movie={s} />
-                ))}
-              </div>
-            </div>
-          )}
+    
 
           {hasAnyContent === false && (
             <div className="movies-section">
