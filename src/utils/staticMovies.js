@@ -5,13 +5,66 @@
 
 const staticMovies = [
   
+   {
+    id:'identityb',
+    title: 'IDENTITY B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/hunting.webp',
+    poster_url: '/hunting.webp',
+    image_url: '/hunting.webp',
+    video_url: 'https://hglink.to/ym94zlo5nngw',
+    download_url:
+      'https://www.mediafire.com/file/sbxus6v7p095xa3/IDENTITY_B.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/ym94zlo5nngw',
+  },
+
+  {
+    id:'identitya',
+    title: 'IDENTITY A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/hunting.webp',
+    poster_url: '/hunting.webp',
+    image_url: '/hunting.webp',
+    video_url: 'https://hglink.to/gj3frb6t0fvh',
+    download_url:
+      'https://www.mediafire.com/file/pilhcw5osoa5fgd/IDENTITY_A.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/gj3frb6t0fvh',
+  },
+
+  
+{
+    id:'huntingjesscabrok',
+    title: 'HUNTING JESSCA BROK',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'GAHEZA',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/HUNTINGJESSCABROK1.webp',
+    poster_url: '/HUNTINGJESSCABROK1.webp',
+    image_url: '/HUNTINGJESSCABROK1.webp',
+    video_url: 'https://hglink.to/4cn67uze0tvw',
+    download_url:
+      'https://www.mediafire.com/file/xjk0e1nnrtef891/HUNTING_JESSICA_BROK_BY_GAHEZA.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/4cn67uze0tvw',
+  },
+
+
  {
     id:'ICEROAD2VEGEANCE',
     title: 'ICE ROAD 2 VEGEANCE',
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/ICEROAD2VEGEANCE.webp',
     poster_url: '/ICEROAD2VEGEANCE.webp',
