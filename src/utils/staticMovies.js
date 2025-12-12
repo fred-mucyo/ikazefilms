@@ -5,6 +5,43 @@
 
 const staticMovies = [
   {
+
+    id:'spatacusA',
+    title: 'SPATACUS ASHUR A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+     is_not_interpreted:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/spacatus.webp',
+    poster_url: '/spacatus.webp',
+    image_url: '/spacatus.webp',
+    video_url: 'https://hglink.to/vdm59nh85llp',
+    download_url:
+      'https://www.mediafire.com/file/badnzjg9l6xe86o/Spartacus+House+of+Ashur-S1E1-480P.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/vdm59nh85llp',
+  },
+
+
+
+  {
+    id:'spatacusb',
+    title: 'SPATACUS ASHUR A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: 'ROCKY',
+     is_popular:true,
+     is_not_interpreted:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/spacatus.webp',
+    poster_url: '/spacatus.webp',
+    image_url: '/spacatus.webp',
+    video_url: 'https://hglink.to/7je9oo3s6g3a',
+    download_url:
+      'https://www.mediafire.com/file/wuch8ra38k39jhx/Spartacus+House+of+Ashur-S1E2-480P.mp4/file',
+    youtube_trailer_url: 'https://hglink.to/7je9oo3s6g3a',
+  },
+
+  {
     id:'spidermanB',
     title: 'SPIDER MAN A',
     description: 'Ntucikwe...😊',
