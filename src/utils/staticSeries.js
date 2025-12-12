@@ -24,6 +24,46 @@ const staticSeries = [
             thumbnail_url: '/sexeducation.webp',
           },
 
+{
+    id:'thefirstlady',
+    title: 'THE FIRST LADY EP1',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/123.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+          {
+            id: 'thefirstladyep2',
+            title: ' THE FIRST LADY EP2',
+            video_url: 'https://hglink.to/untgkof9ppwc',
+            download_url:
+              'https://www.mediafire.com/file/zb34f29ck9x4ubo/THE_FIRST_LADY_EP2.mp4/file',
+            thumbnail_url: '/123.webp',
+          },
+                 {
+            id: 'hefirstladyep1',
+            title: ' THE FIRST LADY EP1',
+            video_url: 'https://hglink.to/8nqbp9grbdlz',
+            download_url:
+              'https://www.mediafire.com/file/inuo9ezpcqojcyc/THE_FIRST_LADY_EP1.mp4/file',
+            thumbnail_url: '/123.webp',
+          },
+          
+
+        ],
+      },
+    ],
+  },
+
+
+
+
+
+
 
           ,
            {
@@ -102,7 +142,7 @@ const staticSeries = [
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
+   
     poster_url: '/whisperoffate.webp',
     seasons: [
       {
