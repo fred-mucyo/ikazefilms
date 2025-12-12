@@ -4,6 +4,41 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+  {
+    id:'spidermanB',
+    title: 'SPIDER MAN A',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/spiderman.webp',
+    poster_url: '/spiderman.webp',
+    image_url: '/spiderman.webp',
+    video_url: 'https://hglink.to/mohq14gdktrn',
+    download_url:
+      'https://www.mediafire.com/file/0s9zup1z256g55w/SPIDERMAN_1_A.mp4/file',
+    youtube_trailer_url:'https://hglink.to/mohq14gdktrn',
+  },
+
+
+    {
+    id:'spidermanA',
+    title: 'SPIDER MAN B',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    is_featured:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/spiderman.webp',
+    poster_url: '/spiderman.webp',
+    image_url: '/spiderman.webp',
+    video_url: 'https://hglink.to/d6djw6u1wkd3',
+    download_url:
+      'https://www.mediafire.com/file/p0wzyjskceiikxt/SPIDERMAN+1+B.mp4/file',
+    youtube_trailer_url:'https://hglink.to/d6djw6u1wkd3',
+  },
+
 
   {
     id:'seancombsreckoning',
