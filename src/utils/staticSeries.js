@@ -3,6 +3,127 @@
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!
 
+
+
+  {
+    id:'',
+    title: 'BEL-AIR',
+    type: 'series',
+    is_not_interpreted:true,
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured: true,
+    poster_url: '/Belair.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+          {
+            id: 'BEL-AEP1',
+            title: 'BEL-AIR EP1',
+            video_url: 'https://hglink.to/qb7eo0pyk52m',
+            download_url:
+              'https://www.mediafire.com/file/uzmfcogaiud5law/Bel-Air-S1E1-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+  {
+            id: 'BEL-AIREP2',
+            title: 'BEL-AIR EP2',
+            video_url: 'https://hglink.to/oxlvwz5h892k',
+            download_url:
+              'https://www.mediafire.com/file/1s330n3yl4897ku/bel-air2.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+         
+           {
+            id: 'BEL-AIREP3',
+            title: 'BEL-AIR EP3',
+            video_url: 'https://hglink.to/41uegpa2vdp8',
+            download_url:
+              'https://www.mediafire.com/file/yozfa3ua05dand4/Bel-Air-S1E3-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          }, 
+
+            {
+            id: 'BEL-AIRS1EP4',
+            title: 'BEL-AIR EP4',
+            video_url: 'https://hglink.to/jn38214kplm7',
+            download_url:
+              'https://www.mediafire.com/file/ynvlhu3mbbeps5k/Bel-Air-S1E4-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          }, 
+
+               {
+            id: 'BEL-AIRS1EP5',
+            title: 'BEL-AIR EP5',
+            video_url: 'https://hglink.to/4ac24o9y0uhk',
+            download_url:
+              'https://www.mediafire.com/file/3rzvc5jpf9r7vja/Bel-Air-S1E5-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          }, 
+
+
+            {
+            id: 'BEL-AIRSEP6',
+            title: 'BEL-AIR EP6',
+            video_url: 'https://hglink.to/krtq599f0t3w',
+            download_url:
+              'https://www.mediafire.com/file/3elsumdets1r1z7/Bel-Air-S1E6-360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+
+          
+            {
+            id: 'BEL-AIR1EP7',
+            title: 'BEL-AIR EP7',
+            video_url: 'https://hglink.to/kp4ugxir1ixn',
+            download_url:
+              'https://www.mediafire.com/file/jnh79w9cuxv2l7j/Bel-Air-S1E7-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+
+          
+            {
+            id: 'BEL-AIR1EP8',
+            title: 'BEL-AIR EP8',
+            video_url: 'https://hglink.to/1406flx68b6j',
+            download_url:
+              'https://www.mediafire.com/file/x2ideova4qipwfh/Bel-Air-S1E8-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+
+          
+            {
+            id: 'BEL-AIREP9',
+            title: 'BEL-AIR EP9',
+            video_url: 'https://hglink.to/4mcrf3ceud8r',
+            download_url:
+              'https://www.mediafire.com/file/3pjncz3dgi45zcd/Bel-Air-S1E9-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+
+          
+            {
+            id: 'BELEP10',
+            title: 'BEL-AIR EP10',
+            video_url: 'https://hglink.to/65jhhnqh5g71',
+            download_url:
+              'https://www.mediafire.com/file/cea44sg7wi49r24/Bel-Air-S1E10-480P_360P.mp4/file',
+            thumbnail_url: '/Belair.webp',
+          },
+
+        ],
+      },
+    ],
+  },
+
+
+
  {
     id:'sexeducation4',
     title: 'SEX EDUCATION',
@@ -27,12 +148,11 @@ const staticSeries = [
 
 {
     id:'thefirstlady',
-    title: 'THE FIRST LADY EP1',
+    title: 'THE FIRST LADY',
     type: 'series',
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
-    is_featured: true,
-    poster_url: '/the-first-lady.webp',
+    poster_url: '/123.webp',
     seasons: [
       {
         seasonNumber:1,
