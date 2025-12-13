@@ -32,7 +32,7 @@ const staticSeries = [
     description: 'Aga filime gashya ka rocky, ntucikwe.',
     is_popular: true,
     is_featured: true,
-    poster_url: '/123.webp',
+    poster_url: '/the-first-lady.webp',
     seasons: [
       {
         seasonNumber:1,
@@ -43,7 +43,7 @@ const staticSeries = [
             video_url: 'https://hglink.to/f1yvfoolbosk',
             download_url:
               'https://www.mediafire.com/file/h0h0fuovikaun2y/THE_FIRST_LADY_EP4..mp4/file',
-            thumbnail_url: '/123.webp',
+            thumbnail_url: '/the-first-lady.webp',
           },
 {
             id: 'thefirstladyep3',
@@ -51,7 +51,7 @@ const staticSeries = [
             video_url: 'https://hglink.to/2xnf1coam0b1',
             download_url:
               'https://www.mediafire.com/file/v3k7e13hdrec9j4/First_Lady_Ep_3.mp4/file',
-            thumbnail_url: '/123.webp',
+            thumbnail_url: '/the-first-lady.webp',
           },
 
           {
