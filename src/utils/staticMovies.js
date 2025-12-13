@@ -4,6 +4,35 @@
 // import { Download } from 'lucide-react';
 
 const staticMovies = [
+  {
+    id:'predatorbadlands',
+    title: 'PREDATOR BADLANDS',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/predator-badlands.webp',
+    poster_url: '/predator-badlands.webp',
+    image_url: '/predator-badlands.webp',
+    video_url: 'https://hglink.to/yrtdwfn65khs',
+    download_ur:'https://www.mediafire.com/file/qmz9nqk0vujydpm/PREDATOR_BADLANDS.mp4/file',
+    youtube_trailer_url:'https://hglink.to/yrtdwfn65khs',
+  },
+    {
+    id:'thecarpentersson',
+    title: 'THE CARPENTERS SON',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/THE CARPENTERS SON.webp',
+    poster_url: '/THE CARPENTERS SON.webp',
+    image_url: '/THE CARPENTERS SON.webp',
+    video_url: 'https://hglink.to/cj7iz4f29jrk',
+    download_ur:'https://www.mediafire.com/file/dg6fhkxj7br7tws/The_Carpenters_Son.mp4/file',
+    youtube_trailer_url:'https://hglink.to/cj7iz4f29jrk',
+  },
+
 
   {
     id:'seancombsreckoning',
