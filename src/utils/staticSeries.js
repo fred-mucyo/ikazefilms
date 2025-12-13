@@ -2,6 +2,55 @@
 
 const staticSeries = [
 ///ThIS SKELETON IS FREE !!!!!!!
+{
+    id:'thefirstlady',
+    title: 'THE FIRST LADY',
+    type: 'series',
+    description: 'Aga filime gashya ka rocky, ntucikwe.',
+    is_popular: true,
+    is_featured:true,
+    poster_url: '/123.webp',
+    seasons: [
+      {
+        seasonNumber:1,
+        episodes: [
+                  {
+            id: 'hefirstladyep1',
+            title: ' THE FIRST LADY EP1',
+            video_url: 'https://hglink.to/8nqbp9grbdlz',
+            download_url:
+              'https://www.mediafire.com/file/inuo9ezpcqojcyc/THE_FIRST_LADY_EP1.mp4/file',
+            thumbnail_url: '/123.webp',
+          },
+            {
+            id: 'thefirstladyep2',
+            title: ' THE FIRST LADY EP2',
+            video_url: 'https://hglink.to/untgkof9ppwc',
+            download_url:
+              'https://www.mediafire.com/file/zb34f29ck9x4ubo/THE_FIRST_LADY_EP2.mp4/file',
+            thumbnail_url: '/123.webp',
+          },
+          {
+            id: 'thefirstladyep3',
+            title: ' THE FIRST LADY EP3',
+            video_url: 'https://hglink.to/2xnf1coam0b1',
+            download_url:
+              'https://www.mediafire.com/file/v3k7e13hdrec9j4/First_Lady_Ep_3.mp4/file',
+            thumbnail_url: '/the-first-lady.webp',
+          },
+          
+              {
+            id: 'thefirstladyep4',
+            title: ' THE FIRST LADY EP4',
+            video_url: 'https://hglink.to/f1yvfoolbosk',
+            download_url:
+              'https://www.mediafire.com/file/h0h0fuovikaun2y/THE_FIRST_LADY_EP4..mp4/file',
+            thumbnail_url: '/the-first-lady.webp',
+          },
+        ],
+      },
+    ],
+  },
 
 
 
@@ -145,64 +194,6 @@ const staticSeries = [
               'https://www.mediafire.com/file/9jlkthd9hmbo508/Sex+Education-S1E1-360P.mp4/file',
             thumbnail_url: '/sexeducation.webp',
           },
-
-{
-    id:'thefirstlady',
-    title: 'THE FIRST LADY',
-    type: 'series',
-    description: 'Aga filime gashya ka rocky, ntucikwe.',
-    is_popular: true,
-    poster_url: '/123.webp',
-    seasons: [
-      {
-        seasonNumber:1,
-        episodes: [
-              {
-            id: 'thefirstladyep4',
-            title: ' THE FIRST LADY EP4',
-            video_url: 'https://hglink.to/f1yvfoolbosk',
-            download_url:
-              'https://www.mediafire.com/file/h0h0fuovikaun2y/THE_FIRST_LADY_EP4..mp4/file',
-            thumbnail_url: '/the-first-lady.webp',
-          },
-{
-            id: 'thefirstladyep3',
-            title: ' THE FIRST LADY EP3',
-            video_url: 'https://hglink.to/2xnf1coam0b1',
-            download_url:
-              'https://www.mediafire.com/file/v3k7e13hdrec9j4/First_Lady_Ep_3.mp4/file',
-            thumbnail_url: '/the-first-lady.webp',
-          },
-
-          {
-            id: 'thefirstladyep2',
-            title: ' THE FIRST LADY EP2',
-            video_url: 'https://hglink.to/untgkof9ppwc',
-            download_url:
-              'https://www.mediafire.com/file/zb34f29ck9x4ubo/THE_FIRST_LADY_EP2.mp4/file',
-            thumbnail_url: '/123.webp',
-          },
-          
-                 {
-            id: 'hefirstladyep1',
-            title: ' THE FIRST LADY EP1',
-            video_url: 'https://hglink.to/8nqbp9grbdlz',
-            download_url:
-              'https://www.mediafire.com/file/inuo9ezpcqojcyc/THE_FIRST_LADY_EP1.mp4/file',
-            thumbnail_url: '/123.webp',
-          },
-          
-
-        ],
-      },
-    ],
-  },
-
-
-
-
-
-
 
           ,
            {

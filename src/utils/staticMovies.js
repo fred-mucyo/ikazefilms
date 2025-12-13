@@ -5,7 +5,37 @@
 
 const staticMovies = [
   {
+    id:'predatorbadlands',
+    title: 'PREDATOR BADLANDS',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+     is_featured: true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/predator-badlands.webp',
+    poster_url: '/predator-badlands.webp',
+    image_url: '/predator-badlands.webp',
+    video_url: 'https://hglink.to/yrtdwfn65khs',
+    download_ur:'https://www.mediafire.com/file/qmz9nqk0vujydpm/PREDATOR_BADLANDS.mp4/file',
+    youtube_trailer_url:'https://hglink.to/yrtdwfn65khs',
+  },
 
+    {
+    id:'thecarpentersson',
+    title: 'THE CARPENTERS SON',
+    description: 'Ntucikwe...😊',
+    interpreter_name: '',
+     is_popular:true,
+      is_featured: true,
+    created_at: '2025-10-04',
+    thumbnail_url:'/THECARPENTERSSON1.webp',
+    poster_url: '/THECARPENTERSSON1.webp',
+    image_url: '/THECARPENTERSSON1.webp',
+    video_url: 'https://hglink.to/cj7iz4f29jrk',
+    download_ur:'https://www.mediafire.com/file/dg6fhkxj7br7tws/The_Carpenters_Son.mp4/file',
+    youtube_trailer_url:'https://hglink.to/cj7iz4f29jrk',
+    },
+    {
     id:'spatacusA',
     title: 'SPATACUS ASHUR A',
     description: 'Ntucikwe...😊',
@@ -47,7 +77,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/spiderman.webp',
     poster_url: '/spiderman.webp',
@@ -65,7 +95,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/spiderman.webp',
     poster_url: '/spiderman.webp',
@@ -117,6 +147,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: '',
      is_popular:true,
+      is_featured: true,
     created_at: '2025-10-04',
     thumbnail_url:'/LORD OF RINGS.webp',
     poster_url: '/LORD OF RINGS.webp',
@@ -180,7 +211,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/hunting.webp',
     poster_url: '/hunting.webp',
@@ -197,7 +228,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'ROCKY',
      is_popular:true,
-    is_featured:true,
+    
     created_at: '2025-10-04',
     thumbnail_url:'/hunting.webp',
     poster_url: '/hunting.webp',
@@ -215,7 +246,7 @@ const staticMovies = [
     description: 'Ntucikwe...😊',
     interpreter_name: 'GAHEZA',
      is_popular:true,
-    is_featured:true,
+  
     created_at: '2025-10-04',
     thumbnail_url:'/HUNTINGJESSCABROK1.webp',
     poster_url: '/HUNTINGJESSCABROK1.webp',
